@@ -1,0 +1,33 @@
+Directory Opus: (filetype group) Documents - event - Dbl_L (User) | `subl {allfilepath}`
+Directory Opus: (filetype) epub - event - C-Dbl_L (User)          | `sigil {allfilepath}`
+Directory Opus: (filetype) epub - event - Dbl_L (User)            | `mupdf {allfilepath}`
+Directory Opus: (filetype) pdf - event - C-Dbl_L (User)           | `sumatrapdf {allfilepath}`
+Directory Opus: (filetype) pdf - event - Dbl_L (User)             | `sioyek {allfilepath}`
+Directory Opus: (filetype group) Images - event - Dbl_L (User)    | `jpegview {allfilepath}`
+Directory Opus: (filetype group) Images - event - C-Dbl_L (User)  | `vipsdisp {allfilepath}`
+Directory Opus: (filetype group) Images - event - A-Dbl_L (User)  | `imageglass {allfilepath}`
+Directory Opus: (filetype) svg - event - C-Dbl_L (User)           | `svgtexteditor {allfilepath}`
+Directory Opus: (filetype) psd - event - Dbl_L (User)             | `jpegview {allfilepath}`
+Directory Opus: (filetype) cbz - event - C-Dbl_L (User)           | `mpvc manga {allfilepath}`
+Directory Opus: (filetype) cbr - event - C-Dbl_L (User)           | `mpvc manga {allfilepath}`
+Directory Opus: (filetype group) Music - event - Dbl_L (User)     | `mpvc music {allfilepath}`
+Directory Opus: (filetype) m4b,m3u - event - C-Dbl_L (User)       | `mpvc music {allfilepath}`
+Directory Opus: (filetype group) Video - event - Dbl_L (User)     | `mpv {allfilepath}`
+Directory Opus: (filetype) URL:magnet - open (User)               | `"qbittorrent.exe" "%1"`
+Directory Opus: dod.bat (User)                                    | A-d
+Directory Opus: dof.bat (User)                                    | A-f
+Directory Opus: does.bat (User)                                   | A-s
+Directory Opus: Copy fullpath (User)                              | C
+Directory Opus: Edit with Sublime Text (User)                     | C-e
+Directory Opus: View in list mode (User)                          | A-S-l
+Directory Opus: Close Tab                                         | A-d
+Directory Opus: Close Tab                                         | C-S-w
+Directory Opus: Copy                                              | L_drag
+Directory Opus: Print                                             | C-p
+Directory Opus: View in detail mode                               | A-S-d
+Directory Opus: View in thumbnail mode                            | A-S-v
+Directory Opus:: 7zip_arcs.cmd (User)                             | C-Dbl_L
+Directory Opus:: Extended functionality for F2: Rename            | F2
+Directory Opus:: FastCopy: Copy                                   | R_drag
+Directory Opus:: FastCopy: Move                                   | S-L_drag
+Directory Opus:: Link Shell Extension: Create Symlink             | R_drag

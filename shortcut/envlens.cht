@@ -1,0 +1,9 @@
+## https://github.com/craigf-svg/envlens?tab=readme-ov-file#keybindings
+envlens: Navigate up/down                      | Up/Dn / k/j
+envlens: Select/deselect variable              | Etr/Spc
+envlens: Copy current variable to clipboard    | y
+envlens: Copy selected variables to clipboard  | Y
+envlens: Toggle value visibility (mask/unmask) | Tab
+envlens: Enter search mode                     | s
+envlens: View local .env file                  | d
+envlens: Quit                                  | q / C-c

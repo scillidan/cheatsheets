@@ -1,0 +1,14 @@
+## https://wezterm.org/config/default-keys.html
+WezTerm: Opening whole scrollback in vim (User)                  | C-S-e
+WezTerm: Close current tab (With confirmation)                   | C-S-w
+WezTerm: Complete selection from clipboard and primary selection | L_clink
+WezTerm: Copy selection and clear                                | R_clink
+WezTerm: Copy to clipboard                                       | C-S-c / Super-c
+WezTerm: Open link at mouse cursor                               | C-L_clink
+WezTerm: Paste from clipboard                                    | C-S-v / Super-v
+WezTerm: Quit                                                    | C-S-A-q
+WezTerm: Spawn new tab                                           | C-S-t
+WezTerm: Spawn new window                                        | C-S-n
+WezTerm: Split pane right or zoom                                | C-S-A-l
+WezTerm: Toggle full screen                                      | C-S-Etr / Super-Etr
+WezTerm: Select (When general selection is invalid)              | S-L_drag

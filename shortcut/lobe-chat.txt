@@ -1,0 +1,5 @@
+Lobe Chat: Edit message              | A-Dbl_L
+Lobe Chat: Show/Hide assistant panel | C-[
+Lobe Chat: Show/Hide topic panel     | C-]
+Lobe Chat: Start a new topic         | A-n
+Lobe Chat: Toggle focus mode         | C-\\

@@ -1,0 +1,17 @@
+## https://github.com/bahdotsh/giff?tab=readme-ov-file#keybindings
+giff: (diff) Navigate up/down                        | k/j
+giff: (diff) Page up/down                            | PgUp/PgDn
+giff: (diff) Jump to first/last item                 | Home/End
+giff: (diff) Toggle focus between file list and diff | Tab
+giff: (diff) Focus file list or diff content         | h/l
+giff: (diff) Toggle unified/side-by-side view        | u
+giff: (diff) Toggle dark/light theme                 | t
+giff: (diff) Enter rebase mode                       | r
+giff: (diff) Show help                               | ?
+giff: (diff) Quit                                    | q/Esc
+giff: (rebase) Previous/next change                  | k/j
+giff: (rebase) Accept/reject change                  | a/x
+giff: (rebase) Previous/next file with changes       | p/n
+giff: (rebase) Commit accepted changes               | c
+giff: (rebase) Show help                             | ?
+giff: (rebase) Cancel rebase                         | Esc

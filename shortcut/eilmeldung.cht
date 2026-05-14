@@ -1,0 +1,12 @@
+## https://github.com/christo-auer/eilmeldung#quick-reference
+eilmeldung: Show all key bindings (search with `/`!)                      | ?
+eilmeldung: Sync all feeds                                                | s
+eilmeldung: Move down/up                                                  | j/k
+eilmeldung: Move between panels (left/right)                              | h/l
+eilmeldung: Open article in browser, mark as read, jump to next unread    | o
+eilmeldung: Mark as read/unread                                           | r/u
+eilmeldung: Mark(star)/unmark article                                     | m/v
+eilmeldung: Search articles                                               | /
+eilmeldung: Open command line                                             | :
+eilmeldung: Quit                                                          | q
+eilmeldung: Show all/only unread/only marked in feed list or article list | 1/2/3

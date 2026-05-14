@@ -1,0 +1,54 @@
+## https://lusingander.github.io/serie/keybindings/index.html
+serie (Common) Quit app                                    | C-c / q
+serie (Common) Open help                                   | ? / F1
+serie (Commit list) Move down/up                           | j/k / Dn/Up
+serie (Commit list) Move down/up                           | J/K
+serie (Commit list) Move to parent commit                  | A-j / A-Dn
+serie (Commit list) Go to top/bottom                       | g/G
+serie (Commit list) Scroll page down/up                    | C-f/b
+serie (Commit list) Scroll half page down/up               | C-d/u
+serie (Commit list) Scroll down/up                         | C-e/y
+serie (Commit list) Select top/middle/bottom of the screen | H/M/L
+serie (Commit list) Show commit details                    | Etr
+serie (Commit list) Apply search (if searching)            | Etr
+serie (Commit list) Open refs list                         | Tab
+serie (Commit list) Start search                           | /
+serie (Commit list) Cancel search                          | Esc
+serie (Commit list) Go to next/previous search match       | n/N
+serie (Commit list) Toggle ignore case (if searching)      | C-g
+serie (Commit list) Toggle fuzzy match (if searching)      | C-x
+serie (Commit list) Refresh                                | R
+serie (Commit list) Copy commit short/full hash            | c/C
+serie (Commit list) Toggle custom user command view        | d
+serie (Commit detail) Close commit details                 | Esc / Bksp
+serie (Commit detail) Scroll down/up                       | Dn/Up / j/k
+serie (Commit detail) Scroll page down/up                  | C-f/b
+serie (Commit detail) Scroll half page down/up             | C-d/u
+serie (Commit detail) Go to top/bottom                     | g/G
+serie (Commit detail) Select older/newer commit            | J/K
+serie (Commit detail) Select parent commit                 | A-Down A-j
+serie (Commit detail) Refresh                              | R
+serie (Commit detail) Copy commit short/full hash          | c/C
+serie (Commit detail) Toggle custom user command view      | d
+serie (Refs list) Close refs list                          | Esc / Bksp / Tab
+serie (Refs list) Move down/up                             | j/k / Dn/Up
+serie (Refs list) Move down/up                             | J/K
+serie (Refs list) Go to top/bottom                         | g/G
+serie (Refs list) Open/Close node                          | l/h / Rt/Lt
+serie (Refs list) Refresh                                  | R
+serie (Refs list) Copy ref name                            | c
+serie (User command) Close user command                    | Esc / Bksp
+serie (User command) Scroll down/up                        | j/k / Dn/Up
+serie (User command) Scroll down/up                        | J/K
+serie (User command) Scroll page down/up                   | C-f/b
+serie (User command) Scroll half page down/up              | C-d/u
+serie (User command) Go to top/bottom                      | g/G
+serie (User command) Select older/newer commit             | J/K
+serie (User command) Select parent commit                  | A-j / A-Dn
+serie (User command) Refresh                               | R
+serie (Help) Close help                                    | Esc / Bksp / ? / F1
+serie (Help) Scroll down/up                                | j/k / Dn/Up
+serie (Help) Scroll down/up                                | J/K
+serie (Help) Scroll page down/up                           | C-f/b
+serie (Help) Scroll half page down/up                      | C-d/u
+serie (Help) Go to top/bottom                              | g/G

@@ -1,0 +1,14 @@
+## https://github.com/ramonvermeulen/whosthere#key-bindings-tui
+Whosthere: Start regex search                       | /
+Whosthere: Up                                       | k
+Whosthere: Down                                     | j
+Whosthere: Go to top                                | g
+Whosthere: Go to bottom                             | G
+Whosthere: Copy IP of selected device               | y
+Whosthere: Copy MAC of selected device              | Y
+Whosthere: Show device details                      | Etr
+Whosthere: Toggle theme selector                    | C-t
+Whosthere: Stop application                         | C-c/q
+Whosthere: Clear search / Go back                   | Esc
+Whosthere: Start port scan on device (details view) | p
+Whosthere: Switch button selection (modal view)     | Tab

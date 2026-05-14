@@ -1,0 +1,13 @@
+## https://github.com/lelesrc/ansinews?tab=readme-ov-file#keys
+ansinews: Move up/down                | k/j / Up/Dn
+ansinews: Scroll by page              | PgUp/PgDn
+ansinews: Jump to start/end           | g/G / Home/End
+ansinews: Cycle feed tabs             | h/l / Lt/Rt
+ansinews: Switch feed tab (0 = ALL)   | 0–9
+ansinews: Open detail view            | Etr/Spc
+ansinews: Close detail / Clear filter | Esc
+ansinews: Open link in browser        | o
+ansinews: Filter headlines            | /
+ansinews: Refresh all feeds           | r
+ansinews: Open feed picker            | f
+ansinews: Quit (terminal)             | q

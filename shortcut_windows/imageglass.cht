@@ -1,0 +1,10 @@
+ImageGlass: Color picker                    | k
+ImageGlass: Crop image                      | c
+ImageGlass: ExifGlass                       | x
+ImageGlass: Frame navigation                | p
+ImageGlass: Magick.NET Lossless Compression | A-c
+ImageGlass: Pan Left/Right                  | S-MW
+ImageGlass: Pan Up/Down                     | C-MW
+ImageGlass: Resize iamge                    | A-r
+ImageGlass: View next/previous Image        | A-MW
+ImageGlass: Zoom in/out                     | MW

@@ -1,0 +1,239 @@
+## https://github.com/godotengine/godot-docs/blob/master/tutorials/editor/default_key_mapping.rst
+Godot: (General) Open 2D Workspace                            | C-F1
+Godot: (General) Open 3D Workspace                            | C-F2
+Godot: (General) Open Script Editor                           | C-F3
+Godot: (General) Search Help                                  | F1
+Godot: (General) Distraction Free Mode                        | C-S-F11
+Godot: (General) Next Scene Tab                               | C-Tab
+Godot: (General) Previous Scene Tab                           | C-S-Tab
+Godot: (General) Filter Files                                 | C-A-p
+Godot: (General) Open Scene                                   | C-o
+Godot: (General) Close Scene                                  | C-S-w
+Godot: (General) Reopen Closed Scene                          | C-S-t
+Godot: (General) Save Scene                                   | C-s
+Godot: (General) Save Scene As                                | C-S-s
+Godot: (General) Save All Scenes                              | C-S-A-s
+Godot: (General) Quick Open                                   | S-A-o
+Godot: (General) Quick Open Scene                             | C-S-o
+Godot: (General) Quick Open Script                            | C-A-o
+Godot: (General) Undo                                         | C-z
+Godot: (General) Redo                                         | C-S-z
+Godot: (General) Quit                                         | C-q
+Godot: (General) Quit to Project List                         | C-S-q
+Godot: (General) Take Screenshot                              | C-F12
+Godot: (General) Toggle Fullscreen                            | S-F11
+Godot: (General) Play                                         | F5
+Godot: (General) Pause Scene                                  | F7
+Godot: (General) Stop                                         | F8
+Godot: (General) Play Scene                                   | F6
+Godot: (General) Play Custom Scene                            | C-S-F5
+Godot: (General) Expand Bottom Panel                          | S-F12
+Godot: (General) Command Palette                              | C-S-p
+Godot: (Bottom panels) Toggle Last Opened Panel               | C-j
+Godot: (Bottom panels) Toggle Animation Bottom Panel          | A-n
+Godot: (Bottom panels) Toggle Audio Bottom Panel              | A-a
+Godot: (Bottom panels) Toggle Debugger Bottom Panel           | A-d
+Godot: (Bottom panels) Toggle FileSystem Bottom Panel         | A-f
+Godot: (Bottom panels) Toggle Output Bottom Panel             | A-o
+Godot: (Bottom panels) Toggle Shader Editor Bottom Panel      | A-s
+Godot: (2D/CanvasItem editor) Zoom In                         | C-=
+Godot: (2D/CanvasItem editor) Zoom Out                        | C--
+Godot: (2D/CanvasItem editor) Zoom Reset                      | C-0
+Godot: (2D/CanvasItem editor) Pan View                        | Spc
+Godot: (2D/CanvasItem editor) Select Mode                     | q
+Godot: (2D/CanvasItem editor) Move Mode                       | w
+Godot: (2D/CanvasItem editor) Rotate Mode                     | e
+Godot: (2D/CanvasItem editor) Scale Mode                      | s
+Godot: (2D/CanvasItem editor) Ruler Mode                      | r
+Godot: (2D/CanvasItem editor) Use Smart Snap                  | S-s
+Godot: (2D/CanvasItem editor) Use Grid Snap                   | S-g
+Godot: (2D/CanvasItem editor) Multiply grid step by 2         | Num_*
+Godot: (2D/CanvasItem editor) Divide grid step by 2           | Num_/
+Godot: (2D/CanvasItem editor) Always Show Grid                | g
+Godot: (2D/CanvasItem editor) Show Helpers                    | h
+Godot: (2D/CanvasItem editor) Show Guides                     | y
+Godot: (2D/CanvasItem editor) Center Selection                | f
+Godot: (2D/CanvasItem editor) Frame Selection                 | S-f
+Godot: (2D/CanvasItem editor) Preview Canvas Scale            | C-S-p
+Godot: (2D/CanvasItem editor) Insert Key                      | Ins
+Godot: (2D/CanvasItem editor) Insert Key (Existing Tracks)    | C-Ins
+Godot: (2D/CanvasItem editor) Make Custom Bones from Nodes    | C-S-b
+Godot: (2D/CanvasItem editor) Clear Pose                      | S-k
+Godot: (3D/Spatial editor) Toggle Freelook                    | S-f
+Godot: (3D/Spatial editor) Freelook Left                      | a
+Godot: (3D/Spatial editor) Freelook Right                     | d
+Godot: (3D/Spatial editor) Freelook Forward                   | w
+Godot: (3D/Spatial editor) Freelook Backwards                 | s
+Godot: (3D/Spatial editor) Freelook Up                        | e
+Godot: (3D/Spatial editor) Freelook Down                      | q
+Godot: (3D/Spatial editor) Freelook Speed Modifier            | S-
+Godot: (3D/Spatial editor) Freelook Slow Modifier             | A-
+Godot: (3D/Spatial editor) Select Mode                        | q
+Godot: (3D/Spatial editor) Move Mode                          | w
+Godot: (3D/Spatial editor) Rotate Mode                        | e
+Godot: (3D/Spatial editor) Scale Mode                         | r
+Godot: (3D/Spatial editor) Use Local Space                    | t
+Godot: (3D/Spatial editor) Use Snap                           | y
+Godot: (3D/Spatial editor) Snap Object to Floor               | PgDn
+Godot: (3D/Spatial editor) Top View                           | Num_7
+Godot: (3D/Spatial editor) Bottom View                        | A-Num_7
+Godot: (3D/Spatial editor) Front View                         | Num_1
+Godot: (3D/Spatial editor) Rear View                          | A-Num_1
+Godot: (3D/Spatial editor) Right View                         | Num_3
+Godot: (3D/Spatial editor) Left View                          | A-Num_3
+Godot: (3D/Spatial editor) Switch Perspective/Orthogonal View | Num_5
+Godot: (3D/Spatial editor) Insert Animation Key               | k
+Godot: (3D/Spatial editor) Focus Origin                       | o
+Godot: (3D/Spatial editor) Focus Selection                    | f
+Godot: (3D/Spatial editor) Align Transform with View          | C-A-m
+Godot: (3D/Spatial editor) Align Rotation with View           | C-A-f
+Godot: (3D/Spatial editor) 1 Viewport                         | C-1
+Godot: (3D/Spatial editor) 2 Viewports                        | C-2
+Godot: (3D/Spatial editor) 2 Viewports (Alt)                  | C-A-2
+Godot: (3D/Spatial editor) 3 Viewports                        | C-3
+Godot: (3D/Spatial editor) 3 Viewports (Alt)                  | C-A-3
+Godot: (3D/Spatial editor) 4 Viewports                        | C-4
+Godot: (Text editor) Cut                                      | C-x
+Godot: (Text editor) Copy                                     | C-c
+Godot: (Text editor) Paste                                    | C-v
+Godot: (Text editor) Select All                               | C-a
+Godot: (Text editor) Find                                     | C-f
+Godot: (Text editor) Find Next                                | F3
+Godot: (Text editor) Find Previous                            | S-F3
+Godot: (Text editor) Find in Files                            | C-S-f
+Godot: (Text editor) Replace                                  | C-r
+Godot: (Text editor) Replace in Files                         | C-S-r
+Godot: (Text editor) Undo                                     | C-z
+Godot: (Text editor) Redo                                     | C-y
+Godot: (Text editor) Move Up                                  | A-Up Up/Dn/Lt/Rt
+Godot: (Text editor) Move Down                                | A-Dn Up/Dn/Lt/Rt
+Godot: (Text editor) Delete Line                              | C-S-k
+Godot: (Text editor) Toggle Comment                           | C-k
+Godot: (Text editor) Fold/Unfold Line                         | A-f
+Godot: (Text editor) Duplicate Lines                          | C-A-Dn Up/Dn/Lt/Rt
+Godot: (Text editor) Duplicate Selection                      | C-S-d
+Godot: (Text editor) Select Down                              | C-S-Dn Up/Dn/Lt/Rt
+Godot: (Text editor) Select Up                                | C-S-Up Up/Dn/Lt/Rt
+Godot: (Text editor) Select Next Occurrence                   | C-d
+Godot: (Text editor) Complete Symbol                          | C-Spc
+Godot: (Text editor) Evaluate Selection                       | C-S-e
+Godot: (Text editor) Trim Trailing Whitespace                 | C-A-t
+Godot: (Text editor) Uppercase                                | S-F4
+Godot: (Text editor) Lowercase                                | S-F5
+Godot: (Text editor) Capitalize                               | S-F6
+Godot: (Text editor) Convert Indent to Spaces                 | C-S-y
+Godot: (Text editor) Convert Indent to Tabs                   | C-S-i
+Godot: (Text editor) Auto Indent                              | C-i
+Godot: (Text editor) Toggle Bookmark                          | C-A-b
+Godot: (Text editor) Go to Next Bookmark                      | C-b
+Godot: (Text editor) Go to Previous Bookmark                  | C-S-b
+Godot: (Text editor) Go to Function                           | C-A-f
+Godot: (Text editor) Go to Line                               | C-g
+Godot: (Text editor) Toggle Breakpoint                        | F9
+Godot: (Text editor) Remove All Breakpoints                   | C-S-F9
+Godot: (Text editor) Go to Next Breakpoint                    | C-.
+Godot: (Text editor) Go to Previous Breakpoint                | C-,
+Godot: (Text editor) Contextual Help                          | A-F1
+Godot: (Script editor) Find                                   | C-f
+Godot: (Script editor) Find Next                              | F3
+Godot: (Script editor) Find Previous                          | S-F3
+Godot: (Script editor) Find in Files                          | C-S-f
+Godot: (Script editor) Move Up                                | S-A-Up Up/Dn/Lt/Rt
+Godot: (Script editor) Move Down                              | S-A-Dn Up/Dn/Lt/Rt
+Godot: (Script editor) Next Script                            | C-S-.
+Godot: (Script editor) Previous Script                        | C-S-,
+Godot: (Script editor) Reopen Closed Script                   | C-S-t
+Godot: (Script editor) Save                                   | C-A-s
+Godot: (Script editor) Save All                               | C-S-A-s
+Godot: (Script editor) Soft Reload Script                     | C-S-r
+Godot: (Script editor) History Previous                       | A-Lt Up/Dn/Lt/Rt
+Godot: (Script editor) History Next                           | A-Rt Up/Dn/Lt/Rt
+Godot: (Script editor) Close                                  | C-w
+Godot: (Script editor) Run                                    | C-S-x
+Godot: (Script editor) Toggle Scripts Panel                   | C-\\
+Godot: (Script editor) Zoom In                                | C-=
+Godot: (Script editor) Zoom Out                               | C--
+Godot: (Script editor) Reset Zoom                             | C-0
+Godot: (Editor output) Copy Selection                         | C-c
+Godot: (Editor output) Clear Output                           | C-S-k
+Godot: (Debugger) Step Into                                   | F11
+Godot: (Debugger) Step Over                                   | F10
+Godot: (Debugger) Continue                                    | F12
+Godot: (File dialog) Go Back                                  | A-Lt Up/Dn/Lt/Rt
+Godot: (File dialog) Go Forward                               | A-Rt Up/Dn/Lt/Rt
+Godot: (File dialog) Go Up                                    | A-Up Up/Dn/Lt/Rt
+Godot: (File dialog) Refresh                                  | F5
+Godot: (File dialog) Toggle Hidden Files                      | C-h
+Godot: (File dialog) Toggle Favorite                          | A-f
+Godot: (File dialog) Toggle Mode                              | A-v
+Godot: (File dialog) Create Folder                            | C-n
+Godot: (File dialog) Delete                                   | Del
+Godot: (File dialog) Focus Path                               | C-l
+Godot: (File dialog) Move Favorite Up                         | C-Up Up/Dn/Lt/Rt
+Godot: (File dialog) Move Favorite Down                       | C-Dn Up/Dn/Lt/Rt
+Godot: (FileSystem dock) Copy Path                            | C-c
+Godot: (FileSystem dock) Duplicate                            | C-d
+Godot: (FileSystem dock) Delete                               | Del
+Godot: (Scene tree dock) Add Child Node                       | C-a
+Godot: (Scene tree dock) Batch Rename                         | C-F2
+Godot: (Scene tree dock) Copy Node Path                       | C-S-c
+Godot: (Scene tree dock) Delete                               | Del
+Godot: (Scene tree dock) Force Delete                         | S-Del
+Godot: (Scene tree dock) Duplicate                            | C-d
+Godot: (Scene tree dock) Move Up                              | C-Up Up/Dn/Lt/Rt
+Godot: (Scene tree dock) Move Down                            | C-Dn Up/Dn/Lt/Rt
+Godot: (Animation track editor) Duplicate Selection           | C-d
+Godot: (Animation track editor) Duplicate Transposed          | C-S-d
+Godot: (Animation track editor) Delete Selection              | Del
+Godot: (Animation track editor) Go to Next Step               | C-Rt Up/Dn/Lt/Rt
+Godot: (Animation track editor) Go to Previous Step           | C-Lt Up/Dn/Lt/Rt
+Godot: (TileMap editor) Select                                | s
+Godot: (TileMap editor) Cut Selection                         | C-x
+Godot: (TileMap editor) Copy Selection                        | C-c
+Godot: (TileMap editor) Paste Selection                       | C-v
+Godot: (TileMap editor) Delete Selection                      | Del
+Godot: (TileMap editor) Cancel                                | Esc
+Godot: (TileMap editor) Paint                                 | d
+Godot: (TileMap editor) Line                                  | l
+Godot: (TileMap editor) Rect                                  | r
+Godot: (TileMap editor) Bucket                                | b
+Godot: (TileMap editor) Picker                                | p
+Godot: (TileMap editor) Eraser                                | e
+Godot: (TileMap editor) Flip Horizontally                     | c
+Godot: (TileMap editor) Flip Vertically                       | v
+Godot: (TileMap editor) Rotate Left                           | z
+Godot: (TileMap editor) Rotate Right                          | x
+Godot: (TileSet Editor) Next Coordinate                       | PgDn
+Godot: (TileSet Editor) Previous Coordinate                   | PgUp
+Godot: (TileSet Editor) Region Mode                           | 1
+Godot: (TileSet Editor) Collision Mode                        | 2
+Godot: (TileSet Editor) Occlusion Mode                        | 3
+Godot: (TileSet Editor) Navigation Mode                       | 4
+Godot: (TileSet Editor) Bitmask Mode                          | 5
+Godot: (TileSet Editor) Priority Mode                         | 6
+Godot: (TileSet Editor) Icon Mode                             | 7
+Godot: (TileSet Editor) Z Index Mode                          | 8
+Godot: (GridMap Editor) Previous Floor                        | 1
+Godot: (GridMap Editor) Next Floor                            | 3
+Godot: (GridMap Editor) Edit X Axis                           | S-x
+Godot: (GridMap Editor) Edit Y Axis                           | S-x
+Godot: (GridMap Editor) Edit Z Axis                           | S-c
+Godot: (GridMap Editor) Transform                             | t
+Godot: (GridMap Editor) Selection                             | q
+Godot: (GridMap Editor) Erase                                 | w
+Godot: (GridMap Editor) Paint                                 | e
+Godot: (GridMap Editor) Pick                                  | r
+Godot: (GridMap Editor) Fill                                  | z
+Godot: (GridMap Editor) Move                                  | x
+Godot: (GridMap Editor) Duplicate                             | c
+Godot: (GridMap Editor) Delete                                | v
+Godot: (GridMap Editor) Cursor Rotate X                       | a
+Godot: (GridMap Editor) Cursor Rotate Y                       | s
+Godot: (GridMap Editor) Cursor Rotate Z                       | d
+Godot: (Project manager) New Project                          | C-n
+Godot: (Project manager) Import Project                       | C-i
+Godot: (Project manager) Scan for Projects                    | C-s
+Godot: (Project manager) Edit Project                         | C-e
+Godot: (Project manager) Run Project                          | C-r
+Godot: (Project manager) Rename Project                       | F2
+Godot: (Project manager) Remove Project                       | Del

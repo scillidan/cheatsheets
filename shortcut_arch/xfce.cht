@@ -1,0 +1,17 @@
+xfce: Tile window to the left/right (User)        | Super-h/l
+xfce: Tile window to top-left/right (User)        | Super-k/K
+xfce: Tile window to bottom-left/right (User)     | Super-j/J
+xfce: (Application Shortcuts) flameshot-window.sh | C-PrtSc
+xfce: (Application Shortcuts) ocrcopy.sh          | Super-o
+xfce: Cancel                                      | Esc
+xfce: Close window                                | Super-w
+xfce: Cycle windows                               | Super-Tab
+xfce: Cycle windows (Reverse)                     | S-Super-Tab
+xfce: Left workspace                              | C-Super-h
+xfce: Move window to previous/next workspace      | C-S-Super-h/l
+xfce: Right workspace                             | C-Super-l
+xfce: Show desktop                                | Super-d
+xfce: Switch window for same application          | Super-Tab
+xfce: Maximize window                             | Super-f
+xfce: Toggle above                                | Super-t C-S-A-t
+xfce: Toggle fullscreen                           | Super-f C-S-A-f

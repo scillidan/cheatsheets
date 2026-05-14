@@ -1,0 +1,40 @@
+## https://github.com/floatpane/matcha/blob/master/docs/docs/usage.md
+matcha: (Main Menu) Navigate menu items                                     | j/k / Up/Dn
+matcha: (Main Menu) Select option                                           | Etr
+matcha: (Main Menu) Go back / Exit                                          | Esc
+matcha: (Main Menu) Quit application                                        | C-c
+matcha: (Inbox View) Navigate emails                                        | j/k / Up/Dn
+matcha: (Inbox View) Switch between account tabs                            | h/l / Lt/Rt
+matcha: (Inbox View) Open selected email                                    | Etr
+matcha: (Inbox View) Filter/search emails                                   | /
+matcha: (Inbox View) Refresh inbox                                          | r
+matcha: (Inbox View) Switch focus between inbox and split pane              | []
+matcha: (Inbox View) Delete selected email                                  | d
+matcha: (Inbox View) Archive selected email                                 | a
+matcha: (Inbox View) Enter visual mode (multi-select)                       | v
+matcha: (Inbox View) Back to main menu                                      | Esc
+matcha: (Inbox View - Visual Mode) Enter visual mode                        | v
+matcha: (Inbox View - Visual Mode) Expand/contract selection                | j/k / Up/Dn
+matcha: (Inbox View - Visual Mode) Delete all selected emails               | d
+matcha: (Inbox View - Visual Mode) Archive all selected emails              | a
+matcha: (Inbox View - Visual Mode) Move all selected emails to a folder     | m
+matcha: (Inbox View - Visual Mode) Exit visual mode                         | v / Esc
+matcha: (Inbox View - Visual indicators) Cursor position                    | >
+matcha: (Inbox View - Visual indicators) Selected email (not cursor)        | *
+matcha: (Inbox View - Visual indicators) Selected email with cursor         | >*
+matcha: (Email View) Scroll email content                                   | j/k / Up/Dn
+matcha: (Email View) Reply to email                                         | r
+matcha: (Email View) Delete email                                           | d
+matcha: (Email View) Archive email                                          | a
+matcha: (Email View) Focus attachments                                      | Tab
+matcha: (Email View) Back to inbox                                          | Esc
+matcha: (Email View) Toggle images                                          | i
+matcha: (Attachment View) Navigate attachments                              | j/k / Up/Dn
+matcha: (Attachment View) Download and open attachment                      | Etr
+matcha: (Attachment View) Back to email body                                | Esc / Tab
+matcha: (Composer) Navigate fields                                          | Tab / S-Tab
+matcha: (Composer) On "From" field: Select account (if multiple)            | Etr
+matcha: (Composer) On "Attachment" field: Open file picker                  | Etr
+matcha: (Composer) On "Send" button: Send email                             | Etr
+matcha: (Composer) Navigate contact suggestions (when typing in "To" field) | Up/Dn
+matcha: (Composer) Save draft and exit                                      | Esc
