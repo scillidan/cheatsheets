@@ -3,10 +3,18 @@
 7-Zip: 10m volume size  # 7z a -v10m<compress_dir>.7z<compress_dir>
 7-Zip: With password  # 7z x $1 -p"<password>"
 alass: Inst.  # scoop install alass
+Audacity: Inst.  # sudo pacman -S audacity
+Audacity: Inst.  # scoop install audacity ffmpeg-shared
 bat: Inst.  # sudo pacman -S bat
 bat: Inst.  # scoop install bat
 bat:  # bat --list-themes | fzf --preview="bat --theme={} --color=always<file>"
 cargo:  # cargo search --registry crates-io
+CA certificate: Depend.  # sudo pacman -S curl
+CA certificate: Depend.  # scoop install curl
+Darktable: Inst.  # sudo pacman -S darktable
+Darktable: Inst.  # scoop install darktable
+Delect It Easy: Inst.  # yay -S --noconfirm detect-it-easy
+Delect It Easy: Inst.  # scoop install detect-it-easy
 Docker: Update  # sudo docker compose down
 Docker: Update  # sudo docker compose pull
 Docker: Update  # sudo docker compose up -d
@@ -14,12 +22,19 @@ Docker: Clean up dangling resources  # sudo docker system prune -f
 Docker: Wipe all Docker resources  # sudo docker system prune -a --volumes -f
 doggo: Inst.  # yay -S --noconfirm doggo-bin
 doggo: Inst.  # scoop install doggo
+dua: Inst.  # sudo pacman -S dua-cli
+dua: Inst.  # scoop install dua
+dua: Interactive mode  # dua i
 edge-tts: Inst.  # uv tool install edge-tts
 edge-tts:  # edge-playback --voice en-US-AndrewMultilingualNeural --text
 espanso: Inst.  # yay -S --noconfirm espanso-x11-bin
 espanso: Inst.  # scoop install espanso
 eza: Inst.  # sudo pacman -S eza
 eza: Inst.  # scoop install eza
+Fastfetch: Inst.  # sudo pacman -S fastfetch
+Fastfetch: Inst.  # scoop install fastfetch
+fd: Inst.  # sudo pacman -S fd
+fd: Inst.  # scoop install fd
 FFmpeg: Inst.  # sudo pacman -S ffmpeg
 FFmpeg: Inst.  # scoop install ffmpeg-share
 FFmpeg: Convert AAC to MP3  # ffmpeg -i "$1" -codec:a libmp3lame -qscale:a 1 _.mp3
@@ -45,6 +60,8 @@ FFmpeg: Generate MP4 from autocast 3.  # ffmpeg -i _.gif -movflags faststart -pi
 FFmpeg: Generate Video from image (1 sec duration)  # ffmpeg -loop 1 -i "$1" -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" -c:v libx264 -t 1 -pix_fmt yuv420p _.mp4
 FFmpeg: Generate Video from image (1 sec per 30 images)  # ffmpeg -framerate 30 -i "$04d.png" -c:v libx264 -pix_fmt yuv420p _.mp4
 FFmpeg: Generate Video from image (1 sec per image)  # ffmpeg -framerate 1 -i "$04d.png" -c:v libx264 -r 30 -pix_fmt yuv420p _.mp4
+fzf: Inst.  # sudo pacman -S fzf
+fzf: Inst.  # scoop install fzf
 forget: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/forgit.json
 G'MIC: Frame  # gmic "$1" frame_xy 1,1,0 frame_xy 10,5,0,0,0
 G'MIC: Grid  # gmic "$1" grid 10%,16%,0,0,0.2,255
@@ -56,6 +73,9 @@ G'MIC: Quantize, split  # gmic "$1" quantize 3 +split_colors , display_rgba
 G'MIC: Topographic map  # gmic "$1" topographic_map 10
 G'MIC: Watershed algorithm  # gmic "$1" segment_watershed 4
 G'MIC: sRGB to Lab color space  # gmic "$1" +srgb2lab slic[-1] 16 +blend shapeaverage f[-2] "j(1,0)==i && j(0,1)==i" *[-1] [-2]
+ghostscript: Depend.  # scoop install ghostscript
+GIMP: Inst.  # sudo pacman -S gimp
+GIMP: Inst.  # scoop install gimp
 Git: Inst.  # sudo pacman -S git
 Git: Inst.  # scoop install git
 Git:  # git config --global user.email "user@email.com"
@@ -74,6 +94,13 @@ Git: SSL  # git config --global http.sslVerify true
 git-sync: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/git-sync.json
 git-sync  # git config --bool branch.main.sync true
 GnuPG  # gpg --full-generate-key
+git-cliff: Inst.  # scoop install git-cliff
+git-cliff: 1. cd <proj>
+git-cliff: 2. git cliff --config detailed
+git-cliff: 3. git cliff
+git-cliff: 4. git cliff -o
+git-quick-stats: Inst.  # yay -S --noconfirm git-quick-stats
+git-quick-stats: Inst.  # scoop install git-quick-stats
 GitHub CLI: Inst.  # sudo pacman -S github-cli
 GitHub CLI: Inst.  # scoop install gh
 GitHub CLI:  # set "GH_CONFIG_DIR=%USERPROFILE%\.config\gh"
@@ -82,11 +109,20 @@ GitHub CLI:  # gh repo set-default
 GitHub CLI:  # gh extension install HaywardMorihara/gh-tidy
 GitHub CLI:  # gh extension install matt-bartel/gh-clone-org
 GitHub CLI:  # gh extension install yuler/gh-download
+gitleaks: Inst.  # sudo pacman -S gitleaks
+gitleaks: Inst.  # scoop install gitleaks
+Glow: Depend.  # sudo pacman -S glow
+Glow: Depend.  # scoop install glow
 GnuPG: Inst.  # sudo pacman -S gnupg
 GnuPG: Inst.  # scoop install gnupg
 Go OpenCC: Inst.  # go install -v github.com/razonyang/gopencc@latest
 Go OpenCC Simplified Chinese to Traditional Chinese:  # gopencc -c s2t -i
 Go OpenCC Traditional Chinese to Simplified Chinese:  # gopencc -c t2s -i
+Godot: Inst.  # scoop install godot
+HandBrake: Inst.  # sudo pacman -S handbrake handbrake-cli
+HandBrake: Inst.  # scoop install handbrake handbrake-cli
+HandBrake: handbrakecli --preset-import-file <preset> --input "$1" --output "_handbrake.mp4"
+Hugo: Inst.  # scoop install hugo-extended
 ImageMagick: Inst.  # sudo pacman -S imagemagick
 ImageMagick: Inst.  # scoop install imagemagick
 ImageMagick: Border  # magick convert "$1" -bordercolor "#000" -border 1 "_border.png"
@@ -101,19 +137,37 @@ ImageMagick: Paint effect  # magick convert "$1" -paint 3 "$2"
 ImageMagick: Resize  # magick convert "$1" -resize x1600 -quality 100 "_*.jpg"
 ImageMagick: Sketch effect  # magick convert "$1" -colorspace gray -sketch 0x10+120 "_sketch.png"
 ImageMagick: Slice  # magick montage "$1" -resize 750x -geometry +0+0 -tile 1x "_montage.png"
+Inno Setup: Depend.  # scoop install innounp innounp-unicode
 jq:  # jq ".scripts" package.json
+just: Inst.  # scoop install just
+Kdenlive: Inst.  # sudo pacman -S kdenlive
+Kdenlive: Inst.  # scoop install kdenlive
 Lazydocker: Inst.  # yay -S --noconfirm lazydocker-bin
 Lazydocker: Inst.  # scoop install lazydocker
 lazygit: Inst.  # sudo pacman -S lazygit
 lazygit: Inst.  # scoop install lazygit
 lazygit:  # lazygit -sm half
+LibreOffice: Inst.  # sudo pacman -S libreoffice
+LibreOffice: Inst.  # scoop install libreoffice
+LibreWolf: Inst.  # sudo pacman -S librewolf speech-dispatcher
+LibreWolf: Inst.  # scoop install librewolf
+LLVM: Depend.  # scoop install llvm
+LosslessCut: Inst.  # yay -S --noconfirm losslesscut-bin
+LosslessCut: Inst.  # scoop install losslesscut
+LRCGET: Inst.  # yay -S --noconfirm lrcget-bin
+LRCGET: Inst.  # scoop install lrcget
+GNU Make: Inst.  # scoop install make
+MediaInfo: Inst.  # sudo pacman -S mediainfo mediainfo-gui
+MediaInfo: Inst.  # scoop install mediainfo mediainfo-gui
 mprocs: Inst.  # yay -S --noconfirm mprocs-bin
 mprocs: Inst.  # scoop install mprocs
 mpv: Inst.  # sudo pacman -S mpv
 mpv: Inst.  # scoop install mpv
 mpv:  # mpv --merge-files<file_1><file_2> ...
-nvm: Inst.  # sudo pacman -S nvm
-nvm: Inst.  # scoop install nvm
+Neovim: Inst.  # sudo pacman -S neovim
+Neovim: Inst.  # scoop insatll neovim
+Nmap: Inst.  # scoop install nmap
+Nmap: Inst.  # %SCOOP%\apps\nmap\current\npcap.exe
 NPM: Publish:  # npm login
 NPM: Publish:  # npm init
 NPM: Publish:  # npm publish
@@ -125,8 +179,19 @@ NPM: Proxy:  # npm config get proxy
 NPM: Proxy:  # npm config get https-proxy
 NPM: Proxy:  # npm config delete proxy
 NPM: Proxy:  # npm config delete https-proxy
+nvm: Inst.  # sudo pacman -S nvm
+nvm: Inst.  # scoop install nvm
+OBS Studio: Inst.  # scoop install obs-studio
 OpenCode: Inst.  # paru -S opencode
 OpenCode: Inst.  # scoop install opencode
+Oxipng: Inst.  # sudo pacman -S oxipng
+Oxipng: Inst.  # scoop install oxipng
+Oxipng: oxipng -o 4 -i 1 --strip safe *.png
+Pandoc: Depend.  # sudo pacman -S pandoc-cli
+Pandoc: Depend.  # scoop install pandoc
+Perl: Depend.  # scoop install perl
+PDF Arranger: Inst.  # sudo pacman -S pdfarranger
+PDF Arranger: Inst.  # scoop install pdfarranger
 pipe-rename: Inst.  # sudo pacman -S pipe-rename
 pipe-rename: Inst.  # cargo install --force pipe-rename
 pipe-rename:  # ls | renamer
@@ -134,6 +199,7 @@ pipx: Inst.  # sudo pacman -S python-pipx
 pipx: Inst.  # python -m pip install pipx
 pipx:  # pipx ensurepath
 pnpm: Inst.  # corepack enable pnpm
+port-kill: Inst.  # scoop install port-kill-console
 Python: Inst.  # scoop install python310 python312
 Python:  # pip install<pkg> --index-url https://pypi.org/simple
 Python:  # pip cache purge
@@ -141,12 +207,23 @@ Python: Publish 1.  # python -m pip install build twine
 Python: Publish 2.  # python -m build
 Python: Publish 3.  # twine upload --repository testpypi dist/*
 Python: Publish 4.  # twine upload dist/*
-ShellGPT: Inst.  # ollama pull mistral:7b-instruct
+qBittorrent Enhanced Edition: Inst.  # scoop install qbittorrent-enhanced
+Raspberry Pi Imager: Inst.  # sudo pacman -S rpi-imager
+Raspberry Pi Imager: Inst.  # scoop install raspberry-pi-imager
+ripgrep: Inst.  # sudo pacman -S ripgrep ripgrep-all
+ripgrep: Inst.  # scoop install ripgrep rga
+rsync: Inst.  # sudo pacman -S rsync
+rsync: Inst.  # scoop install cwrsync
+rsync: Update nvim config from ArchWSL to Windows  # rsync -r ~/.config/nvim/ /mnt/c/Users/User/AppData/Local/nvim --include={".*"} --exclude={"lazy-lock.json"}
+Sarasa Gothic: Inst.  # scoop install SarasaGothic-SC
 ShellGPT: Inst.  # uv tool install "shell-gpt[litellm]"
+ShellGPT: Inst.  # ollama pull mistral:7b-instruct
 ShellGPT:  # subl %USERPROFILE%\.config\shell_gpt\.sgptrc
 ShellGPT:  # sgpt "Hello Ollama"
 ShellGPT:  # sgpt --model ollama/mistral:7b-instruct "Resize images to 800x 0.9 quality jpg"
 ShellGPT:  # cat<file> | sgpt --model ollama/mistral:7b-instruct --code "Generate comments for each line of my code"
+Sigil: Inst.  # sudo pacman -S sigil
+Sigil: Inst.  # scoop install sigil
 Sioyek: Inst.  # sudo pacamn -S sioyek
 Sioyek: Inst.  # scoop install sioyek
 sub-batch: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sub-batch.json
@@ -159,6 +236,9 @@ subsetzer:  # subsetzer --outfile {basename}.{src}2{dst}[{model}].{fmt} --outfmt
 SVG to PNG converter: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/svg2png.json
 SVG to PNG converter: for docset  # svg2png icon.svg -w 16 icon.png
 SVG to PNG converter: for docset  # svg2png icon.svg -w 32 icon@2x.png
+SQLite: Depend.  # scoop install sqlite-dll
+Starship: Inst.  # scoop install starship
+TablacusExplorer: Inst.  # tablacus-explorer
 tex-fmt: Depend.  # yay -S --noconfirm tex-fmt
 tex-fmt: Depend.  # scoop install tex-fmt
 Texlab: Depend.  # sudo pacman -S texlab
@@ -256,11 +336,19 @@ Zig: Depend.  # scoop install zig
 (Arch) Yazi:  # ya pkg add uhs-robert/sshfs
 (Arch) Yazi:  # ya pkg add lpnh/fr
 (Arch) Yazi:  # ya pkg add NoponyAsked/sxiv
+(Windows) clink: Inst.  # scoop install clink clink-completions
+(Windows) dnGrep: Inst.  # scoop install dngrep
+(Windows) Everything: Inst.  # scoop install everything
+(Windows) ExifTool: Inst.  # scoop install exiftool
 (Windows) git: Conf.  # git config --global core.autocrlf true
 (Windows) git: Conf.  # git config --global core.editor "subl --new-window --wait"
+(Windows) lessmsi: Depend.  # scoop install lessmsi
+(Windows) MiKTeX: Inst.  # scoop install miktex
+(Windows) MSYS2: Inst.  # scoop install msys2
 (Windows) nvm:  # nvm list available
 (Windows) nvm:  # nvm install lts
 (Windows) nvm:  # nvm use lts
+(Windows) PowerShell: Inst.  # scoop install pwsh
 (Windows) scoop:  # scoop bucket add extras
 (Windows) scoop:  # scoop bucket add nonportable
 (Windows) scoop:  # scoop bucket add nirsoft
@@ -269,14 +357,77 @@ Zig: Depend.  # scoop install zig
 (Windows) scoop:  # scoop bucket add nerd-fonts
 (Windows) scoop:  # scoop cleanup *
 (Windows) scoop:  # scoop cache rm *
+(Windows) resizer2:  # scoop install resizer2
+(Windows) Rufus: Inst.  # scoop install rufus
+(Windows) SumatraPDF Reader: Inst.  # scoop install sumatrapdf-installer
 (Windows) Win10_BrightnessSlider: Inst.  # scoop install win10_brightnessslider
 (Windows) WinMerge: Inst.  # scoop install winmerge
 (Windows) WinSCP: Inst.  # scoop install winscp
 (Windows) WinSSHTerm: Inst.  # scoop install winsshterm putty winscp vcxsrv
+(Windows)(Later) SilentCMD: Inst.  # scoop install silentcmd
+(Windows)(Extra) CPU-Z: Inst.  # scoop install cpu-z
+(Windows)(Extra) Cygwin: Inst.  # scoop install cygwin
+(Windows)(Extra) Cygwin: apt-cyg install gcc-core gcc-g++ make automake autoconf libtool pkg-config
+(Windows)(Extra) GPU-Z: Inst.  # scoop install gpu-z
+(Windows)(Extra) Mp3tag: Inst.  # scoop install mp3tag
+(Windows)(Extra) Servy: Inst.  # scoop install servy
+(Windows)(Extra) StaxRip: Inst.  # scoop install staxrip
+(Later) difftastic: Inst.  # scoop install difftastic
+(Later) dyff: Inst.  # scoop install dyff
+(Later) fend: Inst.  # yay -S --noconfirm fend-bin
+(Later) fend: Inst.  # scoop install fend
+(Later) FreeCAD: Inst.  # sudo pacman -S freecad
+(Later) FreeCAD: Inst.  # scoop install freecad
+(Later) Ignore It: Inst.  # yay -S --noconfirm ignoreit
+(Later) Ignore It: Inst.  # scoop install ignoreit
+(Later) JSON diff and patch: Inst.  # scoop install jd
+(Later) jjui: Inst.  # scoop isntall jj
+(Later) jjui: Inst.  # scoop isntall jjui
+(Later) jnv: Inst.  # scoop install jnv
+(Later) KiCad: Inst.  # sudo pacman -S kicad
+(Later) KiCad: Inst.  # scoop install kicad
+(Later) komokana: Inst.  # scoop install komokana
+(Later) Lazysql: Inst.  # scoop install lazysql
+(Later) Mergiraf: Inst.  # scoop install mergiraf
+(Later) Miller: Inst.  # sudo pacman -S miller
+(Later) Miller: Inst.  # scoop install miller
+(Later) mise-en-place: Inst.  # scoop install mise
+(Later) Resterm: Inst.  # scoop install resterm
+(Later) scooter: Inst.  # scoop install scooter
 (Later) Vieb: Inst.  # scoop install vieb
 (Later) Yaak: Inst.  # scoop install yaak
+(Later) Tabiew: Inst.  # scoop install tabiew
 (Later) tailspin: Inst.  # scoop install tailspin
 (Later) Text Grab: Inst.  # scoop install text-grab
+(Extra) CMake: Inst.  # scoop install cmake
+(Extra) dark: Inst.  # scoop install dark
+(Extra) Doxygen: Inst.  # scoop install doxygen
+(Extra) Krita: Inst.  # sudo pacman -S krita
+(Extra) Krita: Inst.  # scoop install krita
+(Extra) Lintalist: Inst.  # scoop install lintalist
+(Extra) massCode: Inst.  # scoop install masscode
+(Extra) Meson: Depend.  # scoop install meson
+(Extra) MKVToolNix: Inst.  # sudo pacman -S mkvtoolnix-cli mkvtoolnix-gui
+(Extra) MKVToolNix: Inst.  # scoop install mkvtoolnix
+(Extra) MuseScore: Inst.  # yay -S --noconfirm musescore-bin muse-sounds-manager-bin
+(Extra) MuseScore: Inst.  # scoop install musescore
+(Extra) Pegasus Frontend: Inst.  # yay -S --noconfirm pegasus-frontend-git
+(Extra) Pegasus Frontend: Inst.  # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/pegasus.json
+(Extra) Pegasus Frontend: Inst.  # gsudo scoop install k-lite-codec-pack-basic-np
+(Extra) PicView: Inst.  # scoop install picview
+(Extra) Qalculate!: Inst.  # scoop install qalculate
+(Extra) Ruff: Inst.  # scoop install ruff
+(Extra) Saber: Inst.  # scoop install saber
+(Extra) syncthing: Inst.  # sudo pacman -S syncthing
+(Extra) syncthing: Inst.  # scoop install syncthing
+(Extra) RetroArch: Inst.  # sudo pacman -S retroarch
+(Extra) RetroArch: Inst.  # scoop install retroarch
+(Extra) RClone Manager: Inst.  # yay -S --noconfirm rclone-manager
+(Extra) RClone Manager: Inst.  # scoop install rclone-manager
+(Extra) Tag Editor: Inst.  # yay -S --noconfirm tageditor
+(Extra) Tag Editor: Inst.  # scoop install tageditor
+(Extra) TagSpaces: Inst.  # yay -S --noconfirm tagspaces-bin
+(Extra) TagSpaces: Inst.  # scoop install tagspaces
 (Extra) Thorium: Inst.  # yay -S --noconfirm thorium-reader-bin
 (Extra) Thorium: Inst.  # scoop install thorium-reader
 (Extra) Tidy Viewer (tv): Inst.  # yay -S --noconfirm tidy-viewer
