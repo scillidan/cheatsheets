@@ -1,0 +1,20 @@
+## https://github.com/libvips/vipsdisp#shortcuts
+Scroll around                             | Up/Dn/Lt/Rt
+Move by a screen size                     | S-Up/Dn/Lt/Rt
+Move to image edges                       | C-Up/Dn/Lt/Rt
+Pick a particular zoom out                | C-$
+Best fit                                  | 0
+Toggle debug rendering mode               | d
+Zoom in/out                               | i/o / +/-
+Prev/Next page                            | C-</>
+Prev/Next image                           | A-Lt/Rt
+Zoom                                      | MW
+Pan                                       | MW-S/C- / L_drag
+Replace image                             | C-d
+Save image                                | C-s
+New viewer                                | C-n
+Duplicate view                            | C-d
+Toggle properties                         | A-Etr
+Vipsdisp: Copy paste of filenames         | C-c
+Vipsdisp: Lists of filenames and textures | C-v
+Vipsdisp: Fullscreen                      | F11

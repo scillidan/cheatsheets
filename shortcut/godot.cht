@@ -60,12 +60,10 @@ Godot: (2D/CanvasItem editor) Insert Key (Existing Tracks)    | C-Ins
 Godot: (2D/CanvasItem editor) Make Custom Bones from Nodes    | C-S-b
 Godot: (2D/CanvasItem editor) Clear Pose                      | S-k
 Godot: (3D/Spatial editor) Toggle Freelook                    | S-f
-Godot: (3D/Spatial editor) Freelook Left                      | a
-Godot: (3D/Spatial editor) Freelook Right                     | d
-Godot: (3D/Spatial editor) Freelook Forward                   | w
-Godot: (3D/Spatial editor) Freelook Backwards                 | s
-Godot: (3D/Spatial editor) Freelook Up                        | e
-Godot: (3D/Spatial editor) Freelook Down                      | q
+Godot: (3D/Spatial editor) Freelook Left/Right                | a/d
+Godot: (3D/Spatial editor) Freelook                           | d
+Godot: (3D/Spatial editor) Freelook Forward/Backwards         | w/s
+Godot: (3D/Spatial editor) Freelook Up/Down                   | e/q
 Godot: (3D/Spatial editor) Freelook Speed Modifier            | S-
 Godot: (3D/Spatial editor) Freelook Slow Modifier             | A-
 Godot: (3D/Spatial editor) Select Mode                        | q
@@ -75,12 +73,10 @@ Godot: (3D/Spatial editor) Scale Mode                         | r
 Godot: (3D/Spatial editor) Use Local Space                    | t
 Godot: (3D/Spatial editor) Use Snap                           | y
 Godot: (3D/Spatial editor) Snap Object to Floor               | PgDn
-Godot: (3D/Spatial editor) Top View                           | Num_7
-Godot: (3D/Spatial editor) Bottom View                        | A-Num_7
+Godot: (3D/Spatial editor) Top/Bottom View                    | Num_7 / A-Num_7
 Godot: (3D/Spatial editor) Front View                         | Num_1
 Godot: (3D/Spatial editor) Rear View                          | A-Num_1
-Godot: (3D/Spatial editor) Right View                         | Num_3
-Godot: (3D/Spatial editor) Left View                          | A-Num_3
+Godot: (3D/Spatial editor) Left/Right View                    | A-Num_3 / Num_3
 Godot: (3D/Spatial editor) Switch Perspective/Orthogonal View | Num_5
 Godot: (3D/Spatial editor) Insert Animation Key               | k
 Godot: (3D/Spatial editor) Focus Origin                       | o
@@ -98,22 +94,19 @@ Godot: (Text editor) Copy                                     | C-c
 Godot: (Text editor) Paste                                    | C-v
 Godot: (Text editor) Select All                               | C-a
 Godot: (Text editor) Find                                     | C-f
-Godot: (Text editor) Find Next                                | F3
-Godot: (Text editor) Find Previous                            | S-F3
+Godot: (Text editor) Find Previous/Next                       | S-F3 / F3
 Godot: (Text editor) Find in Files                            | C-S-f
 Godot: (Text editor) Replace                                  | C-r
 Godot: (Text editor) Replace in Files                         | C-S-r
 Godot: (Text editor) Undo                                     | C-z
 Godot: (Text editor) Redo                                     | C-y
-Godot: (Text editor) Move Up                                  | A-Up Up/Dn/Lt/Rt
-Godot: (Text editor) Move Down                                | A-Dn Up/Dn/Lt/Rt
+Godot: (Text editor) Move Up/Down                             | A-Up/Dn
 Godot: (Text editor) Delete Line                              | C-S-k
 Godot: (Text editor) Toggle Comment                           | C-k
 Godot: (Text editor) Fold/Unfold Line                         | A-f
 Godot: (Text editor) Duplicate Lines                          | C-A-Dn Up/Dn/Lt/Rt
 Godot: (Text editor) Duplicate Selection                      | C-S-d
-Godot: (Text editor) Select Down                              | C-S-Dn Up/Dn/Lt/Rt
-Godot: (Text editor) Select Up                                | C-S-Up Up/Dn/Lt/Rt
+Godot: (Text editor) Select Up/Down                           | C-S-Up/Dn
 Godot: (Text editor) Select Next Occurrence                   | C-d
 Godot: (Text editor) Complete Symbol                          | C-Spc
 Godot: (Text editor) Evaluate Selection                       | C-S-e
@@ -125,29 +118,23 @@ Godot: (Text editor) Convert Indent to Spaces                 | C-S-y
 Godot: (Text editor) Convert Indent to Tabs                   | C-S-i
 Godot: (Text editor) Auto Indent                              | C-i
 Godot: (Text editor) Toggle Bookmark                          | C-A-b
-Godot: (Text editor) Go to Next Bookmark                      | C-b
-Godot: (Text editor) Go to Previous Bookmark                  | C-S-b
+Godot: (Text editor) Go to Previous/Next Bookmark             | C-S-b / C-b
 Godot: (Text editor) Go to Function                           | C-A-f
 Godot: (Text editor) Go to Line                               | C-g
 Godot: (Text editor) Toggle Breakpoint                        | F9
 Godot: (Text editor) Remove All Breakpoints                   | C-S-F9
-Godot: (Text editor) Go to Next Breakpoint                    | C-.
-Godot: (Text editor) Go to Previous Breakpoint                | C-,
+Godot: (Text editor) Go to Previous/Next Breakpoint           | C-,/.
 Godot: (Text editor) Contextual Help                          | A-F1
 Godot: (Script editor) Find                                   | C-f
-Godot: (Script editor) Find Next                              | F3
-Godot: (Script editor) Find Previous                          | S-F3
+Godot: (Script editor) Find Previous/Next                     | F3 / S-F3
 Godot: (Script editor) Find in Files                          | C-S-f
-Godot: (Script editor) Move Up                                | S-A-Up Up/Dn/Lt/Rt
-Godot: (Script editor) Move Down                              | S-A-Dn Up/Dn/Lt/Rt
-Godot: (Script editor) Next Script                            | C-S-.
-Godot: (Script editor) Previous Script                        | C-S-,
+Godot: (Script editor) Move Up/Down                           | S-A-Up/Dn
+Godot: (Script editor) Previous/Next Script                   | C-S-,/.
 Godot: (Script editor) Reopen Closed Script                   | C-S-t
 Godot: (Script editor) Save                                   | C-A-s
 Godot: (Script editor) Save All                               | C-S-A-s
 Godot: (Script editor) Soft Reload Script                     | C-S-r
-Godot: (Script editor) History Previous                       | A-Lt Up/Dn/Lt/Rt
-Godot: (Script editor) History Next                           | A-Rt Up/Dn/Lt/Rt
+Godot: (Script editor) History Previous/Next                  | A-Lt/Rt
 Godot: (Script editor) Close                                  | C-w
 Godot: (Script editor) Run                                    | C-S-x
 Godot: (Script editor) Toggle Scripts Panel                   | C-\\
@@ -159,9 +146,8 @@ Godot: (Editor output) Clear Output                           | C-S-k
 Godot: (Debugger) Step Into                                   | F11
 Godot: (Debugger) Step Over                                   | F10
 Godot: (Debugger) Continue                                    | F12
-Godot: (File dialog) Go Back                                  | A-Lt Up/Dn/Lt/Rt
-Godot: (File dialog) Go Forward                               | A-Rt Up/Dn/Lt/Rt
-Godot: (File dialog) Go Up                                    | A-Up Up/Dn/Lt/Rt
+Godot: (File dialog) Go Back/Forward                          | A-Lt/Rt
+Godot: (File dialog) Go Up                                    | A-Up
 Godot: (File dialog) Refresh                                  | F5
 Godot: (File dialog) Toggle Hidden Files                      | C-h
 Godot: (File dialog) Toggle Favorite                          | A-f
@@ -169,8 +155,7 @@ Godot: (File dialog) Toggle Mode                              | A-v
 Godot: (File dialog) Create Folder                            | C-n
 Godot: (File dialog) Delete                                   | Del
 Godot: (File dialog) Focus Path                               | C-l
-Godot: (File dialog) Move Favorite Up                         | C-Up Up/Dn/Lt/Rt
-Godot: (File dialog) Move Favorite Down                       | C-Dn Up/Dn/Lt/Rt
+Godot: (File dialog) Move Favorite Up/Down                    | C-Up/Dn
 Godot: (FileSystem dock) Copy Path                            | C-c
 Godot: (FileSystem dock) Duplicate                            | C-d
 Godot: (FileSystem dock) Delete                               | Del
@@ -180,13 +165,11 @@ Godot: (Scene tree dock) Copy Node Path                       | C-S-c
 Godot: (Scene tree dock) Delete                               | Del
 Godot: (Scene tree dock) Force Delete                         | S-Del
 Godot: (Scene tree dock) Duplicate                            | C-d
-Godot: (Scene tree dock) Move Up                              | C-Up Up/Dn/Lt/Rt
-Godot: (Scene tree dock) Move Down                            | C-Dn Up/Dn/Lt/Rt
+Godot: (Scene tree dock) Move Up/Down                         | C-Up/Dn
 Godot: (Animation track editor) Duplicate Selection           | C-d
 Godot: (Animation track editor) Duplicate Transposed          | C-S-d
 Godot: (Animation track editor) Delete Selection              | Del
-Godot: (Animation track editor) Go to Next Step               | C-Rt Up/Dn/Lt/Rt
-Godot: (Animation track editor) Go to Previous Step           | C-Lt Up/Dn/Lt/Rt
+Godot: (Animation track editor) Go to Previous/Next Step      | C-Lt/Rt
 Godot: (TileMap editor) Select                                | s
 Godot: (TileMap editor) Cut Selection                         | C-x
 Godot: (TileMap editor) Copy Selection                        | C-c
@@ -201,10 +184,8 @@ Godot: (TileMap editor) Picker                                | p
 Godot: (TileMap editor) Eraser                                | e
 Godot: (TileMap editor) Flip Horizontally                     | c
 Godot: (TileMap editor) Flip Vertically                       | v
-Godot: (TileMap editor) Rotate Left                           | z
-Godot: (TileMap editor) Rotate Right                          | x
-Godot: (TileSet Editor) Next Coordinate                       | PgDn
-Godot: (TileSet Editor) Previous Coordinate                   | PgUp
+Godot: (TileMap editor) Rotate Left/Right                     | z/x
+Godot: (TileSet Editor) Previous/Next Coordinate              | PgUp/PgDn
 Godot: (TileSet Editor) Region Mode                           | 1
 Godot: (TileSet Editor) Collision Mode                        | 2
 Godot: (TileSet Editor) Occlusion Mode                        | 3

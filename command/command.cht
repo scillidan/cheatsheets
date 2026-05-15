@@ -1,60 +1,204 @@
 7-Zip: Inst.  # sudo pacman -S 7zip
 7-Zip: Inst.  # scoop install 7zip
+7-Zip: 10m volume size  # 7z a -v10m<compress_dir>.7z<compress_dir>
+7-Zip: With password  # 7z x $1 -p"<password>"
 alass: Inst.  # scoop install alass
 bat: Inst.  # sudo pacman -S bat
 bat: Inst.  # scoop install bat
+bat:  # bat --list-themes | fzf --preview="bat --theme={} --color=always<file>"
+cargo:  # cargo search --registry crates-io
+Docker: Update  # sudo docker compose down
+Docker: Update  # sudo docker compose pull
+Docker: Update  # sudo docker compose up -d
+Docker: Clean up dangling resources  # sudo docker system prune -f
+Docker: Wipe all Docker resources  # sudo docker system prune -a --volumes -f
 doggo: Inst.  # yay -S --noconfirm doggo-bin
 doggo: Inst.  # scoop install doggo
 edge-tts: Inst.  # uv tool install edge-tts
+edge-tts:  # edge-playback --voice en-US-AndrewMultilingualNeural --text
 espanso: Inst.  # yay -S --noconfirm espanso-x11-bin
 espanso: Inst.  # scoop install espanso
 eza: Inst.  # sudo pacman -S eza
 eza: Inst.  # scoop install eza
 FFmpeg: Inst.  # sudo pacman -S ffmpeg
 FFmpeg: Inst.  # scoop install ffmpeg-share
+FFmpeg: Convert AAC to MP3  # ffmpeg -i "$1" -codec:a libmp3lame -qscale:a 1 _.mp3
+FFmpeg: Convert FLAC to M4B  # ffmpeg -i "$1.flac" -c:a aac -b:a 128k -minrate 64k -maxrate 192k -ar 44100 _.m4b
+FFmpeg: Convert FLACs to one MP3 1.  # find . -maxdepth 1 -type f -name '*.flac' | sort | sed "s | ^\./\(.*\)$ | file '\1' | " > _.txt
+FFmpeg: Convert FLACs to one MP3 2.  # ffmpeg -f concat -safe 0 -i _.txt -codec:a libmp3lame -qscale:a 1 _.mp3
+## https://gist.github.com/gvoze32/95f96992a443e73c4794c342a44e0811
+FFmpeg: Convert GIF/APNG to MP4  # ffmpeg -i "$1.gif/apng" -movflags faststart -pix_fmt yuv420p -vf "fps=30,scale=trunc(iw/2)*2:trunc(ih/2)*2" -c:v libx264 -crf 23 -preset veryslow _.mp4
+FFmpeg: Convert M4A to MP3  # ffmpeg -i "$1" -vn -c:a libmp3lame -b:a 224K -ac 2 _.mp3
+FFmpeg: Convert WAVs/FLACs/M4As to MP3  # find . -type f \( -iname "*.wav" -o -iname "*.flac" -o -iname "*.m4a" \) -print0 | xargs -0 -I {} ffmpeg -i "{}" -c:a libmp3lame -ar 44100 -b:a 256k -maxrate 320k -minrate 128k -bufsize 320k "{.}.mp3"
+FFmpeg: Convert audio to OGG for music  # ffmpeg -i "$1" -c:a libvorbis -ar 44100 -b:a 256k -maxrate 320k -minrate 128k -bufsize 320k _.ogg
+FFmpeg: Convert audio to OGG for voice  # ffmpeg -i "$1" -c:a libvorbis -ar 44100 -b:a 128k -maxrate 192k -minrate 64k -bufsize 192k _.ogg
+FFmpeg: Convert audio to OGG  # ffmpeg -i "$1" -map_metadata -1 -c:a libvorbis -b:a 64k -compression_level 10 -vn _.ogg
+FFmpeg: Convert audio to optimized M4B  # ffmpeg -i "$1" -map 0:a -map_metadata 0 -c:a aac -b:a 64k -id3v2_version 3 -movflags +faststart _opti.m4b
+FFmpeg: Convert video to MP4  # ffmpeg -i "$1" -map 0 -c:v copy -c:a ac3 -b:a 256K -ac 2 -c:s copy _.mp4
+FFmpeg: Export SRT subtitle  # ffmpeg -i "$1" -map 0:s:0 _.srt
+FFmpeg: Export SUP subtitle  # ffmpeg -i "$1" -map 0:s:0 -c:s copy _.sup
+FFmpeg: Extract audio as MP3  # ffmpeg -i "$1" -vn -acodec libmp3lame -ab 192k -ar 44100 -y _.mp3
+FFmpeg: Extract frame as poster  # ffmpeg -i "$1.mp4" -vframes 1 _poster.jpg
+FFmpeg: Generate MP4 from autocast 1.  # autocast "$1.yaml" _.cast
+FFmpeg: Generate MP4 from autocast 2.  # agg --theme asciinema --speed 1.5 --font-family "font: "Sarasa Mono SC" --font-size 14 --fps-cap 30 _.cast _.gif
+FFmpeg: Generate MP4 from autocast 3.  # ffmpeg -i _.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" _.mp4
+FFmpeg: Generate Video from image (1 sec duration)  # ffmpeg -loop 1 -i "$1" -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" -c:v libx264 -t 1 -pix_fmt yuv420p _.mp4
+FFmpeg: Generate Video from image (1 sec per 30 images)  # ffmpeg -framerate 30 -i "$04d.png" -c:v libx264 -pix_fmt yuv420p _.mp4
+FFmpeg: Generate Video from image (1 sec per image)  # ffmpeg -framerate 1 -i "$04d.png" -c:v libx264 -r 30 -pix_fmt yuv420p _.mp4
 forget: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/forgit.json
+G'MIC: Frame  # gmic "$1" frame_xy 1,1,0 frame_xy 10,5,0,0,0
+G'MIC: Grid  # gmic "$1" grid 10%,16%,0,0,0.2,255
+G'MIC: Kuwahara filter  # gmic "$1" kuwahara 9
+G'MIC: Montage  # gmic "$1" montage H1:V0:VH2:1H0:3
+G'MIC: Patch matching  # gmic "$1" "$2" +matchpatch[0] [1],3 +warp[-2] [-1],0
+G'MIC: Quantize, blur  # gmic "$1" quantize 6 blur 1 round[-1] quantize_area[-1] 2
+G'MIC: Quantize, split  # gmic "$1" quantize 3 +split_colors , display_rgba
+G'MIC: Topographic map  # gmic "$1" topographic_map 10
+G'MIC: Watershed algorithm  # gmic "$1" segment_watershed 4
+G'MIC: sRGB to Lab color space  # gmic "$1" +srgb2lab slic[-1] 16 +blend shapeaverage f[-2] "j(1,0)==i && j(0,1)==i" *[-1] [-2]
 Git: Inst.  # sudo pacman -S git
 Git: Inst.  # scoop install git
+Git:  # git config --global user.email "user@email.com"
+Git:  # git config --global user.name "username"
+Git: Tag  # git tag v0.0.1
+Git: Tag  # git push origin v0.0.1
+Git: Tag  # git tag -d v0.0.1
+Git: Tag  # git push --delete origin v0.0.1
+Git: Undo  # git reset --hard HEAD~1
+Git: Undo  # git reset --hard <commit-hash>
+Git: Undo  # git push --force origin <branch>
+Git: Proxy  # git config --global http.proxy "socks5://127.0.0.1:<port>"
+Git: Proxy  # git config --global --unset http.proxy
+Git: SSL  # git config --global http.sslVerify false
+Git: SSL  # git config --global http.sslVerify true
 git-sync: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/git-sync.json
+git-sync  # git config --bool branch.main.sync true
+GnuPG  # gpg --full-generate-key
 GitHub CLI: Inst.  # sudo pacman -S github-cli
 GitHub CLI: Inst.  # scoop install gh
+GitHub CLI:  # set "GH_CONFIG_DIR=%USERPROFILE%\.config\gh"
+GitHub CLI:  # gh auth login
+GitHub CLI:  # gh repo set-default
+GitHub CLI:  # gh extension install HaywardMorihara/gh-tidy
+GitHub CLI:  # gh extension install matt-bartel/gh-clone-org
+GitHub CLI:  # gh extension install yuler/gh-download
 GnuPG: Inst.  # sudo pacman -S gnupg
 GnuPG: Inst.  # scoop install gnupg
 Go OpenCC: Inst.  # go install -v github.com/razonyang/gopencc@latest
+Go OpenCC Simplified Chinese to Traditional Chinese:  # gopencc -c s2t -i
+Go OpenCC Traditional Chinese to Simplified Chinese:  # gopencc -c t2s -i
 ImageMagick: Inst.  # sudo pacman -S imagemagick
 ImageMagick: Inst.  # scoop install imagemagick
+ImageMagick: Border  # magick convert "$1" -bordercolor "#000" -border 1 "_border.png"
+ImageMagick: Charcoal effect  # magick convert "$1" -charcoal 2 "$2"
+ImageMagick: Convert BMP to PNG  # magick mogrify -format png "$1"
+ImageMagick: Convert to PDF  # magick convert "*.{png,jpeg}" -quality 100 "_output.pdf"
+ImageMagick: Crop  # magick convert "$1" -crop x1500 "_%d.png"
+ImageMagick: Negate  # magick convert "$1" -channel RGB -negate _negate.png
+ImageMagick: Ordered dithering (8 colors)  # magick convert "$1" -ordered-dither h4x4o -colors 8 "_dither.png"
+ImageMagick: Ordered dithering (gray)  # magick convert "$1" -colorspace Gray -ordered-dither o2x2 "_dither.png"
+ImageMagick: Paint effect  # magick convert "$1" -paint 3 "$2"
+ImageMagick: Resize  # magick convert "$1" -resize x1600 -quality 100 "_*.jpg"
+ImageMagick: Sketch effect  # magick convert "$1" -colorspace gray -sketch 0x10+120 "_sketch.png"
+ImageMagick: Slice  # magick montage "$1" -resize 750x -geometry +0+0 -tile 1x "_montage.png"
+jq:  # jq ".scripts" package.json
 Lazydocker: Inst.  # yay -S --noconfirm lazydocker-bin
 Lazydocker: Inst.  # scoop install lazydocker
 lazygit: Inst.  # sudo pacman -S lazygit
 lazygit: Inst.  # scoop install lazygit
+lazygit:  # lazygit -sm half
 mprocs: Inst.  # yay -S --noconfirm mprocs-bin
 mprocs: Inst.  # scoop install mprocs
 mpv: Inst.  # sudo pacman -S mpv
 mpv: Inst.  # scoop install mpv
+mpv:  # mpv --merge-files<file_1><file_2> ...
 nvm: Inst.  # sudo pacman -S nvm
 nvm: Inst.  # scoop install nvm
+NPM: Publish:  # npm login
+NPM: Publish:  # npm init
+NPM: Publish:  # npm publish
+NPM: Patch:  # npm version patch
+NPM: Deprecate:  # npm deprecate<pkg> "Deprecate `<pkg>`"
+NPM: Proxy:  # npm config set proxy http://127.0.0.1:<port>
+NPM: Proxy:  # npm config set https-proxy http://127.0.0.1:<port>
+NPM: Proxy:  # npm config get proxy
+NPM: Proxy:  # npm config get https-proxy
+NPM: Proxy:  # npm config delete proxy
+NPM: Proxy:  # npm config delete https-proxy
 OpenCode: Inst.  # paru -S opencode
 OpenCode: Inst.  # scoop install opencode
 pipe-rename: Inst.  # sudo pacman -S pipe-rename
 pipe-rename: Inst.  # cargo install --force pipe-rename
+pipe-rename:  # ls | renamer
 pipx: Inst.  # sudo pacman -S python-pipx
 pipx: Inst.  # python -m pip install pipx
+pipx:  # pipx ensurepath
 pnpm: Inst.  # corepack enable pnpm
 Python: Inst.  # scoop install python310 python312
+Python:  # pip install<pkg> --index-url https://pypi.org/simple
+Python:  # pip cache purge
+Python: Publish 1.  # python -m pip install build twine
+Python: Publish 2.  # python -m build
+Python: Publish 3.  # twine upload --repository testpypi dist/*
+Python: Publish 4.  # twine upload dist/*
 ShellGPT: Inst.  # ollama pull mistral:7b-instruct
 ShellGPT: Inst.  # uv tool install "shell-gpt[litellm]"
+ShellGPT:  # subl %USERPROFILE%\.config\shell_gpt\.sgptrc
+ShellGPT:  # sgpt "Hello Ollama"
+ShellGPT:  # sgpt --model ollama/mistral:7b-instruct "Resize images to 800x 0.9 quality jpg"
+ShellGPT:  # cat<file> | sgpt --model ollama/mistral:7b-instruct --code "Generate comments for each line of my code"
 Sioyek: Inst.  # sudo pacamn -S sioyek
 Sioyek: Inst.  # scoop install sioyek
 sub-batch: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sub-batch.json
 sub-batch: Inst.  # cargo install --force sub-batch
+sub-batch: Rename  # sub-batch rename --subarea ".+"
+sub-batch: Adjust subtitle timings  # sub-batch alass
+sub-batch: Adjust subtitle timings interactively with mpv  # sub-batch time-mpv
 subsetzer: Inst.  # uv tool install subsetzer
+subsetzer:  # subsetzer --outfile {basename}.{src}2{dst}[{model}].{fmt} --outfmt srt --out . --model gemma3:12b --target Chinese --in $
 SVG to PNG converter: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/svg2png.json
-Tidy Viewer (tv): Inst.  # yay -S --noconfirm tidy-viewer
-Tidy Viewer (tv): Inst.  # cargo install --force tidy-viewer
+SVG to PNG converter: for docset  # svg2png icon.svg -w 16 icon.png
+SVG to PNG converter: for docset  # svg2png icon.svg -w 32 icon@2x.png
+tex-fmt: Depend.  # yay -S --noconfirm tex-fmt
+tex-fmt: Depend.  # scoop install tex-fmt
+Texlab: Depend.  # sudo pacman -S texlab
+Texlab: Depend.  # scoop install texlab
+Tailscale: Inst.  # scoop install tailscale
+Tailscale: Inst.  # sudo pacman -S tailscale
+Thunderbird: Inst.  # sudo pacman -S thunderbird thunderbird-i18n-zh-cn
+Thunderbird: Inst.  # scoop install thunderbird
+TightVNC: Inst.  # yay -S --noconfirm tightvnc
+TightVNC: Inst.  # scoop install tightvnc
+TightVNC: tvnviewer <your_host>::5901 -password=<vncuser_passwd>
+typst: Inst.  # scoop install typst
+typst: (VSCodium)  # scoop install tinymist typstyle
+Unicodia: Inst.  # scoop install unicodia
+unrar: Depend.  # scoop install unrar
+uv: Inst.  # sudo pacman -S uv
+uv: Inst.  # scoop install python310 python312 uv
+uv: Install python 1.  # uv python list
+uv: Install python 2.  # uv python install <version>
+uv: Install python 3.  # uv python pin <version>
+uv: Create a virtual environment and install all dependencies  # uv sync
+uv: Activate the virtual environment and execute a command  # uv run <script> <flag>
+uv: Install in development/editable mode  # uv pip install -e .
+uv: Initialize a project  # uv init <project> --name <package> --python <version>
+Ventoy: Inst.  # yay -S --noconfirm ventoy-bin
+Ventoy: Inst.  # scoop install ventoy
+Vim: Inst.  # sudo pacman -S vim
+Vim: Inst.  # scoop install vim
+VirusTotal CLI: Inst.  # scoop install vt-cli
+VirusTotal CLI: Conf.  # vt init
+Vipsdisp: Inst.  # scoop install vipsdisp
+VSCodium: Inst.  # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
+VSCodium: Inst.  # scoop install vscodium
 WezTerm: Inst.  # sudo pacman -S wezterm
 WezTerm: Inst.  # scoop install wezterm
 WezTerm: Conf.  # vim ~/.config/wezterm/wezterm.lua
 WezTerm: Conf.  # subl %SCOOP%\apps\wezterm\current\wezterm.lua
+xan: Inst.  # sudo pacman -S xan
+xan: Inst.  # scoop install xan
+YACReader: Inst.  # scoop install yacreader
 Yazi: Inst.  # sudo pacman -S yazi
 Yazi: Inst.  # scoop install yazi
 Yazi: Conf.  # mkdir ~/.config/yazi/
@@ -74,6 +218,8 @@ Yazi:  # ya pkg add AminurAlam/yazi-plugins:preview-typst
 Yazi:  # ya pkg add kirasok/epub-preview
 Yazi:  # ya pkg add AminurAlam/yazi-plugins:preview-cbz
 Yazi:  # ya pkg add boydaihungst/mediainfo
+yq: Depend.  # sudo pacman -S yq
+yq: Depend.  # scoop install yq
 yt-dlp: Inst.  # sudo pacman -S yt-dlp
 yt-dlp: Inst.  # scoop install yt-dlp
 yt-dlp: List available  # yt-dlp -F "<url_1>"
@@ -82,10 +228,17 @@ yt-dlp: Download  # yt-dlp -f "<video_id>+<audio_id>" "<url_1>"
 yt-dlp: Download the best  # yt-dlp -f bestvideo+bestaudio "<url_1>"
 yt-dlp: Download as MP3  # yt-dlp -x --audio-format mp3 --audio-quality 320k -o "%(title)s.%(ext)s" "<url_1>"
 yt-dlp: Download subtitle  # yt-dlp --skip-download --write-auto-subs --sub-langs en --convert-subs srt --no-check-certificate "<url>"
+Zeal: Inst.  # sudo pacman -S zeal
+Zeal: Inst.  # scoop install zeal
+zoxide: Inst.  # sudo pacman -S zoxide
+zoxide: Inst.  # scoop install zoxide
+Zig: Depend.  # scoop install zig
 (Arch) Newsboat: Conf.  # vim ~/.config/newsboat/config
 (Arch) Newsboat: Conf.  # vim ~/.config/newsboat/urls
 (Arch) Newsboat:  # newsboat -i <your>.opml
 (Arch) Newsboat: Inst.  # sudo pacman -S newsboat
+(Arch) Tailscale: Conf.  # sudo systemctl enable --now tailscaled
+(Arch) Tailscale: Conf.  # sudo tailscale login
 (Arch) Translate Shell: Inst.  # sudo pacman -S translate-shell
 (Arch) Translate Shell: Conf.  # vim ~/.config/translate-shell/init.trans
 (Arch) Wine:  # wine uninstaller
@@ -116,3 +269,21 @@ yt-dlp: Download subtitle  # yt-dlp --skip-download --write-auto-subs --sub-lang
 (Windows) scoop:  # scoop bucket add nerd-fonts
 (Windows) scoop:  # scoop cleanup *
 (Windows) scoop:  # scoop cache rm *
+(Windows) Win10_BrightnessSlider: Inst.  # scoop install win10_brightnessslider
+(Windows) WinMerge: Inst.  # scoop install winmerge
+(Windows) WinSCP: Inst.  # scoop install winscp
+(Windows) WinSSHTerm: Inst.  # scoop install winsshterm putty winscp vcxsrv
+(Later) Vieb: Inst.  # scoop install vieb
+(Later) Yaak: Inst.  # scoop install yaak
+(Later) tailspin: Inst.  # scoop install tailspin
+(Later) Text Grab: Inst.  # scoop install text-grab
+(Extra) Thorium: Inst.  # yay -S --noconfirm thorium-reader-bin
+(Extra) Thorium: Inst.  # scoop install thorium-reader
+(Extra) Tidy Viewer (tv): Inst.  # yay -S --noconfirm tidy-viewer
+(Extra) Tidy Viewer (tv): Inst.  # cargo install --force tidy-viewer
+(Extra) ugrep: Inst.  # sudo pacman -S ugrep
+(Extra) ugrep: Inst.  # scoop install ugrep
+(Extra) Unison: Inst.  # scoop install unison
+(Extra) Unison: Conf.  # subl ~/.unison/<profile>.prf
+(Extra) video-compare: Inst.  # yay -S --noconfirm video-compare
+(Extra) video-compare: Inst.  # scoop install video-compare

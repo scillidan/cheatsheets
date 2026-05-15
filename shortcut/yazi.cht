@@ -49,26 +49,26 @@ yazi: (Multi-tab) Switch to the $-th tab                                        
 yazi: (Multi-tab) Switch to the previous/next tab                                | [/]
 yazi: (Multi-tab) Swap current tab with previous/next tab                        | {/}
 yazi: (Multi-tab) Close the current tab                                          | C-c
-yazi:: custom-shell                                                              | , \\
+yazi:: toggle-pane                                                               | T
+yazi:: goto-file-dir                                                             | C-g
+yazi:: paste-navigate                                                            | C-p
+yazi:: open-with-cmd                                                             | O
+yazi:: open-with-cmd: In the terminal                                            | o
+yazi:: custom-shell                                                              | ' ;
+yazi:: custom-shell (block)                                                      | ' :
+yazi:: lazygit                                                                   | g i
+yazi:: recycle-bin: Go to trash                                                  | g t
+yazi:: recycle-bin: Open trash                                                   | R o
+yazi:: recycle-bin: Empty Trash                                                  | R e
+yazi:: recycle-bin: Delete from Trash                                            | R d
+yazi:: recycle-bin: Empty by days deleted                                        | R D
+yazi:: recycle-bin: Restore from Trash                                           | R r
+yazi:: compress                                                                  | c a a
+yazi:: compress (password)                                                       | c a p
+yazi:: compress (password+header)                                                | c a h
+yazi:: compress (compression)                                                    | c a l
+yazi:: compress (password+header+leavel)                                         | c a u
 yazi:: fr: rg                                                                    | f r
 yazi:: fr: rga                                                                   | f a
-yazi:: lazygit                                                                   | g i
-yazi:: recycle-bin: delete                                                       | R d
-yazi:: recycle-bin: empty                                                        | R e
-yazi:: recycle-bin: emptyDays                                                    | R D
-yazi:: recycle-bin: open                                                         | g t
-yazi:: recycle-bin: open                                                         | R o
-yazi:: recycle-bin: restore                                                      | R r
+yazi:: mount                                                                     | M
 yazi:: sxiv                                                                      | c i
-yazi:: whoosh: delete_all                                                        | ] C
-yazi:: whoosh: delete_by_fzf                                                     | ] D
-yazi:: whoosh: delete_by_key                                                     | ] d
-yazi:: whoosh: fuzzy                                                             | }
-yazi:: whoosh: jump_by_fzf                                                       | ] f
-yazi:: whoosh: jump_by_key                                                       | [
-yazi:: whoosh: rename_by_fzf                                                     | ] R
-yazi:: whoosh: rename_by_key                                                     | ] r
-yazi:: whoosh: save                                                              | ] a
-yazi:: whoosh: save_cwd                                                          | ] A
-yazi:: whoosh: save_cwd_temp                                                     | ] T
-yazi:: whoosh: save_temp                                                         | ] t

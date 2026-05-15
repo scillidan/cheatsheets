@@ -1,14 +1,25 @@
 ## https://wezterm.org/config/default-keys.html
-WezTerm: Opening whole scrollback in vim (User)                  | C-S-e
-WezTerm: Close current tab (With confirmation)                   | C-S-w
-WezTerm: Complete selection from clipboard and primary selection | L_clink
-WezTerm: Copy selection and clear                                | R_clink
-WezTerm: Copy to clipboard                                       | C-S-c / Super-c
-WezTerm: Open link at mouse cursor                               | C-L_clink
-WezTerm: Paste from clipboard                                    | C-S-v / Super-v
-WezTerm: Quit                                                    | C-S-A-q
-WezTerm: Spawn new tab                                           | C-S-t
-WezTerm: Spawn new window                                        | C-S-n
-WezTerm: Split pane right or zoom                                | C-S-A-l
-WezTerm: Toggle full screen                                      | C-S-Etr / Super-Etr
-WezTerm: Select (When general selection is invalid)              | S-L_drag
+WezTerm: Select (When general selection is invalid) | S-L_drag
+WezTerm: Switch color scheme (User)                 | <leader>C
+WezTerm: Toggle full screen (User)                  | <leader>F
+WezTerm: Search (User)                              | C-S-p
+WezTerm: Copy to clipboard (User)                   | C-Ins
+WezTerm: Paste from clipboard (User)                | C-v / S-Ins
+WezTerm: Trigger VIM with scrollback (User)         | C-S-e
+WezTerm: Split pane right or zoom (User)            | C-S-A-l
+WezTerm: Complete selection (User)                  | L_clink
+WezTerm: Copy selection and clear (User)            | R_clink
+WezTerm: Open link at mouse cursor (User)           | C-L_clink
+WezTerm: Spawn new tab (User)                       | C-S-t
+WezTerm: Spawn new window (User)                    | C-S-n
+WezTerm: Split vertical (User)                      | <leader>-/s
+WezTerm: Split horizontal (User)                    | <leader>\/v
+WezTerm: Activate pane direction (User)             | <leader>h/j/k/l
+WezTerm: Adjust pane size (User)                    | <leader>H/J/K/L
+WezTerm: Toggle pane zoom state (User)              | <leader>z
+WezTerm: Close current pane (User)                  | <leader>x
+WezTerm: Activate tab $ (User)                      | <leader>$
+WezTerm: Close current tab (User)                   | <leader>&
+WezTerm: (Windows) Move tab left (User)             | C-A-h
+WezTerm: (Windows) Move tab right (User)            | C-A-l
+WezTerm: Send string "Ctrl-a" (User)                | <leader>C-a
