@@ -2,15 +2,29 @@
 7-Zip: Inst.  # scoop install 7zip
 7-Zip: 10m volume size  # 7z a -v10m<compress_dir>.7z<compress_dir>
 7-Zip: With password  # 7z x $1 -p"<password>"
+actionlint: Inst.  # scoop install actionlint
+Alacritty: Inst.  # scoop install alacritty
+andcli: Inst.  # scoop install andcli
 alass: Inst.  # scoop install alass
+ast-grep: Depend.  # pacman -S ast-grep
+ast-grep: Depend.  # scoop install ast-grep
 Audacity: Inst.  # sudo pacman -S audacity
 Audacity: Inst.  # scoop install audacity ffmpeg-shared
 bat: Inst.  # sudo pacman -S bat
 bat: Inst.  # scoop install bat
 bat:  # bat --list-themes | fzf --preview="bat --theme={} --color=always<file>"
-cargo:  # cargo search --registry crates-io
-CA certificate: Depend.  # sudo pacman -S curl
-CA certificate: Depend.  # scoop install curl
+bun: Inst.  # scoop install bun
+CA certificate: Depend.  # scoop install cacert
+Calibre: Inst.  # sudo pacman -S calibre
+Calibre: Inst.  # scoop install calibre
+Cargo:  # cargo search --registry crates-io
+chafa: Depend.  # sudo pacman -S chafa
+chafa: Depend.  # scoop install chafa
+ClamAV: Inst.  # sudo pacman -S clamav
+ClamAV: Inst.  # scoop install clamav
+cloc: Inst.  # scoop install cloc
+curl : Depend.  # sudo pacman -S curl
+curl : Depend.  # scoop install curl
 Darktable: Inst.  # sudo pacman -S darktable
 Darktable: Inst.  # scoop install darktable
 Delect It Easy: Inst.  # yay -S --noconfirm detect-it-easy
@@ -184,6 +198,9 @@ nvm: Inst.  # scoop install nvm
 OBS Studio: Inst.  # scoop install obs-studio
 OpenCode: Inst.  # paru -S opencode
 OpenCode: Inst.  # scoop install opencode
+OpenCode: Conf.  # npm config set registry https://mirrors.cloud.tencent.com/npm/
+OpenSpec: Inst.  # bun add -g @fission-ai/openspec@latest
+OpenSpec: Conf.  # openspec init
 Oxipng: Inst.  # sudo pacman -S oxipng
 Oxipng: Inst.  # scoop install oxipng
 Oxipng: oxipng -o 4 -i 1 --strip safe *.png
@@ -372,6 +389,10 @@ Zig: Depend.  # scoop install zig
 (Windows)(Extra) Mp3tag: Inst.  # scoop install mp3tag
 (Windows)(Extra) Servy: Inst.  # scoop install servy
 (Windows)(Extra) StaxRip: Inst.  # scoop install staxrip
+(Later) ansinews: Inst.  # bun add -g ansinews
+(Later) bin: Inst.  # scoop install bin
+(Later) Carapace-bin: Inst.  # yay -S --noconfirm carapace-bin
+(Later) Carapace-bin: Inst.  # scoop install carapace-bin
 (Later) difftastic: Inst.  # scoop install difftastic
 (Later) dyff: Inst.  # scoop install dyff
 (Later) fend: Inst.  # yay -S --noconfirm fend-bin
@@ -399,6 +420,9 @@ Zig: Depend.  # scoop install zig
 (Later) Tabiew: Inst.  # scoop install tabiew
 (Later) tailspin: Inst.  # scoop install tailspin
 (Later) Text Grab: Inst.  # scoop install text-grab
+(Extra) AnythingLLM: Inst.  # scoop install anythingllm
+(Extra) Aspell: Inst.  # sudo pacman -S aspell aspell-en
+(Extra) Aspell: Inst.  # scoop install aspell
 (Extra) CMake: Inst.  # scoop install cmake
 (Extra) dark: Inst.  # scoop install dark
 (Extra) Doxygen: Inst.  # scoop install doxygen
