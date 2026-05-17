@@ -1,0 +1,11 @@
+## https://github.com/bensadeh/tailspin#using-the-pager-less
+tailspin: (Navigating) Scroll one line up/down          | j/k
+tailspin: (Navigating) Scroll one half-page up/down     | d/u
+tailspin: (Navigating) Go to the top/bottom of the file | g/G
+tailspin: (Follow mode)                                 | `-f`
+tailspin: (Follow mode) Stop following                  | C-c
+tailspin: (Follow mode) Resume following                | S-f
+tailspin: (Search)                                      | /
+tailspin: (Search) Find the previous/next instance      | N/n
+tailspin: (Filtering)                                   | &
+tailspin: (Filtering) Regular expression                | &\($1\|$2\)

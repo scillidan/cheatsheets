@@ -68,6 +68,7 @@ yazi:: compress (password)                                                      
 yazi:: compress (password+header)                                                | c a h
 yazi:: compress (compression)                                                    | c a l
 yazi:: compress (password+header+leavel)                                         | c a u
+yazi:: mediainfo: Toggle metadata                                                | F3
 yazi:: fr: rg                                                                    | f r
 yazi:: fr: rga                                                                   | f a
 yazi:: mount                                                                     | M

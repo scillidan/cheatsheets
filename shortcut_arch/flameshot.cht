@@ -7,13 +7,13 @@ flameshot: Choose an app to open the capture             | C-o
 flameshot: Copy to clipboard                             | C-c
 flameshot: Leave the capture screen                      | C-q
 flameshot: Mirror re-dimension in the opposite handler   | S-L_drag
-flameshot: Move selection 1px                            | Up/Dn/Lt/Rt
+flameshot: Move selection 1px                            | Lt/Dn/Up/Rt
 flameshot: Move the selection area                       | C-m
 flameshot: Pin image on the desktop                      | C-t
 flameshot: Preserve the aspect ratio                     | C-L_drag
 flameshot: Quit capture                                  | Esc
 flameshot: Redo the next modification                    | C-S-z
-flameshot: Resize selection 1px                          | S-Up/Dn/Lt/Rt
+flameshot: Resize selection 1px                          | S-Lt/Dn/Up/Rt
 flameshot: Save selection as a file                      | C-s
 flameshot: Screenshot History                            | S-PrtSc
 flameshot: Set Pixalate as the paint tool                | b

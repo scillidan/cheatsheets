@@ -7,3 +7,5 @@ dnGrep: (Main) Help                       | F1
 dnGrep: (Main) Validate                   | C-l
 dnGrep: (Main) ToggleFileOptions          | A-e
 dnGrep: (Script Editor) Copy              | C-c
+dnGrep: (Script Editor) Delete            | Del
+dnGrep: (Script Editor) Delete line       | C-d

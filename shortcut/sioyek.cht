@@ -6,7 +6,7 @@ Sioyek: (Opening Files) open an embedded file system browser rooted in the curre
 Sioyek: (Opening Files) Remove a file from the list of recently opened files                       | Del
 Sioyek: (Opening Files) Open a new window                                                          | C-t
 Sioyek: (Opening Files) goto_window                                                                |
-Sioyek: (Basic Movement) Move                                                                      | Up/Dn/Lt/Rt
+Sioyek: (Basic Movement) Move                                                                      | Lt/Dn/Up/Rt
 Sioyek: (Basic Movement) Go to the first/last page                                                 | gg/G
 Sioyek: (Basic Movement) Go to page $                                                              | $gg
 Sioyek: (Basic Movement) Open a menu where you can enter the page number                           | Home

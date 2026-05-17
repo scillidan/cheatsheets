@@ -1,0 +1,23 @@
+## https://fx.wtf/key-bindings
+f(x): Exit the program            | q/Esc/C-c
+f(x): Page up                     | b/PgUp
+f(x): Page down                   | f/Spc/PgDn
+f(x): Half page up/down                | u/d
+f(x): Go to top/bottom            | g/G / Home/end
+f(x): Go to symbol                | @
+f(x): Go to reference             | C-g
+f(x): Up/Down                     | k/j / Up/Dn
+f(x): Collapse/Expand             | h/l / Bksp/Etr / Lt/Rt
+f(x): Collapse/Expand recursively | H/L / S-Lt/Rt
+f(x): Expand/Collapse all         | e/E
+f(x): Collapse to nth level       | 1-9
+f(x): Next/previous sibling       | J/K / S-Dn/Up
+f(x): Go back/forward             | [/]
+f(x): Toggle string wrap          | z
+f(x): Show sizes / line numbers   | s
+f(x): Yank/Copy                   | y
+f(x): Search                      | /
+f(x): Previous/Next result        | N/n
+f(x): Preview/Print value         | p/P
+f(x): Dig                         | .
+f(x): Show help                   | ?

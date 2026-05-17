@@ -1,4 +1,5 @@
 ## https://github.com/christo-auer/eilmeldung#quick-reference
+eilmeldung: Menu                                                          | c
 eilmeldung: Show all key bindings (search with `/`!)                      | ?
 eilmeldung: Sync all feeds                                                | s
 eilmeldung: Move down/up                                                  | j/k

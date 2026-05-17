@@ -3,7 +3,7 @@ tmux: (Panes/Splits) Go to $ pane                  | <prefix>q $
 tmux: (Panes/Splits) Go to next panes              | <prefix>o
 tmux: (Panes/Splits) Kill pane                     | <prefix>x
 tmux: (Panes/Splits) Move to Left/Right            | <prefix>{/}
-tmux: (Panes/Splits) Navigate panes                | <prefix>Up/Dn/Lt/Rt
+tmux: (Panes/Splits) Navigate panes                | <prefix>Lt/Dn/Up/Rt
 tmux: (Panes/Splits) Pane -> Window                | <prefix>!
 tmux: (Panes/Splits) Show numbers                  | <prefix>q
 tmux: (Panes/Splits) Split Horiz/Vert              | <prefix>"/%

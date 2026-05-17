@@ -24,8 +24,8 @@ Sublime Text:: Inc-Dec-Value: Decreases -1                                  | A-
 Sublime Text:: Inc-Dec-Value: Increases 1                                   | A-Up
 Sublime Text:: InsertNums: For example                                      | C-S-a-n 1:1~02
 Sublime Text:: Keymaps: Cheat Sheet                                         |
-Sublime Text:: Origami: Create pane                                         | C-k C-Up/Dn/Lt/Rt
-Sublime Text:: Origami: Destroy pane                                        | C-k C-S-Up/Dn/Lt/Rt
+Sublime Text:: Origami: Create pane                                         | C-k C-Lt/Dn/Up/Rt
+Sublime Text:: Origami: Destroy pane                                        | C-k C-S-Lt/Dn/Up/Rt
 Sublime Text:: Package Control:                                             |
 Sublime Text:: PackagesUI: Packages UI                                      |
 Sublime Text:: ScopeHunter: Scope Hunter: Toggle Instant Scoper             |

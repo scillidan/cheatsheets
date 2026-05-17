@@ -1,0 +1,35 @@
+## https://github.com/flameshot-org/flameshot#keyboard-shortcuts
+Flameshot: Set the Pencil as paint tool                                              | p
+Flameshot: Set the Line as paint tool                                                | d
+Flameshot: Set the Arrow as paint tool                                               | a
+Flameshot: Set Selection as paint tool                                               | s
+Flameshot: Set the Rectangle as paint tool                                           | r
+Flameshot: Set the Circle as paint tool                                              | c
+Flameshot: Set the Marker as paint tool                                              | m
+Flameshot: Add text to your capture                                                  | t
+Flameshot: Set Pixelate as the paint tool                                            | b
+Flameshot: Move selection 1px                                                        | Lt/Dn/Up/Rt
+Flameshot: Resize selection 1px                                                      | S-Lt/Dn/Up/Rt
+Flameshot: Symmetrically resize selection 2px                                        | C-S-Lt/Dn/Up/Rt
+Flameshot: Quit capture                                                              | Esc
+Flameshot: Move the selection area                                                   | C-m
+Flameshot: Copy to clipboard                                                         | C-c
+Flameshot: Save selection as a file                                                  | C-s
+Flameshot: Undo the last modification                                                | C-z
+Flameshot: Redo the next modification                                                | C-S-z
+Flameshot: Leave the capture screen                                                  | C-q
+Flameshot: Choose an app to open the capture                                         | C-o
+Flameshot: Commit text in text area                                                  | C-CR
+Flameshot: Cancel current selection                                                  | C-Bksp
+Flameshot: Upload the selection to Imgur                                             | CR
+Flameshot: Toggle visibility of sidebar                                              | Spc
+Flameshot: Starts the color picker                                                   | g
+Flameshot: Show the color wheel                                                      | R_click
+Flameshot: Change the tool's thickness                                               | MWtn
+Flameshot: Capture Screen                                                            | PrtSc
+Flameshot: Screenshot History                                                        | S-PrtSc
+Flameshot: Take a screenshot                                                         | PrtSc
+Flameshot: Wait for 3 seconds, then take a screenshot                                | C-PrtSc
+Flameshot: Take a full-screen (all monitors) screenshot and save it                  | S-PrtSc
+Flameshot: Take a full-screen (all monitors) screenshot and copy it to the clipboard | C-S-PrtSc
+Flameshot: Pin image on the desktop (User)                                           | C-t

@@ -104,7 +104,7 @@ Godot: (Text editor) Move Up/Down                             | A-Up/Dn
 Godot: (Text editor) Delete Line                              | C-S-k
 Godot: (Text editor) Toggle Comment                           | C-k
 Godot: (Text editor) Fold/Unfold Line                         | A-f
-Godot: (Text editor) Duplicate Lines                          | C-A-Dn Up/Dn/Lt/Rt
+Godot: (Text editor) Duplicate Lines                          | C-A-Dn Lt/Dn/Up/Rt
 Godot: (Text editor) Duplicate Selection                      | C-S-d
 Godot: (Text editor) Select Up/Down                           | C-S-Up/Dn
 Godot: (Text editor) Select Next Occurrence                   | C-d

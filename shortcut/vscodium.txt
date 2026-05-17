@@ -16,7 +16,7 @@ VSCodium: (Selection) Move Line Up                         | C-S-k
 VSCodium: (Selection) Shrink Selection                     | A-S-Lt
 VSCodium: (Terminal) New Terminal                          | C-S-A-`
 VSCodium: (Terminal) Split Terminal                        | C-S-5
-VSCodium: (View) Editor Layout, Split Up/Down/Left/Right   | C-k C-Up/Dn/Lt/Rt
+VSCodium: (View) Editor Layout, Split                      | C-k C-Lt/Dn/Up/Rt
 VSCodium: (View) Explorer                                  | C-S-e
 VSCodium: (View) Extensions                                | C-S-x
 VSCodium: (View) Run                                       | C-S-d
