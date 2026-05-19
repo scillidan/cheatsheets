@@ -1,6 +1,7 @@
 Abbreviation: abbreviation                         | abbr
 Abbreviation: about                                | abt
 Abbreviation: acknowledgement                      | ack
+Abbreviation: alignment                            | align
 Abbreviation: analytic                             | analyt
 Abbreviation: analyzer                             | anlz
 Abbreviation: annotation                           | annot
@@ -8,6 +9,7 @@ Abbreviation: antivirus                            | av
 Abbreviation: archive                              | arc
 Abbreviation: argument                             | arg
 Abbreviation: aseprite                             | ase
+Abbreviation: attention                            | attn
 Abbreviation: audio                                | aud
 Abbreviation: author                               | aut
 Abbreviation: autohotkey                           | ahk
@@ -57,6 +59,7 @@ Abbreviation: editor                               | ed
 Abbreviation: effect                               | efct
 Abbreviation: electronic publication               | epub
 Abbreviation: email                                | em
+Abbreviation: emergent                             | emerg
 Abbreviation: emulator                             | emu
 Abbreviation: encode; encrypt                      | enc
 Abbreviation: encyclopaedia                        | encycl
@@ -130,6 +133,7 @@ Abbreviation: packager                             | pkger
 Abbreviation: palette                              | pal
 Abbreviation: paletter                             | pal
 Abbreviation: particle                             | ptcl
+Abbreviation: perplexity                           | ppl
 Abbreviation: picker                               | pick
 Abbreviation: pipeline                             | pl
 Abbreviation: pixel                                | px
@@ -180,6 +184,7 @@ Abbreviation: status                               | sts
 Abbreviation: stock                                | stk
 Abbreviation: storage                              | stg
 Abbreviation: stream                               | stm
+Abbreviation: structured query language            | sql
 Abbreviation: summary                              | smry
 Abbreviation: switch                               | sw
 Abbreviation: syntax                               | sx
@@ -203,6 +208,7 @@ Abbreviation: tracker                              | trkr
 Abbreviation: translation                          | trans
 Abbreviation: transmission control protocol        | tcp
 Abbreviation: underline                            | und
+Abbreviation: vector                               | vec
 Abbreviation: version                              | ver
 Abbreviation: virtual machine                      | vm
 Abbreviation: virtual virtualizer                  | vr

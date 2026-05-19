@@ -1,15 +1,22 @@
 ## https://github.com/shshemi/tabiew?tab=readme-ov-file#useful-keybindings
-Tabview: Show help with all keyboard shortcuts | F1
-Tabview: Open sheet                            | Etr
-Tabview: Navigation                            | h/j/k/l / ←/↓/↑/→
-Tabview: Previous / next column                | b/w
-Tabview: Toggle Auto-Fit                       | e
-Tabview: Move half page up/down                | C-u / C-d
-Tabview: Move full page up/down                | C-b / C-f
-Tabview: Move to first row                     | g / Home
-Tabview: Move to last row                      | G / End
-Tabview: Reset data frame                      | C-r
-Tabview: Close                                 | q
-Tabview: Quit Application                      | Q
-Tabview: Command Palette                       | :
-Tabview: Fuzzy Search                          | /
+Tabview: Show help with all keyboard shortcuts                               | F1
+Tabview: Open sheet                                                          | Etr
+Tabview: Navigation                                                          | h/j/k/l / Lt/Dn/Up/Rt
+Tabview: Previous/Next column                                                | b/w
+Tabview: Toggle Auto-Fit                                                     | e
+Tabview: Move half/full page up/down                                         | C-u/d / C-b/f
+Tabview: Move to first/last row                                              | g/G / Home/End
+Tabview: Reset data frame                                                    | C-r
+Tabview: Close                                                               | q
+Tabview: Quit Application                                                    | Q
+Tabview: Command Palette                                                     | :
+Tabview: Fuzzy Search                                                        | /
+Tabview: Query the data in SQL                                               | `Q/query SELECT * FROM $tab`
+Tabview: Query current data frame for columns/functions                      | `S/select $col1, $col2 ...`
+Tabview: Filter current data frame, keeping rows were the condition(s) match | `F/filter $data1 < 10 AND $data2 > 1`
+Tabview: Sort current data frame by column(s)                                | `O/order <cols>`
+Tabview: Create a new tab with the given query                               | `tabn SELECT * FORM $tab WHERE $data > 10`
+Tabview: Return to table from sheet view otherwise quit                      | `q/quit`
+Tabview: Show loaded data frame(s) alongside their path(s)                   | `schema`
+Tabview: Reset the table to the original data frame                          | `reset`
+Tabview: Show command reference in a new tab                                 | `help`

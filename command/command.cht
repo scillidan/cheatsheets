@@ -1,677 +1,686 @@
-7-Zip: Inst.  # sudo pacman -S 7zip
-7-Zip: Inst.  # scoop install 7zip
-7-Zip: 10m volume size  # 7z a -v10m<compress_dir>.7z<compress_dir>
-7-Zip: With password  # 7z x $1 -p"<password>"
-actionlint: Inst.  # scoop install actionlint
-Alacritty: Inst.  # scoop install alacritty
-andcli: Inst.  # scoop install andcli
-alass: Inst.  # scoop install alass
-ast-grep: Depend.  # pacman -S ast-grep
-ast-grep: Depend.  # scoop install ast-grep
-Audacity: Inst.  # sudo pacman -S audacity
-Audacity: Inst.  # scoop install audacity ffmpeg-shared
-bat: Inst.  # sudo pacman -S bat
-bat: Inst.  # scoop install bat
-bat:  # bat --list-themes | fzf --preview="bat --theme={} --color=always<file>"
-bin: Inst.  # scoop install bin
-Barrier: Inst.  # gsudo scoop install barrier-np
-Bulk Rename Command: Inst.  # scoop install bulk-rename-command
-Bulk Rename Command:  # brc /?
-Bulk Rename Utility: Inst.  # scoop install bulk-rename-utility
-bun: Inst.  # scoop install bun
-CA certificate: Depend.  # scoop install cacert
-Calibre: Inst.  # sudo pacman -S calibre
-Calibre: Inst.  # scoop install calibre
-Cargo:  # cargo search --registry crates-io
-chafa: Depend.  # sudo pacman -S chafa
-chafa: Depend.  # scoop install chafa
-ClamAV: Inst.  # sudo pacman -S clamav
-ClamAV: Inst.  # scoop install clamav
-cloc: Inst.  # scoop install cloc
-curl : Depend.  # sudo pacman -S curl
-curl : Depend.  # scoop install curl
-Darktable: Inst.  # sudo pacman -S darktable
-Darktable: Inst.  # scoop install darktable
-dawn: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/ dawn.json
-Delect It Easy: Inst.  # yay -S --noconfirm detect-it-easy
-Delect It Easy: Inst.  # scoop install detect-it-easy
-Poppler: Depend.  # scoop install poppler
-difftastic: Inst.  # scoop install difftastic
-difftastic:  # difft <old> <new>
-Docker: Update  # sudo docker compose down
-Docker: Update  # sudo docker compose pull
-Docker: Update  # sudo docker compose up -d
-Docker: Clean up dangling resources  # sudo docker system prune -f
-Docker: Wipe all Docker resources  # sudo docker system prune -a --volumes -f
-doggo: Inst.  # yay -S --noconfirm doggo-bin
-doggo: Inst.  # scoop install doggo
-dua: Inst.  # sudo pacman -S dua-cli
-dua: Inst.  # scoop install dua
-dua: Interactive mode  # dua i
-echo-cli: Inst.  # bun add -g echo-cli
-edge-tts: Inst.  # uv tool install edge-tts
-edge-tts:  # edge-playback --voice en-US-AndrewMultilingualNeural --text
-eget: Inst.  # scoop install eget
-eilmeldung: Inst.  # yay -S eilmeldung
-eilmeldung: Inst.  # scoop install eilmeldung
-envlens: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/ envlens.json
-epub-thumbnailer: Depend.  # yay -S --noconfirm epub-thumbnailer-git
-epub-thumbnailer: Depend.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/epub-thumbnailer.json
-espanso: Inst.  # yay -S --noconfirm espanso-x11-bin
-espanso: Inst.  # scoop install espanso
-eSpeak NG: Inst.  # scoop install espeak-ng
-Etcher: Inst.  # yay -S --noconfirm etcher-bin
-Etcher: Inst.  # scoop install etcher
-Everywhere: Inst.  # scoop install everywhere
-ExifCleaner: Inst.  # yay -S --noconfirm exifcleaner
-ExifCleaner: Inst.  # scoop install exifcleaner
-eza: Inst.  # sudo pacman -S eza
-eza: Inst.  # scoop install eza
-f(x): Inst.  # scoop install fx
-Fastfetch: Inst.  # sudo pacman -S fastfetch
-Fastfetch: Inst.  # scoop install fastfetch
-fd: Inst.  # sudo pacman -S fd
-fd: Inst.  # scoop install fd
-FFmpeg: Inst.  # sudo pacman -S ffmpeg
-FFmpeg: Inst.  # scoop install ffmpeg-share
-Flameshot: Inst.  # sudo pacman -S flameshot
-Flameshot: Inst.  # scoop install flameshot
-fzf: Inst.  # sudo pacman -S fzf
-fzf: Inst.  # scoop install fzf
-forget: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/forgit.json
-g: Inst.  # scoop install g
-g: Install go 1.  # g ls-remote stable
-g: Install go 2.  # g install <version>
-g: Install go 3.  # g use <version>
-gfold: Inst.  # scoop install gford
-ghostscript: Depend.  # scoop install ghostscript
-GIMP: Inst.  # sudo pacman -S gimp
-GIMP: Inst.  # scoop install gimp
-Git: Inst.  # sudo pacman -S git
-Git: Inst.  # scoop install git
-Git:  # git config --global user.email "user@email.com"
-Git:  # git config --global user.name "username"
-Git: Tag  # git tag v0.0.1
-Git: Tag  # git push origin v0.0.1
-Git: Tag  # git tag -d v0.0.1
-Git: Tag  # git push --delete origin v0.0.1
-Git: Undo  # git reset --hard HEAD~1
-Git: Undo  # git reset --hard <commit-hash>
-Git: Undo  # git push --force origin <branch>
-Git: Proxy  # git config --global http.proxy "socks5://127.0.0.1:<port>"
-Git: Proxy  # git config --global --unset http.proxy
-Git: SSL  # git config --global http.sslVerify false
-Git: SSL  # git config --global http.sslVerify true
-git-crypt: Inst.  # sudo pacman -S git-crypt
-git-crypt: Inst.  # scoop install git-crypt
-git-sync: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/git-sync.json
-git-sync:  # git config --bool branch.main.sync true
-git-cliff: Inst.  # scoop install git-cliff
-git-cliff: 1. cd <proj>
-git-cliff: 2. git cliff --config detailed
-git-cliff: 3. git cliff
-git-cliff: 4. git cliff -o
-git-quick-stats: Inst.  # yay -S --noconfirm git-quick-stats
-git-quick-stats: Inst.  # scoop install git-quick-stats
-GitHub CLI: Inst.  # sudo pacman -S github-cli
-GitHub CLI: Inst.  # scoop install gh
-GitHub CLI:  # set "GH_CONFIG_DIR=%USERPROFILE%\.config\gh"
-GitHub CLI:  # gh auth login
-GitHub CLI:  # gh repo set-default
-GitHub CLI:  # gh extension install HaywardMorihara/gh-tidy
-GitHub CLI:  # gh extension install matt-bartel/gh-clone-org
-GitHub CLI:  # gh extension install yuler/gh-download
-gitleaks: Inst.  # sudo pacman -S gitleaks
-gitleaks: Inst.  # scoop install gitleaks
-Glow: Depend.  # sudo pacman -S glow
-Glow: Depend.  # scoop install glow
-GNU Make: Inst.  # scoop install make
-GNU sed: Depend.  # scoop install sed
-GNU wget: Depend.  # scoop install wget
-GnuPG: Inst.  # sudo pacman -S gnupg
-GnuPG: Inst.  # scoop install gnupg
-GnuPG:  # gpg --full-generate-key
-Go OpenCC: Inst.  # go install -v github.com/razonyang/gopencc@latest
-Go OpenCC Simplified Chinese to Traditional Chinese:  # gopencc -c s2t -i
-Go OpenCC Traditional Chinese to Simplified Chinese:  # gopencc -c t2s -i
-Godot: Inst.  # scoop install godot
-GoldenDict: Inst.  # yay -S --noconfirm goldendict-git
-GoldenDict: Inst.  # scoop install goldendict
-Gzip: Inst.  # scoop install gzip
-HandBrake: Inst.  # sudo pacman -S handbrake handbrake-cli
-HandBrake: Inst.  # scoop install handbrake handbrake-cli
-Hugo: Inst.  # scoop install hugo-extended
-ImageMagick: Inst.  # sudo pacman -S imagemagick
-ImageMagick: Inst.  # scoop install imagemagick
-Input Leap: Inst.  # yay -S --noconfirm input-leap-git
-Input Leap: Inst.  # scoop install input-leap
-Input Leap:  # input-leap
-Inno Setup: Depend.  # scoop install innounp innounp-unicode
-Info-ZIP: Depend.  # scoop install zip unzip
-JDK: Depend.  # scoop install openjdk22
-jid: Inst.  # scoop install jid
-jid:  # jid < <json>
-JsPrettier: Depend.  # scoop install jsprettier
-jq:  Depend. # scoop install jq
-jq:  # jq ".scripts" package.json
-just: Inst.  # scoop install just
-Kdenlive: Inst.  # sudo pacman -S kdenlive
-Kdenlive: Inst.  # scoop install kdenlive
-Keyviz: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/keyviz.json
-LanguageTool: Inst.  # scoop install languagetool-java
-LanguageTool:  # languagetool-server --port 8040 --allow-origin
-Lazydocker: Inst.  # yay -S --noconfirm lazydocker-bin
-Lazydocker: Inst.  # scoop install lazydocker
-lazygit: Inst.  # sudo pacman -S lazygit
-lazygit: Inst.  # scoop install lazygit
-lazygit:  # lazygit -sm half
-Less: Inst.  # scoop install less
-LibreOffice: Inst.  # sudo pacman -S libreoffice
-LibreOffice: Inst.  # scoop install libreoffice
-LibreWolf: Inst.  # sudo pacman -S librewolf speech-dispatcher
-LibreWolf: Inst.  # scoop install librewolf
-libwebp: Depend.  # scoop install libwebp
-Link Shell Extension: Inst.  # gsudo scoop install link-shell-extension-np
-LLVM: Depend.  # scoop install llvm
-LocalSend: Inst.  # yay -S --noconfirm localsend-bin
-LocalSend: Inst.  # scoop install localsend
-LosslessCut: Inst.  # yay -S --noconfirm losslesscut-bin
-LosslessCut: Inst.  # scoop install losslesscut
-LRCGET: Inst.  # yay -S --noconfirm lrcget-bin
-LRCGET: Inst.  # scoop install lrcget
-LXGW Wenkai GB: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/LXGW-Wenkai-GB.json
-Lynx: Depend.  # scoop install lynx
-Marksman: Depend.  # scoop install marksman
-MediaInfo: Inst.  # sudo pacman -S mediainfo mediainfo-gui
-MediaInfo: Inst.  # scoop install mediainfo mediainfo-gui
-Miniforge: Inst. scoop install miniforge3
-Miniforge: Conf.  # conda init zsh
-Miniforge: Conf.  # conda init cmd.exe
-Minify: Inst.  # scoop install minify
-Monaspace: Inst.  # scoop install Monaspace-NF-Mono
-Movie Thumbnailer (mtn): Inst.  # yay -S --noconfirm mtn
-Movie Thumbnailer (mtn): Inst.  # scoop install mtn
-mp3rgain: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/ mp3rgui.json
-mprocs: Inst.  # yay -S --noconfirm mprocs-bin
-mprocs: Inst.  # scoop install mprocs
-mpv: Inst.  # sudo pacman -S mpv
-mpv: Inst.  # scoop install mpv
-mpv:  # mpv --merge-files<file_1><file_2> ...
+7-Zip: Inst. # sudo pacman -S 7zip
+7-Zip: Inst. # scoop install 7zip
+7-Zip: 10m volume size # 7z a -v10m<compress_dir>.7z<compress_dir>
+7-Zip: With password # 7z x $1 -p"<password>"
+actionlint: Inst. # scoop install actionlint
+Alacritty: Inst. # scoop install alacritty
+andcli: Inst. # scoop install andcli
+alass: Inst. # scoop install alass
+ast-grep: Depend. # pacman -S ast-grep
+ast-grep: Depend. # scoop install ast-grep
+Audacity: Inst. # sudo pacman -S audacity
+Audacity: Inst. # scoop install audacity ffmpeg-shared
+bat: Inst. # sudo pacman -S bat
+bat: Inst. # scoop install bat
+bat: # bat --list-themes | fzf --preview="bat --theme={} --color=always<file>"
+bin: Inst. # scoop install bin
+Barrier: Inst. # gsudo scoop install barrier-np
+Bulk Rename Command: Inst. # scoop install bulk-rename-command
+Bulk Rename Command: # brc /?
+Bulk Rename Utility: Inst. # scoop install bulk-rename-utility
+bun: Inst. # scoop install bun
+CA certificate: Depend. # scoop install cacert
+Calibre: Inst. # sudo pacman -S calibre
+Calibre: Inst. # scoop install calibre
+Cargo: # cargo search --registry crates-io
+chafa: Depend. # sudo pacman -S chafa
+chafa: Depend. # scoop install chafa
+ClamAV: Inst. # sudo pacman -S clamav
+ClamAV: Inst. # scoop install clamav
+cloc: Inst. # scoop install cloc
+cpr: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/cpr.json
+curl : Depend. # sudo pacman -S curl
+curl : Depend. # scoop install curl
+Darktable: Inst. # sudo pacman -S darktable
+Darktable: Inst. # scoop install darktable
+dawn: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/dawn.json
+Delect It Easy: Inst. # yay -S --noconfirm detect-it-easy
+Delect It Easy: Inst. # scoop install detect-it-easy
+Poppler: Depend. # scoop install poppler
+difftastic: Inst. # scoop install difftastic
+difftastic: # difft <old> <new>
+Docker: Update # sudo docker compose down
+Docker: Update # sudo docker compose pull
+Docker: Update # sudo docker compose up -d
+Docker: Clean up dangling resources # sudo docker system prune -f
+Docker: Wipe all Docker resources # sudo docker system prune -a --volumes -f
+doggo: Inst. # yay -S --noconfirm doggo-bin
+doggo: Inst. # scoop install doggo
+dua: Inst. # sudo pacman -S dua-cli
+dua: Inst. # scoop install dua
+dua: Interactive mode # dua i
+echo-cli: Inst. # bun add -g echo-cli
+edge-tts: Inst. # uv tool install edge-tts
+edge-tts: # edge-playback --voice en-US-AndrewMultilingualNeural --text
+eget: Inst. # scoop install eget
+eilmeldung: Inst. # yay -S eilmeldung
+eilmeldung: Inst. # scoop install eilmeldung
+envlens: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/envlens.json
+epub-thumbnailer: Depend. # yay -S --noconfirm epub-thumbnailer-git
+epub-thumbnailer: Depend. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/epub-thumbnailer.json
+espanso: Inst. # yay -S --noconfirm espanso-x11-bin
+espanso: Inst. # scoop install espanso
+eSpeak NG: Inst. # scoop install espeak-ng
+Etcher: Inst. # yay -S --noconfirm etcher-bin
+Etcher: Inst. # scoop install etcher
+Everywhere: Inst. # scoop install everywhere
+ExifCleaner: Inst. # yay -S --noconfirm exifcleaner
+ExifCleaner: Inst. # scoop install exifcleaner
+eza: Inst. # sudo pacman -S eza
+eza: Inst. # scoop install eza
+f(x): Inst. # scoop install fx
+Fastfetch: Inst. # sudo pacman -S fastfetch
+Fastfetch: Inst. # scoop install fastfetch
+fd: Inst. # sudo pacman -S fd
+fd: Inst. # scoop install fd
+FFmpeg: Inst. # sudo pacman -S ffmpeg
+FFmpeg: Inst. # scoop install ffmpeg-shared
+Flameshot: Inst. # sudo pacman -S flameshot
+Flameshot: Inst. # scoop install flameshot
+fzf: Inst. # sudo pacman -S fzf
+fzf: Inst. # scoop install fzf
+forget: Inst. # scoop install forgit
+g: Inst. # scoop install g
+g: Install go 1. # g ls-remote stable
+g: Install go 2. # g install <version>
+g: Install go 3. # g use <version>
+gfold: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/gfold.json
+ghostscript: Depend. # scoop install ghostscript
+giff: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/giff.json
+GIMP: Inst. # sudo pacman -S gimp
+GIMP: Inst. # scoop install gimp
+Git: Inst. # sudo pacman -S git
+Git: Inst. # scoop install git
+Git: # git config --global user.email "user@email.com"
+Git: # git config --global user.name "username"
+Git: Tag # git tag v0.0.1
+Git: Tag # git push origin v0.0.1
+Git: Tag # git tag -d v0.0.1
+Git: Tag # git push --delete origin v0.0.1
+Git: Undo # git reset --hard HEAD~1
+Git: Undo # git reset --hard <commit-hash>
+Git: Undo # git push --force origin <branch>
+Git: Proxy # git config --global http.proxy "socks5://127.0.0.1:<port>"
+Git: Proxy # git config --global --unset http.proxy
+Git: SSL # git config --global http.sslVerify false
+Git: SSL # git config --global http.sslVerify true
+git-crypt: Inst. # sudo pacman -S git-crypt
+git-crypt: Inst. # scoop install git-crypt
+git-sync: Inst. # scoop install git-sync
+git-sync: # git config --bool branch.main.sync true
+git-cliff: Inst. # scoop install git-cliff
+git-cliff: 1. # cd <proj>
+git-cliff: 2. # git cliff --config detailed
+git-cliff: 3. # git cliff
+git-cliff: 4. # git cliff -o
+git-quick-stats: Inst. # yay -S --noconfirm git-quick-stats
+git-quick-stats: Inst. # scoop install git-quick-stats
+GitHub CLI: Inst. # sudo pacman -S github-cli
+GitHub CLI: Inst. # scoop install gh
+GitHub CLI: # set "GH_CONFIG_DIR=%USERPROFILE%\.config\gh"
+GitHub CLI: # gh auth login
+GitHub CLI: # gh repo set-default
+GitHub CLI: # gh extension install HaywardMorihara/gh-tidy
+GitHub CLI: # gh extension install matt-bartel/gh-clone-org
+GitHub CLI: # gh extension install yuler/gh-download
+gitleaks: Inst. # sudo pacman -S gitleaks
+gitleaks: Inst. # scoop install gitleaks
+Glow: Depend. # sudo pacman -S glow
+Glow: Depend. # scoop install glow
+GNU Make: Inst. # scoop install make
+GNU sed: Depend. # scoop install sed
+GNU wget: Depend. # scoop install wget
+GnuPG: Inst. # sudo pacman -S gnupg
+GnuPG: Inst. # scoop install gnupg
+GnuPG: # gpg --full-generate-key
+Go OpenCC: Inst. # go install -v github.com/razonyang/gopencc@latest
+Go OpenCC: Simplified Chinese to Traditional Chinese # gopencc -c s2t -i
+Go OpenCC: Traditional Chinese to Simplified Chinese # gopencc -c t2s -i
+Godot: Inst. # scoop install godot
+GoldenDict: Inst. # yay -S --noconfirm goldendict-git
+GoldenDict: Inst. # scoop install goldendict
+Gzip: Inst. # scoop install gzip
+HandBrake: Inst. # sudo pacman -S handbrake handbrake-cli
+HandBrake: Inst. # scoop install handbrake handbrake-cli
+Hugo: Inst. # scoop install hugo-extended
+ImageMagick: Inst. # sudo pacman -S imagemagick
+ImageMagick: Inst. # scoop install imagemagick
+Input Leap: Inst. # yay -S --noconfirm input-leap-git
+Input Leap: Inst. # scoop install input-leap
+Input Leap: # input-leap
+Inno Setup: Depend. # scoop install innounp innounp-unicode
+Info-ZIP: Depend. # scoop install zip unzip
+JDK: Depend. # scoop install openjdk22
+jid: Inst. # scoop install jid
+jid: # jid < <json>
+JsPrettier: Depend. # bun add -g prettier
+jq: Depend. # scoop install jq
+jq: # jq ".scripts" package.json
+just: Inst. # scoop install just
+Kdenlive: Inst. # sudo pacman -S kdenlive
+Kdenlive: Inst. # scoop install kdenlive
+Keyviz: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/keyviz.json
+LanguageTool: Inst. # scoop install languagetool-java
+LanguageTool: # languagetool-server --port 8040 --allow-origin
+Lazydocker: Inst. # yay -S --noconfirm lazydocker-bin
+Lazydocker: Inst. # scoop install lazydocker
+lazygit: Inst. # sudo pacman -S lazygit
+lazygit: Inst. # scoop install lazygit
+lazygit: # lazygit -sm half
+Less: Inst. # scoop install less
+LibreOffice: Inst. # sudo pacman -S libreoffice
+LibreOffice: Inst. # scoop install libreoffice
+LibreWolf: Inst. # sudo pacman -S librewolf speech-dispatcher
+LibreWolf: Inst. # scoop install librewolf
+libwebp: Depend. # scoop install libwebp
+Link Shell Extension: Inst. # gsudo scoop install link-shell-extension-np
+LLVM: Depend. # scoop install llvm
+LocalSend: Inst. # yay -S --noconfirm localsend-bin
+LocalSend: Inst. # scoop install localsend
+LosslessCut: Inst. # yay -S --noconfirm losslesscut-bin
+LosslessCut: Inst. # scoop install losslesscut
+LRCGET: Inst. # yay -S --noconfirm lrcget-bin
+LRCGET: Inst. # scoop install lrcget
+LXGW Wenkai GB: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/LXGW-Wenkai-GB.json
+Lynx: Depend. # scoop install lynx
+Marksman: Depend. # scoop install marksman
+MediaInfo: Inst. # sudo pacman -S mediainfo mediainfo-gui
+MediaInfo: Inst. # scoop install mediainfo mediainfo-gui
+Miniforge: Inst. # scoop install miniforge3
+Miniforge: Conf. # conda init zsh
+Miniforge: Conf. # conda init cmd.exe
+Minify: Inst. # scoop install minify
+Monaspace: Inst. # scoop install Monaspace-NF-Mono
+Movie Thumbnailer (mtn): Inst. # yay -S --noconfirm mtn
+Movie Thumbnailer (mtn): Inst. # scoop install mtn
+mp3rgain: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/mp3rgui.json
+mprocs: Inst. # yay -S --noconfirm mprocs-bin
+mprocs: Inst. # scoop install mprocs
+mpv: Inst. # sudo pacman -S mpv
+mpv: Inst. # scoop install mpv
+mpv: # mpv --merge-files<file_1><file_2> ...
 MuPDF: Inst. # sudo pacman -S mupdf
 MuPDF: Inst. # scoop install mupdf
-NeoHtop: Inst.  # scoop install neohtop
-Neovim: Inst.  # sudo pacman -S neovim lua51
-Neovim: Inst.  # scoop insatll neovim lua51
-Nmap: Inst.  # scoop install nmap
-Nmap: Inst.  # %SCOOP%\apps\nmap\current\npcap.exe
-No!! MeiryoUI: Inst.  # scoop install nomeiryoui
-NPM: Publish:  # npm login
-NPM: Publish:  # npm init
-NPM: Publish:  # npm publish
-NPM: Patch:  # npm version patch
-NPM: Deprecate:  # npm deprecate<pkg> "Deprecate `<pkg>`"
-NPM: Proxy:  # npm config set proxy http://127.0.0.1:<port>
-NPM: Proxy:  # npm config set https-proxy http://127.0.0.1:<port>
-NPM: Proxy:  # npm config get proxy
-NPM: Proxy:  # npm config get https-proxy
-NPM: Proxy:  # npm config delete proxy
-NPM: Proxy:  # npm config delete https-proxy
-nvm: Inst.  # sudo pacman -S nvm
-nvm: Inst.  # scoop install nvm
-OBS Studio: Inst.  # scoop install obs-studio
-open-cli: Inst.  # bun add -g open-cli
-OpenCode: Inst.  # paru -S opencode
-OpenCode: Inst.  # scoop install opencode
-OpenCode: Conf.  # npm config set registry https://mirrors.cloud.tencent.com/npm/
-OpenSpec: Inst.  # bun add -g @fission-ai/openspec@latest
-OpenSpec: Conf.  # openspec init
-Obsidian: Inst.  # sudo pacman -S obsidian
-Obsidian: Inst.  # scoop install obsidian
-Oxipng: Inst.  # sudo pacman -S oxipng
-Oxipng: Inst.  # scoop install oxipng
+NeoHtop: Inst. # scoop install neohtop
+Neovim: Inst. # sudo pacman -S neovim lua51
+Neovim: Inst. # scoop insatll neovim lua51
+Nmap: Inst. # scoop install nmap
+Nmap: Inst. # %SCOOP%\apps\nmap\current\npcap.exe
+No!! MeiryoUI: Inst. # scoop install nomeiryoui
+NPM: Publish 1. # npm login
+NPM: Publish 2. # npm init
+NPM: Publish 3. # npm publish
+NPM: Patch # npm version patch
+NPM: Deprecate # npm deprecate<pkg> "Deprecate `<pkg>`"
+NPM: Proxy 1. # npm config set proxy http://127.0.0.1:<port>
+NPM: Proxy 1. # npm config set https-proxy http://127.0.0.1:<port>
+NPM: Proxy 2. # npm config get proxy
+NPM: Proxy 2. # npm config get https-proxy
+NPM: Proxy 3. # npm config delete proxy
+NPM: Proxy 3. # npm config delete https-proxy
+nvm: Inst. # sudo pacman -S nvm
+nvm: Inst. # scoop install nvm
+OBS Studio: Inst. # scoop install obs-studio
+open-cli: Inst. # bun add -g open-cli
+OpenCode: Inst. # paru -S opencode
+OpenCode: Inst. # scoop install opencode
+OpenCode: Conf. # npm config set registry https://mirrors.cloud.tencent.com/npm/
+OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
+OpenSpec: Conf. # openspec init
+Obsidian: Inst. # sudo pacman -S obsidian
+Obsidian: Inst. # scoop install obsidian
+Oxipng: Inst. # sudo pacman -S oxipng
+Oxipng: Inst. # scoop install oxipng
 Oxipng: oxipng -o 4 -i 1 --strip safe *.png
-Pandoc: Depend.  # sudo pacman -S pandoc-cli
-Pandoc: Depend.  # scoop install pandoc
-Perl: Depend.  # scoop install perl
-Pet: Inst.  # yay -S pet-bin
-Pet: Inst.  # scoop install pet
-Pet: Conf.  # subl %APPDATA%\pet\config.toml
-PDF Arranger: Inst.  # sudo pacman -S pdfarranger
-PDF Arranger: Inst.  # scoop install pdfarranger
-pipe-rename: Inst.  # sudo pacman -S pipe-rename
-pipe-rename: Inst.  # cargo install --force pipe-rename
-pipe-rename:  # ls | renamer
-pipx: Inst.  # sudo pacman -S python-pipx
-pipx: Inst.  # python -m pip install pipx
-pipx:  # pipx ensurepath
-png-to-ico: Inst.  # bun add -g png-to-ico
-pnpm: Inst.  # corepack enable pnpm
-port-kill: Inst.  # scoop install port-kill-console
-pro: Inst.  # scoop install pro
-Python: Inst.  # scoop install python310 python312
-Python:  # pip install<pkg> --index-url https://pypi.org/simple
-Python:  # pip cache purge
-Python: Publish 1.  # python -m pip install build twine
-Python: Publish 2.  # python -m build
-Python: Publish 3.  # twine upload --repository testpypi dist/*
-Python: Publish 4.  # twine upload dist/*
-qBittorrent Enhanced Edition: Inst.  # scoop install qbittorrent-enhanced
-QuiteRSS: Inst.  # yay -S --noconfirm quiterss
-QuiteRSS: Inst.  # scoop install quiterss
-Raspberry Pi Imager: Inst.  # sudo pacman -S rpi-imager
-Raspberry Pi Imager: Inst.  # scoop install raspberry-pi-imager
-RefrEnv: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/refrenv.json
-Repomix: Inst.  # bun add -g repomix
-Repos: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/repos.json
-Repos:  # repos status
-Repos:  # repos pull
-rgx: Inst.  # scoop install scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/rgx.json
-Riff: Inst.  # scoop install riff
-Riff:  # git diff | riff
-Rime: Inst.  # scoop install weasel
-ripgrep: Inst.  # sudo pacman -S ripgrep ripgrep-all
-ripgrep: Inst.  # scoop install ripgrep rga
-rsync: Inst.  # sudo pacman -S rsync
-rsync: Inst.  # scoop install cwrsync
-rsync: Update nvim config from ArchWSL to Windows  # rsync -r ~/.config/nvim/ /mnt/c/Users/User/AppData/Local/nvim --include={".*"} --exclude={"lazy-lock.json"}
-Sarasa Gothic: Inst.  # scoop install SarasaGothic-SC
-Sarasa Term SC Nerd: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/Sarasa-Term-SC-Nerd.json
-sd: Inst.  # sudo pacman -S sd
-sd: Inst.  # scoop install sd
-serve: Inst.  # bun add -g serve
-ShellGPT: Inst.  # uv tool install "shell-gpt[litellm]"
-ShellGPT: Inst.  # ollama pull mistral:7b-instruct
-ShellGPT:  # subl %USERPROFILE%\.config\shell_gpt\.sgptrc
-ShellGPT:  # sgpt "Hello Ollama"
-ShellGPT:  # sgpt --model ollama/mistral:7b-instruct "Resize images to 800x 0.9 quality jpg"
-ShellGPT:  # cat<file> | sgpt --model ollama/mistral:7b-instruct --code "Generate comments for each line of my code"
-ShortScript: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/shortscript.json
-Sigil: Inst.  # sudo pacman -S sigil
-Sigil: Inst.  # scoop install sigil
-Sioyek: Inst.  # sudo pacamn -S sioyek
-Sioyek: Inst.  # scoop install sioyek
-Smiley Sans: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/Smiley-Sans.json
-SSHFS: Inst.  # sudo pacman -S sshfs
-SSHFS: Inst.  # sudo apt install sshfs
-SSHFS: Depend.  # gsudo scoop install winfsp-np sshfs-np
-SSHM: Inst.  scoop install sshm
-sub-batch: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sub-batch.json
-sub-batch: Inst.  # cargo install --force sub-batch
-subsetzer: Inst.  # uv tool install subsetzer
-Sublime Text: Inst.  # sudo pacman -S sublime-text
-Sublime Text: Inst.  # scoop install sublime-text
-Subtitle Edit: Inst.  # yay -S --noconfirm subtitleedit
-Subtitle Edit: Inst.  # scoop install subtitleedit
-Subtitle Edit:  # Auto-translate → Select `Ollama` or `LM Studio` → Translate
-SVG to PNG converter: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/svg2png.json
-SQLite: Depend.  # scoop install sqlite-dll
-Starship: Inst.  # scoop install starship
-stylua: Depend.  # sudo pacman -S stylua
-stylua: Depend.  # scoop install stylua
-subaligner: Inst.  # uv tool install subaligner
-sudo: Inst.  # scoop install sudo
-Tabiew: Inst.  # scoop install tabiew
-Tabiew:  # tw https://datahub.io/core/language-codes/_r/-/data/language-codes-3b2.csv
-TablacusExplorer: Inst.  # tablacus-explorer
-tailspin: Inst.  # scoop install tailspin
-tailspin:  # tspin <log>
-tex-fmt: Depend.  # yay -S --noconfirm tex-fmt
-tex-fmt: Depend.  # scoop install tex-fmt
-terser: Depend.  # yay -S --noconfirm terser
-terser: Depend.  # bun add -g terser
-tesseract: Inst.  # sudo pacman -S tesseract tesseract-data-eng tesseract-data-chi_sim tesseract-data-chi_sim_vert
-tesseract: Inst.  # scoop install tesseract tesseract-languages
-Texlab: Depend.  # sudo pacman -S texlab
-Texlab: Depend.  # scoop install texlab
-Text Grab: Inst.  # scoop install text-grab
-Tailscale: Inst.  # scoop install tailscale
-Tailscale: Inst.  # sudo pacman -S tailscale
-Thunderbird: Inst.  # sudo pacman -S thunderbird thunderbird-i18n-zh-cn
-Thunderbird: Inst.  # scoop install thunderbird
-TightVNC: Inst.  # yay -S --noconfirm tightvnc
-TightVNC: Inst.  # scoop install tightvnc
+Pandoc: Depend. # sudo pacman -S pandoc-cli
+Pandoc: Depend. # scoop install pandoc
+Perl: Depend. # scoop install perl
+Pet: Inst. # yay -S pet-bin
+Pet: Inst. # scoop install pet
+Pet: Conf. # subl %APPDATA%\pet\config.toml
+PDF Arranger: Inst. # sudo pacman -S pdfarranger
+PDF Arranger: Inst. # scoop install pdfarranger
+pipe-rename: Inst. # sudo pacman -S pipe-rename
+pipe-rename: Inst. # cargo install --force pipe-rename
+pipe-rename: # ls | renamer
+pipx: Inst. # sudo pacman -S python-pipx
+pipx: Inst. # python -m pip install pipx
+pipx: # pipx ensurepath
+png-to-ico: Inst. # bun add -g png-to-ico
+pnpm: Inst. # corepack enable pnpm
+port-kill: Inst. # scoop install port-kill-console
+pro: Inst. # scoop install pro
+Python: Inst. # scoop install python310 python312
+Python: # pip install<pkg> --index-url https://pypi.org/simple
+Python: # pip cache purge
+Python: Publish 1. # python -m pip install build twine
+Python: Publish 2. # python -m build
+Python: Publish 3. # twine upload --repository testpypi dist/*
+Python: Publish 4. # twine upload dist/*
+qBittorrent Enhanced Edition: Inst. # scoop install qbittorrent-enhanced
+QuiteRSS: Inst. # yay -S --noconfirm quiterss
+QuiteRSS: Inst. # scoop install quiterss
+Raspberry Pi Imager: Inst. # sudo pacman -S rpi-imager
+Raspberry Pi Imager: Inst. # scoop install raspberry-pi-imager
+RefrEnv: Inst. # scoop install refrenv
+Repomix: Inst. # bun add -g repomix
+Repos: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/repos.json
+Repos: # repos status
+Repos: # repos pull
+rgx: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/rgx.json
+Riff: Inst. # scoop install riff
+Riff: # git diff | riff
+Rime: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/weasel.json
+ripgrep: Inst. # sudo pacman -S ripgrep ripgrep-all
+ripgrep: Inst. # scoop install ripgrep rga
+rsync: Inst. # sudo pacman -S rsync
+rsync: Inst. # scoop install cwrsync
+rsync: Update nvim config from ArchWSL to Windows # rsync -r ~/.config/nvim/ /mnt/c/Users/User/AppData/Local/nvim --include={".*"} --exclude={"lazy-lock.json"}
+Sarasa Gothic: Inst. # scoop install SarasaGothic-SC
+Sarasa Term SC Nerd: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/Sarasa-Term-SC-Nerd.json
+sd: Inst. # sudo pacman -S sd
+sd: Inst. # scoop install sd
+serve: Inst. # bun add -g serve
+ShellGPT: Inst. # uv tool install "shell-gpt[litellm]"
+ShellGPT: Inst. # ollama pull mistral:7b-instruct
+ShellGPT: # subl %USERPROFILE%\.config\shell_gpt\.sgptrc
+ShellGPT: # sgpt "Hello Ollama"
+ShellGPT: # sgpt --model ollama/mistral:7b-instruct "Resize images to 800x 0.9 quality jpg"
+ShellGPT: # cat<file> | sgpt --model ollama/mistral:7b-instruct --code "Generate comments for each line of my code"
+ShortScript: Inst. # scoop install shortscript
+Sigil: Inst. # sudo pacman -S sigil
+Sigil: Inst. # scoop install sigil
+Sioyek: Inst. # sudo pacamn -S sioyek
+Sioyek: Inst. # scoop install sioyek
+Smiley Sans: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/Smiley-Sans.json
+SSHFS: Inst. # sudo pacman -S sshfs
+SSHFS: Inst. # sudo apt install sshfs
+SSHFS: Depend. # gsudo scoop install winfsp-np sshfs-np
+SSHM: Inst. # scoop install sshm
+sub-batch: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sub-batch.json
+sub-batch: Inst. # cargo install --force sub-batch
+subsetzer: Inst. # uv tool install subsetzer
+Sublime Text: Inst. # sudo pacman -S sublime-text
+Sublime Text: Inst. # scoop install sublime-text
+Subtitle Edit: Inst. # yay -S --noconfirm subtitleedit
+Subtitle Edit: Inst. # scoop install subtitleedit
+Subtitle Edit: # Auto-translate → Select `Ollama` or `LM Studio` → Translate
+SVG to PNG converter: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/svg2png.json
+SQLite: Depend. # scoop install sqlite-dll
+Starship: Inst. # scoop install starship
+stylua: Depend. # sudo pacman -S stylua
+stylua: Depend. # scoop install stylua
+subaligner: Inst. # uv tool install subaligner
+sudo: Inst. # scoop install sudo
+Tabiew: Inst. # scoop install tabiew
+Tabiew: # tw https://datahub.io/core/language-codes/_r/-/data/language-codes-3b2.csv
+TablacusExplorer: Inst. # tablacus-explorer
+tailspin: Inst. # scoop install tailspin
+tailspin: # tspin <log>
+tex-fmt: Depend. # yay -S --noconfirm tex-fmt
+tex-fmt: Depend. # scoop install tex-fmt
+terser: Depend. # yay -S --noconfirm terser
+terser: Depend. # bun add -g terser
+tesseract: Inst. # sudo pacman -S tesseract tesseract-data-eng tesseract-data-chi_sim tesseract-data-chi_sim_vert
+tesseract: Inst. # scoop install tesseract tesseract-languages
+Texlab: Depend. # sudo pacman -S texlab
+Texlab: Depend. # scoop install texlab
+Text Grab: Inst. # scoop install text-grab
+Tailscale: Inst. # gsudo scoop install tailscale
+Tailscale: Inst. # sudo pacman -S tailscale
+Thunderbird: Inst. # sudo pacman -S thunderbird thunderbird-i18n-zh-cn
+Thunderbird: Inst. # scoop install thunderbird
+TightVNC: Inst. # yay -S --noconfirm tightvnc
+TightVNC: Inst. # scoop install tightvnc
 TightVNC: tvnviewer <your_host>::5901 -password=<vncuser_passwd>
-tldr: Inst.  # sudo pacman tldr
-tldr: Inst.  # scoop install tldr
-tldr: Clear local repository then clone  # tldr -c
-tldr: Pulls the latest commits from github.com/tldr-pages/tldr  # tldr -u
-trashy: Inst.  # yay -S --noconfirm trashy
-trashy: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/trashy.json
-trashy: Inst.  # cargo install --force trashy
-ttf2woff2: Inst.  # bun add -g ttf2woff2
-typst: Inst.  # scoop install typst
-typst: (VSCodium)  # scoop install tinymist typstyle
-ugit: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/ugit.json
-Unicodia: Inst.  # scoop install unicodia
-unrar: Depend.  # scoop install unrar
-Upscayl: Inst.  # scoop install upscayl
-upscayl-ncnn: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/upscayl-ncnn.json
-uv: Inst.  # sudo pacman -S uv
-uv: Inst.  # scoop install python310 python312 uv
-uv: Install python 1.  # uv python list
-uv: Install python 2.  # uv python install <version>
-uv: Install python 3.  # uv python pin <version>
-uv: Create a virtual environment and install all dependencies  # uv sync
-uv: Activate the virtual environment and execute a command  # uv run <script> <flag>
-uv: Install in development/editable mode  # uv pip install -e .
-uv: Initialize a project  # uv init <project> --name <package> --python <version>
-Ventoy: Inst.  # yay -S --noconfirm ventoy-bin
-Ventoy: Inst.  # scoop install ventoy
-Vim: Inst.  # sudo pacman -S vim
-Vim: Inst.  # scoop install vim
-VirusTotal CLI: Inst.  # scoop install vt-cli
-VirusTotal CLI: Conf.  # vt init
-Vipsdisp: Inst.  # scoop install vipsdisp
-VSCodium: Inst.  # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
-VSCodium: Inst.  # scoop install vscodium
-Webify: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/webify.json
-WezTerm: Inst.  # sudo pacman -S wezterm
-WezTerm: Inst.  # scoop install wezterm
-WezTerm: Conf.  # vim ~/.config/wezterm/wezterm.lua
-WezTerm: Conf.  # subl %SCOOP%\apps\wezterm\current\wezterm.lua
-which: Depend.  # scoop install which
-xan: Inst.  # sudo pacman -S xan
-xan: Inst.  # scoop install xan
-XnConvert: Inst.  # yay -S --noconfirm xnconvert
-XnConvert: Inst.  # scoop install xnconvert
-YACReader: Inst.  # scoop install yacreader
-Yazi: Inst.  # sudo pacman -S yazi
-Yazi: Inst.  # scoop install yazi
-Yazi: Conf.  # mkdir ~/.config/yazi/
-Yazi: Conf.  # mkdir %AppData%\yazi\config
-Yazi:  # ya pkg upgrade
-Yazi:  # ya pkg add gosxrgxx/flexoki-dark
-Yazi:  # ya pkg add gosxrgxx/flexoki-light
-Yazi:  # ya pkg add yazi-rs/plugins:toggle-pane
-Yazi:  # ya pkg add KKV9/compress
-Yazi:  # ya pkg add AnirudhG07/custom-shell
-Yazi:  # ya pkg add Ape/open-with-cmd
-Yazi:  # ya pkg add yazi-rs/plugins:piper
-Yazi:  # ya pkg add yazi-rs/plugins:git
-Yazi:  # ya pkg add Lil-Dank/lazygit
-Yazi:  # ya pkg add pakhromov/goto-file-dir
-Yazi:  # ya pkg add pakhromov/paste-navigate
-Yazi:  # ya pkg add pakhromov/to-pdf-preview
-Yazi:  # ya pkg add AminurAlam/yazi-plugins:font-sample
-Yazi:  # ya pkg add kirasok/epub-preview
-Yazi:  # ya pkg add boydaihungst/mediainfo
-Yazi:  # ya pkg add AminurAlam/yazi-plugins:preview-typst
-YOGA Image Optimizer: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/ yoga-image-optimizer.json
-yq: Depend.  # sudo pacman -S yq
-yq: Depend.  # scoop install yq
-yt-dlp: Inst.  # sudo pacman -S yt-dlp
-yt-dlp: Inst.  # scoop install yt-dlp
-Zeal: Inst.  # sudo pacman -S zeal
-Zeal: Inst.  # scoop install zeal
-zoxide: Inst.  # sudo pacman -S zoxide
-zoxide: Inst.  # scoop install zoxide
-Zig: Depend.  # scoop install zig
-zlib: Depend.  # scoop install zlib
-(Arch) Newsboat: Conf.  # vim ~/.config/newsboat/config
-(Arch) Newsboat: Conf.  # vim ~/.config/newsboat/urls
-(Arch) Newsboat:  # newsboat -i <your>.opml
-(Arch) Newsboat: Inst.  # sudo pacman -S newsboat
-(Arch) Tailscale: Conf.  # sudo systemctl enable --now tailscaled
-(Arch) Tailscale: Conf.  # sudo tailscale login
-(Arch) Translate Shell: Inst.  # sudo pacman -S translate-shell
-(Arch) Translate Shell: Conf.  # vim ~/.config/translate-shell/init.trans
-(Arch) Wine:  # wine uninstaller
-(Arch) cmus: Inst.  # sudo pacman -S cmus
-(Arch) git: Conf.  # git config --global core.autocrlf input
-(Arch) nvm:  # nvm install --lts
-(Arch) nvm:  # nvm use --lts
-(Arch) tmuxp: Conf.  # vim ~/.config/tmuxp/user.yaml
-(Arch) tmuxp:  # tmuxp load user
-(Arch) tmuxp: Inst.  # uv tool install tmuxp
-(Arch) zathura: Inst.  # sudo pacman -S zathura zathura-cb zathura-pdf-mupdf
-(Arch) Yazi:  # ya pkg add uhs-robert/recycle-bin
-(Arch) Yazi:  # ya pkg add yazi-rs/plugins:chmod
-(Arch) Yazi:  # ya pkg add yazi-rs/plugins:mount
-(Arch) Yazi:  # ya pkg add uhs-robert/sshfs
-(Arch) Yazi:  # ya pkg add lpnh/fr
-(Arch) Yazi:  # ya pkg add NoponyAsked/sxiv
-(Windows) .NET: Depend.  # gsudo scoop update windowsdesktop-runtime-lts
-(Windows) AltBacktick: Inst.  # scoop install altbacktick
-(Windows) AutoHotkey Keyboard Locker: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/keyboard-locker.json
-(Windows) AutoHotkey: Inst.  # scoop install autohotkey1.1
-Autoruns: Autoruns: Inst.  # scoop install autoruns
-(Windows) Caffeine: Inst.  # scoop install caffeine
-(Windows) CapsLock Input Method Switcher: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/ capslock-ime-switcher.json
-(Windows) CenterTaskbar: Inst.  # scoop install centertaskbar
-(Windows) DeskPins: Inst.  # scoop install deskpins
-(Windows) clink: Inst.  # scoop install clink clink-completions
-(Windows) ConEmu: Inst.  # scoop install conemu
-(Windows) dirx: Inst.  # scoop install scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/dirx.json
-(Windows) dnGrep: Inst.  # scoop install dngrep
-(Windows) Ditto: Inst.  # scoop install ditto
-(Windows) EarTrumpet: Inst.  # scoop install eartrumpet
-(Windows) Everything: Inst.  # scoop install everything
-(Windows) ExifGlass: Inst.  # scoop install exifglass
-(Windows) ExifGlass: Conf.  # Menu → Settings → Executable Path → Select → `exiftool.exe`
-(Windows) ExifTool: Inst.  # scoop install exiftool
-(Windows) FastCopy: Inst.  # scoop install fastcopy
-(Windows) Geek Uninstaller: Inst.  # scoop install geekuninstaller
-(Windows) git: Conf.  # git config --global core.autocrlf true
-(Windows) git: Conf.  # git config --global core.editor "subl --new-window --wait"
-(Windows) gsudo: Inst.  scoop install gsudo
-(windows) HostsFileEditor: Inst.  # scoop install hosts-file-editor
-(Windows) ImageGlass: Inst.  # scoop install imageglass
-(Windows) IrfanView: Inst.  # scoop install irfanview
-(Windows) JPEGView: Inst.  # scoop install jpegview-fork
-(Windows) Keypirinha: Inst.  # scoop install keypirinha
-(Windows) lessmsi: Depend.  # scoop install lessmsi
-(Windows) LockHunter: Inst.  # scoop install lockhunter
-(Windows) Magpie: Inst.  # scoop install magpie
-(Windows) Magpie: Conf.  # Profiles → Defaults → General → Capture method → Desktop Duplication
-(Windows) MiKTeX: Inst.  # scoop install miktex
-(Windows) MSYS2: Inst.  # scoop install msys2
-(Windows) nexusfont: Inst.  # scoop install nexusfont
-(Windows) nvm:  # nvm list available
-(Windows) nvm:  # nvm install lts
-(Windows) nvm:  # nvm use lts
-(Windows) Open Shell: Inst.  # gsudo scoop install open-shell-np
-(Windows) OpenHashTab: Inst.  # gsudo scoop install openhashtab-np
-(Windows) Pet:  # pet search -t <tag> | clip
-(Windows) PowerShell: Inst.  # scoop install pwsh
-(Windows) QuickSwitch: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/quickswitch.json
-(Windows) QuickSwitch: Conf.  # MBtn_R → Always AutoSwitch (On)
-(Windows) Rapid Environment Editor: Inst.  # scoop install rapidee
-(Windows) RBTray: Inst.  # scoop install rbtray
-(Windows) RectangleWin: Inst.  # scoop install rectanglewin
-(Windows) resizer2:  # scoop install resizer2
-(Windows) Restart Explorer: Inst.  # scoop install restart-explorer
-(Windows) Rufus: Inst.  # scoop install rufus
-(Windows) scoop:  # scoop install scoop-search
-(Windows) scoop:  # scoop bucket add extras
-(Windows) scoop:  # scoop bucket add nonportable
-(Windows) scoop:  # scoop bucket add versions
-(Windows) scoop:  # scoop bucket add java
-(Windows) scoop:  # scoop bucket add nirsoft
-(Windows) scoop:  # scoop bucket add nerd-fonts
-(Windows) scoop:  # scoop cleanup *
-(Windows) scoop:  # scoop cache rm *
-(Windows) SD Memory Card Formatter: Inst.  # scoop install sd-card-formatter
-(Windows) SharpKeys: Inst.  # scoop install sharpkeys
-(Windows) ShellExView: Inst.  # scoop install shellexview
-(Windows) SilentCMD: Inst.  # scoop install silentcmd
-(Windows) Sizer: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sizer.json
-(Windows) SSHFS-Win Manager: Inst.  # scoop install sshfs-win-manager
-(Windows) SumatraPDF Reader: Inst.  # scoop install sumatrapdf-installer
-(Windows) SVG Viewer Extension for Windows Explorer: Inst.  # scoop install svg-explorer-extension-np
-(Windows) T-Clock: Inst.  # scoop install t-clock
-(Windows) T-Clock: Conf.  # Options → Time → Format → Time options → Hour (On), Minute (On)
-(Windows) Toggle screen autohotkey: scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/togglescreen.json
-(Windows) virgo: Inst.  # scoop install virgo
-(Windows) Visual Studio Locator: Depend.  # scoop install vswhere
-(Windows) wcap: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/wcap.json
-(Windows) Win10_BrightnessSlider: Inst.  # scoop install win10_brightnessslider
-(Windows) win32yank Depend.  # scoop install win32yank
-(Windows) WinMerge: Inst.  # scoop install winmerge
-(Windows) WinScan2PDF: Inst.  # scoop install winscan2pdf
-(Windows) WinSCP: Inst.  # scoop install winscp
-(Windows) WinSSHTerm: Inst.  # scoop install winsshterm putty winscp vcxsrv
-(Windows)(Extra) Cjam: Inst.  # scoop install cjam
-(Windows)(Extra) CPU-Z: Inst.  # scoop install cpu-z
-(Windows)(Extra) Cygwin: Inst.  # scoop install cygwin
+tldr: Inst. # sudo pacman tldr
+tldr: Inst. # scoop install tldr
+tldr: Clear local repository then clone # tldr -c
+tldr: Pulls the latest commits from github.com/tldr-pages/tldr # tldr -u
+trashy: Inst. # yay -S --noconfirm trashy
+trashy: Inst. # scoop install trashy
+trashy: Inst. # cargo install --force trashy
+ttf2woff2: Inst. # bun add -g ttf2woff2
+typst: Inst. # scoop install typst
+typst: (VSCodium) # scoop install tinymist typstyle
+ugit: Inst. # scoop install ugit
+Unicodia: Inst. # scoop install unicodia
+unrar: Depend. # scoop install unrar
+Upscayl: Inst. # scoop install upscayl
+upscayl-ncnn: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/upscayl-ncnn.json
+uv: Inst. # sudo pacman -S uv
+uv: Inst. # scoop install python310 python312 uv
+uv: Install python 1. # uv python list
+uv: Install python 2. # uv python install <version>
+uv: Install python 3. # uv python pin <version>
+uv: Create a virtual environment and install all dependencies # uv sync
+uv: Activate the virtual environment and execute a command # uv run <script> <flag>
+uv: Install in development/editable mode # uv pip install -e .
+uv: Initialize a project # uv init <project> --name <package> --python <version>
+Ventoy: Inst. # yay -S --noconfirm ventoy-bin
+Ventoy: Inst. # scoop install ventoy
+Vim: Inst. # sudo pacman -S vim
+Vim: Inst. # scoop install vim
+VirusTotal CLI: Inst. # scoop install vt-cli
+VirusTotal CLI: Conf. # vt init
+Vipsdisp: Inst. # scoop install vipsdisp
+VSCodium: Inst. # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
+VSCodium: Inst. # scoop install vscodium
+Webify: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/webify.json
+WezTerm: Inst. # sudo pacman -S wezterm
+WezTerm: Inst. # scoop install wezterm
+WezTerm: Conf. # vim ~/.config/wezterm/wezterm.lua
+WezTerm: Conf. # subl %SCOOP%\apps\wezterm\current\wezterm.lua
+which: Depend. # scoop install which
+xan: Inst. # sudo pacman -S xan
+xan: Inst. # scoop install xan
+XnConvert: Inst. # yay -S --noconfirm xnconvert
+XnConvert: Inst. # scoop install xnconvert
+YACReader: Inst. # scoop install yacreader
+Yazi: Inst. # sudo pacman -S yazi
+Yazi: Inst. # scoop install yazi
+Yazi: Conf. # mkdir ~/.config/yazi/
+Yazi: Conf. # mkdir %AppData%\yazi\config
+Yazi: # ya pkg upgrade
+Yazi: # ya pkg add gosxrgxx/flexoki-dark
+Yazi: # ya pkg add gosxrgxx/flexoki-light
+Yazi: # ya pkg add yazi-rs/plugins:toggle-pane
+Yazi: # ya pkg add KKV9/compress
+Yazi: # ya pkg add AnirudhG07/custom-shell
+Yazi: # ya pkg add Ape/open-with-cmd
+Yazi: # ya pkg add yazi-rs/plugins:piper
+Yazi: # ya pkg add yazi-rs/plugins:git
+Yazi: # ya pkg add Lil-Dank/lazygit
+Yazi: # ya pkg add pakhromov/goto-file-dir
+Yazi: # ya pkg add pakhromov/paste-navigate
+Yazi: # ya pkg add pakhromov/to-pdf-preview
+Yazi: # ya pkg add AminurAlam/yazi-plugins:font-sample
+Yazi: # ya pkg add kirasok/epub-preview
+Yazi: # ya pkg add boydaihungst/mediainfo
+Yazi: # ya pkg add AminurAlam/yazi-plugins:preview-typst
+YOGA Image Optimizer: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/yoga-image-optimizer.json
+yq: Depend. # sudo pacman -S yq
+yq: Depend. # scoop install yq
+yt-dlp: Inst. # sudo pacman -S yt-dlp
+yt-dlp: Inst. # scoop install yt-dlp
+Zeal: Inst. # sudo pacman -S zeal
+Zeal: Inst. # scoop install zeal
+zoxide: Inst. # sudo pacman -S zoxide
+zoxide: Inst. # scoop install zoxide
+Zig: Depend. # scoop install zig
+zlib: Depend. # scoop install zlib
+(Arch) Newsboat: Conf. # vim ~/.config/newsboat/config
+(Arch) Newsboat: Conf. # vim ~/.config/newsboat/urls
+(Arch) Newsboat: # newsboat -i <your>.opml
+(Arch) Newsboat: Inst. # sudo pacman -S newsboat
+(Arch) Tailscale: Conf. # sudo systemctl enable --now tailscaled
+(Arch) Tailscale: Conf. # sudo tailscale login
+(Arch) Translate Shell: Inst. # sudo pacman -S translate-shell
+(Arch) Translate Shell: Conf. # vim ~/.config/translate-shell/init.trans
+(Arch) Wine: # wine uninstaller
+(Arch) cmus: Inst. # sudo pacman -S cmus
+(Arch) git: Conf. # git config --global core.autocrlf input
+(Arch) nvm: # nvm install --lts
+(Arch) nvm: # nvm use --lts
+(Arch) tmuxp: Conf. # vim ~/.config/tmuxp/user.yaml
+(Arch) tmuxp: # tmuxp load user
+(Arch) tmuxp: Inst. # uv tool install tmuxp
+(Arch) zathura: Inst. # sudo pacman -S zathura zathura-cb zathura-pdf-mupdf
+(Arch) Yazi: # ya pkg add uhs-robert/recycle-bin
+(Arch) Yazi: # ya pkg add yazi-rs/plugins:chmod
+(Arch) Yazi: # ya pkg add yazi-rs/plugins:mount
+(Arch) Yazi: # ya pkg add uhs-robert/sshfs
+(Arch) Yazi: # ya pkg add lpnh/fr
+(Arch) Yazi: # ya pkg add NoponyAsked/sxiv
+(Windows) .NET: Depend. # gsudo scoop install windowsdesktop-runtime-lts
+(Windows) AltBacktick: Inst. # scoop install altbacktick
+(Windows) AutoHotkey Keyboard Locker: Inst. # scoop install keyboard-locker
+(Windows) AutoHotkey: Inst. # scoop install autohotkey1.1
+Autoruns: Autoruns: Inst. # scoop install autoruns
+(Windows) Caffeine: Inst. # scoop install caffeine
+(Windows) CapsLock Input Method Switcher: Inst. # scoop install capslock-ime-switcher-non-cursor
+(Windows) CenterTaskbar: Inst. # scoop install centertaskbar
+(Windows) DeskPins: Inst. # scoop install deskpins
+(Windows) clink: Inst. # scoop install clink clink-completions
+(Windows) ConEmu: Inst. # scoop install conemu
+(Windows) dirx: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/dirx.json
+(Windows) dnGrep: Inst. # scoop install dngrep
+(Windows) Ditto: Inst. # scoop install ditto
+(Windows) EarTrumpet: Inst. # scoop install eartrumpet
+(Windows) Everything: Inst. # scoop install everything
+(Windows) ExifGlass: Inst. # scoop install exifglass
+(Windows) ExifGlass: Conf. # Menu → Settings → Executable Path → Select → `exiftool.exe`
+(Windows) ExifTool: Inst. # scoop install exiftool
+(Windows) FastCopy: Inst. # scoop install fastcopy
+(Windows) Geek Uninstaller: Inst. # scoop install geekuninstaller
+(Windows) git: Conf. # git config --global core.autocrlf true
+(Windows) git: Conf. # git config --global core.editor "subl --new-window --wait"
+(Windows) gsudo: Inst. # scoop install gsudo
+(windows) HostsFileEditor: Inst. # scoop install hosts-file-editor
+(Windows) ImageGlass: Inst. # scoop install imageglass
+(Windows) IrfanView: Inst. # scoop install irfanview
+(Windows) JPEGView: Inst. # scoop install jpegview-fork
+(Windows) Keypirinha: Inst. # scoop install keypirinha
+(Windows) lessmsi: Depend. # scoop install lessmsi
+(Windows) LockHunter: Inst. # scoop install lockhunter
+(Windows) Magpie: Inst. # scoop install magpie
+(Windows) Magpie: Conf. # Profiles → Defaults → General → Capture method → Desktop Duplication
+(Windows) MiKTeX: Inst. # scoop install miktex
+(Windows) MSYS2: Inst. # scoop install msys2
+(Windows) nexusfont: Inst. # scoop install nexusfont
+(Windows) nvm: # nvm list available
+(Windows) nvm: # nvm install lts
+(Windows) nvm: # nvm use lts
+(Windows) Open Shell: Inst. # gsudo scoop install open-shell-np
+(Windows) OpenHashTab: Inst. # gsudo scoop install openhashtab-np
+(Windows) Pet: # pet search -t <tag> | clip
+(Windows) PowerShell: Inst. # scoop install pwsh
+(Windows) QuickSwitch: Inst. # scoop install quickswitch
+(Windows) QuickSwitch: Conf. # MBtn_R → Always AutoSwitch (On)
+(Windows) Rapid Environment Editor: Inst. # scoop install rapidee
+(Windows) RBTray: Inst. # scoop install rbtray
+(Windows) RectangleWin: Inst. # scoop install rectanglewin
+(Windows) resizer2: # scoop install resizer2
+(Windows) Restart Explorer: Inst. # scoop install restart-explorer
+(Windows) Rufus: Inst. # scoop install rufus
+(Windows) Scoop: # scoop install scoop-search
+(Windows) Scoop: # scoop bucket add extras
+(Windows) Scoop: # scoop bucket add nonportable
+(Windows) Scoop: # scoop bucket add versions
+(Windows) Scoop: # scoop bucket add java
+(Windows) Scoop: # scoop bucket add nirsoft
+(Windows) Scoop: # scoop bucket add nerd-fonts
+(Windows) Scoop: # scoop bucket add sysinternals https://github.com/niheaven/scoop-sysinternals
+(Windows) Scoop: # scoop cleanup *
+(Windows) Scoop: # scoop cache rm *
+(Windows) SD Memory Card Formatter: Inst. # scoop install sd-card-formatter
+(Windows) SharpKeys: Inst. # scoop install sharpkeys
+(Windows) ShellExView: Inst. # scoop install shellexview
+(Windows) SilentCMD: Inst. # scoop install silentcmd
+(Windows) Sizer: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sizer.json
+(Windows) SSHFS-Win Manager: Inst. # scoop install sshfs-win-manager
+(Windows) SumatraPDF Reader: Inst. # scoop install sumatrapdf-installer
+(Windows) SVG Viewer Extension for Windows Explorer: Inst. # scoop install svg-explorer-extension-np
+(Windows) T-Clock: Inst. # scoop install t-clock
+(Windows) T-Clock: Conf. # Options → Time → Format → Time options → Hour (On), Minute (On)
+(Windows) Toggle screen autohotkey: scoop install togglescreen
+(Windows) virgo: Inst. # scoop install virgo
+(Windows) Visual Studio Locator: Depend. # scoop install vswhere
+(Windows) wcap: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/wcap.json
+(Windows) Win10_BrightnessSlider: Inst. # scoop install win10_brightnessslider
+(Windows) win32yank Depend. # scoop install win32yank
+(Windows) WinMerge: Inst. # scoop install winmerge
+(Windows) WinScan2PDF: Inst. # scoop install winscan2pdf
+(Windows) WinSCP: Inst. # scoop install winscp
+(Windows) WinSSHTerm: Inst. # scoop install winsshterm putty winscp vcxsrv
+(Windows)(Extra) Cjam: Inst. # scoop install cjam
+(Windows)(Extra) CPU-Z: Inst. # scoop install cpu-z
+(Windows)(Extra) Cygwin: Inst. # scoop install cygwin
 (Windows)(Extra) Cygwin: apt-cyg install gcc-core gcc-g++ make automake autoconf libtool pkg-config
-(Windows)(Extra) GNU utilities: Depend.  # scoop install unxutils
-(Windows)(Extra) GPU-Z: Inst.  # scoop install gpu-z
-(Windows)(Extra) Lintalist: Inst.  # scoop install lintalist
-(Windows)(Extra) Microsoft Activation Scripts: Inst.  # gh download massgravel/Microsoft-Activation-Scripts MAS
-(Windows)(Extra) Mp3tag: Inst.  # scoop install mp3tag
-(Windows)(Extra) Resource Hacker: Inst.  # scoop install resource-hacker
-(Windows)(Extra) Servy: Inst.  # scoop install servy
-(Windows)(Extra) SmartTaskbar: Inst.  # scoop install smarttaskbar
-(Windows)(Extra) StaxRip: Inst.  # scoop install staxrip
-(Windows)(Extra) SyncTrayzor: Inst.  # scoop install synctrayzor
-(Windows)(Extra) WinCDEmu: Inst.  # scoop install wincdemu
-(Later) ansinews: Inst.  # bun add -g ansinews
-(Later) Carapace-bin: Inst.  # yay -S --noconfirm carapace-bin
-(Later) Carapace-bin: Inst.  # scoop install carapace-bin
-(Later) chaiNNer: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/
-(Later) diffsitter: Inst.  # scoop install diffsitter
-(Later) direnv: Inst.  # scoop install direnv
-(Later) dyff: Inst.  # scoop install dyff
-(Later) fend: Inst.  # yay -S --noconfirm fend-bin
-(Later) fend: Inst.  # scoop install fend
-(Later) F2: Inst.  # scoop install f2
-(Later) FreeCAD: Inst.  # sudo pacman -S freecad
-(Later) FreeCAD: Inst.  # scoop install freecad
-(Later) Handy: Inst.  # scoop install handy
-(Later) htmlq: Inst.  # scoop install htmlq
-(Later) Ignore It: Inst.  # yay -S --noconfirm ignoreit
-(Later) Ignore It: Inst.  # scoop install ignoreit
-(Later) JSON diff and patch: Inst.  # scoop install jd
-(Later) jj: Inst.  # scoop isntall jj
-(Later) jjui: Inst.  # scoop isntall jjui
-(Later) jnv: Inst.  # scoop install jnv
-(Later) jqp:  Inst. # scoop install jqp
-(Later) KiCad: Inst.  # sudo pacman -S kicad
-(Later) KiCad: Inst.  # scoop install kicad
-(Later) komokana: Inst.  # scoop install kanata komokana
-(Later) Lazysql: Inst.  # scoop install lazysql
-(Later) Mergiraf: Inst.  # scoop install mergiraf
-(Later) Miller: Inst.  # sudo pacman -S miller
-(Later) Miller: Inst.  # scoop install miller
-(Later) mise-en-place: Inst.  # scoop install mise
-(Later) nomino: Inst.  # scoop install nomino
-(Later) Open Cubic Player: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/opencubicplayer.json	
-(Later) Pueue: Inst.  # scoop install pueue
-(Later) PassTUI: Inst.  # uv tool install --python 3.14 passtui
-(Later) Resterm: Inst.  # scoop install resterm
-(Later) scooter: Inst.  # scoop install scooter
-(Later) Untree: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/untree
-(Later) Vieb: Inst.  # scoop install vieb
-(Later) Yaak: Inst.  # scoop install yaak
-(Later) wuzz: Inst.  # scoop install wuzz
-(Extra) Ark Pixel Font: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/Ark-Pixel-Font-12px-proportional.json
-(Extra) age: Inst.  # scoop install age
-(Extra) AnythingLLM: Inst.  # scoop install anythingllm
-(Extra) ASCII Moon: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/ ascii_moon.json
-(Extra) ASCII Silhouettify: Inst.  # bun add -g ascii-silhouettify
-(Extra) asciify-them: Inst.  # uv tool install asciify-them
-(Extra) Aspell: Inst.  # sudo pacman -S aspell aspell-en
-(Extra) Aspell: Inst.  # scoop install aspell
-(Extra) Audio Waveform Image Generator: Inst.  # yay -S --noconfirm audiowaveform
-(Extra) Audio Waveform Image Generator: Inst.  # scoop install audiowaveform
-(Extra) BeeRef: Inst.  # scoop install beeref
-(Extra) Branchless workflow for Git: Inst.  # scoop install git-branchless
-(Extra) Branchless workflow for Git:  # git-branchless init
-(Extra) Branchless workflow for Git:  # git-branchless init -- uninstall
-(Extra) Btop: Inst.  # sudo pacman -S btop
-(Extra) Btop: Inst.  # scoop install btop
-(Extra) erdtree: Inst.  # sudo pacman -S erdtree
-(Extra) erdtree: Inst.  # scoop install erdtree
-(Extra) erdtree:  # erd --color auto --hidden --follow --human --sort name --dir-order first --layout inverted
-(Extra) Carnac: Inst.  # scoop install carnac
-(Extra) choose: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/choose.json
-(Extra) CMake: Inst.  # scoop install cmake
-(Extra) cyanrip: Inst.  # scoop install cyanrip
-(Extra) code-minimap: Inst.  # scoop install code-minimap
-(Extra) CUETools: Inst.  # sudo pacman -S cuetools
-(Extra) CUETools: Inst.  # scoop install cuetools
-(Extra) CUETools:  # Export → `[%directoryname%\]%artist% - %album%\%filename%-new[%unique%].cue`
-(Extra) dark: Inst.  # scoop install dark
-(Extra) dedoc: Inst.  # cargo install dedoc
-(Extra) dedoc: Conf.  # set "DEDOC_HOME=%USERPROFILE%\Usr\Data\dedoc"
-(Extra) didder: Inst.  # scoop install didder
-(Extra) Doxygen: Inst.  # scoop install doxygen
-(Extra) duf: Inst.  # scoop install duf
-(Extra) Dufs: Inst.  # yay -S --noconfirm dufs-bin
-(Extra) Dufs: Inst.  # scoop install dufs
-(Extra) dupeGuru: Inst.  # yay -S --noconfirm dupeguru
-(Extra) dupeGuru: Inst.  # scoop install dupeguru
-(Extra) Git Extensions: Inst.  # yay -S --noconfirm gitextensions
-(Extra) Git Extensions: Inst.  # scoop install gitextensions
-(Extra) Git Overview: Inst.  # uv tool install git-overview
-(Extra) git-filter-repo: Inst.  # scoop install git-filter-repo
-(Extra) grex: Inst.  # sudo pacman -S grex
-(Extra) grex: Inst.  # scoop install grex
-(Extra) HakuNeko: Inst.  # scoop install hakuneko
-(Extra) html-to-markdown: Inst.  # scoop install html-to-markdown
-(Extra) Hydra Launcher: Inst.  # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/hydra.json
-(Extra) ISx: Depend.  # scoop install isx
-(Extra) jc: Inst.  # scoop install jc
-(Extra) kalk: Inst.  # scoop install kalk
-(Extra) kalker: Inst.  # scoop install kalker
-(Later) kmeans-colors: Inst.  # scoop install kmeans-colors
-(Extra) Krita: Inst.  # sudo pacman -S krita
-(Extra) Krita: Inst.  # scoop install krita
-(Extra) lazyactions: Inst.  # scoop install lazyactions
-(Extra) LÖVE: Inst.  # scoop install love
-(Extra) lssh: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/ lssh.json
-(Extra) massCode: Inst.  # scoop install masscode
-(Extra) Meson: Depend.  # scoop install meson
-(Extra) mgitstatus:  Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/mgitstatus.json
-(Extra) MKVToolNix: Inst.  # sudo pacman -S mkvtoolnix-cli mkvtoolnix-gui
-(Extra) MKVToolNix: Inst.  # scoop install mkvtoolnix
-(Extra) mp3rgain: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/ mp3rgain.json
-(Extra) MuseScore: Inst.  # yay -S --noconfirm musescore-bin muse-sounds-manager-bin
-(Extra) MuseScore: Inst.  # scoop install musescore
-(Extra) MusicBrainz Picard: Inst.  # scoop install picard
-(Extra) Inkscape: Inst.  # sudo pacman -S inkscape
-(Extra) Inkscape: Inst.  # scoop install inkscape
-(Extra) oken: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/oken.json
-(Extra) OmegaT: Inst.  # scoop install omegat
-(Extra) Pegasus Frontend: Inst.  # yay -S --noconfirm pegasus-frontend-git
-(Extra) Pegasus Frontend: Inst.  # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/pegasus.json
-(Extra) Pegasus Frontend: Inst.  # gsudo scoop install k-lite-codec-pack-basic-np
-(Extra) PgsToSrt: Inst.  # scoop install pgstosrt
-(Extra) Picocrypt NG: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/picocrypt-ng.json
-(Extra) PicView: Inst.  # scoop install picview
-(Extra) pngquant: Instl.  # sudo pacman -S pngquant
-(Extra) pngquant: Instl.  # scoop install pngquant
-(Extra) pom-tool: Inst.  # bun add -g pom-tool
-(Extra) pom-tool:  # pom
-(Extra) PureRef: Inst.  # scoop install pureref
-(Extra) GlazePKG (gpk): Inst.  # scoop install glazepkg
-(Extra) Qalculate!: Inst.  # scoop install qalculate
-(Extra) QuickSFV: Inst.  # scoop install quicksfv
-(Extra) Ruff: Inst.  # scoop install ruff
-(Extra) Saber: Inst.  # scoop install saber
-(Extra) Sentences: Inst.  # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sentences.json
-(Extra) Serie: Inst.  # cargo install --locked serie
-(Extra) sitefetch: Inst.  # bun add -g sitefetch
-(Extra) syncthing: Inst.  # sudo pacman -S syncthing
-(Extra) syncthing: Inst.  # scoop install syncthing
-(Extra) RetroArch: Inst.  # sudo pacman -S retroarch
-(Extra) RetroArch: Inst.  # scoop install retroarch
-(Extra) RClone Manager: Inst.  # yay -S --noconfirm rclone-manager
-(Extra) RClone Manager: Inst.  # scoop install rclone-manager
-(Extra) rip2: Inst.  # scoop install rip
-(Extra) Tag Editor: Inst.  # yay -S --noconfirm tageditor
-(Extra) Tag Editor: Inst.  # scoop install tageditor
-(Extra) TagSpaces: Inst.  # yay -S --noconfirm tagspaces-bin
-(Extra) TagSpaces: Inst.  # scoop install tagspaces
-(Extra) Thorium: Inst.  # yay -S --noconfirm thorium-reader-bin
-(Extra) Thorium: Inst.  # scoop install thorium-reader
-(Extra) Tidy Viewer (tv): Inst.  # yay -S --noconfirm tidy-viewer
-(Extra) Tidy Viewer (tv): Inst.  # cargo install --force tidy-viewer
-(Extra) ttyd: Inst.  # scoop install ttyd
-(Extra) ugrep: Inst.  # sudo pacman -S ugrep
-(Extra) ugrep: Inst.  # scoop install ugrep
-(Extra) Unison: Inst.  # scoop install unison
-(Extra) Unison: Conf.  # subl %USERPROFILE%\.unison\<profile>.prf
-(Extra) video-compare: Inst.  # yay -S --noconfirm video-compare
-(Extra) video-compare: Inst.  # scoop install video-compare
-(Extra) Whosthere: Inst.  # scoop install whosthere
+(Windows)(Extra) GNU utilities: Depend. # scoop install unxutils
+(Windows)(Extra) GPU-Z: Inst. # scoop install gpu-z
+(Windows)(Extra) Lintalist: Inst. # scoop install lintalist
+(Windows)(Extra) Microsoft Activation Scripts: Inst. # gh download massgravel/Microsoft-Activation-Scripts MAS
+(Windows)(Extra) Mp3tag: Inst. # scoop install mp3tag
+(Windows)(Extra) Resource Hacker: Inst. # scoop install resource-hacker
+(Windows)(Extra) Servy: Inst. # scoop install servy
+(Windows)(Extra) SmartTaskbar: Inst. # scoop install smarttaskbar
+(Windows)(Extra) StaxRip: Inst. # scoop install staxrip
+(Windows)(Extra) SyncTrayzor: Inst. # scoop install synctrayzor
+(Windows)(Extra) WinCDEmu: Inst. # scoop install wincdemu
+(Later) ansinews: Inst. # bun add -g ansinews
+(Later) Carapace-bin: Inst. # yay -S --noconfirm carapace-bin
+(Later) Carapace-bin: Inst. # scoop install carapace-bin
+(Later) chaiNNer: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/chainner.json
+(Later) diffsitter: Inst. # scoop install diffsitter
+(Later) direnv: Inst. # scoop install direnv
+(Later) dyff: Inst. # scoop install dyff
+(Later) fend: Inst. # yay -S --noconfirm fend-bin
+(Later) fend: Inst. # scoop install fend
+(Later) F2: Inst. # scoop install f2
+(Later) FreeCAD: Inst. # sudo pacman -S freecad
+(Later) FreeCAD: Inst. # scoop install freecad
+(Later) Handy: Inst. # scoop install handy
+(Later) htmlq: Inst. # scoop install htmlq
+(Later) Ignore It: Inst. # yay -S --noconfirm ignoreit
+(Later) Ignore It: Inst. # scoop install ignoreit
+(Later) JSON diff and patch: Inst. # scoop install jd
+(Later) jj: Inst. # scoop isntall jj
+(Later) jjui: Inst. # scoop isntall jjui
+(Later) jnv: Inst. # scoop install jnv
+(Later) jqp: Inst. # scoop install jqp
+(Later) KiCad: Inst. # sudo pacman -S kicad
+(Later) KiCad: Inst. # scoop install kicad
+(Later) komokana: Inst. # scoop install kanata komokana
+(Later) Lazysql: Inst. # scoop install lazysql
+(Later) Mergiraf: Inst. # scoop install mergiraf
+(Later) Miller: Inst. # sudo pacman -S miller
+(Later) Miller: Inst. # scoop install miller
+(Later) mise-en-place: Inst. # scoop install mise
+(Later) nomino: Inst. # scoop install nomino
+(Later) Open Cubic Player: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/opencubicplayer.json
+(Later) Pueue: Inst. # scoop install pueue
+(Later) PassTUI: Inst. # uv tool install --python 3.14 passtui
+(Later) Resterm: Inst. # scoop install resterm
+(Later) scooter: Inst. # scoop install scooter
+(Later) sq: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sq.json
+(Later) Untree: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/untree
+(Later) Vieb: Inst. # scoop install vieb
+(Later) Yaak: Inst. # scoop install yaak
+(Later) wuzz: Inst. # scoop install wuzz
+(Extra) Ark Pixel Font: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/Ark-Pixel-Font-12px-proportional.json
+(Extra) age: Inst. # scoop install age
+(Extra) AnythingLLM: Inst. # scoop install anythingllm
+(Extra) ASCII Moon: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/ascii_moon.json
+(Extra) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify
+(Extra) asciify-them: Inst. # uv tool install asciify-them
+(Extra) Aspell: Inst. # sudo pacman -S aspell aspell-en
+(Extra) Aspell: Inst. # scoop install aspell
+(Extra) Audio Waveform Image Generator: Inst. # yay -S --noconfirm audiowaveform
+(Extra) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
+(Extra) BeeRef: Inst. # scoop install beeref
+(Extra) Branchless workflow for Git: Inst. # scoop install git-branchless
+(Extra) Branchless workflow for Git: # git-branchless init
+(Extra) Branchless workflow for Git: # git-branchless init -- uninstall
+(Extra) Btop: Inst. # sudo pacman -S btop
+(Extra) Btop: Inst. # scoop install btop
+(Extra) erdtree: Inst. # sudo pacman -S erdtree
+(Extra) erdtree: Inst. # scoop install erdtree
+(Extra) erdtree: # erd --color auto --hidden --follow --human --sort name --dir-order first --layout inverted
+(Extra) Carnac: Inst. # scoop install carnac
+(Extra) choose: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/choose.json
+(Extra) CMake: Inst. # scoop install cmake
+(Extra) cyanrip: Inst. # scoop install cyanrip
+(Extra) code-minimap: Inst. # scoop install code-minimap
+(Extra) CUETools: Inst. # sudo pacman -S cuetools
+(Extra) CUETools: Inst. # scoop install cuetools
+(Extra) CUETools: # Export → `[%directoryname%\]%artist% - %album%\%filename%-new[%unique%].cue`
+(Extra) dark: Inst. # scoop install dark
+(Extra) dedoc: Inst. # cargo install dedoc
+(Extra) dedoc: Conf. # set "DEDOC_HOME=%USERPROFILE%\Usr\Data\dedoc"
+(Extra) didder: Inst. # scoop install didder
+(Extra) Doxygen: Inst. # scoop install doxygen
+(Extra) duf: Inst. # scoop install duf
+(Extra) Dufs: Inst. # yay -S --noconfirm dufs-bin
+(Extra) Dufs: Inst. # scoop install dufs
+(Extra) dupeGuru: Inst. # yay -S --noconfirm dupeguru
+(Extra) dupeGuru: Inst. # scoop install dupeguru
+(Extra) Git Extensions: Inst. # yay -S --noconfirm gitextensions
+(Extra) Git Extensions: Inst. # scoop install gitextensions
+(Extra) Git Overview: Inst. # uv tool install git-overview
+(Extra) git-filter-repo: Inst. # scoop install git-filter-repo
+(Extra) grex: Inst. # sudo pacman -S grex
+(Extra) grex: Inst. # scoop install grex
+(Extra) HakuNeko: Inst. # scoop install hakuneko
+(Extra) html-to-markdown: Inst. # scoop install html-to-markdown
+(Extra) Hydra Launcher: Inst. # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/hydra.json
+(Extra) ISx: Depend. # scoop install isx
+(Extra) jc: Inst. # scoop install jc
+(Extra) kalk: Inst. # scoop install kalk
+(Extra) kalker: Inst. # scoop install kalker
+(Later) kmeans-colors: Inst. # scoop install kmeans-colors
+(Extra) Krita: Inst. # sudo pacman -S krita
+(Extra) Krita: Inst. # scoop install krita
+(Extra) lazyactions: Inst. # scoop install lazyactions
+(Extra) LÖVE: Inst. # scoop install love
+(Extra) lssh: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/lssh.json
+(Extra) massCode: Inst. # scoop install masscode
+(Extra) Meson: Depend. # scoop install meson
+(Extra) mgitstatus: Inst. # scoop install mgitstatus
+(Extra) MKVToolNix: Inst. # sudo pacman -S mkvtoolnix-cli mkvtoolnix-gui
+(Extra) MKVToolNix: Inst. # scoop install mkvtoolnix
+(Extra) mp3rgain: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/mp3rgain.json
+(Extra) MuseScore: Inst. # yay -S --noconfirm musescore-bin muse-sounds-manager-bin
+(Extra) MuseScore: Inst. # scoop install musescore
+(Extra) MusicBrainz Picard: Inst. # scoop install picard
+(Extra) Inkscape: Inst. # sudo pacman -S inkscape
+(Extra) Inkscape: Inst. # scoop install inkscape
+(Extra) oken: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/oken.json
+(Extra) OmegaT: Inst. # scoop install omegat
+(Extra) Pegasus Frontend: Inst. # yay -S --noconfirm pegasus-frontend-git
+(Extra) Pegasus Frontend: Inst. # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/pegasus.json
+(Extra) Pegasus Frontend: Inst. # gsudo scoop install k-lite-codec-pack-basic-np
+(Extra) PgsToSrt: Inst. # scoop install pgstosrt
+(Extra) Picocrypt NG: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/picocrypt-ng.json
+(Extra) PicView: Inst. # scoop install picview
+(Extra) pngquant: Instl. # sudo pacman -S pngquant
+(Extra) pngquant: Instl. # scoop install pngquant
+(Extra) pom-tool: Inst. # bun add -g pom-tool
+(Extra) pom-tool: # pom
+(Extra) PureRef: Inst. # scoop install pureref
+(Extra) GlazePKG (gpk): Inst. # scoop install glazepkg
+(Extra) Qalculate!: Inst. # scoop install qalculate
+(Extra) QuickSFV: Inst. # scoop install quicksfv
+(Extra) Ruff: Inst. # scoop install ruff
+(Extra) Saber: Inst. # scoop install saber
+(Extra) Sentences: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sentences.json
+(Extra) Serie: Inst. # cargo install --locked serie
+(Extra) sig: Inst. # pacman -S sig
+(Extra) sig: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sig.json
+(Extra) sitefetch: Inst. # bun add -g sitefetch
+(Extra) syncthing: Inst. # sudo pacman -S syncthing
+(Extra) syncthing: Inst. # scoop install syncthing
+(Extra) RetroArch: Inst. # sudo pacman -S retroarch
+(Extra) RetroArch: Inst. # scoop install retroarch
+(Extra) RClone Manager: Inst. # yay -S --noconfirm rclone-manager
+(Extra) RClone Manager: Inst. # scoop install rclone-manager
+(Extra) rip2: Inst. # scoop install rip
+(Extra) Tag Editor: Inst. # yay -S --noconfirm tageditor
+(Extra) Tag Editor: Inst. # scoop install tageditor
+(Extra) TagSpaces: Inst. # yay -S --noconfirm tagspaces-bin
+(Extra) TagSpaces: Inst. # scoop install tagspaces
+(Extra) Thorium: Inst. # yay -S --noconfirm thorium-reader-bin
+(Extra) Thorium: Inst. # scoop install thorium-reader
+(Extra) Tidy Viewer (tv): Inst. # yay -S --noconfirm tidy-viewer
+(Extra) Tidy Viewer (tv): Inst. # cargo install --force tidy-viewer
+(Extra) trdsql: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/trdsql.json
+(Extra) ttyd: Inst. # scoop install ttyd
+(Extra) ugrep: Inst. # sudo pacman -S ugrep
+(Extra) ugrep: Inst. # scoop install ugrep
+(Extra) Unison: Inst. # scoop install unison
+(Extra) Unison: Conf. # subl %USERPROFILE%\.unison\<profile>.prf
+(Extra) video-compare: Inst. # yay -S --noconfirm video-compare
+(Extra) video-compare: Inst. # scoop install video-compare
+(Extra) Wait4X: Inst. # scoop install wait4x
+(Extra) Watchman: Inst. # scoop install watchman
+(Extra) Whosthere: Inst. # scoop install whosthere
