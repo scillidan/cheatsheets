@@ -412,6 +412,7 @@ Yazi: # ya pkg upgrade
 Yazi: # ya pkg add gosxrgxx/flexoki-dark
 Yazi: # ya pkg add gosxrgxx/flexoki-light
 Yazi: # ya pkg add yazi-rs/plugins:toggle-pane
+Yazi: # ya pkg add dedukun/bookmarks
 Yazi: # ya pkg add KKV9/compress
 Yazi: # ya pkg add AnirudhG07/custom-shell
 Yazi: # ya pkg add Ape/open-with-cmd
