@@ -460,7 +460,6 @@ zlib: Depend. # scoop install zlib
 (Arch) Yazi: # ya pkg add yazi-rs/plugins:chmod
 (Arch) Yazi: # ya pkg add yazi-rs/plugins:mount
 (Arch) Yazi: # ya pkg add uhs-robert/sshfs
-(Arch) Yazi: # ya pkg add lpnh/fr
 (Arch) Yazi: # ya pkg add NoponyAsked/sxiv
 (Arch)(Later) cheznav: Inst. # yay -S --noconfirm cheznav
 (Arch)(Later) Pacsea: Inst. # yay -S --noconfirm pacsea-bin
@@ -606,6 +605,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) qsv: Inst. # yay -S --noconfirm qsv-bin
 (Later) qsv: Inst. # scoop install qsv
 (Later) Resterm: Inst. # scoop install resterm
+(Later) Rimage: Inst. # scoop install rimage
 (Later) scooter: Inst. # scoop install scooter
 (Later) sq: Inst. # scoop install sq
 (Later) Untree: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/untree

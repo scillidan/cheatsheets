@@ -10,8 +10,8 @@ Keypirinha: Env Package                      | `Env: Search`<Tab>
 Keypirinha: RegBrowser Package               | `reg_url` / `HKLM`<tab>
 Keypirinha: Search in Catalog                | `Keypirinha:`
 Keypirinha: String Package                   | `String`<Tab>
-Keypirinha: TaskSwitcher                     | `Switch To`<Tab>
-Keypirinha: URL Package                      | `keypirinha.com`
+Keypirinha: TaskSwitcher (User)              | `Task Switch`<Tab>
+Keypirinha: URL Package                      | `example.com`
 Keypirinha: WebSearch Package                | `WebSearch <item>`<Tab>
 Keypirinha:: keypirinha-snippets (User)      | `snip`<Tab>
 Keypirinha:: Keypirinha ColorPicker          | `Color pick`<Tab>
