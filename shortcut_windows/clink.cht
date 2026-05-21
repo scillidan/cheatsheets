@@ -39,17 +39,19 @@ clink:: clink-fzf: fzf_complete_force                                           
 clink:: clink-fzf: fzf_selectcomplete                                                                                 | C-Spc
 clink:: clink-fzf: History                                                                                            | C-r
 clink:: clink-fzf: Subdirectory                                                                                       | A-c
+clink:: clink-gizmos: fzf_ripgrep.lua (User)                                                                          | A-g
+clink:: clink-gizmos: fzf_ripgrep.lua: Exit                                                                           | Esc
+clink:: clink-gizmos: fzf_ripgrep.lua: Open the selected file in an editor                                            | Etr
+clink:: clink-gizmos: fzf_ripgrep.lua: Open the selected file in an editor without exiting                            | A-e
+clink:: clink-gizmos: fzf_ripgrep.lua: Insert the selected file into the input line                                   | A-i
+clink:: clink-gizmos: fzf_ripgrep.lua: Toggles the preview pane on the right                                          | C-/
+clink:: clink-gizmos: fzf_ripgrep.lua: Toggles the preview pane on the bottom                                         | C-\
+clink:: clink-gizmos: fzf_ripgrep.lua: Use ripgrep mode; list matches in files                                        | C-r
+clink:: clink-gizmos: fzf_ripgrep.lua: Use fzf mode; filter matches further                                           | C-f
+clink:: clink-gizmos: fzf_ripgrep.lua: Clear the query text                                                           | C-u
 clink:: clink-gizmos: cwdhistory.lua                                                                                  | C-A-PgUp
 clink:: clink-gizmos: i.lua                                                                                           | i <dir> <cmd>
-clink:: clink-gizmos: z_dir_popup.lua                                                                                 | C-PgUP
-clink:: clink-terminal: (yazi)                                                                                        | y
-clink:: clink-terminal: (yazi) exit with changing directory                                                           | q
-clink:: clink-terminal: (yazi) exit without changing directory                                                        | Q
-clink:: clink-terminal: (fzf) explorer                                                                                | C-e
-clink:: clink-terminal: (fzf) git files                                                                               | C-g C-f
-clink:: clink-terminal: (fzf) git stashes                                                                             | C-g C-s
-clink:: clink-terminal: (fzf) git history                                                                             | C-g C-h
-clink:: clink-terminal: (fzf) git branches                                                                            | C-g C-b
+clink:: clink-gizmos: z_dir_popup.lua                                                                                 | C-PgUp
 clink:: clink-zoxide: jump                                                                                            | z
 clink:: clink-zoxide: jump to directory                                                                               | z <string>
 clink:: clink-zoxide: jump to directory with fzf                                                                      | zi

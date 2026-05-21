@@ -42,8 +42,14 @@ dawn: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bu
 Delect It Easy: Inst. # yay -S --noconfirm detect-it-easy
 Delect It Easy: Inst. # scoop install detect-it-easy
 Poppler: Depend. # scoop install poppler
+delta: Inst. # scoop install delta
+delta: Conf. # git config --global core.pager delta
+delta: Conf. # git config --global interactive.diffFilter 'delta --color-only'
+delta: Conf. # git config --global delta.navigate true
+delta: Conf. # git config --global delta.side-by-side true
+delta: Conf. # git config --global merge.conflictStyle zdiff3
 difftastic: Inst. # scoop install difftastic
-difftastic: # difft <old> <new>
+difftastic: # difft <old_path> <new_path>
 Docker: Update # sudo docker compose down
 Docker: Update # sudo docker compose pull
 Docker: Update # sudo docker compose up -d
@@ -132,6 +138,7 @@ GitHub CLI: # gh repo set-default
 GitHub CLI: # gh extension install HaywardMorihara/gh-tidy
 GitHub CLI: # gh extension install matt-bartel/gh-clone-org
 GitHub CLI: # gh extension install yuler/gh-download
+Github Desktop: Inst. # scoop install github
 gitleaks: Inst. # sudo pacman -S gitleaks
 gitleaks: Inst. # scoop install gitleaks
 Glow: Depend. # sudo pacman -S glow
@@ -234,6 +241,8 @@ NPM: Proxy 3. # npm config delete https-proxy
 nvm: Inst. # sudo pacman -S nvm
 nvm: Inst. # scoop install nvm
 OBS Studio: Inst. # scoop install obs-studio
+Onefetch: Inst. # sudo pacman -S onefetch
+Onefetch: Inst. # scoop install onefetch
 open-cli: Inst. # bun add -g open-cli
 OpenCode: Inst. # paru -S opencode
 OpenCode: Inst. # scoop install opencode
@@ -283,8 +292,6 @@ Repos: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-b
 Repos: # repos status
 Repos: # repos pull
 rgx: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/rgx.json
-Riff: Inst. # scoop install riff
-Riff: # git diff | riff
 Rime: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/weasel.json
 ripgrep: Inst. # sudo pacman -S ripgrep ripgrep-all
 ripgrep: Inst. # scoop install ripgrep rga
@@ -339,6 +346,7 @@ Tabiew: # tw <csvs>
 TablacusExplorer: Inst. # tablacus-explorer
 tailspin: Inst. # scoop install tailspin
 tailspin: # tspin <log>
+tere: Inst. # sudo pacman install tere
 tere: Inst. # scoop install tere
 terser: Depend. # yay -S --noconfirm terser
 terser: Depend. # bun add -g terser
@@ -409,24 +417,24 @@ Yazi: Inst. # scoop install yazi
 Yazi: Conf. # mkdir ~/.config/yazi
 Yazi: Conf. # mkdir %AppData%\yazi\config
 Yazi: # ya pkg upgrade
-Yazi: # ya pkg add gosxrgxx/flexoki-dark
-Yazi: # ya pkg add gosxrgxx/flexoki-light
-Yazi: # ya pkg add yazi-rs/plugins:toggle-pane
-Yazi: # ya pkg add dedukun/bookmarks
-Yazi: # ya pkg add KKV9/compress
-Yazi: # ya pkg add AnirudhG07/custom-shell
-Yazi: # ya pkg add Ape/open-with-cmd
-Yazi: # ya pkg add yazi-rs/plugins:piper
-Yazi: # ya pkg add yazi-rs/plugins:git
-Yazi: # ya pkg add Lil-Dank/lazygit
-Yazi: # ya pkg add pakhromov/goto-file-dir
-Yazi: # ya pkg add pakhromov/paste-navigate
-Yazi: # ya pkg add czlaci/hexyl
-Yazi: # ya pkg add pakhromov/to-pdf-preview
-Yazi: # ya pkg add AminurAlam/yazi-plugins:font-sample
-Yazi: # ya pkg add kirasok/epub-preview
-Yazi: # ya pkg add boydaihungst/mediainfo
-Yazi: # ya pkg add AminurAlam/yazi-plugins:preview-typst
+Yazi: Plug. # ya pkg add gosxrgxx/flexoki-dark
+Yazi: Plug. # ya pkg add gosxrgxx/flexoki-light
+Yazi: Plug. # ya pkg add yazi-rs/plugins:toggle-pane
+Yazi: Plug. # ya pkg add dedukun/bookmarks
+Yazi: Plug. # ya pkg add KKV9/compress
+Yazi: Plug. # ya pkg add AnirudhG07/custom-shell
+Yazi: Plug. # ya pkg add Ape/open-with-cmd
+Yazi: Plug. # ya pkg add yazi-rs/plugins:piper
+Yazi: Plug. # ya pkg add yazi-rs/plugins:git
+Yazi: Plug. # ya pkg add Lil-Dank/lazygit
+Yazi: Plug. # ya pkg add pakhromov/goto-file-dir
+Yazi: Plug. # ya pkg add pakhromov/paste-navigate
+Yazi: Plug. # ya pkg add czlaci/hexyl
+Yazi: Plug. # ya pkg add pakhromov/to-pdf-preview
+Yazi: Plug. # ya pkg add AminurAlam/yazi-plugins:font-sample
+Yazi: Plug. # ya pkg add kirasok/epub-preview
+Yazi: Plug. # ya pkg add boydaihungst/mediainfo
+Yazi: Plug. # ya pkg add AminurAlam/yazi-plugins:preview-typst
 yoga: Inst. # pipx install yoga
 YOGA Image Optimizer: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/yoga-image-optimizer.json
 yq: Depend. # sudo pacman -S yq
@@ -457,11 +465,11 @@ zlib: Depend. # scoop install zlib
 (Arch) tmuxp: # tmuxp load user
 (Arch) tmuxp: Inst. # uv tool install tmuxp
 (Arch) zathura: Inst. # sudo pacman -S zathura zathura-cb zathura-pdf-mupdf
-(Arch) Yazi: # ya pkg add uhs-robert/recycle-bin
-(Arch) Yazi: # ya pkg add yazi-rs/plugins:chmod
-(Arch) Yazi: # ya pkg add yazi-rs/plugins:mount
-(Arch) Yazi: # ya pkg add uhs-robert/sshfs
-(Arch) Yazi: # ya pkg add NoponyAsked/sxiv
+(Arch) Yazi: Plug. # ya pkg add uhs-robert/recycle-bin
+(Arch) Yazi: Plug. # ya pkg add yazi-rs/plugins:chmod
+(Arch) Yazi: Plug. # ya pkg add yazi-rs/plugins:mount
+(Arch) Yazi: Plug. # ya pkg add uhs-robert/sshfs
+(Arch) Yazi: Plug. # ya pkg add NoponyAsked/sxiv
 (Arch)(Later) cheznav: Inst. # yay -S --noconfirm cheznav
 (Arch)(Later) Pacsea: Inst. # yay -S --noconfirm pacsea-bin
 (Arch)(Later) passepartui: Inst. # yay -S --noconfirm passepartui
@@ -638,6 +646,8 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Carnac: Inst. # scoop install carnac
 (Extra) choose: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/choose.json
 (Extra) CMake: Inst. # scoop install cmake
+(Extra) coBib: Inst. # yay -S --noconfirm cobib
+(Extra) coBib: Inst. # uv tool install cobib
 (Extra) code-minimap: Inst. # scoop install code-minimap
 (Extra) Code2prompt: Inst. # yay -S --noconfirm code2prompt
 (Extra) Code2prompt: Inst. # cargo install --force code2prompt
@@ -654,6 +664,8 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) dedoc: Inst. # cargo install dedoc
 (Extra) dedoc: Conf. # set "DEDOC_HOME=%USERPROFILE%\Usr\Data\dedoc"
 (Extra) didder: Inst. # scoop install didder
+(Extra) diffnav: Inst. # bin install github.com/dlvhdr/diffnav %USERPOFILE%/.local/bin/diffnav.exe
+(Extra) diffnav: Inst. # git diff | diffnav
 (Extra) Doxygen: Inst. # scoop install doxygen
 (Extra) duf: Inst. # scoop install duf
 (Extra) Dufs: Inst. # yay -S --noconfirm dufs-bin
@@ -706,6 +718,11 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Inkscape: Inst. # scoop install inkscape
 (Extra) oken: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/oken.json
 (Extra) OmegaT: Inst. # scoop install omegat
+(Extra) OpenCode: Plug. # bun add -g @mohak34/opencode-notifier@latest
+(Extra) OpenCode: Plug. # bun add -g opencode-input-translator@latest
+(Extra) OpenCode: Plug. Conf. # TRANSLATOR_API_KEY=Ollama
+(Extra) OpenCode: Plug. Conf. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
+(Extra) OpenCode: Plug. Conf. # TRANSLATOR_MODEL=gemma3:12b-it-qat
 (Extra) Pegasus Frontend: Inst. # yay -S --noconfirm pegasus-frontend-git
 (Extra) Pegasus Frontend: Inst. # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/pegasus.json
 (Extra) Pegasus Frontend: Inst. # gsudo scoop install k-lite-codec-pack-basic-np
@@ -722,6 +739,8 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) GlazePKG (gpk): Inst. # scoop install glazepkg
 (Extra) Qalculate!: Inst. # scoop install qalculate
 (Extra) QuickSFV: Inst. # scoop install quicksfv
+(Extra) Riff: Inst. # scoop install riff
+(Extra) Riff: # git diff | riff
 (Extra) Ruff: Inst. # scoop install ruff
 (Extra) Saber: Inst. # scoop install saber
 (Extra) Sentences: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sentences.json

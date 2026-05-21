@@ -1,1 +1,78 @@
 ## https://github.com/tj/git-extras/blob/main/Commands.md
+Abort current revert,rebase,merge or cherry-pick,without the need to find exact command in history           | git abort
+Define,search and show aliases                                                                               | git alias
+Creates a zip archive of the current git repository                                                          | git archive-file
+Populates the file matching authors/contributors -i with the authors of commits                              | git authors
+Opens the current git repository website in your default web browser                                         | git browse
+Opens the current git repository CI website in your default web browser.                                     | git browse-ci
+Operations that execute on multiple git repositories                                                         | git bulk
+Pretty listing of branches sorted by the date of their last commit                                           | git brv
+Generates a changelog from git(1) tags (annotated or lightweight) and commit messages                        | git changelog
+Does a hard reset and deletes all untracked files from the working directory, including those in .gitignore  | git clear
+Does a hard reset and deletes all untracked files from the working directory, excluding those in .gitignore  | git clear-soft
+Add a co-author to the last commit                                                                           | git coauthor
+List commits since date (defaults to "last week")                                                            | git commits-since
+Continue current revert,rebase,merge or cherry-pick,without the need to find exact command in history        | git continue
+Output author's contributions to a project                                                                   | git contrib
+Output commit count                                                                                          | git count
+Copy a file to another one keeping its history and allowing for merge conflicts handling                     | git cp
+Create local branch name                                                                                     | git create-branch
+Delete local and remote branch name                                                                          | git delete-branch
+Deletes branches that are listed in git branch --merged                                                      | git delete-merged-branches
+Deletes branches that have been "squashed-merged" into a specified branch                                    | git delete-squashed-branches
+Delete submodule name                                                                                        | git delete-submodule
+Delete local and remote tag name                                                                             | git delete-tag
+Lists files that differ from another branch                                                                  | git delta
+Displays "effort" statistics                                                                                 | git effort
+The main git-extras command                                                                                  | git extras
+Create/Merge the given feature branch name                                                                   | git feature
+Reset its contents to a clone of the remote                                                                  | git force-clone
+Fork the given github <repo>                                                                                 | git fork
+Create empty local branch                                                                                    | git fresh-branch
+Clone repository into a subdirectory of the configured path                                                  | git get
+Sets up the gh-pages branch                                                                                  | git gh-pages
+Merge commits from src-branch into dest-branch                                                               | git graft
+Calculate the change in blame between two revisions                                                          | git guilt
+Generate sample gitignore file from gitignore.io                                                             | git ignore-io
+Too lazy to open up .gitignore                                                                               | git ignore
+Show information about the repo                                                                              | git info
+List all commits on the local branch that have not yet been sent to origin                                   | git local-commits
+Lock a local file filename                                                                                   | git lock
+List local locked files                                                                                      | git locked
+Commits changes with a generated message                                                                     | git magic
+Merge branch into                                                                                            | git merge-into
+Merges two repository histories                                                                              | git merge-repo
+Print out which commits are on one branch or the other but not both                                          | git missing
+Checks out a merge request from GitLab                                                                       | git mr
+Completely remove a file from the repository,including past commits and tags                                 | git obliterate
+Sends commits to a pastebin site using pastebinit                                                            | git paste
+Checks out a pull request from GitHub                                                                        | git pr
+Rebase a branch on top of another using a merge commit and only one conflict handling                        | git psykorebase
+Create pull request via commandline                                                                          | git pull-request
+Rewrite history to change author's identity                                                                  | git reauthor
+Given you have a patch that doesn't apply to the current HEAD                                                | git rebase-patch
+Release commit with the given <tag> and other options                                                        | git release
+Rename a branch locally,and sync to remote via git push                                                      | git rename-branch
+Rename a file or directory and ensure Git recognizes the change                                              | git rename-file
+Rename a tag (locally and remotely)                                                                          | git rename-tag
+Rename a git remote regardless of name conflict                                                              | git rename-remote
+Git read-eval-print-loop                                                                                     | git repl
+Reset one file to HEAD or certain commit                                                                     | git reset-file
+Show the path to root directory of git repo                                                                  | git root
+A convenient way to copy files from the current working tree to the working directory of a remote repository | git scp/rscp
+Run grep as directed but replace the given files with the pattern                                            | git sed
+Set up a git repository (if one doesn't exist),add all files,and make an initial commit                      | git setup
+Show all branches merged in to current HEAD                                                                  | git show-merged-branches
+Show the decorated graph view of one liner summarized commits from all branches                              | git show-tree
+Show all branches not merged in to current HEAD                                                              | git show-unmerged-branches
+Stamp the last commit message                                                                                | git stamp
+Merge commits from src-branch into the current branch as a single commit                                     | git squash
+Recall what you did or find what someone else did in a given range of time                                   | git standup
+Outputs a repo or path summary                                                                               | git summary
+Sync local branch with its remote branch                                                                     | git sync
+Call touch on the given file,and add it to the current index. One-step creation of new files                 | git touch
+Remove the latest commit                                                                                     | git undo
+Unlock a local file filename                                                                                 | git unlock
+Change files modification time to their last commit date                                                     | git utimes
+Undo a Work In Progress(WIP) commit and put all of those changes back into the working directory             | git unwip
+Create a Work In Progress(WIP) commit,which will include all changes in the working directory                | git wip

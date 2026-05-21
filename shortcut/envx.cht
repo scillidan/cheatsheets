@@ -1,1 +1,16 @@
 ## https://github.com/mikeleppane/envx?ref=terminaltrove#-tui-keyboard-shortcuts
+envx (Normal) Navigate up/down                   | j/k / Up/Dn
+envx (Normal) Navigate by page                   | PgDn/PgUp
+envx (Normal) Jump to first/last item            | Home/End
+envx (Normal) View variable details              | v/Etr
+envx (Normal) Enter search mode                  | /
+envx (Normal) Add new variable                   | a
+envx (Normal) Edit selected variable             | e
+envx (Normal) Delete selected variable           | d
+envx (Normal) Refresh list                       | r
+envx (Normal) Quit                               | q
+envx (Search) Cancel search                      | Esc
+envx (Search) Apply search                       | ntr
+envx (Edit) Switch between name and value fields | Tab
+envx (Edit) Save changes                         | C-Etr
+envx (Edit) Cancel editing                       | Esc

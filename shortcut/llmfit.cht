@@ -1,1 +1,33 @@
 ## https://github.com/AlexsJones/llmfit?ref=terminaltrove#usage
+Navigate models                                                       | j/k / Up/Dn
+Enter search mode (partial match on name, provider, params, use case) | /
+Exit search mode                                                      | Esc / Etr
+Clear search                                                          | C-U
+Cycle fit filter: All, Runnable, Perfect, Good, Marginal              | f
+Cycle availability filter: All, GGUF Avail, Installed                 | a
+Cycle sort column: Score, Params, Mem%, Ctx, Date, Use Case           | s
+Enter Visual mode (select multiple models)                            | v
+Enter Select mode (column-based filtering)                            | V
+Cycle color theme (saved automatically)                               | t
+Open Plan mode for selected model (hardware planning)                 | p
+Open provider filter popup                                            | P
+Open use-case filter popup                                            | U
+Open capability filter popup                                          | C
+Open license filter popup                                             | L
+Open runtime/backend filter popup (llama.cpp, MLX, vLLM)              | R
+Open hardware simulation popup (override RAM/VRAM/CPU)                | S
+Open advanced configuration popup (tune efficiency, run mode factors) | A
+Open community leaderboard view (localmaxxing.com)                    | b
+Open inference bench view (local quality scoring against your models) | I
+Open help popup (all key bindings)                                    | h
+Mark selected model for compare                                       | m
+Open compare view (marked vs selected)                                | c
+Clear compare mark                                                    | x
+Toggle installed-first sorting (any detected runtime provider)        | i
+Download selected model (provider picker when multiple are available) | d
+Open Download Manager (history, deletion, config)                     | D
+Refresh installed models from runtime providers                       | r
+Toggle detail view for selected model                                 | Etr
+Scroll by 10                                                          | PgUp/PgDn
+Jump to top/bottom                                                    | g/G
+Quit                                                                  | q

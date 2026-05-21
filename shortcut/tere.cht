@@ -1,1 +1,19 @@
 ## https://github.com/mgunyho/tere?ref=terminaltrove#keyboard-shortcuts
+Enter directory under cursor      | Rt / A-l/Dn / Etr / Spc
+Go to parent directory            | Lt / A-h/Up / Bksp
+Go to home directory              | ~ / C-Home / C-A-h
+Go to root directory              | / / A-r
+Move cursor up/down               | A-k/j / Up/Dn
+Move cursor up/down by one screen | PgUp/PgDn / C-u/d / A-u/d
+Move cursor to the top            | Home/End / A-g/A-S-g
+Erase a character from the search | Bksp
+Clear the search                  | Esc
+Toggle filter search              | A-f
+Change case sensitivity mode      | A-c
+Change gap search mode            | C-f
+Change sorting mode               | A-s
+Refresh current directory         | C-r
+Show help screen                  | ?
+Exit                              | Esc / A-q
+Enter directory and exit          | A-Etr / C-Spc
+Exit without changing directory   | C-c
