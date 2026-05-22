@@ -49,25 +49,30 @@ yazi: (Multi-tab) Switch to the $-th tab                                        
 yazi: (Multi-tab) Switch to the previous/next tab                                | [/]
 yazi: (Multi-tab) Swap current tab with previous/next tab                        | {/}
 yazi: (Multi-tab) Close the current tab                                          | C-c
-yazi:: toggle-pane                                                               | T
-yazi:: goto-file-dir                                                             | C-g
-yazi:: paste-navigate                                                            | C-p
-yazi:: open-with-cmd                                                             | O
-yazi:: open-with-cmd: In the terminal                                            | o
-yazi:: custom-shell                                                              | ' ;
-yazi:: custom-shell (block)                                                      | ' :
-yazi:: lazygit                                                                   | g i
+yazi:: toggle-pane: Maximize or restore the preview pane                         | T
+yazi:: goto-file-dir: Go to directory of hovered file                            | C-g
+yazi:: paste-navigate: Navigate to path                                          | C-p
+yazi:: bookmarks: Save current position as a bookmark                            | m
+yazi:: bookmarks: Jump to a bookmark (User)                                      | b b
+yazi:: bookmarks: Delete a bookmark                                              | b d
+yazi:: bookmarks: Delete all bookmarks                                           | b D
+yazi:: open-with-cmd: Open with command in the terminal                          | o
+yazi:: open-with-cmd: Open with command                                          | O
+yazi:: custom-shell: As default, interactive                                     | ' ;
+yazi:: custom-shell: As default, interactive, block                              | ' :
+yazi:: lazygit: Run lazygit                                                      | g i
+yazi:: compress: Archive selected files                                          | c a a
+yazi:: compress: Archive selected files (password)                               | c a p
+yazi:: compress: Archive selected files (password+header)                        | c a h
+yazi:: compress: Archive selected files (compression)                            | c a l
+yazi:: compress: Archive selected files (password+header+leavel)                 | c a u
+yazi:: mediainfo: Toggle media preview metadata                                  | F3
 yazi:: recycle-bin: Go to trash                                                  | g t
 yazi:: recycle-bin: Open trash                                                   | R o
 yazi:: recycle-bin: Empty Trash                                                  | R e
 yazi:: recycle-bin: Delete from Trash                                            | R d
 yazi:: recycle-bin: Empty by days deleted                                        | R D
 yazi:: recycle-bin: Restore from Trash                                           | R r
-yazi:: compress                                                                  | c a a
-yazi:: compress (password)                                                       | c a p
-yazi:: compress (password+header)                                                | c a h
-yazi:: compress (compression)                                                    | c a l
-yazi:: compress (password+header+leavel)                                         | c a u
-yazi:: mediainfo: Toggle metadata                                                | F3
+yazi:: chmod: Chmod on selected files                                            | c m
 yazi:: mount                                                                     | M
-yazi:: sxiv                                                                      | c i
+yazi:: sxiv: Preview images in sxiv                                              | c i
