@@ -215,7 +215,7 @@ LosslessCut: Inst. # yay -S --noconfirm losslesscut-bin
 LosslessCut: Inst. # scoop install losslesscut
 LRCGET: Inst. # yay -S --noconfirm lrcget-bin
 LRCGET: Inst. # scoop install lrcget
-LXGW Wenkai GB: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/LXGW-Wenkai-GB.json
+LXGW Wenkai GB: Inst. # scoop install LXGW-Wenkai-GB
 Lynx: Depend. # scoop install lynx
 Marksman: Depend. # scoop install marksman
 MediaInfo: Inst. # sudo pacman -S mediainfo mediainfo-gui
@@ -314,8 +314,7 @@ rsync: Inst. # sudo pacman -S rsync
 rsync: Inst. # scoop install cwrsync
 rsync: Update nvim config from ArchWSL to Windows # rsync -r ~/.config/nvim/ /mnt/c/Users/User/AppData/Local/nvim --include={".*"} --exclude={"lazy-lock.json"}
 Rum: Inst. # bin install github.com/thekarel/rum rum.exe
-Sarasa Gothic: Inst. # scoop install https://raw.githubusercontent.com/matthewjberger/scoop-nerd-fonts/refs/heads/master/bucket/SarasaGothic-SC.json
-Sarasa Term SC Nerd: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/Sarasa-Term-SC-Nerd.json
+Sarasa Term SC Nerd: Inst. # scoop install Sarasa-Term-SC-Nerd
 scooter: Inst. # scoop install scooter
 sd: Inst. # sudo pacman -S sd
 sd: Inst. # scoop install sd
@@ -325,7 +324,7 @@ Sigil: Inst. # sudo pacman -S sigil
 Sigil: Inst. # scoop install sigil
 Sioyek: Inst. # sudo pacamn -S sioyek
 Sioyek: Inst. # scoop install sioyek
-Smiley Sans: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/Smiley-Sans.json
+Smiley Sans: Inst. # scoop install Smiley-Sans
 SSHFS: Inst. # sudo pacman -S sshfs
 SSHFS: Inst. # sudo apt install sshfs
 SSHFS: Depend. # gsudo scoop install winfsp-np sshfs-np
