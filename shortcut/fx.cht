@@ -2,7 +2,7 @@
 f(x): Exit the program            | q/Esc/C-c
 f(x): Page up                     | b/PgUp
 f(x): Page down                   | f/Spc/PgDn
-f(x): Half page up/down                | u/d
+f(x): Half page up/down           | u/d
 f(x): Go to top/bottom            | g/G / Home/end
 f(x): Go to symbol                | @
 f(x): Go to reference             | C-g
