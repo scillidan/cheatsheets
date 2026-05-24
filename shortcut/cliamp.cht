@@ -1,92 +1,87 @@
 ## https://github.com/bjarneo/cliamp/blob/main/docs/keybindings.md
-Press `?` or `C-K` in the player to see all keybindings.
-
-cliamp (Navigation)
-cliamp (EQ and Appearance)
-cliamp (Features)
-cliamp (Playlist and Queue)
-cliamp (Provider browser (`N` key))
-cliamp (Provider playlist list)
-cliamp (Search results overlays)
-cliamp (General)
-cliamp: (Playback) Play/Pause | Spc
-cliamp: (Playback) Stop | s
-cliamp: (Playback) Previous/Next track | </> / ,/.
-cliamp: (Playback) Seek -/+5s | Lt/Rt
-cliamp: (Playback) Seek -/+30s (configurable) | S-Lt/Rt
-cliamp: (Playback) Seek to N×10% of the track (e.g. `7j` jumps to 70%, `0j` to the start) | $j
-cliamp: (Playback) Volume up/down | + -
-cliamp: (Playback) Speed up/down (±0.25x) | ] [
-cliamp: (Playback) Toggle mono | m
-cliamp: (Playback) Jump to time | C-J
-Toggle focus (Playlist / EQ) | Tab
-Playlist scroll / EQ band adjust (wraps around) | j k / Up Dn
-Scroll playlist/file browser by page | PgUp PgDn / C-U C-D
-Go to top/end of playlist/file browser | Home End / g G
-Move track up/down in playlist/queue | S-Up S-Dn
-EQ cursor left/right | h l
-Play selected track | Etr
-Search playlist | /
-Expand/collapse playlist | C-X
-Open file browser | o
-Back to provider | b Esc
-Cycle EQ preset | e
-Choose theme | t
-Cycle visualizer | v
-Full screen visualizer | V
-Toggle album headers | C-H
-Toggle bookmark ★ on selected track (or favorite radio station in radio browser) | f
-Search — active provider's native search (Spotify, Navidrome, Jellyfin, Emby, Plex, NetEase, Local) or YouTube fallback. Available from playlist and provider-browser views. | C-F
-Load URL (stream/playlist) | u
-Show lyrics | y
-Save track to ~/Music | C-S
-Navidrome browser | N
-Browse local playlists (with cliamp radio) | L
-Open radio provider | R
-Open Spotify provider | S
-Open Plex provider | P
-Open Jellyfin provider | J
-Open Emby provider | E
-Open YouTube provider | Y
-Open SoundCloud provider | C
-Open NetEase provider | M
-Toggle queue (play next) | a
-Queue manager | A
-Remove the highlighted track from the current playlist | x
-Playlist manager | p
-Cycle repeat (Off / All / One) | r
-Toggle shuffle | z
-Move cursor | ↑ ↓ / j k
-Filter (incremental); `Esc` clears | /
-List screen: open the highlighted playlist · Tracks screen: play the **highlighted** track | Etr / →
-Tracks screen: play all from the top | P
-Add the now-playing track (footer shows which track) | a
-List: delete playlist (confirms) · Tracks: remove the highlighted track | d
-Tracks screen: go back to the list | ← Bksp h
-Close the playlist manager | p Esc
-Move cursor (wraps top↔bottom) | ↑ ↓ / j k
-Back / drill in | ← → / h l
-Filter the visible list (search bar appears under the title) | /
-Open (artists/albums) · play the highlighted track and queue the rest of the visible list | Etr
-Replace the queue with all visible tracks (start from the top) | R
-Append all visible tracks to the queue | a
-Queue the highlighted track to play next | q
-Cycle album sort (album list only) | s
-Quick-switch to that provider without going back through the main pane | S N P J E Y C M L R
-Walk back one level / close the browser | Esc b
-Move cursor (wraps) | ↑ ↓ / j k
-Load the highlighted playlist's tracks into the queue | Etr
-Filter the playlist list | /
-Online/server search (Spotify/Navidrome/NetEase/etc.'s own search) | C-F
-Refresh — re-pull the playlist list from the provider | C-R
-Switch to that provider | S N P J E Y C M L R
-Switch focus to EQ | Tab
-Back to the playlist pane | Esc b
-Move cursor | ↑ ↓ / j k
-Play the selected track now | Etr
-Append the selected track to the playlist | a
-Queue the selected track to play next | q
-(Spotify only) Save the selected track to a Spotify playlist | p
-Back to the search input | Esc Bksp
-Show keymap | ? / C-K
-Quit | q
+cliamp: (Playback) Play/Pause                                                                      | Spc
+cliamp: (Playback) Stop                                                                          | s
+cliamp: (Playback) Previous/Next track                                                           | </> / ,/.
+cliamp: (Playback) Seek -/+5s                                                                    | Lt/Rt
+cliamp: (Playback) Seek -/+30s (configurable)                                                    | S-Lt/Rt
+cliamp: (Playback) Seek to N×10% of the track                                                    | $j
+cliamp: (Playback) Volume up/down                                                                | +/-
+cliamp: (Playback) Speed up/down (±0.25x)                                                        | ]/[
+cliamp: (Playback) Toggle mono                                                                   | m
+cliamp: (Playback) Jump to time                                                                  | C-j
+cliamp (Navigation) Toggle focus (Playlist / EQ)                                                 | Tab
+cliamp (Navigation) Playlist scroll / EQ band adjust (wraps around)                              | j/k / Up/Dn
+cliamp (Navigation) Scroll playlist/file browser by page                                         | PgUp/PgDn / C-u/d
+cliamp (Navigation) Go to top/end of playlist/file browser                                       | g/G / Home/End
+cliamp (Navigation) Move track up/down in playlist/queue                                         | S-Up/Dn
+cliamp (Navigation) EQ cursor left/right                                                         | h/l
+cliamp (Navigation) Play selected track                                                          | Etr
+cliamp (Navigation) Search playlist                                                              | /
+cliamp (Navigation) Expand/collapse playlist                                                     | C-x
+cliamp (Navigation) Open file browser                                                            | o
+cliamp (Navigation) Back to provider                                                             | b/Esc
+cliamp (EQ and Appearance) Cycle EQ preset                                                       | e
+cliamp (EQ and Appearance) Choose theme                                                          | t
+cliamp (EQ and Appearance) Cycle visualizer                                                      | v
+cliamp (EQ and Appearance) Full screen visualizer                                                | V
+cliamp (EQ and Appearance) Toggle album headers                                                  | C-h
+cliamp (Features) Toggle bookmark ★ on selected track                                            | f
+cliamp (Features) Search (In playlist/provider-browser views)                                    | C-f
+cliamp (Features) Load URL (stream/playlist)                                                     | u
+cliamp (Features) Show lyrics                                                                    | y
+cliamp (Features) Save track to ~/Music                                                          | C-s
+cliamp (Features) Navidrome browser                                                              | N
+cliamp (Features) Browse local playlists (with cliamp radio)                                     | L
+cliamp (Features) Open radio provider                                                            | R
+cliamp (Features) Open Spotify provider                                                          | S
+cliamp (Features) Open Plex provider                                                             | P
+cliamp (Features) Open Jellyfin provider                                                         | J
+cliamp (Features) Open Emby provider                                                             | E
+cliamp (Features) Open YouTube provider                                                          | Y
+cliamp (Features) Open SoundCloud provider                                                       | C
+cliamp (Features) Open NetEase provider                                                          | M
+cliamp (Playlist/Queue) Toggle queue (play next)                                                 | a
+cliamp (Playlist/Queue) Queue manager                                                            | A
+cliamp (Playlist/Queue) Remove the highlighted track from the current playlist                   | x
+cliamp (Playlist/Queue) Playlist manager                                                         | p
+cliamp (Playlist/Queue) Cycle repeat (Off/All/One)                                               | r
+cliamp (Playlist/Queue) Toggle shuffle                                                           | z
+cliamp (playlist manager) Move cursor                                                            | j/k / Up/Dn
+cliamp (playlist manager) Filter (incremental)                                                   | /
+cliamp (playlist manager) Clear filter                                                           | Esc
+cliamp (playlist manager) List screen: open the highlighted playlist                             | Etr/Rt
+cliamp (playlist manager) Tracks screen: play the highlighted track                              | Etr/Rt
+cliamp (playlist manager) Tracks screen: play all from the top                                   | P
+cliamp (playlist manager) Add the now-playing track (footer shows which track)                   | a
+cliamp (playlist manager) List: delete playlist (confirms)                                       | d
+cliamp (playlist manager) Tracks: remove the highlighted track                                   | d
+cliamp (playlist manager) Tracks screen: go back to the list                                     | h/Bksp/Lt
+cliamp (playlist manager) Close the playlist manager                                             | p/Esc
+cliamp (Provider browser) Drill into a provider                                                  | N
+cliamp (Provider browser) Move cursor (wraps top and bottom)                                     | j/k / Up/Dn
+cliamp (Provider browser) Back/drill in                                                          | h/l / Lt/Rt
+cliamp (Provider browser) Filter the visible list (search bar appears under the title)           | /
+cliamp (Provider browser) Open (artists/albums)                                                  | Etr
+cliamp (Provider browser) Play the highlighted track and queue the rest of the visible list      | Etr
+cliamp (Provider browser) Replace the queue with all visible tracks (start from the top)         | R
+cliamp (Provider browser) Append all visible tracks to the queue                                 | a
+cliamp (Provider browser) Queue the highlighted track to play next                               | q
+cliamp (Provider browser) Cycle album sort (album list only)                                     | s
+cliamp (Provider browser) Quick-switch to that provider without going back through the main pane | S/N/P/J/E/Y/C/M/L/R
+cliamp (Provider browser) Walk back one level / close the browser                                | b/Esc
+cliamp (Provider playlist list) Move cursor (wraps)                                              | j/k / Up/Dn
+cliamp (Provider playlist list) Load the highlighted playlist's tracks into the queue            | Etr
+cliamp (Provider playlist list) Filter the playlist list                                         | /
+cliamp (Provider playlist list) Online/server search                                             | C-f
+cliamp (Provider playlist list) Refresh — re-pull the playlist list from the provider            | C-r
+cliamp (Provider playlist list) Switch to that provider                                          | S/N/P/J/E/Y/C/M/L/R
+cliamp (Provider playlist list) Switch focus to EQ                                               | Tab
+cliamp (Provider playlist list) Back to the playlist pane                                        | b/Esc
+cliamp (Search results overlays) Move cursor                                                     | j/k / Up/Dn
+cliamp (Search results overlays) Play the selected track now                                     | Etr
+cliamp (Search results overlays) Append the selected track to the playlist                       | a
+cliamp (Search results overlays) Queue the selected track to play next                           | q
+cliamp (Search results overlays) (Spotify only) Save the selected track to a Spotify playlist    | p
+cliamp (Search results overlays) Back to the search input                                        | Bksp/Esc
+cliamp (General) Show keymap                                                                     | C-k / ?
+cliamp (General) Quit                                                                            | q

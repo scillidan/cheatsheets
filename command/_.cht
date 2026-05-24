@@ -24,7 +24,7 @@ Calibre: Inst. # sudo pacman -S calibre
 Calibre: Inst. # scoop install calibre
 Cargo: Depend. # cargo search --registry crates-io
 cargo-seek: Inst. # bin install github.com/tareqimbasher/cargo-seek cargo-seek.exe
-carl: Inst. # cargo install carl
+carl: Inst. # cargo install -f carl
 chafa: Depend. # sudo pacman -S chafa
 chafa: Depend. # scoop install chafa
 ClamAV: Inst. # sudo pacman -S clamav
@@ -100,6 +100,8 @@ fzf: Inst. # sudo pacman -S fzf
 fzf: Inst. # scoop install fzf
 forgit: Inst. # scoop install forgit
 g: Inst. # scoop install g
+g: Conf. # set "G_MIRROR=https://go.dev/dl/"
+g: Conf. # set "GOPATH=%USERHOME%\\.gopath"
 g: Install go 1. # g ls-remote stable
 g: Install go 2. # g install <version>
 g: Install go 3. # g use <version>
@@ -277,7 +279,7 @@ Pet: Conf. # subl %APPDATA%\pet\config.toml
 PDF Arranger: Inst. # sudo pacman -S pdfarranger
 PDF Arranger: Inst. # scoop install pdfarranger
 pipe-rename: Inst. # sudo pacman -S pipe-rename
-pipe-rename: Inst. # cargo install --force pipe-rename
+pipe-rename: Inst. # cargo install -f pipe-rename
 pipe-rename: # ls | renamer
 pipx: Inst. # sudo pacman -S python-pipx
 pipx: Inst. # python -m pip install pipx
@@ -331,7 +333,7 @@ SSHFS: Depend. # gsudo scoop install winfsp-np sshfs-np
 Stirling-PDF: Inst. # yay -S --noconfirm stirling-pdf-bin
 Stirling-PDF: Inst. # scoop install stirling-pdf
 sub-batch: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sub-batch.json
-sub-batch: Inst. # cargo install --force sub-batch
+sub-batch: Inst. # cargo install -f sub-batch
 subsetzer: Inst. # uv tool install subsetzer
 Sublime Text: Inst. # sudo pacman -S sublime-text
 Sublime Text: Inst. # scoop install sublime-text
@@ -382,7 +384,7 @@ tldr: Clear local repository then clone # tldr -c
 tldr: Pulls the latest commits from github.com/tldr-pages/tldr # tldr -u
 trashy: Inst. # yay -S --noconfirm trashy
 trashy: Inst. # scoop install trashy
-trashy: Inst. # cargo install --force trashy
+trashy: Inst. # cargo install -f trashy
 ttf2woff2: Inst. # bun add -g ttf2woff2
 typst: Inst. # scoop install typst
 typst: (VSCodium) # scoop install tinymist typstyle
@@ -428,22 +430,30 @@ Yazi: Conf. # mkdir %AppData%\yazi\config
 Yazi: # ya pkg upgrade
 Yazi: Plug. # ya pkg add gosxrgxx/flexoki-dark
 Yazi: Plug. # ya pkg add gosxrgxx/flexoki-light
+Yazi: Plug. # ya pkg add ahkohd/eza-preview
+(Bug) Yazi: Plug. # ya pkg add pakhromov/yatline-selected-size
+Yazi: Plug. # ya pkg add Rolv-Apneseth/bypass
 Yazi: Plug. # ya pkg add yazi-rs/plugins:toggle-pane
-Yazi: Plug. # ya pkg add dedukun/bookmarks
-Yazi: Plug. # ya pkg add KKV9/compress
-Yazi: Plug. # ya pkg add AnirudhG07/custom-shell
-Yazi: Plug. # ya pkg add Ape/open-with-cmd
-Yazi: Plug. # ya pkg add yazi-rs/plugins:piper
-Yazi: Plug. # ya pkg add yazi-rs/plugins:git
-Yazi: Plug. # ya pkg add Lil-Dank/lazygit
+Yazi: Plug. # ya pkg add MasouShizuka/close-and-restore-tab
+Yazi: Plug. # ya pkg add gogongxt/initial-cwd
 Yazi: Plug. # ya pkg add pakhromov/goto-file-dir
 Yazi: Plug. # ya pkg add pakhromov/paste-navigate
-Yazi: Plug. # ya pkg add czlaci/hexyl
-Yazi: Plug. # ya pkg add pakhromov/to-pdf-preview
-Yazi: Plug. # ya pkg add AminurAlam/yazi-plugins:font-sample
-Yazi: Plug. # ya pkg add kirasok/epub-preview
+Yazi: Plug. # ya pkg add WindustH/makelink
+Yazi: Plug. # ya pkg add KKV9/compress
+Yazi: Plug. # ya pkg add pakhromov/batch-rename-gui
+Yazi: Plug. # ya pkg add Ape/open-with-cmd
+Yazi: Plug. # ya pkg add AnirudhG07/custom-shell
+Yazi: Plug. # ya pkg add Lil-Dank/lazygit
+Yazi: Plug. # ya pkg add dedukun/bookmarks
+Yazi: Plug. # ya pkg add yazi-rs/plugins:git
+Yazi: Plug. # ya pkg add yazi-rs/plugins:piper
 Yazi: Plug. # ya pkg add boydaihungst/mediainfo
+Yazi: Plug. # ya pkg add fdkevin0/raw-preview
+Yazi: Plug. # ya pkg add pakhromov/to-pdf-preview
 Yazi: Plug. # ya pkg add AminurAlam/yazi-plugins:preview-typst
+Yazi: Plug. # ya pkg add kirasok/epub-preview
+Yazi: Plug. # ya pkg add AminurAlam/yazi-plugins:font-sample
+Yazi: Plug. # ya pkg add czlaci/hexyl
 yoga: Inst. # pipx install yoga
 YOGA Image Optimizer: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/yoga-image-optimizer.json
 yq: Depend. # sudo pacman -S yq
@@ -474,6 +484,7 @@ zlib: Depend. # scoop install zlib
 (Arch) tmuxp: # tmuxp load user
 (Arch) tmuxp: Inst. # uv tool install tmuxp
 (Arch) zathura: Inst. # sudo pacman -S zathura zathura-cb zathura-pdf-mupdf
+(Arch) Yazi: Plug. # ya pkg add plentyofpaper654/view-mode
 (Arch) Yazi: Plug. # ya pkg add uhs-robert/recycle-bin
 (Arch) Yazi: Plug. # ya pkg add yazi-rs/plugins:chmod
 (Arch) Yazi: Plug. # ya pkg add yazi-rs/plugins:mount
@@ -644,18 +655,16 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Aspell: Inst. # sudo pacman -S aspell aspell-en
 (Extra) Aspell: Inst. # scoop install aspell
 (Extra) ass2srt: Inst. # uv tool install ass2srt
+(Extra) ATAC: Inst. # scoop install atac
 (Extra) Audio Waveform Image Generator: Inst. # yay -S --noconfirm audiowaveform
 (Extra) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
 (Extra) AudioBookConverter: Inst. # scoop install audiobookconverter
 (Extra) BeeRef: Inst. # scoop install beeref
 (Extra) Branchless workflow for Git: Inst. # scoop install git-branchless
 (Extra) Branchless workflow for Git: Conf. # git-branchless init [-- uninstall]
-(Extra) Bibiman: Inst. # cargo install bibiman
+(Extra) Bibiman: Inst. # cargo install -f bibiman
 (Extra) Btop: Inst. # sudo pacman -S btop
 (Extra) Btop: Inst. # scoop install btop
-(Extra) erdtree: Inst. # sudo pacman -S erdtree
-(Extra) erdtree: Inst. # scoop install erdtree
-(Extra) erdtree: # erd --color auto --hidden --follow --human --sort name --dir-order first --layout inverted
 (Extra) Carnac: Inst. # scoop install carnac
 (Extra) choose: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/choose.json
 (Extra) CMake: Inst. # scoop install cmake
@@ -663,7 +672,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) coBib: Inst. # uv tool install cobib
 (Extra) code-minimap: Inst. # scoop install code-minimap
 (Extra) Code2prompt: Inst. # yay -S --noconfirm code2prompt
-(Extra) Code2prompt: Inst. # cargo install --force code2prompt
+(Extra) Code2prompt: Inst. # cargo install -f code2prompt
 (Extra) COOK: Inst. # go install -v github.com/glitchedgitz/cook/v2/cmd/cook@latest
 (Extra) critique: Inst. # bun add - critique
 (Extra) cyanrip: Inst. # scoop install cyanrip
@@ -671,13 +680,12 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) CUETools: Inst. # scoop install cuetools
 (Extra) CUETools: # Export → `[%directoryname%\]%artist% - %album%\%filename%-new[%unique%].cue`
 (Extra) daktilo: Inst. # sudo pacman -S daktilo
-(Extra) daktilo: Inst. # cargo install --force daktilo
-(Extra) dunk: Inst. # pipx install dunk
-(Extra) dunk: # git diff | dunk
+(Extra) daktilo: Inst. # cargo install -f daktilo
 (Extra) DBeaver: Inst. # scoop install dbeaver
 (Extra) deadbranch: Inst: # bin install github.com/armgabrielyan/deadbranch deadbranch.exe
-(Extra) dedoc: Inst. # cargo install dedoc
-(Extra) dedoc: Conf. # set "DEDOC_HOME=%USERPROFILE%\Usr\Data\dedoc"
+(Extra) dedoc: Inst. # cargo install -f dedoc
+(Extra) dedoc: Conf. # set "DEDOC_HOME=<path_to>\Data\dedoc"
+(Extra) Desed: Inst. # cargo install desed
 (Extra) didder: Inst. # scoop install didder
 (Extra) diffnav: Inst. # bin install github.com/dlvhdr/diffnav diffnav.exe
 (Extra) diffnav: Inst. # git diff | diffnav
@@ -688,8 +696,13 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) duf: Inst. # scoop install duf
 (Extra) Dufs: Inst. # yay -S --noconfirm dufs-bin
 (Extra) Dufs: Inst. # scoop install dufs
+(Extra) dunk: Inst. # pipx install dunk
+(Extra) dunk: # git diff | dunk
 (Extra) dupeGuru: Inst. # yay -S --noconfirm dupeguru
 (Extra) dupeGuru: Inst. # scoop install dupeguru
+(Extra) erdtree: Inst. # sudo pacman -S erdtree
+(Extra) erdtree: Inst. # scoop install erdtree
+(Extra) erdtree: # erd --color auto --hidden --follow --human --sort name --dir-order first --layout inverted
 (Extra) eva: Inst. # sudo pacman -S eva
 (Extra) eva: Inst. # scoop install eva
 (Extra) Fluent Reader: Inst. # yay -S --noconfirm fluent-reader
@@ -779,7 +792,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Ruff: Inst. # scoop install ruff
 (Extra) Saber: Inst. # scoop install saber
 (Extra) Sentences: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/sentences.json
-(Extra) Serie: Inst. # cargo install --locked serie
+(Extra) Serie: Inst. # cargo install -f --locked serie
 (Extra) ShellGPT: Inst. # uv tool install "shell-gpt[litellm]"
 (Extra) ShellGPT: Inst. # ollama pull mistral:7b-instruct
 (Extra) sig: Inst. # pacman -S sig
@@ -807,7 +820,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Thorium: Inst. # yay -S --noconfirm thorium-reader-bin
 (Extra) Thorium: Inst. # scoop install thorium-reader
 (Extra) Tidy Viewer (tv): Inst. # yay -S --noconfirm tidy-viewer
-(Extra) Tidy Viewer (tv): Inst. # cargo install --force tidy-viewer
+(Extra) Tidy Viewer (tv): Inst. # cargo install -f tidy-viewer
 (Extra) Trafilatura: Inst. # uv tool install trafilatura
 (Extra) ttyd: Inst. # scoop install ttyd
 (Extra) Uncap: Inst. # scoop install uncap
@@ -820,7 +833,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) video-compare: Inst. # scoop install video-compare
 (Extra) Vieb: Inst. # scoop install vieb
 (Extra) vimg: Inst. # yay -S --noconfirm vimg
-(Extra) vimg: Inst. # cargo install --force vimg
+(Extra) vimg: Inst. # cargo install -f vimg
 (Extra) vimg: Inst. # bin install github.com/alexheretic/vimg vimg.exe
 (Extra) vtt_to_srt3: Inst. # uv tool install vtt_to_srt3
 (Extra) Wait4X: Inst. # scoop install wait4x

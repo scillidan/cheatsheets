@@ -1,0 +1,30 @@
+## https://github.com/YS-L/csvlens#key-bindings
+csvlens: (Moving) Scroll one row or column in the given direction                          | h/j/k/l / Lt/Dn/Up/Rt
+csvlens: (Moving) Scroll one window up/down                                                | C-b/f / PgUp/PgDn
+csvlens: (Moving) Scroll half a window up/down                                             | (C-)u/d
+csvlens: (Moving) Scroll one window left/right                                             | C-h/l
+csvlens: (Moving) Scroll left/right to first column                                        | C-Lt/Rt
+csvlens: (Moving) Print the marked lines to stdout and exit                                | C-e
+csvlens: (Moving) Go to top/bottom                                                         | g/G / Home/End
+csvlens: (Moving) Go to line `n`                                                           | $G
+csvlens: (Search) Find content matching regex and highlight matches                        | /$regex
+csvlens: (Search) Jump to previous/next result                                             | N/n
+csvlens: (Search) Filter rows using regex (show only matches)                              | &$
+csvlens: (Search) Filter columns using regex (show only matches)                           | *$
+csvlens: (Selection) Toggle between row, column or cell selection modes                    | Tab
+csvlens: (Selection) Decrease/Increase selected column's width                             | </>
+csvlens: (Selection) Sort rows or toggle sort direction by the selected column             | J / S-Dn
+csvlens: (Selection) Same as above, but sort by natural ordering (e.g. "file2" < "file10") | C-j
+csvlens: (Selection) Find and highlight rows like the selected cell                        | #
+csvlens: (Selection) Filter rows like the selected cell                                    | @
+csvlens: (Selection) Copy the selected row or cell to clipboard                            | y
+csvlens: (Selection) Print the selected cell to stdout and exit                            | Etr
+csvlens: (Other) Toggle line wrapping                                                      | -S
+csvlens: (Other) Toggle line wrapping by words                                             | -W
+csvlens: (Other) Freeze this number of columns from the left                               | f$
+csvlens: (Other) Mark / unmark the selected row visually                                   | m
+csvlens: (Other) Clear all row marks                                                       | M
+csvlens: (Other) Print the marked rows (with header) to stdout and exit                    | C-e
+csvlens: (Other) Reset to default view (clear all filters and custom column widths)        | r
+csvlens: (Other) Display help                                                              | H/?
+csvlens: (Other) Exit                                                                      | q
