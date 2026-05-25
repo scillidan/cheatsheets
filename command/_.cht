@@ -489,6 +489,7 @@ zlib: Depend. # scoop install zlib
 (Arch) Yazi: Plug. # ya pkg add yazi-rs/plugins:chmod
 (Arch) Yazi: Plug. # ya pkg add yazi-rs/plugins:mount
 (Arch) Yazi: Plug. # ya pkg add uhs-robert/sshfs
+(Arch) Yazi: Plug. # ya pack -a xuyangy/delta
 (Arch) Yazi: Plug. # ya pkg add NoponyAsked/sxiv
 (Later)(Wait) diskus: Inst. # scoop install diskus
 (Arch)(Later) cheznav: Inst. # yay -S --noconfirm cheznav
