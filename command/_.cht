@@ -186,7 +186,6 @@ jq: # jq ".scripts" package.json
 just: Inst. # scoop install just
 Kdenlive: Inst. # sudo pacman -S kdenlive
 Kdenlive: Inst. # scoop install kdenlive
-Keyviz: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/keyviz.json
 Kiwix Serve: 1. # kiwix-serve --address 0.0.0.0 --port 5173 $.zim
 Kiwix Serve: 2.1. # kiwix-manage <path_to>\kiwix\library.xml add $1.zim $2.zim
 Kiwix Serve: 2.1. # kiwix-serve --library <path_to>\kiwix\library.xml --address 0.0.0.0 --port 5173
@@ -437,7 +436,6 @@ Yazi: Plug. # ya pkg add gosxrgxx/flexoki-dark
 Yazi: Plug. # ya pkg add gosxrgxx/flexoki-light
 Yazi: Plug. # ya pkg add Sansui233/autosession-win
 Yazi: Plug. # ya pkg add MasouShizuka/close-and-restore-tab
--Yazi: Plug. # ya pkg add pakhromov/yatline-selected-size
 Yazi: Plug. # ya pkg add terrakok/split-tabs
 Yazi: Plug. # ya pkg add yazi-rs/plugins:toggle-pane
 Yazi: Plug. # ya pkg add XYenon/clipboard
@@ -446,9 +444,6 @@ Yazi: Plug. # ya pkg add ourongxing/fast-enter
 Yazi: Plug. # ya pkg add masaki39/fd-fzf
 Yazi: Plug. # ya pkg add gogongxt/initial-cwd
 Yazi: Plug. # ya pkg add mihem/zoxide-add
-- Yazi: Plug. # ya pkg add pakhromov/goto-file-dir
-- Yazi: Plug. # ya pkg add pakhromov/paste-navigate
-- Yazi: Plug. # ya pkg add pakhromov/batch-rename-gui
 Yazi: Plug. # ya pkg add dedukun/bookmarks
 Yazi: Plug. # ya pkg add KKV9/compress
 Yazi: Plug. # ya pkg add AnirudhG07/custom-shell
@@ -501,29 +496,26 @@ zlib: Depend. # scoop install zlib
 (Arch) Yazi: Plug. # ya pkg add yazi-rs/plugins:mount
 (Arch) Yazi: Plug. # ya pkg add uhs-robert/sshfs
 (Arch) Yazi: Plug. # ya pkg add NoponyAsked/sxiv
-(Later)(Wait) diskus: Inst. # scoop install diskus
 (Arch)(Later) cheznav: Inst. # yay -S --noconfirm cheznav
-(Later)(Wait) F3D: Inst. # scoop install f3d
 (Arch)(Later) gtrash: Inst. # sudo pacman -S gtrash-bin
 (Arch)(Later) OFFPUNK: Inst. # pacman -S offpunk
 (Arch)(Later) Pacsea: Inst. # yay -S --noconfirm pacsea-bin
-(Later)(Wait) Parabolic: Inst. # scoop install parabolic
 (Arch)(Later) passepartui: Inst. # yay -S --noconfirm passepartui
 (Arch)(Later) pdfgrep: Inst. # sudo pacman -S pdfgrep
 (Arch)(Later) Qman: Inst. # sudo pacman -S qman
 (Arch)(Later) Systemd manager tui: Inst. # yay -S --noconfirm systemd-manager-tui
-(Arch)(Extra) hiSHtory: Inst. # bin install github.com/ddworken/hishtory
-(Arch)(Extra) khal: Inst. # uv tool install -U khal
-(Arch)(Extra) khal: Conf. # khal configure
-(Arch)(Extra) systemctl-tui: Inst. # sudo pacman -S systemctl-tui
-(Arch)(Extra) systeroid: Inst. # sudo pacman -S systeroid
 (Arch)(Later) Terminal UI for ufw: Inst. # yay -S --noconfirm tufw
 (Arch)(Later) wifitui: Inst. # yay -S --noconfirm wifitui-bin
-(Later)(Wait) Windows Dual Key Remap: Inst. # scoop install dual-key-remap
 (Arch)(Later) Caligula Burning Tool: Inst. # sudo pacman -S caligula
 (Arch)(Later) WRKFLW: Inst. # bin install github.com/bahdotsh/wrkflw wrkflw.exe
 (Arch)(Later) wut: Inst. # pipx install wut-cli
 (Arch)(Later) wut: Conf. # export OLLAMA_MODEL=gemma3:12b-it-qat
+(Arch)(Extra) hiSHtory: Inst. # bin install github.com/ddworken/hishtory
+(Arch)(Extra) khal: Inst. # uv tool install -U khal
+(Arch)(Extra) khal: Conf. # khal configure
+(Arch)(Extra) pwndbg : Inst. # sudo pacman -S pwndbg
+(Arch)(Extra) systemctl-tui: Inst. # sudo pacman -S systemctl-tui
+(Arch)(Extra) systeroid: Inst. # sudo pacman -S systeroid
 (Windows) .NET: Depend. # gsudo scoop install windowsdesktop-runtime-lts
 (Windows) AltBacktick: Inst. # scoop install altbacktick
 (Windows) AutoHotkey Keyboard Locker: Inst. # scoop install keyboard-locker
@@ -535,7 +527,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows) DeskPins: Inst. # scoop install deskpins
 (Windows) clink: Inst. # scoop install clink clink-completions
 (Windows) ConEmu: Inst. # scoop install conemu
-(Windows) dirx: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/dirx.json
+(Windows) DirX: Inst. # bin install github.com/chrisant996/dirx	dirx.exe
 (Windows) dnGrep: Inst. # scoop install dngrep
 (Windows) Ditto: Inst. # scoop install ditto
 (Windows) EarTrumpet: Inst. # scoop install eartrumpet
@@ -585,9 +577,10 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows) Scoop: # scoop bucket add shovel https://github.com/scillidan/scoop-shovel
 (Windows) Scoop: # scoop cleanup *
 (Windows) Scoop: # scoop cache rm *
+(Windows) Scooper: Inst. # scoop install scooper
 (Windows) SD Memory Card Formatter: Inst. # scoop install sd-card-formatter
 (Windows) Servy: Inst. # scoop install servy
-(Windows) Servy: # Conf. 1. # gsudo servy-cli install --name="LanguageTool" --path="%SCOOP%\apps\openjdk22\current\bin\java.exe" --params="-jar %SCOOP%\apps\languagetool-java\current\languagetool-server.jar --port 8040 --allow-origin"
+(Windows) Servy: # Conf. 1. # gsudo servy-cli install --name="LanguageTool" --path="<path_to>\java.exe" --params="-jar <path_to>\languagetool-server.jar --port 8040 --allow-origin"
 (Windows) Servy: # Conf. 2. # servy-cli status --name="LanguageTool"
 (Windows) Servy: # Conf. 3. # gsudo servy-cli start --name="LanguageTool"
 (Windows) Servy: # Conf. 4. # gsudo servy-cli stop --name="LanguageTool"
@@ -654,10 +647,6 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) sq: Inst. # scoop install sq
 (Later) Yaak: Inst. # scoop install yaak
 (Later) wuzz: Inst. # scoop install wuzz
-(Later)(Virus) gitsnip: Inst. # bin install github.com/dagimg-dot/gitsnip gitsnip.exe
-(Later)(Watch) Carapace-bin: Inst. # yay -S --noconfirm carapace-bin
-(Later)(Watch) Carapace-bin: Inst. # scoop install carapace-bin
-(Later)(Watch) chaiNNer: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/chainner.json
 (Extra) AntiMicroX: Inst. # scoop install antimicrox
 (Extra) Ark Pixel Font: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/Ark-Pixel-Font-12px-proportional.json
 (Extra) age: Inst. # scoop install age
@@ -677,10 +666,10 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Branchless workflow for Git: Conf. # git-branchless init [-- uninstall]
 (Extra) Bibiman: Inst. # cargo install -f bibiman
 (Extra) Binside: Inst. # scoop install binsider
+(Extra) broot: Inst. # scoop install broot
 (Extra) Btop: Inst. # sudo pacman -S btop
 (Extra) Btop: Inst. # scoop install btop
 (Extra) Carnac: Inst. # scoop install carnac
-(Extra) choose: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/choose.json
 (Extra) CMake: Inst. # scoop install cmake
 (Extra) coBib: Inst. # yay -S --noconfirm cobib
 (Extra) coBib: Inst. # uv tool install -U cobib
@@ -708,6 +697,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) diffsitter: Inst. # scoop install diffsitter
 (Extra) difftastic: Inst. # scoop install difftastic
 (Extra) difftastic: # difft <old_path> <new_path>
+(Extra) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
 (Extra) Doxygen: Inst. # scoop install doxygen
 (Extra) duf: Inst. # scoop install duf
 (Extra) Dufs: Inst. # yay -S --noconfirm dufs-bin
@@ -742,7 +732,9 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) gPodder: Inst. # scoop install gpodder
 (Extra) grex: Inst. # sudo pacman -S grex
 (Extra) grex: Inst. # scoop install grex
-(Extra) GridPlayer: Inst. # scoop install gridplayer
+(Extra) GridPlayer: Inst. # yay -S --noconfirm gridplayer-appimage
+(Extra) GridPlayer: Inst. # sudo pacman -S vlc
+(Extra) GridPlayer: Inst. # scoop install gridplayer vlc
 (Extra) HakuNeko: Inst. # scoop install hakuneko
 (Extra) hl: Inst. # bin install github.com/pamburus/hl hl.exe
 (Extra) hostctl: Inst. # sudo pacman -S hostctl
@@ -843,6 +835,8 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Uncap: Inst. # scoop install uncap
 (Extra) ugrep: Inst. # sudo pacman -S ugrep
 (Extra) ugrep: Inst. # scoop install ugrep
+(Extra) Umi-OCR: Inst. # yay -S --noconfirm umi-ocr-bin
+(Extra) Umi-OCR: Inst. # scoop install umi-ocr-paddle
 (Extra) Unison: Inst. # scoop install unison
 (Extra) Unison: Conf. # subl %USERPROFILE%\.unison\<profile>.prf
 (Extra) Untree: Inst. # bin install github.com/codeinred/untree untree.exe
@@ -857,3 +851,13 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Wappalyzer Next: Inst. # uv tool install -U wappalyzer
 (Extra) Watchman: Inst. # scoop install watchman
 (Extra) Whosthere: Inst. # scoop install whosthere
+(Virus) gitsnip: Inst. # bin install github.com/dagimg-dot/gitsnip gitsnip.exe
+(Wait) choose: Inst. # scoop install choose
+(Wait) diskus: Inst. # scoop install diskus
+(Wait) F3D: Inst. # scoop install f3d
+(Wait) Parabolic: Inst. # scoop install parabolic
+(Wait) Windows Dual Key Remap: Inst. # scoop install dual-key-remap
+(Watch) Carapace-bin: Inst. # yay -S --noconfirm carapace-bin
+(Watch) Carapace-bin: Inst. # scoop install carapace-bin
+(Watch) chaiNNer: Inst. # scoop install https://raw.githubusercontent.com/scillidan/scoop-bucket/refs/heads/master/bucket/chainner.json
+(Watch) Keyviz: Inst. # scoop keyviz
