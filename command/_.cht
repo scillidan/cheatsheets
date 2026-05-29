@@ -907,6 +907,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Watchman: Inst. # scoop install watchman
 (Extra) Whosthere: Inst. # scoop install whosthere
 (Extra) zim-tools: Inst. # scoop install pile/zim-tools
+(Extra) ZonyLrcToolsX: Inst. # yay -S --noconfirm zonylrctools-bin
 (Extra) ZonyLrcToolsX: Inst. # scoop install pile/zonylrctoolsx
 (Wait) choose: Inst. # scoop install choose
 (Wait) diskus: Inst. # scoop install diskus
