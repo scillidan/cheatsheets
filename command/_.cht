@@ -15,6 +15,7 @@ bat: Inst. # scoop install bat
 bat: # bat --list-themes | fzf --preview="bat --theme={} --color=always<file>"
 bin: Inst. # scoop install bin
 Barrier: Inst. # gsudo scoop install barrier-np
+Bob: Inst. # scoop install bob
 Bulk Rename Command: Inst. # scoop install bulk-rename-command
 Bulk Rename Command: # brc /?
 Bulk Rename Utility: Inst. # scoop install bulk-rename-utility
@@ -27,6 +28,8 @@ cargo-seek: Inst. # scoop install cargo-seek
 carl: Inst. # cargo install -f carl
 chafa: Depend. # sudo pacman -S chafa
 chafa: Depend. # scoop install chafa
+chezmoi: Inst. # sudo pacman -S chezmoi
+chezmoi: Inst. # scoop install chezmoi
 ClamAV: Inst. # sudo pacman -S clamav
 ClamAV: Inst. # scoop install clamav
 clean-css: Depend. # yay -S --noconfirm nodejs-clean-css nodejs-clean-css-cli
@@ -53,6 +56,7 @@ delta: Conf. # git config --global core.pager delta
 delta: Conf. # git config --global interactive.diffFilter 'delta --color-only'
 delta: Conf. # git config --global delta.navigate true
 delta: Conf. # git config --global merge.conflictStyle zdiff3
+doc2dash: Inst. # uv tool install -U doc2dash
 Docker: Update # sudo docker compose down
 Docker: Update # sudo docker compose pull
 Docker: Update # sudo docker compose up -d
@@ -507,6 +511,8 @@ zlib: Depend. # scoop install zlib
 (Arch) Yazi: Plug. # ya pkg add yazi-rs/plugins:mount
 (Arch) Yazi: Plug. # ya pkg add uhs-robert/sshfs
 (Arch) Yazi: Plug. # ya pkg add NoponyAsked/sxiv
++(Arch)(Later) lazyactions: Inst. # 
+(Arch)(Extra) act: Inst. # yay -S --noconfirm act
 (Arch)(Later) cheznav: Inst. # yay -S --noconfirm cheznav
 (Arch)(Later) gtrash: Inst. # sudo pacman -S gtrash-bin
 (Arch)(Later) OFFPUNK: Inst. # pacman -S offpunk
@@ -653,6 +659,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) Miller: Inst. # scoop install miller
 (Later) mise-en-place: Inst. # scoop install mise
 (Later) Open Cubic Player: Inst. # scoop install pile/open-cubic-player
+(Later) open-pdf-sign: # java -jar open-pdf-sign.jar --input $ --output _.pdf --certificate <crt> --key <pem> --passphrase <password> --page -1 --locale zh-CN
 (Later) Pueue: Inst. # scoop install pueue
 (Later) PassTUI: Inst. # uv tool install -U --python 3.14 passtui
 (Later) qsv: Inst. # yay -S --noconfirm qsv-bin
@@ -660,9 +667,12 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) sq: Inst. # scoop install sq
 (Later) Yaak: Inst. # scoop install yaak
 (Later) wuzz: Inst. # scoop install wuzz
+(Extra) ascii-image-converter: Inst. # yay -S --noconfirm ascii-image-converter
+(Extra) ascii-image-converter: Inst. # scoop install ascii-image-converter
 (Extra) AntiMicroX: Inst. # scoop install antimicrox
 (Extra) Ark Pixel Font: Inst. # scoop install Ark-Pixel-Font-12px-proportional
 (Extra) age: Inst. # scoop install age
+(Extra) agg: Inst. # scoop install agg
 (Extra) AnythingLLM: Inst. # scoop install anythingllm
 (Extra) ASCII Moon: Inst. # scoop install pile/ascii-moon
 (Extra) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify
@@ -674,6 +684,10 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Audio Waveform Image Generator: Inst. # yay -S --noconfirm audiowaveform
 (Extra) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
 (Extra) AudioBookConverter: Inst. # scoop install audiobookconverter
+(Extra) autocast: Inst. # yay -S --noconfirm autocast
+(Extra) autocast: Inst. # cargo install --force autocast
+(Extra) autocrop: Inst. # uv tool install -U autocrop
+(Extra) AutoTrace: Inst. # sudo pacman -S autotrace
 (Extra) BeeRef: Inst. # scoop install beeref
 (Extra) Branchless workflow for Git: Inst. # scoop install git-branchless
 (Extra) Branchless workflow for Git: Conf. # git-branchless init [-- uninstall]
@@ -690,6 +704,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) code-minimap: Inst. # scoop install code-minimap
 (Extra) Code2prompt: Inst. # yay -S --noconfirm code2prompt
 (Extra) Code2prompt: Inst. # cargo install -f code2prompt
+(Extra) color-matcher: Inst. # uv tool install -U color-matcher
 (Extra) COOK: Inst. # go install -v github.com/glitchedgitz/cook/v2/cmd/cook@latest
 (Extra) critique: Inst. # bun add - critique
 (Extra) cyanrip: Inst. # scoop install cyanrip
@@ -712,6 +727,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) difftastic: Inst. # scoop install difftastic
 (Extra) difftastic: # difft <old_path> <new_path>
 (Extra) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
+(Extra) Dolt: Inst. # scoop install dolt
 (Extra) Doxygen: Inst. # scoop install doxygen
 (Extra) duf: Inst. # scoop install duf
 (Extra) Dufs: Inst. # yay -S --noconfirm dufs-bin
@@ -723,8 +739,11 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) erdtree: Inst. # sudo pacman -S erdtree
 (Extra) erdtree: Inst. # scoop install erdtree
 (Extra) erdtree: # erd --color auto --hidden --follow --human --sort name --dir-order first --layout inverted
+(Extra) epub2txt: Inst. # uv tool install epub2txt
 (Extra) eva: Inst. # sudo pacman -S eva
 (Extra) eva: Inst. # scoop install eva
+(Extra) faviator: Inst. # bun add -g faviator
+(Extra) Favocon: Inst. # cargo isntall favocon
 (Extra) Fluent Reader: Inst. # yay -S --noconfirm fluent-reader
 (Extra) Fluent Reader: Inst. # scoop install fluent-reader
 (Extra) FontFor: Inst. # scoop install pile/fontfor
@@ -769,10 +788,13 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Kopia: Inst. # scoop install kopia kopiaui
 (Extra) Krita: Inst. # sudo pacman -S krita
 (Extra) Krita: Inst. # scoop install krita
-(Extra) lazyactions: Inst. # scoop install pile/lazyactions
+(Extra) libretrans: Inst. # cargo install --force libretrans
+(Extra) libretrans: # libretrans -u http://<your_host> en:zh "This is a text"
 (Extra) LÖVE: Inst. # scoop install love
 (Extra) lssh: Inst. # scoop install pile/lssh
 (Extra) Madamiru: Inst. # scoop install pile/madamiru
+(Extra) marker: Inst. # uv tool install -w hf_transfer -w streamlit -U marker-pdf
+(Extra) markpdf: Inst. # bin install github.com/ajaxray/markpdf markpdf.exe
 (Extra) massCode: Inst. # scoop install masscode
 (Extra) mdterm: Inst. # scoop install pile/mdterm
 (Extra) Meson: Depend. # scoop install meson
@@ -780,7 +802,9 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) mgitstatus: Inst. # scoop install mgitstatus
 (Extra) MKVToolNix: Inst. # sudo pacman -S mkvtoolnix-cli mkvtoolnix-gui
 (Extra) MKVToolNix: Inst. # scoop install mkvtoolnix
+(Extra) mnamer: Inst. # uv tool install mnamer
 (Extra) mp3rgain: Inst. # scoop install mp3rgain
+(Extra) mt: Inst. # go install github.com/mutschler/mt@latest
 (Extra) MuseScore: Inst. # yay -S --noconfirm musescore-bin muse-sounds-manager-bin
 (Extra) MuseScore: Inst. # scoop install musescore
 (Extra) MusicBrainz Picard: Inst. # scoop install picard
@@ -791,11 +815,15 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) OpenCode: Plug. Conf. # TRANSLATOR_API_KEY=Ollama
 (Extra) OpenCode: Plug. Conf. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
 (Extra) OpenCode: Plug. Conf. # TRANSLATOR_MODEL=gemma3:12b-it-qat
+(Extra) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
+(Extra) Paletter: Inst. # bin install github.com/Baldomo/paletter paletter.exe
 (Extra) PAR LLAMA: Inst. # uv tool install -U parllama
 (Extra) Parm: Inst. # scoop install pile/parm
+(Extra) PDF ToC: Inst. # uv tool install -U pdf-toc
 (Extra) Pegasus Frontend: Inst. # yay -S --noconfirm pegasus-frontend-git
 (Extra) Pegasus Frontend: Inst. # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/pegasus.json
 (Extra) Pegasus Frontend: Inst. # gsudo scoop install k-lite-codec-pack-basic-np
+(Extra) percollate: Inst. # bun add -g percollate
 (Extra) PgsToSrt: Inst. # scoop install pile/pgstosrt
 (Extra) Picocrypt NG: Inst. # scoop install picocrypt-ng
 (Extra) PicView: Inst. # scoop install picview
@@ -803,6 +831,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) pngquant: Instl. # scoop install pngquant
 (Extra) pom-tool: Inst. # bun add -g pom-tool
 (Extra) pom-tool: # pom
+(Extra) presenterm: Inst. # scoop install presenterm
 (Extra) presse: Inst. # bin install github.com/SimonBure/presse presse.exe
 (Extra) presse: Inst. # presse press <pdf> -q <quality> -o _.pdf
 (Extra) PureRef: Inst. # yay -S --noconfirm pureref
@@ -830,6 +859,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Sloc Cloc and Code (scc): Inst. # yay -S --noconfirm scc
 (Extra) Sloc Cloc and Code (scc): Inst. # scoop install scc
 (Extra) Slumber: Inst. # bin install github.com/LucasPickering/slumber slumber.exe
+(Extra) split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Extra) SSHM: Inst. # scoop install sshm
 (Extra) stl-thumb: Inst. # yay -S --noconfirm stl-thumb
 (Extra) stl-thumb: Inst. # bin install github.com/unlimitedbacon/stl-thumb stl-thumb.exe
@@ -847,6 +877,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) TagScanner: Inst. # scoop install tagscanner
 (Extra) TagSpaces: Inst. # yay -S --noconfirm tagspaces-bin
 (Extra) TagSpaces: Inst. # scoop install tagspaces
+(Extra) THE PDFALYZER: Inst. # uv tool install -U pdfalyzer
 (Extra) Thorium: Inst. # yay -S --noconfirm thorium-reader-bin
 (Extra) Thorium: Inst. # scoop install thorium-reader
 (Extra) Tidy Viewer (tv): Inst. # yay -S --noconfirm tidy-viewer
@@ -861,8 +892,11 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Unison: Inst. # scoop install unison
 (Extra) Unison: Conf. # subl %USERPROFILE%\.unison\<profile>.prf
 (Extra) Untree: Inst. # bin install github.com/codeinred/untree untree.exe
+(Extra) vcsi: Inst. # yay -S --noconfirm vcsi
+(Extra) vcsi: Inst. # uv tool install -U vcsi
 (Extra) video-compare: Inst. # yay -S --noconfirm video-compare
 (Extra) video-compare: Inst. # scoop install video-compare
+(Extra) video-to-ascii: Inst. # uv tool install -U video-to-ascii
 (Extra) Vieb: Inst. # scoop install vieb
 (Extra) vimg: Inst. # yay -S --noconfirm vimg
 (Extra) vimg: Inst. # cargo install -f vimg
