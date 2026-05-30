@@ -1,0 +1,52 @@
+## https://github.com/clangen/musikcube/wiki/user-guide#default-keys
+musikcube: (Navigation) Focus/Defocus the command bar                                    | Esc
+musikcube: (Navigation) Select previous/next window                                      | S-Tab / Tab
+musikcube: (Navigation) Activate or toggle the selected item                             | Etr
+musikcube: (Navigation) Show context menu for the selected item                          | M-Etr
+musikcube: (Navigation) Move Up/Down/Left/Right                                          | Up/Dn/Lt/Rt
+musikcube: (Navigation) Scroll by page                                                   | PgUp/PgDn
+musikcube: (Navigation) Jump to start/end                                                | Home/End
+musikcube: (Navigation) Quit                                                             | C-d
+musikcube: (Navigation) To view/edit keyboard shortcuts                                  | ?
+musikcube: (View switch) Switch to console view                                          | ~
+musikcube: (View switch) Switch to library view                                          | a
+musikcube: (View switch) Switch to settings view                                         | s
+musikcube: (Playback) Volume up/down 5%                                                  | i/k
+musikcube: (Playback) Previous/Next track                                                | j/l
+musikcube: (Playback) Toggle volume mute                                                 | m
+musikcube: (Playback) Back/Forward 10 seconds                                            | u/o
+musikcube: (Playback) Toggle repeat mode (off/track/list)                                | .
+musikcube: (Playback) (Un)shuffle play queue                                             | ,
+musikcube: (Playback) Show/Hide visualizer                                               | v
+musikcube: (Playback) Configure equalizer                                                | C-e
+musikcube: (Playback) Pause/Resume (globally)                                            | C-p
+musikcube: (Playback) Stop (unload streams, free resources)                              | C-x
+musikcube: (Library view) Show browse view                                               | b
+musikcube: (Library view) Show play queue                                                | n
+musikcube: (Library view) Show album/artist/genre search                                 | f
+musikcube: (Library view) Show track search                                              | t
+musikcube: (Library view) Browse by artist                                               | 1
+musikcube: (Library view) Browse by album                                                | 2
+musikcube: (Library view) Browse by genre                                                | 3
+musikcube: (Library view) Browse by album artist                                         | 4
+musikcube: (Library view) Browse by playlist                                             | 5
+musikcube: (Library view - playlist) Create a new empty playlist                         | M-n
+musikcube: (Library view - playlist) Save the currently selected playlist                | M-s
+musikcube: (Library view - playlist) In the playlists pane: delete the selected playlist | Del
+musikcube: (Library view - playlist) Rename the selected playlist                        | M-r
+musikcube: (Library view - playlist) Move the selected track up                          | M-Up
+musikcube: (Library view - playlist) Move the selected track down                        | M-Dn
+musikcube: (Library view - playlist) In the tracks pane: delete the selected track       | Del
+musikcube: (Library view) Browse by directory                                            | d
+musikcube: (Library view) Jump to playing artist/album/genre in browse view              | x
+musikcube: (Library view) Show a context menu for the currently selected item            | M-Etr
+musikcube: (Library view) Pause/Resume                                                   | Spc
+musikcube: (Tracks) Hot-swaps the current play queue with the selected list of tracks    | M-a
+musikcube: (Play queue) Save current queue as a playlist                                 | M-s
+musikcube: (Play queue) Load a previously saved playlist                                 | M-l
+musikcube: (Play queue) Delete a previously saved playlist                               | M-x
+musikcube: (Play queue) Rename a playlist                                                | M-r
+musikcube: (Play queue) Move the selected track up                                       | M-Up
+musikcube: (Play queue) Move the selected track down                                     | M-Dn
+musikcube: (Play queue) Delete the selected track                                        | Del
+musikcube: (Windows-specific) Increase/decrease font size                                | C-+/-
