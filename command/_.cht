@@ -325,8 +325,6 @@ Raspberry Pi Imager: Inst. # scoop install raspberry-pi-imager
 RefrEnv: Inst. # scoop install refrenv
 Repomix: Inst. # bun add -g repomix
 Repos: Inst. # scoop install pile/repos
-Repos: # repos status
-Repos: # repos pull
 rgx: Inst. # scoop install pile/rgx
 Rimage: Inst. # scoop install rimage
 Rime: Inst. # scoop install weasel
