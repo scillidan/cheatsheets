@@ -26,6 +26,7 @@ Calibre: Inst. # scoop install calibre
 Cargo: Depend. # cargo search --registry crates-io
 cargo-seek: Inst. # scoop install cargo-seek
 carl: Inst. # cargo install -f carl
+Codex: Inst. # scoop install codex
 chafa: Depend. # sudo pacman -S chafa
 chafa: Depend. # scoop install chafa
 chezmoi: Inst. # sudo pacman -S chezmoi
@@ -296,6 +297,7 @@ Pet: Inst. # scoop install pet
 Pet: Conf. # subl %APPDATA%\pet\config.toml
 PDF Arranger: Inst. # sudo pacman -S pdfarranger
 PDF Arranger: Inst. # scoop install pdfarranger
+Pi: Inst. # scoop install pi-coding-agent
 pipe-rename: Inst. # sudo pacman -S pipe-rename
 pipe-rename: Inst. # scoop install pile/pipe-rename
 pipe-rename: # ls | renamer
@@ -323,6 +325,8 @@ qView: Inst. # scoop install qview
 Raspberry Pi Imager: Inst. # sudo pacman -S rpi-imager
 Raspberry Pi Imager: Inst. # scoop install raspberry-pi-imager
 RefrEnv: Inst. # scoop install refrenv
+rembg: Inst. # pipx install "rembg[cpu,cli]"
+rembg: Inst. # pipx install "rembg[gpu,cli]"
 Repomix: Inst. # bun add -g repomix
 Repos: Inst. # scoop install pile/repos
 rgx: Inst. # scoop install pile/rgx
@@ -656,7 +660,6 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) Miller: Inst. # sudo pacman -S miller
 (Later) Miller: Inst. # scoop install miller
 (Later) mise-en-place: Inst. # scoop install mise
-(Later) Open Cubic Player: Inst. # scoop install pile/open-cubic-player
 (Later) open-pdf-sign: # java -jar open-pdf-sign.jar --input $ --output _.pdf --certificate <crt> --key <pem> --passphrase <password> --page -1 --locale zh-CN
 (Later) Pueue: Inst. # scoop install pueue
 (Later) PassTUI: Inst. # uv tool install -U --python 3.14 passtui
@@ -775,6 +778,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) html-to-markdown: Inst. # scoop install html-to-markdown
 (Extra) htmlq: Inst. # scoop install htmlq
 (Extra) Hydra Launcher: Inst. # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/hydra.json
+(Extra) Igir: Inst. # bin install github.com/emmercm/igir igir.exe
 (Extra) Inkscape: Inst. # sudo pacman -S inkscape
 (Extra) Inkscape: Inst. # scoop install inkscape
 (Extra) jc: Inst. # scoop install jc
@@ -808,6 +812,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) MusicBrainz Picard: Inst. # scoop install picard
 (Extra) oken: Inst. # scoop install pile/oken
 (Extra) OmegaT: Inst. # scoop install omegat
+(Extra) Open Cubic Player: Inst. # scoop install pile/open-cubic-player
 (Extra) OpenCode: Plug. # bun add -g @mohak34/opencode-notifier@latest
 (Extra) OpenCode: Plug. # bun add -g opencode-input-translator@latest
 (Extra) OpenCode: Plug. Conf. # TRANSLATOR_API_KEY=Ollama
