@@ -601,6 +601,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows) git: Conf. # git config --global core.editor "subl --new-window --wait"
 (Windows) gsudo: Inst. # scoop install gsudo
 (windows) HostsFileEditor: Inst. # scoop install hosts-file-editor
+(windows) Hotkey Detective: Inst. # scoop install hotkey-detective
 (Windows) ImageGlass: Inst. # scoop install imageglass
 (Windows) IrfanView: Inst. # scoop install irfanview
 (Windows) JPEGView: Inst. # scoop install jpegview-fork
@@ -645,7 +646,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows) Servy: # Conf. 2. # servy-cli status --name="LanguageTool"
 (Windows) Servy: # Conf. 3. # gsudo servy-cli start --name="LanguageTool"
 (Windows) Servy: # Conf. 4. # gsudo servy-cli stop --name="LanguageTool"
-(Windows) SharpKeys: Inst. # scoop install sharpkeys
+-(Windows) SharpKeys: Inst. # scoop install sharpkeys
 (Windows) ShellExView: Inst. # scoop install https://raw.githubusercontent.com/kodybrown/scoop-nirsoft/refs/heads/master/bucket/shellexview.json
 (Windows) SilentCMD: Inst. # scoop install silentcmd
 (Windows) Sizer: Inst. # scoop install pile/sizer
@@ -687,6 +688,10 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) dyff: Inst. # scoop install dyff
 (Later) FreeCAD: Inst. # sudo pacman -S freecad
 (Later) FreeCAD: Inst. # scoop install freecad
+(Later) Hermes Agent: Conf. # hermes config set model.provider ollama
+(Later) Hermes Agent: Conf. # hermes config set model.base_url http://127.0.0.1:11434/v1
+(Later) Hermes Agent: Conf. # hermes config set model.api_key dummy
+(Later) Hermes Agent: Conf. # hermes config set model.default gemma3:12b
 (Later) JSON diff and patch: Inst. # scoop install jd
 (Later) jj: Inst. # scoop install jj
 (Later) jjui: Inst. # scoop install jjui
@@ -696,7 +701,6 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) komokana: Inst. # scoop install kanata komokana
 (Later) Lazysql: Inst. # scoop install lazysql
 (Later) Harlequin: Inst. # uv tool install -U harlequin
-(Later) sqlit: Inst. # uv tool install -U sqlit-tui
 (Later) Mergiraf: Inst. # scoop install mergiraf
 (Later) Miller: Inst. # sudo pacman -S miller
 (Later) Miller: Inst. # scoop install miller
@@ -707,6 +711,8 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) qsv: Inst. # yay -S --noconfirm qsv-bin
 (Later) qsv: Inst. # scoop install qsv
 (Later) sq: Inst. # scoop install sq
+(Later) sqlit: Inst. # uv tool install -U sqlit-tui
+(Later) Tabby AI assistant: Inst. # scoop install tabby-agent-cuda
 (Later) wuzz: Inst. # scoop install wuzz
 (Extra) ascii-image-converter: Inst. # yay -S --noconfirm ascii-image-converter
 (Extra) ascii-image-converter: Inst. # scoop install ascii-image-converter
