@@ -1,4 +1,4 @@
-# https://newsboat.org/releases/2.41/docs/newsboat.html#_first_ui_interaction
+## https://newsboat.org/releases/2.41/docs/newsboat.html#_first_ui_interaction
 newsboat: Drill down views                                                            | Etr
 newsboat: Move to previous view                                                       | q
 newsboat: Close newsboat                                                              | Q

@@ -51,7 +51,6 @@ Darktable: Inst. # scoop install darktable
 dawn: Inst. # scoop install dawn
 Delect It Easy: Inst. # yay -S --noconfirm detect-it-easy
 Delect It Easy: Inst. # scoop install detect-it-easy
-Poppler: Depend. # scoop install poppler
 delta: Inst. # scoop install delta
 delta: Conf. # git config --global core.pager delta
 delta: Conf. # git config --global interactive.diffFilter 'delta --color-only'
@@ -65,6 +64,7 @@ Docker: Clean up dangling resources # sudo docker system prune -f
 Docker: Wipe all Docker resources # sudo docker system prune -a --volumes -f
 doggo: Inst. # yay -S --noconfirm doggo-bin
 doggo: Inst. # scoop install doggo
+Double Commander: Inst. # scoop install doublecmd
 dua: Inst. # sudo pacman -S dua-cli
 dua: Inst. # scoop install dua
 dua: Interactive mode # dua i
@@ -83,7 +83,6 @@ espanso: Inst. # scoop install espanso
 eSpeak NG: Inst. # scoop install espeak-ng
 Etcher: Inst. # yay -S --noconfirm etcher-bin
 Etcher: Inst. # scoop install etcher
-Everywhere: Inst. # scoop install everywhere
 ExifCleaner: Inst. # yay -S --noconfirm exifcleaner
 ExifCleaner: Inst. # scoop install exifcleaner
 eza: Inst. # sudo pacman -S eza
@@ -172,8 +171,6 @@ Go OpenCC: Traditional Chinese to Simplified Chinese # gopencc -c t2s -i
 Godot: Inst. # scoop install godot
 GoldenDict: Inst. # yay -S --noconfirm goldendict-git
 GoldenDict: Inst. # scoop install goldendict
-gptcommit: Inst. # yay -S --noconfirm gptcommit-bin
-gptcommit: Inst. # scoop install gptcommit
 Gzip: Inst. # scoop install gzip
 HandBrake: Inst. # sudo pacman -S handbrake handbrake-cli
 HandBrake: Inst. # scoop install handbrake handbrake-cli
@@ -302,10 +299,22 @@ OpenCode: Conf. # npm config set registry https://mirrors.cloud.tencent.com/npm/
 OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest
 OpenCode Stats: Inst. # scoop install opencode-stats
 OpenCommit: Inst. # bun add -g opencommit
+<<<<<<< Updated upstream
 OpenCommit: Env. # oco config set OCO_EMOJI=false
 OpenCommit: Env. oco config set OCO_AI_PROVIDER=ollama OCO_API_KEY=ollama OCO_API_URL=http://localhost:11434 OCO_MODEL=ministral-3:8b
 OpenCommit: Env. oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$OPENAI_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
 OpenCommit: # oco hook set
+||||||| Stash base
+OpenCommit: Conf. # oco config set OCO_EMOJI=false
+OpenCommit: Conf. # oco hook set
+OpenCommit: Conf. oco config set OCO_AI_PROVIDER=ollama OCO_API_KEY=ollama OCO_API_URL=http://localhost:11434 OCO_MODEL=ministral-3:8b
+OpenCommit: Conf. oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$OPENAI_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
+=======
+OpenCommit: Conf. # oco config set OCO_EMOJI=false
+OpenCommit: Conf. # oco hook set
+OpenCommit: Conf. oco config set OCO_AI_PROVIDER=ollama OCO_API_KEY=ollama OCO_API_URL=http://localhost:11434 OCO_MODEL=gemma3:12b-it-qat
+OpenCommit: Conf. oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$OPENAI_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
+>>>>>>> Stashed changes
 OpenCommit: # git commit
 OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
 OpenSpec: Conf. # openspec init
@@ -328,10 +337,12 @@ pipx: Inst. # python -m pip install pipx
 pipx: Conf. # pipx ensurepath
 png-to-ico: Inst. # bun add -g png-to-ico
 pnpm: Inst. # corepack enable pnpm
+Poppler: Depend. # scoop install poppler
 port-kill: Inst. # scoop install port-kill-console
 Prettier: Depend. # sudo pacman -S prettier
 Prettier: Depend. # bun add -g prettier
 pro: Inst. # scoop install pile/pro
+pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
 Python: Inst. # scoop install python310 python312
 Python: # pip install<pkg> --index-url https://pypi.org/simple
 Python: # pip cache purge
@@ -461,7 +472,7 @@ uv: Inst. # sudo pacman -S uv
 uv: Inst. # scoop install python310 python312 uv
 uv: Install python 1. # uv python list
 uv: Install python 2. # uv python install <version>
-uv: Install python 3. # uv python pin <version>
+uv: Install python 3. # uv python pin <version> --global
 uv: Create a virtual environment and install all dependencies # uv sync
 uv: Activate the virtual environment and execute a command # uv run <script> <flag>
 uv: Install in development/editable mode # uv pip install -e .
@@ -473,8 +484,6 @@ Vim: Inst. # scoop install vim
 VirusTotal CLI: Inst. # scoop install vt-cli
 VirusTotal CLI: Conf. # vt init
 Vipsdisp: Inst. # scoop install vipsdisp
-VSCodium: Inst. # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
-VSCodium: Inst. # scoop install vscodium
 Webify: Inst. # scoop install pile/webify
 WezTerm: Inst. # sudo pacman -S wezterm
 WezTerm: Inst. # scoop install wezterm
@@ -527,6 +536,8 @@ yt-dlp: Inst. # sudo pacman -S yt-dlp
 yt-dlp: Inst. # scoop install yt-dlp
 Zeal: Inst. # sudo pacman -S zeal
 Zeal: Inst. # scoop install zeal
+Zellij: Inst. # sudo pacman -S zellij
+Zellij: Inst. # scoop install zellij
 zoxide: Inst. # sudo pacman -S zoxide
 zoxide: Inst. # scoop install zoxide
 Zig: Depend. # scoop install zig
@@ -959,6 +970,8 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) vimg: Inst. # yay -S --noconfirm vimg
 (Extra) vimg: Inst. # cargo install -f vimg
 (Extra) vimg: Inst. # scoop install pile/vimg
+(Extra) VSCodium: Inst. # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
+(Extra) VSCodium: Inst. # scoop install vscodium
 (Extra) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
 (Extra) Wait4X: Inst. # scoop install wait4x
 (Extra) Wappalyzer Next: Inst. # uv tool install -U wappalyzer

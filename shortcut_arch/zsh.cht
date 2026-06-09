@@ -5,9 +5,6 @@ zsh:: proj-jumper: List (no fzf)                                                
 zsh:: proj-jumper: Pick via fzf                                                                | `proj`
 zsh:: proj-jumper: Set PROJ_DEV_ROOT                                                           | `proj config <dir>`
 zsh:: proj-jumper: Tab-complete                                                                | `proj <Tab>`
-zsh:: zsh-smart-insert: Content search using rg                                                | A-s
-zsh:: zsh-smart-insert: File picker using fd                                                   | A-f
-zsh:: zsh-smart-insert: Filename search using rg                                               | A-g
 zsh:: zsh-snr: Pipe command output next                                                        | `snr "cmd_1" "cmd_2"`
 zsh:: zsh-vi-mode: (Increment and Decrement) Increment/Decrement                               | C-a/x
 zsh:: zsh-vi-mode: Edit current command line in an editor                                      | vv
