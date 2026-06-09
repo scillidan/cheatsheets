@@ -109,8 +109,8 @@ fzf-make: Inst. # yay -S --noconfirm fzf-make
 fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make/
 forgit: Inst. # scoop install forgit
 g: Inst. # scoop install g
-g: Conf. # set "G_MIRROR=https://go.dev/dl/"
-g: Conf. # set "GOPATH=%USERHOME%\\.gopath"
+g: Env. # G_MIRROR=https://golang.google.cn/dl/
+g: Env. # GOPATH=%USERHOME%\\.gopath
 g: Install go 1. # g ls-remote stable
 g: Install go 2. # g install <version>
 g: Install go 3. # g use <version>
@@ -147,7 +147,7 @@ git-quick-stats: Inst. # yay -S --noconfirm git-quick-stats
 git-quick-stats: Inst. # scoop install git-quick-stats
 GitHub CLI: Inst. # sudo pacman -S github-cli
 GitHub CLI: Inst. # scoop install gh
-GitHub CLI: Conf. 1. # set "GH_CONFIG_DIR=%USERPROFILE%\.config\gh"
+GitHub CLI: Env. # GH_CONFIG_DIR=%USERPROFILE%\.config\gh
 GitHub CLI: Conf. 2. # gh auth login
 GitHub CLI: # gh repo set-default
 GitHub CLI: # gh extension install matt-bartel/gh-clone-org
@@ -181,6 +181,10 @@ Handy: Inst. # scoop install handy
 hexyl: Inst. # scoop install hexyl
 HTML Minifier Next: Depend. # bun add -g html-minifier-next
 huggingface_hub: Inst. # uv tool install "huggingface_hub[cli]"
+huggingface_hub: Env. # HF_HUB_ENABLE_HF_TRANSFER=1
+huggingface_hub: Env. # HF_ENDPOINT=https://hf-mirror.com
+huggingface_hub: Env. # HF_MIRROR=https://hf-mirror.com
+huggingface_hub: Env. # # HF_MIRROR=https://huggingface.co
 huggingface_hub: # hf auto login
 Hugo: Inst. # scoop install hugo-extended
 ImageMagick: Inst. # sudo pacman -S imagemagick
@@ -282,6 +286,11 @@ nvm: Inst. # sudo pacman -S nvm
 nvm: Inst. # scoop install nvm
 nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
 OBS Studio: Inst. # scoop install obs-studio
+Obsidian: Inst. # sudo pacman -S obsidian
+Obsidian: Inst. # scoop install obsidian
+Ollama: Inst. # scoop install ollama
+Ollama: Env. # OLLAMA_HOST=localhost
+Ollama: Env. # OLLAMA_ORIGINS=*
 Onefetch: Inst. # sudo pacman -S onefetch
 Onefetch: Inst. # scoop install onefetch
 Open WebUI: Inst. # uv tool install -U open-webui --python 3.11
@@ -293,15 +302,13 @@ OpenCode: Conf. # npm config set registry https://mirrors.cloud.tencent.com/npm/
 OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest
 OpenCode Stats: Inst. # scoop install opencode-stats
 OpenCommit: Inst. # bun add -g opencommit
-OpenCommit: Conf. # oco config set OCO_EMOJI=false
-OpenCommit: Conf. # oco hook set
-OpenCommit: Conf. oco config set OCO_AI_PROVIDER=ollama OCO_API_KEY=ollama OCO_API_URL=http://localhost:11434 OCO_MODEL=ministral-3:8b
-OpenCommit: Conf. oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$OPENAI_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
+OpenCommit: Env. # oco config set OCO_EMOJI=false
+OpenCommit: Env. oco config set OCO_AI_PROVIDER=ollama OCO_API_KEY=ollama OCO_API_URL=http://localhost:11434 OCO_MODEL=ministral-3:8b
+OpenCommit: Env. oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$OPENAI_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
+OpenCommit: # oco hook set
 OpenCommit: # git commit
 OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
 OpenSpec: Conf. # openspec init
-Obsidian: Inst. # sudo pacman -S obsidian
-Obsidian: Inst. # scoop install obsidian
 Oxipng: Inst. # sudo pacman -S oxipng
 Oxipng: Inst. # scoop install oxipng
 Pandoc: Depend. # sudo pacman -S pandoc-cli
@@ -361,7 +368,6 @@ scooter: Inst. # scoop install scooter
 sd: Inst. # sudo pacman -S sd
 sd: Inst. # scoop install sd
 serve: Inst. # bun add -g serve
-ShortScript: Inst. # scoop install shortscript
 Sigil: Inst. # sudo pacman -S sigil
 Sigil: Inst. # scoop install sigil
 Sioyek: Inst. # sudo pacamn -S sioyek
@@ -382,6 +388,7 @@ Skills: Ex. # skills add https://github.com/google-gemini/gemini-cli --skill cod
 Skills: Ex. # skills add https://github.com/wshobson/agents --skill shellcheck-configuration
 Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator
 Skills: Ex. # skills add https://github.com/xixu-me/skills --skill github-actions-docs
+Skills: Ex. # skills add https://github.com/jamditis/claude-skills-journalism --skill web-scraping
 Skills: Ex. # skills add https://github.com/lucifer1004/claude-skill-typst --skill typst
 Skills: Ex. # skills add https://github.com/bahayonghang/academic-writing-skills --skill latex-paper-en
 Skills: Ex. # skills add https://github.com/wshobson/agents --skill godot-gdscript-patterns
@@ -437,10 +444,6 @@ TightVNC: tvnviewer <your_host>::5901 -password=<vncuser_passwd>
 tlrc: Inst. # scoop install tlrc
 tlrc: Inst. # yay -S --noconfirm tlrc-bin
 tlrc: Conf. # tldr -u
-tldr: Inst. # sudo pacman tldr
-tldr: Inst. # scoop install tldr
-tldr: Clear local repository then clone # tldr -c
-tldr: Pulls the latest commits from github.com/tldr-pages/tldr # tldr -u
 trashy: Inst. # yay -S --noconfirm trashy
 trashy: Inst. # scoop install trashy
 trashy: Inst. # cargo install -f trashy
@@ -566,7 +569,7 @@ zlib: Depend. # scoop install zlib
 (Arch)(Later) Caligula Burning Tool: Inst. # sudo pacman -S caligula
 (Arch)(Later) WRKFLW: Inst. # bin install github.com/bahdotsh/wrkflw wrkflw.exe
 (Arch)(Later) wut: Inst. # pipx install wut-cli
-(Arch)(Later) wut: Conf. # export OLLAMA_MODEL=gemma3:12b-it-qat
+(Arch)(Later) wut: Env. # OLLAMA_MODEL=gemma3:12b-it-qat
 (Arch)(Extra) hiSHtory: Inst. # bin install github.com/ddworken/hishtory.exe
 (Arch)(Extra) khal: Inst. # uv tool install -U khal
 (Arch)(Extra) khal: Conf. # khal configure
@@ -624,6 +627,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows) QuickSwitch: Inst. # scoop install quickswitch
 (Windows) QuickSwitch: Conf. # MBtn_R → Always AutoSwitch (On)
 (Windows) Rapid Environment Editor: Inst. # scoop install rapidee
+(Windows) Resource Hacker: Inst. # scoop install resource-hacker
 (Windows) RBTray: Inst. # scoop install rbtray
 (Windows) RectangleWin: Inst. # scoop install rectanglewin
 (Windows) resizer2: Inst. # scoop install resizer2
@@ -646,7 +650,6 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows) Servy: # Conf. 2. # servy-cli status --name="LanguageTool"
 (Windows) Servy: # Conf. 3. # gsudo servy-cli start --name="LanguageTool"
 (Windows) Servy: # Conf. 4. # gsudo servy-cli stop --name="LanguageTool"
--(Windows) SharpKeys: Inst. # scoop install sharpkeys
 (Windows) ShellExView: Inst. # scoop install https://raw.githubusercontent.com/kodybrown/scoop-nirsoft/refs/heads/master/bucket/shellexview.json
 (Windows) SilentCMD: Inst. # scoop install silentcmd
 (Windows) Sizer: Inst. # scoop install pile/sizer
@@ -677,21 +680,21 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows)(Extra) GPU-Z: Inst. # scoop install gpu-z
 (Windows)(Extra) Lintalist: Inst. # scoop install lintalist
 (Windows)(Extra) Microsoft Activation Scripts: Inst. # gh download massgravel/Microsoft-Activation-Scripts MAS
-(Windows)(Extra) Resource Hacker: Inst. # scoop install resource-hacker
+(Windows)(Extra) SharpKeys: Inst. # scoop install sharpkeys
 (Windows)(Extra) SmartTaskbar: Inst. # scoop install smarttaskbar
 (Windows)(Extra) StaxRip: Inst. # scoop install staxrip
 (Windows)(Extra) SyncTrayzor: Inst. # scoop install synctrayzor
 (Windows)(Extra) UniExtract2: Inst. # scoop install uniextract2
-(Extra)(Windows) virgo: Inst. # scoop install pile/virgo-fork
+(Windows)(Extra) virgo: Inst. # scoop install pile/virgo-fork
 (Windows)(Extra) WinCDEmu: Inst. # scoop install wincdemu
 (Later) direnv: Inst. # scoop install direnv
 (Later) dyff: Inst. # scoop install dyff
 (Later) FreeCAD: Inst. # sudo pacman -S freecad
 (Later) FreeCAD: Inst. # scoop install freecad
-(Later) Hermes Agent: Conf. # hermes config set model.provider ollama
-(Later) Hermes Agent: Conf. # hermes config set model.base_url http://127.0.0.1:11434/v1
-(Later) Hermes Agent: Conf. # hermes config set model.api_key dummy
-(Later) Hermes Agent: Conf. # hermes config set model.default gemma3:12b
+(Later) Hermes Agent: Env. # hermes config set model.provider ollama
+(Later) Hermes Agent: Env. # hermes config set model.base_url http://127.0.0.1:11434/v1
+(Later) Hermes Agent: Env. # hermes config set model.api_key dummy
+(Later) Hermes Agent: Env. # hermes config set model.default gemma3:12b
 (Later) JSON diff and patch: Inst. # scoop install jd
 (Later) jj: Inst. # scoop install jj
 (Later) jjui: Inst. # scoop install jjui
@@ -710,6 +713,8 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) PassTUI: Inst. # uv tool install -U --python 3.14 passtui
 (Later) qsv: Inst. # yay -S --noconfirm qsv-bin
 (Later) qsv: Inst. # scoop install qsv
+(Later) sem: Inst. # bin install github.com/Ataraxy-Labs/sem sem.exe
+(Later) sem: Inst. # scoop install zem
 (Later) sq: Inst. # scoop install sq
 (Later) sqlit: Inst. # uv tool install -U sqlit-tui
 (Later) Tabby AI assistant: Inst. # scoop install tabby-agent-cuda
@@ -763,7 +768,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) DBeaver: Inst. # scoop install dbeaver
 (Extra) deadbranch: Inst: # bin install github.com/armgabrielyan/deadbranch deadbranch.exe
 (Extra) dedoc: Inst. # cargo install -f dedoc
-(Extra) dedoc: Conf. # set "DEDOC_HOME=<path_to>\Data\dedoc"
+(Extra) dedoc: Env. # DEDOC_HOME=<path_to>/Data/dedoc
 (Extra) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
 (Extra) deputui: Inst. # pnpm outdated --format json | deputui
 (Extra) Desed: Inst. # cargo install desed
@@ -860,9 +865,9 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) OmegaT: Inst. # scoop install omegat
 (Extra) Open Cubic Player: Inst. # scoop install pile/open-cubic-player
 (Extra) OpenCode: Ex. # bun add -g opencode-input-translator@latest
-(Extra) OpenCode: Ex. Conf. # TRANSLATOR_API_KEY=Ollama
-(Extra) OpenCode: Ex. Conf. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
-(Extra) OpenCode: Ex. Conf. # TRANSLATOR_MODEL=gemma3:12b-it-qat
+(Extra) OpenCode: Ex. Env. # TRANSLATOR_API_KEY=Ollama
+(Extra) OpenCode: Ex. Env. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
+(Extra) OpenCode: Ex. Env. # TRANSLATOR_MODEL=gemma3:12b-it-qat
 (Extra) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
 (Extra) Paletter: Inst. # bin install github.com/Baldomo/paletter paletter.exe
 (Extra) PAR LLAMA: Inst. # uv tool install -U parllama
@@ -931,6 +936,10 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Thorium: Inst. # scoop install thorium-reader
 (Extra) Tidy Viewer (tv): Inst. # yay -S --noconfirm tidy-viewer
 (Extra) Tidy Viewer (tv): Inst. # cargo install -f tidy-viewer
+(Extra) tldr: Inst. # sudo pacman tldr
+(Extra) tldr: Inst. # scoop install tldr
+(Extra) tldr: Clear local repository then clone # tldr -c
+(Extra) tldr: Pulls the latest commits from github.com/tldr-pages/tldr # tldr -u
 (Extra) Trafilatura: Inst. # uv tool install -U trafilatura
 (Extra) ttyd: Inst. # scoop install ttyd
 (Extra) Uncap: Inst. # scoop install uncap
