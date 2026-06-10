@@ -5,3 +5,7 @@ $HOME/.config/nvim         | %LOCALAPPDATA%\nvim
 $HOME/.config/sioyek       | %SCOOP%\espanso\current
 $HOME/.config/sublime-text | %SCOOP%\apps\sublime-text\current\Data
 $HOME/.config/wezterm      | %SCOOP%\apps\wezterm\current
+$HOME/.config/broot        | %LOCALAPPDATA%\broot
+$HOME/.config/qutebrowser  | %LOCALAPPDATA%\broot\qutebrowser\config
+$HOME/.config/yazi         | %LOCALAPPDATA%\broot\yazi\config
+$HOME/.config/numa         | %ProgramData%\numa

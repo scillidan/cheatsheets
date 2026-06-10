@@ -38,6 +38,7 @@ clean-css: Depend. # bun add -g clean-css clean-css-cli
 cliamp: Inst. # sudo pacman -S alsa-lib && yay -S --noconfirm cliamp
 cliamp: Inst. # scoop install cliamp
 cloc: Inst. # scoop install cloc
+CMake: Depend. # scoop install cmake
 CodeGraph: Inst. # bun add -g @colbymchenry/codegraph
 CodeGraph: # codegraph init -i
 commandOK: Inst. # scoop install commandok
@@ -56,6 +57,7 @@ delta: Conf. # git config --global core.pager delta
 delta: Conf. # git config --global interactive.diffFilter 'delta --color-only'
 delta: Conf. # git config --global delta.navigate true
 delta: Conf. # git config --global merge.conflictStyle zdiff3
+direnv: Depend. # scoop install direnv
 doc2dash: Inst. # uv tool install -U doc2dash
 Docker: Update # sudo docker compose down
 Docker: Update # sudo docker compose pull
@@ -175,6 +177,7 @@ Gzip: Inst. # scoop install gzip
 HandBrake: Inst. # sudo pacman -S handbrake handbrake-cli
 HandBrake: Inst. # scoop install handbrake handbrake-cli
 Handy: Inst. # scoop install handy
+has: Inst. # scoop install has
 hexyl: Inst. # scoop install hexyl
 HTML Minifier Next: Depend. # bun add -g html-minifier-next
 huggingface_hub: Inst. # uv tool install "huggingface_hub[cli]"
@@ -189,6 +192,8 @@ ImageMagick: Inst. # scoop install imagemagick
 img2pdf: Inst. # uv tool install -w pymupdf -U img2pdf
 img2pdf: img2pdf $ --pagesize A4 --fit into -o _.pdf
 Info-ZIP: Depend. # scoop install zip unzip
+Inkscape: Inst. # sudo pacman -S inkscape
+Inkscape: Inst. # scoop install inkscape
 Inlyne: Inst. # scoop install inlyne
 Inno Setup: Depend. # scoop install innounp innounp-unicode
 Input Leap: Inst. # yay -S --noconfirm input-leap-git
@@ -225,6 +230,14 @@ libwebp: Depend. # scoop install libwebp
 Link Shell Extension: Inst. # gsudo scoop install link-shell-extension-np
 links: Inst. # sudo pacman -S links
 links: Inst. # scoop install links
+llama.cpp: Inst. # scoop install llama.cpp-cu124
+llama.cpp: Ex. https://huggingface.co/unsloth/gemma-3-4b-it-qat-GGUF
+llama.cpp: Ex. https://huggingface.co/unsloth/gemma-3-12b-it-GGUF
+llama.cpp: Ex. https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF
+llama.cpp: Ex. https://huggingface.co/Qwen/Qwen3-14B-GGUF
+llama.cpp: # llama-server --port 8070 --model "<path_to>/gemma-3-12b-it-Q4_K_M.gguf" --n-gpu-layers 999 --ctx-size 8192
+llama-swap: Inst. # scoop install llama-swap
+llama-swap: # llama-swap --config "<path_to>\llama-swap\config.yaml" --listen 127.0.0.1:8070 --watch-config
 llmfit: Inst. # scoop install llmfit
 llmfit: Inst. # sudo pacman -S llmfit-bin
 LLVM: Depend. # scoop install llvm
@@ -279,15 +292,13 @@ NPM: Proxy 2. # npm config get proxy
 NPM: Proxy 2. # npm config get https-proxy
 NPM: Proxy 3. # npm config delete proxy
 NPM: Proxy 3. # npm config delete https-proxy
+Numa: Inst. # scoop install numa
 nvm: Inst. # sudo pacman -S nvm
 nvm: Inst. # scoop install nvm
 nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
 OBS Studio: Inst. # scoop install obs-studio
 Obsidian: Inst. # sudo pacman -S obsidian
 Obsidian: Inst. # scoop install obsidian
-Ollama: Inst. # scoop install ollama
-Ollama: Env. # OLLAMA_HOST=localhost
-Ollama: Env. # OLLAMA_ORIGINS=*
 Onefetch: Inst. # sudo pacman -S onefetch
 Onefetch: Inst. # scoop install onefetch
 Open WebUI: Inst. # uv tool install -U open-webui --python 3.11
@@ -299,22 +310,10 @@ OpenCode: Conf. # npm config set registry https://mirrors.cloud.tencent.com/npm/
 OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest
 OpenCode Stats: Inst. # scoop install opencode-stats
 OpenCommit: Inst. # bun add -g opencommit
-<<<<<<< Updated upstream
 OpenCommit: Env. # oco config set OCO_EMOJI=false
 OpenCommit: Env. oco config set OCO_AI_PROVIDER=ollama OCO_API_KEY=ollama OCO_API_URL=http://localhost:11434 OCO_MODEL=ministral-3:8b
 OpenCommit: Env. oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$OPENAI_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
 OpenCommit: # oco hook set
-||||||| Stash base
-OpenCommit: Conf. # oco config set OCO_EMOJI=false
-OpenCommit: Conf. # oco hook set
-OpenCommit: Conf. oco config set OCO_AI_PROVIDER=ollama OCO_API_KEY=ollama OCO_API_URL=http://localhost:11434 OCO_MODEL=ministral-3:8b
-OpenCommit: Conf. oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$OPENAI_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
-=======
-OpenCommit: Conf. # oco config set OCO_EMOJI=false
-OpenCommit: Conf. # oco hook set
-OpenCommit: Conf. oco config set OCO_AI_PROVIDER=ollama OCO_API_KEY=ollama OCO_API_URL=http://localhost:11434 OCO_MODEL=gemma3:12b-it-qat
-OpenCommit: Conf. oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$OPENAI_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
->>>>>>> Stashed changes
 OpenCommit: # git commit
 OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
 OpenSpec: Conf. # openspec init
@@ -508,6 +507,7 @@ Yazi: Ex. # ya pkg add terrakok/split-tabs
 Yazi: Ex. # ya pkg add yazi-rs/plugins:toggle-pane
 Yazi: Ex. # ya pkg add XYenon/clipboard
 Yazi: Ex. # ya pkg add qwjyh/relative-path
+Yazi: Ex. # ya pkg add AnirudhG07/plugins-yazi:copy-file-contents
 Yazi: Ex. # ya pkg add ourongxing/fast-enter
 Yazi: Ex. # ya pkg add masaki39/fd-fzf
 Yazi: Ex. # ya pkg add gogongxt/initial-cwd
@@ -588,10 +588,11 @@ zlib: Depend. # scoop install zlib
 (Arch)(Extra) systemctl-tui: Inst. # sudo pacman -S systemctl-tui
 (Arch)(Extra) systeroid: Inst. # sudo pacman -S systeroid
 (Windows) .NET: Depend. # gsudo scoop install windowsdesktop-runtime-lts
+(Windows) AHK-GoldenDictAutoSearch: Inst. # scoop install pile/goldendict-auto-search
 (Windows) AHK-GoldenDictSearchInGroup: Inst. # scoop install pile/goldendict-search-in-group
 (Windows) AHK-KeyboardAutoSwitchBack: Inst. # scoop install pile/keyboard-auto-switch-back
 (Windows) AHK-KeyboardSwitch: Inst. # scoop install pile/keyboard-switch
-(Windows) AltBacktick: Inst. # scoop install altbacktick
+(Windows) Window Switcher: Inst. # scoop install window-switcher
 (Windows) AutoHotkey Keyboard Locker: Inst. # scoop install pile/keyboard-locker
 (Windows) AutoHotkey: Inst. # scoop install autohotkey1.1
 Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/niheaven/scoop-sysinternals/refs/heads/main/bucket/autoruns.json
@@ -657,18 +658,19 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows) Scooper: Inst. # scoop install scooper
 (Windows) SD Memory Card Formatter: Inst. # scoop install sd-card-formatter
 (Windows) Servy: Inst. # scoop install servy
-(Windows) Servy: # Conf. 1. # gsudo servy-cli install --name="LanguageTool" --path="<path_to>\java.exe" --params="-jar <path_to>\languagetool-server.jar --port 8040 --allow-origin"
-(Windows) Servy: # Conf. 2. # servy-cli status --name="LanguageTool"
-(Windows) Servy: # Conf. 3. # gsudo servy-cli start --name="LanguageTool"
-(Windows) Servy: # Conf. 4. # gsudo servy-cli stop --name="LanguageTool"
+(Windows) Servy: # 1.1. # gsudo servy-cli install --name="LanguageTool" --path="<path_to>\java.exe" --params="-jar <path_to>\languagetool-server.jar --port 8040 --allow-origin"
+(Windows) Servy: # 1.2. # gsudo servy-cli start --name="LanguageTool"
+(Windows) Servy: # 1.3. # servy-cli status --name="LanguageTool"
+(Windows) Servy: # 1.4. # gsudo servy-cli stop --name="LanguageTool"
+(Windows) Servy: # 1.1. # gsudo servy-cli install --name="Numa" --path="C:\Users\User\Scoop\apps\numa\current\numa.exe"
+(Windows) Servy: # 1.2. # gsudo servy-cli start --name="Numa"
+(Windows) Servy: # 1.3. # servy-cli status --name="Numa"
 (Windows) ShellExView: Inst. # scoop install https://raw.githubusercontent.com/kodybrown/scoop-nirsoft/refs/heads/master/bucket/shellexview.json
 (Windows) SilentCMD: Inst. # scoop install silentcmd
 (Windows) Sizer: Inst. # scoop install pile/sizer
 (Windows) SSHFS-Win Manager: Inst. # scoop install sshfs-win-manager
 (Windows) SumatraPDF Reader: Inst. # scoop install sumatrapdf-installer
 (Windows) SVG Viewer Extension for Windows Explorer: Inst. # scoop install svg-explorer-extension-np
-(Windows) T-Clock: Inst. # scoop install t-clock
-(Windows) T-Clock: Conf. # Options → Time → Format → Time options → Hour (On), Minute (On)
 (Windows) Toggle screen autohotkey: scoop install togglescreen
 (Windows) virgo: Inst. # scoop install virgo
 (Windows) Visual Studio Locator: Depend. # scoop install vswhere
@@ -682,6 +684,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows) Microsoft Store: Inst. # AV1 Video Extension
 (Windows) Microsoft Store: Inst. # VP9 Video Extension
 (Windows) Microsoft Store: Inst. # Raw Image Extension
+(Windows)(Extra) AltBacktick: Inst. # scoop install altbacktick
 (Windows)(Extra) CapsLock Input Method Switcher: Inst. # scoop install pile/capslock-ime-switcher-non-cursor
 (Windows)(Extra) Cjam: Inst. # scoop install pilecjam
 (Windows)(Extra) CPU-Z: Inst. # scoop install cpu-z
@@ -695,10 +698,11 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows)(Extra) SmartTaskbar: Inst. # scoop install smarttaskbar
 (Windows)(Extra) StaxRip: Inst. # scoop install staxrip
 (Windows)(Extra) SyncTrayzor: Inst. # scoop install synctrayzor
+(Windows)(Extra) T-Clock: Inst. # scoop install t-clock
+(Windows)(Extra) T-Clock: Conf. # Options → Time → Format → Time options → Hour (On), Minute (On)
 (Windows)(Extra) UniExtract2: Inst. # scoop install uniextract2
 (Windows)(Extra) virgo: Inst. # scoop install pile/virgo-fork
-(Windows)(Extra) WinCDEmu: Inst. # scoop install wincdemu
-(Later) direnv: Inst. # scoop install direnv
+(Windows)(Extra) WinCDEmu: Inst. # scoop install wincdemu\
 (Later) dyff: Inst. # scoop install dyff
 (Later) FreeCAD: Inst. # sudo pacman -S freecad
 (Later) FreeCAD: Inst. # scoop install freecad
@@ -761,7 +765,6 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Btop: Inst. # scoop install btop
 (Extra) Carnac: Inst. # scoop install carnac
 (Extra) chaiNNer: Inst. # scoop install pile/chainner
-(Extra) CMake: Inst. # scoop install cmake
 (Extra) coBib: Inst. # yay -S --noconfirm cobib
 (Extra) coBib: Inst. # uv tool install -U cobib
 (Extra) code-minimap: Inst. # scoop install code-minimap
@@ -833,7 +836,6 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) GridPlayer: Inst. # sudo pacman -S vlc
 (Extra) GridPlayer: Inst. # scoop install gridplayer vlc
 (Extra) HakuNeko: Inst. # scoop install hakuneko
-(Extra) hevi: Inst. # scoop install pile/hevi
 (Extra) hl: Inst. # scoop install hl
 (Extra) hostctl: Inst. # sudo pacman -S hostctl
 (Extra) hostctl: Inst. # scoop install hostctl
@@ -841,8 +843,6 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) htmlq: Inst. # scoop install htmlq
 (Extra) Hydra Launcher: Inst. # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/hydra.json
 (Extra) Igir: Inst. # bin install github.com/emmercm/igir igir.exe
-(Extra) Inkscape: Inst. # sudo pacman -S inkscape
-(Extra) Inkscape: Inst. # scoop install inkscape
 (Extra) jc: Inst. # scoop install jc
 (Extra) jnv: Inst. # scoop install jnv
 (Extra) jqp: Inst. # scoop install jqp
@@ -872,7 +872,11 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) MuseScore: Inst. # yay -S --noconfirm musescore-bin muse-sounds-manager-bin
 (Extra) MuseScore: Inst. # scoop install musescore
 (Extra) MusicBrainz Picard: Inst. # scoop install picard
+(Extra) ntsc-rs: Inst. # scoop install ntsc-rs
 (Extra) oken: Inst. # scoop install pile/oken
+(Extra) Ollama: Inst. # scoop install ollama
+(Extra) Ollama: Env. # OLLAMA_HOST=localhost
+(Extra) Ollama: Env. # OLLAMA_ORIGINS=*
 (Extra) OmegaT: Inst. # scoop install omegat
 (Extra) Open Cubic Player: Inst. # scoop install pile/open-cubic-player
 (Extra) OpenCode: Ex. # bun add -g opencode-input-translator@latest
