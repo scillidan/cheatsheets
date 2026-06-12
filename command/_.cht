@@ -180,7 +180,7 @@ Handy: Inst. # scoop install handy
 has: Inst. # scoop install has
 hexyl: Inst. # scoop install hexyl
 HTML Minifier Next: Depend. # bun add -g html-minifier-next
-huggingface_hub: Inst. # uv tool install "huggingface_hub[cli]"
+huggingface_hub: Inst. # uv tool install -U "huggingface_hub[cli]"
 huggingface_hub: Env. # HF_HUB_ENABLE_HF_TRANSFER=1
 huggingface_hub: Env. # HF_ENDPOINT=https://hf-mirror.com
 huggingface_hub: Env. # HF_MIRROR=https://hf-mirror.com
@@ -190,7 +190,6 @@ Hugo: Inst. # scoop install hugo-extended
 ImageMagick: Inst. # sudo pacman -S imagemagick
 ImageMagick: Inst. # scoop install imagemagick
 img2pdf: Inst. # uv tool install -w pymupdf -U img2pdf
-img2pdf: img2pdf $ --pagesize A4 --fit into -o _.pdf
 Info-ZIP: Depend. # scoop install zip unzip
 Inkscape: Inst. # sudo pacman -S inkscape
 Inkscape: Inst. # scoop install inkscape
@@ -934,10 +933,11 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) stl-thumb: Inst. # bin install github.com/unlimitedbacon/stl-thumb stl-thumb.exe
 (Extra) syncthing: Inst. # sudo pacman -S syncthing
 (Extra) syncthing: Inst. # scoop install syncthing
-(Extra) RetroArch: Inst. # sudo pacman -S retroarch
-(Extra) RetroArch: Inst. # scoop install retroarch
 (Extra) RClone Manager: Inst. # yay -S --noconfirm rclone-manager
 (Extra) RClone Manager: Inst. # scoop install rclone-manager
+(Extra) redthread: Inst. # go install github.com/B33pBeeps/redthread/cmd/redthread@latest
+(Extra) RetroArch: Inst. # sudo pacman -S retroarch
+(Extra) RetroArch: Inst. # scoop install retroarch
 (Extra) rip2: Inst. # scoop install rip
 (Extra) Tag Editor: Inst. # yay -S --noconfirm tageditor
 (Extra) Tag Editor: Inst. # scoop install tageditor

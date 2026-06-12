@@ -1,0 +1,11 @@
+## https://github.com/vaibhav-mattoo/cxt#tui-mode
+Move cursor                           | j/k / Up/Dn
+Expand directory                      | l/Etr/Rt
+Collapse / go to parent directory     | h/Bksp/Lt
+Select / unselect file or directory   | Spc
+Enter fuzzy search                    | / / C-f
+Toggle keybinding help overlay        | ?
+Toggle relative path headers          | r
+Toggle no path headers                | n
+Confirm selection → copy to clipboard | c
+Quit                                  | q / C-c
