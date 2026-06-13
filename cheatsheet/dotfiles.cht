@@ -9,3 +9,4 @@ $HOME/.config/broot        | %LOCALAPPDATA%\broot
 $HOME/.config/qutebrowser  | %LOCALAPPDATA%\broot\qutebrowser\config
 $HOME/.config/yazi         | %LOCALAPPDATA%\broot\yazi\config
 $HOME/.config/numa         | %ProgramData%\numa
+$HOME/.config/pet          | %LOCALAPP%\pet

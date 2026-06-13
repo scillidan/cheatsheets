@@ -234,6 +234,7 @@ llama.cpp: Ex. https://huggingface.co/unsloth/gemma-3-4b-it-qat-GGUF
 llama.cpp: Ex. https://huggingface.co/unsloth/gemma-3-12b-it-GGUF
 llama.cpp: Ex. https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF
 llama.cpp: Ex. https://huggingface.co/Qwen/Qwen3-14B-GGUF
+llama.cpp: Ex. https://huggingface.co/gnokit/gemma_2b_coedit
 llama.cpp: # llama-server --port 8070 --model "<path_to>/gemma-3-12b-it-Q4_K_M.gguf" --n-gpu-layers 999 --ctx-size 8192
 llama-swap: Inst. # scoop install llama-swap
 llama-swap: # llama-swap --config "<path_to>\llama-swap\config.yaml" --listen 127.0.0.1:8070 --watch-config
@@ -310,8 +311,8 @@ OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest
 OpenCode Stats: Inst. # scoop install opencode-stats
 OpenCommit: Inst. # bun add -g opencommit
 OpenCommit: Env. # oco config set OCO_EMOJI=false
-OpenCommit: Env. oco config set OCO_AI_PROVIDER=ollama OCO_API_KEY=ollama OCO_API_URL=http://localhost:11434 OCO_MODEL=ministral-3:8b
-OpenCommit: Env. oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$OPENAI_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
+OpenCommit: Env. # oco config set OCO_AI_PROVIDER=ollama OCO_API_KEY=ollama OCO_API_URL=http://localhost:8010 OCO_MODEL=ministral-3:8b
+OpenCommit: Env. # oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$CHATANYWHERE_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
 OpenCommit: # oco hook set
 OpenCommit: # git commit
 OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
@@ -340,7 +341,6 @@ port-kill: Inst. # scoop install port-kill-console
 Prettier: Depend. # sudo pacman -S prettier
 Prettier: Depend. # bun add -g prettier
 pro: Inst. # scoop install pile/pro
-pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
 Python: Inst. # scoop install python310 python312
 Python: # pip install<pkg> --index-url https://pypi.org/simple
 Python: # pip cache purge
@@ -906,6 +906,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) PureRef: Inst. # scoop install pureref
 (Extra) PureRef: C-Rt → C-Dn → C-f → MW → C-S-r
 (Extra) qutebrowser: Inst. # scoop install qutebrowser
+(Extra) pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
 (Extra) Qalculate!: Inst. # scoop install qalculate
 (Extra) qmtn: Inst. # scoop install pile/qmtn-np
 (Extra) QuickSFV: Inst. # scoop install quicksfv
