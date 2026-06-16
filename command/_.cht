@@ -99,6 +99,7 @@ fend: Inst. # scoop install fend
 fend: Inst. # yay -S --noconfirm fend-bin
 fd: Inst. # sudo pacman -S fd
 fd: Inst. # scoop install fd
+fff: Inst. # scoop install fff
 FFmpeg: Inst. # sudo pacman -S ffmpeg
 FFmpeg: Inst. # scoop install ffmpeg-shared
 ffmpegthumbnailer: Depend. # sudo pacman -S ffmpegthumbnailer
@@ -175,6 +176,7 @@ Go OpenCC: Traditional Chinese to Simplified Chinese # gopencc -c t2s -i
 Godot: Inst. # scoop install godot
 GoldenDict: Inst. # yay -S --noconfirm goldendict-git
 GoldenDict: Inst. # scoop install goldendict
+gutenbit: Inst. # uv tool install -U gutenbit
 Gzip: Inst. # scoop install gzip
 HandBrake: Inst. # sudo pacman -S handbrake handbrake-cli
 HandBrake: Inst. # scoop install handbrake handbrake-cli
@@ -272,8 +274,8 @@ MuPDF: Inst. # scoop install mupdf
 musikcube: Inst. # scoop install musikcube
 NAPS2: Inst. # scoop install naps2
 NeoHtop: Inst. # scoop install neohtop
-Neovim: Inst. # sudo pacman -S neovim lua51
-Neovim: Inst. # scoop insatll neovim lua51
+Neovim: Inst. # sudo pacman -S neovim
+Neovim: Inst. # scoop insatll neovim
 Nmap: Inst. # scoop install nmap
 Nmap: Inst. # %SCOOP%\apps\nmap\current\npcap.exe
 No!! MeiryoUI: Inst. # scoop install nomeiryoui
@@ -308,14 +310,15 @@ OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest
 OpenCode Stats: Inst. # scoop install opencode-stats
 OpenCommit: Inst. # bun add -g opencommit
 OpenCommit: Env. # oco config set OCO_EMOJI=false
-OpenCommit: Env. # oco config set OCO_AI_PROVIDER=ollama OCO_API_KEY=ollama 
-OCO_API_URL=http://localhost:8010 OCO_MODEL=ministral-3:8b
+OpenCommit: Env. # oco config set OCO_AI_PROVIDER=llamacpp OCO_API_KEY=llamacpp
+OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 OpenCommit: Env. # oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$CHATANYWHERE_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
 OpenCommit: # oco hook set
 OpenCommit: # git commit
 OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
 OpenSpec: Conf. # openspec init
 OWASP Dependency-Check: Inst. # scoop install dependency-check
+OWASP Dependency-Check: # dependency-check -s .
 Oxipng: Inst. # sudo pacman -S oxipng
 Oxipng: Inst. # scoop install oxipng
 Pandoc: Depend. # sudo pacman -S pandoc-cli
@@ -357,6 +360,7 @@ qView: Inst. # yay -S --noconfirm qview
 qView: Inst. # scoop install qview
 Raspberry Pi Imager: Inst. # sudo pacman -S rpi-imager
 Raspberry Pi Imager: Inst. # scoop install raspberry-pi-imager
+rclip: Inst. # scoop install rclip
 RefrEnv: Inst. # scoop install refrenv
 rembg: Inst. # pipx install "rembg[cpu,cli]"
 rembg: Inst. # pipx install "rembg[gpu,cli]"
@@ -508,6 +512,7 @@ Yazi: Ex. # ya pkg add XYenon/clipboard
 Yazi: Ex. # ya pkg add qwjyh/relative-path
 Yazi: Ex. # ya pkg add AnirudhG07/plugins-yazi:copy-file-contents
 Yazi: Ex. # ya pkg add ourongxing/fast-enter
+Yazi: Ex. # ya pkg add TransientError/sticky-filter
 Yazi: Ex. # ya pkg add masaki39/fd-fzf
 Yazi: Ex. # ya pkg add gogongxt/initial-cwd
 Yazi: Ex. # ya pkg add WindustH/clipboard-jump
@@ -676,7 +681,6 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows) Visual Studio Locator: Depend. # scoop install vswhere
 (Windows) wcap: Inst. # scoop install wcap
 (Windows) Win10_BrightnessSlider: Inst. # scoop install win10_brightnessslider
-(Windows) win32yank Depend. # scoop install win32yank
 (Windows) WinMerge: Inst. # scoop install winmerge
 (Windows) WinMerge: Conf. # mklink "%APPDATA%\Microsoft\Windows\SendTo\WinMergeU.exe" "%SCOOP%\apps\winmerge\current\WinMergeU.exe"
 (Windows) WinSCP: Inst. # scoop install winscp
