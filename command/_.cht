@@ -60,6 +60,7 @@ delta: Conf. # git config --global interactive.diffFilter 'delta --color-only'
 delta: Conf. # git config --global delta.navigate true
 delta: Conf. # git config --global merge.conflictStyle zdiff3
 direnv: Depend. # scoop install direnv
+direnv: # direnv allow
 doc2dash: Inst. # uv tool install -U doc2dash
 Docker: Update # sudo docker compose down
 Docker: Update # sudo docker compose pull
@@ -209,6 +210,7 @@ js-beautify: Depend. # bun add -g js-beautify
 jq: Depend. # scoop install jq
 jq: # jq ".scripts" package.json
 just: Inst. # scoop install just
+kage: Inst. # scoop install kage
 Kdenlive: Inst. # sudo pacman -S kdenlive
 Kdenlive: Inst. # scoop install kdenlive
 Kiwix Serve: 1. # kiwix-serve --address 0.0.0.0 --port 5173 $.zim
@@ -240,11 +242,6 @@ llama-swap: # llama-swap --config "<path_to>\llama-swap\config.yaml" --listen 12
 llmfit: Inst. # scoop install llmfit
 llmfit: Inst. # sudo pacman -S llmfit-bin
 LLVM: Depend. # scoop install llvm
-LobeHub: Inst. # scoop install pile/lobehub-np
-LobeHub CLI: Inst. # bun add -g @lobehub/cli
-LobeHub CLI: # lh login
-LobeHub CLI: # lh provider config openai --api-key <api_key> --base-url <base_url>
-LobeHub CLI: # lh agent list
 LocalSend: Inst. # yay -S --noconfirm localsend-bin
 LocalSend: Inst. # scoop install localsend
 LosslessCut: Inst. # yay -S --noconfirm losslesscut-bin
@@ -256,11 +253,15 @@ Lynx: Depend. # scoop install lynx
 Marksman: Depend. # scoop install marksman
 MediaInfo: Inst. # sudo pacman -S mediainfo mediainfo-gui
 MediaInfo: Inst. # scoop install mediainfo mediainfo-gui
+Meld: Inst. # scoop install meld
+Meld: Conf. # git config --global merge.tool meld
+Meld: Conf. # git config --global mergetool.prompt false
 Miniforge: Inst. # scoop install miniforge3
 Miniforge: Conf. # conda init zsh
 Miniforge: Conf. # conda init cmd.exe
 Minify: Inst. # scoop install minify
 Monaspace: Inst. # scoop install Monaspace-NF-Mono
+moor: Inst. # scoop install moor
 Movie Thumbnailer (mtn): Inst. # yay -S --noconfirm mtn
 Movie Thumbnailer (mtn): Inst. # scoop install mtn
 mp3rgain: Inst. # scoop install mp3rgui
@@ -410,6 +411,7 @@ Smiley Sans: Inst. # scoop install pile/Smiley-Sans
 SSHFS: Inst. # sudo pacman -S sshfs
 SSHFS: Inst. # sudo apt install sshfs
 SSHFS: Depend. # gsudo scoop install winfsp-np sshfs-np
+steamguard-cli: Inst. # scoop install steamguard-cli
 Stirling-PDF: Inst. # yay -S --noconfirm stirling-pdf-bin
 Stirling-PDF: Inst. # scoop install stirling-pdf
 sub-batch: Inst. # scoop install pile/sub-batch
@@ -492,6 +494,7 @@ WezTerm: Inst. # scoop install wezterm
 WezTerm: Conf. # vim ~/.config/wezterm/wezterm.lua
 WezTerm: Conf. # subl %SCOOP%\apps\wezterm\current\wezterm.lua
 which: Depend. # scoop install which
+witr: Inst. # scoop install witr
 xan: Inst. # sudo pacman -S xan
 xan: Inst. # scoop install xan
 XnConvert: Inst. # yay -S --noconfirm xnconvert
@@ -715,6 +718,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) Hermes Agent: Env. # hermes config set model.base_url http://127.0.0.1:11434/v1
 (Later) Hermes Agent: Env. # hermes config set model.api_key dummy
 (Later) Hermes Agent: Env. # hermes config set model.default gemma3:12b
+(Later) Gas Town: Inst. # bin install github.com/gastownhall/gastown gastown.exe
 (Later) JSON diff and patch: Inst. # scoop install jd
 (Later) jj: Inst. # scoop install jj
 (Later) jjui: Inst. # scoop install jjui
@@ -731,6 +735,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) open-pdf-sign: # java -jar open-pdf-sign.jar --input $ --output _.pdf --certificate <crt> --key <pem> --passphrase <password> --page -1 --locale zh-CN
 (Later) Pueue: Inst. # scoop install pueue
 (Later) PassTUI: Inst. # uv tool install -U --python 3.14 passtui
+(Later) QMD: Inst. # bun add -g @tobilu/qmd
 (Later) qsv: Inst. # yay -S --noconfirm qsv-bin
 (Later) qsv: Inst. # scoop install qsv
 (Later) sem: Inst. # bin install github.com/Ataraxy-Labs/sem sem.exe
@@ -788,6 +793,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) deadbranch: Inst: # bin install github.com/armgabrielyan/deadbranch deadbranch.exe
 (Extra) dedoc: Inst. # cargo install -f dedoc
 (Extra) dedoc: Env. # DEDOC_HOME=<path_to>/Data/dedoc
+(Later) depsguard: Inst. # scoop install https://github.com/arnica/depsguard/bucket/depsguard
 (Extra) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
 (Extra) deputui: Inst. # pnpm outdated --format json | deputui
 (Extra) Desed: Inst. # cargo install desed
@@ -825,6 +831,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) giff: Inst. # scoop install giff
 (Extra) Gifski: Inst. # sudo pacman -S gifski
 (Extra) Gifski: Inst. # scoop install gifski
+(Later) gistui: Inst. # scoop install https://github.com/akunzai/scoop-bucket/bucket/gistui.json
 (Extra) Git Extensions: Inst. # yay -S --noconfirm gitextensions
 (Extra) Git Extensions: Inst. # scoop install gitextensions
 (Extra) Git Overview: Inst. # uv tool install -U git-overview
@@ -857,8 +864,16 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Kopia: Inst. # scoop install kopia kopiaui
 (Extra) Krita: Inst. # sudo pacman -S krita
 (Extra) Krita: Inst. # scoop install krita
+(Extra) LeanCTX: Inst. # scoop install lean-ctx
+(Extra) LeanCTX: # lean-ctx init --agent opencode
+(Extra) LeanCTX: # lean-ctx gain
 (Extra) libretrans: Inst. # cargo install --force libretrans
 (Extra) libretrans: # libretrans -u http://<your_host> en:zh "This is a text"
+(Extra) LobeHub: Inst. # scoop install pile/lobehub-np
+(Extra) LobeHub CLI: Inst. # bun add -g @lobehub/cli
+(Extra) LobeHub CLI: # lh login
+(Extra) LobeHub CLI: # lh provider config openai --api-key <api_key> --base-url <base_url>
+(Extra) LobeHub CLI: # lh agent list
 (Extra) LÖVE: Inst. # scoop install love
 (Extra) lssh: Inst. # scoop install pile/lssh
 (Extra) Madamiru: Inst. # scoop install pile/madamiru
@@ -889,6 +904,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) OpenCode: Ex. Env. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
 (Extra) OpenCode: Ex. Env. # TRANSLATOR_MODEL=gemma3:12b-it-qat
 (Extra) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
+(Later) Oyui: Inst. # cargo install oyui
 (Extra) Paletter: Inst. # bin install github.com/Baldomo/paletter paletter.exe
 (Extra) PAR LLAMA: Inst. # uv tool install -U parllama
 (Extra) Parm: Inst. # scoop install pile/parm
@@ -964,6 +980,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) tldr: Pulls the latest commits from github.com/tldr-pages/tldr # tldr -u
 (Extra) Trafilatura: Inst. # uv tool install -U trafilatura
 (Extra) ttyd: Inst. # scoop install ttyd
+(Later) Tuckr: Inst. # scoop install tuckr
 (Extra) Uncap: Inst. # scoop install uncap
 (Extra) ugrep: Inst. # sudo pacman -S ugrep
 (Extra) ugrep: Inst. # scoop install ugrep
