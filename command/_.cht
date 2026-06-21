@@ -35,12 +35,12 @@ chezmoi: Inst. # scoop install chezmoi
 ClamAV: Inst. # sudo pacman -S clamav
 ClamAV: Inst. # scoop install clamav
 clean-css: Depend. # yay -S --noconfirm nodejs-clean-css nodejs-clean-css-cli
-clean-css: Depend. # bun add -g clean-css clean-css-cli
+clean-css: Depend. # bun add -g clean-css clean-css-cli@latest
 cliamp: Inst. # sudo pacman -S alsa-lib && yay -S --noconfirm cliamp
 cliamp: Inst. # scoop install cliamp
 cloc: Inst. # scoop install cloc
 CMake: Depend. # scoop install cmake
-CodeGraph: Inst. # bun add -g @colbymchenry/codegraph
+CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
 CodeGraph: # codegraph init -i
 commandOK: Inst. # scoop install commandok
 cpr: Inst. # scoop install cpr
@@ -60,7 +60,6 @@ delta: Conf. # git config --global interactive.diffFilter 'delta --color-only'
 delta: Conf. # git config --global delta.navigate true
 delta: Conf. # git config --global merge.conflictStyle zdiff3
 direnv: Depend. # scoop install direnv
-direnv: # direnv allow
 doc2dash: Inst. # uv tool install -U doc2dash
 Docker: Update # sudo docker compose down
 Docker: Update # sudo docker compose pull
@@ -73,7 +72,7 @@ Double Commander: Inst. # scoop install doublecmd
 dua: Inst. # sudo pacman -S dua-cli
 dua: Inst. # scoop install dua
 dua: Interactive mode # dua i
-echo-cli: Inst. # bun add -g echo-cli
+echo-cli: Inst. # bun add -g echo-cli@latest
 edge-tts: Inst. # uv tool install -U edge-tts
 edge-tts: # edge-playback --voice en-US-AndrewMultilingualNeural --text
 eget: Inst. # scoop install eget
@@ -184,7 +183,7 @@ HandBrake: Inst. # scoop install handbrake handbrake-cli
 Handy: Inst. # scoop install handy
 has: Inst. # scoop install has
 hexyl: Inst. # scoop install hexyl
-HTML Minifier Next: Depend. # bun add -g html-minifier-next
+HTML Minifier Next: Depend. # bun add -g html-minifier-next@latest
 huggingface_hub: Inst. # uv tool install -U "huggingface_hub[cli]"
 huggingface_hub: Env. # HF_HUB_ENABLE_HF_TRANSFER=1
 huggingface_hub: Env. # HF_ENDPOINT=https://hf-mirror.com
@@ -206,11 +205,10 @@ JDK: Depend. # scoop install temurin21-jre
 JDK: Depend. # scoop install openjdk22
 jid: Inst. # scoop install jid
 js-beautify: Depend. # yay -S --noconfirm js-beautify
-js-beautify: Depend. # bun add -g js-beautify
+js-beautify: Depend. # bun add -g js-beautify@latest
 jq: Depend. # scoop install jq
 jq: # jq ".scripts" package.json
 just: Inst. # scoop install just
-kage: Inst. # scoop install kage
 Kdenlive: Inst. # sudo pacman -S kdenlive
 Kdenlive: Inst. # scoop install kdenlive
 Kiwix Serve: 1. # kiwix-serve --address 0.0.0.0 --port 5173 $.zim
@@ -242,6 +240,11 @@ llama-swap: # llama-swap --config "<path_to>\llama-swap\config.yaml" --listen 12
 llmfit: Inst. # scoop install llmfit
 llmfit: Inst. # sudo pacman -S llmfit-bin
 LLVM: Depend. # scoop install llvm
+LobeHub: Inst. # scoop install pile/lobehub-np
+LobeHub CLI: Inst. # bun add -g @lobehub/cli@latest
+LobeHub CLI: # lh login
+LobeHub CLI: # lh provider config openai --api-key <api_key> --base-url <base_url>
+LobeHub CLI: # lh agent list
 LocalSend: Inst. # yay -S --noconfirm localsend-bin
 LocalSend: Inst. # scoop install localsend
 LosslessCut: Inst. # yay -S --noconfirm losslesscut-bin
@@ -253,15 +256,11 @@ Lynx: Depend. # scoop install lynx
 Marksman: Depend. # scoop install marksman
 MediaInfo: Inst. # sudo pacman -S mediainfo mediainfo-gui
 MediaInfo: Inst. # scoop install mediainfo mediainfo-gui
-Meld: Inst. # scoop install meld
-Meld: Conf. # git config --global merge.tool meld
-Meld: Conf. # git config --global mergetool.prompt false
 Miniforge: Inst. # scoop install miniforge3
 Miniforge: Conf. # conda init zsh
 Miniforge: Conf. # conda init cmd.exe
 Minify: Inst. # scoop install minify
 Monaspace: Inst. # scoop install Monaspace-NF-Mono
-moor: Inst. # scoop install moor
 Movie Thumbnailer (mtn): Inst. # yay -S --noconfirm mtn
 Movie Thumbnailer (mtn): Inst. # scoop install mtn
 mp3rgain: Inst. # scoop install mp3rgui
@@ -303,20 +302,21 @@ Onefetch: Inst. # sudo pacman -S onefetch
 Onefetch: Inst. # scoop install onefetch
 Open WebUI: Inst. # uv tool install -U open-webui --python 3.11
 Open WebUI: # open-webui serve
-open-cli: Inst. # bun add -g open-cli
+open-cli: Inst. # bun add -g open-cli@latest
 OpenCode: Inst. # paru -S opencode
 OpenCode: Inst. # scoop install opencode
 OpenCode: Conf. # npm config set registry https://mirrors.cloud.tencent.com/npm/
-OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest
-OpenCode Stats: Inst. # scoop install opencode-stats
-OpenCommit: Inst. # bun add -g opencommit
+OpenCode: Ex. # bun add -g @cortexkit/magic-context@latest
+OpenCode: Ex. # magic-context setup
+OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest@latest
+OpenCommit: Inst. # bun add -g opencommit@latest
 OpenCommit: Env. # oco config set OCO_EMOJI=false
 OpenCommit: Env. # oco config set OCO_AI_PROVIDER=llamacpp OCO_API_KEY=llamacpp
 OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 OpenCommit: Env. # oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$CHATANYWHERE_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
 OpenCommit: # oco hook set
 OpenCommit: # git commit
-OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
+OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest@latest
 OpenSpec: Conf. # openspec init
 OWASP Dependency-Check: Inst. # scoop install dependency-check
 OWASP Dependency-Check: # dependency-check -s .
@@ -336,14 +336,15 @@ pipe-rename: Inst. # sudo pacman -S pipe-rename
 pipe-rename: Inst. # scoop install pile/pipe-rename
 pipe-rename: # ls | renamer
 pipx: Inst. # sudo pacman -S python-pipx
+pipx: Inst. # scoop install python312
 pipx: Inst. # python -m pip install pipx
 pipx: Conf. # pipx ensurepath
-png-to-ico: Inst. # bun add -g png-to-ico
+png-to-ico: Inst. # bun add -g png-to-ico@latest
 pnpm: Inst. # corepack enable pnpm
 Poppler: Depend. # scoop install poppler
 port-kill: Inst. # scoop install port-kill-console
 Prettier: Depend. # sudo pacman -S prettier
-Prettier: Depend. # bun add -g prettier
+Prettier: Depend. # bun add -g prettier@latest
 pro: Inst. # scoop install pile/pro
 Python: Inst. # scoop install python310 python312
 Python: # pip install<pkg> --index-url https://pypi.org/simple
@@ -365,7 +366,7 @@ rclip: Inst. # scoop install rclip
 RefrEnv: Inst. # scoop install refrenv
 rembg: Inst. # pipx install "rembg[cpu,cli]"
 rembg: Inst. # pipx install "rembg[gpu,cli]"
-Repomix: Inst. # bun add -g repomix
+Repomix: Inst. # bun add -g repomix@latest
 Repos: Inst. # scoop install pile/repos
 rgx: Inst. # scoop install pile/rgx
 Rimage: Inst. # scoop install rimage
@@ -375,18 +376,22 @@ ripgrep: Inst. # scoop install ripgrep rga
 rsync: Inst. # sudo pacman -S rsync
 rsync: Inst. # scoop install cwrsync
 rsync: Update nvim config from ArchWSL to Windows # rsync -r ~/.config/nvim/ /mnt/c/Users/User/AppData/Local/nvim --include={".*"} --exclude={"lazy-lock.json"}
+rtk: Inst. # scoop install rtk
+rtk: # rtk init -g --opencode
+rtk: # rtk init -g --agent pi
+rtk: # rtk gain
 Rum: Inst. # scoop install pile/rum
 Sarasa Term SC Nerd: Inst. # scoop install pile/Sarasa-Term-SC-Nerd
 Sarasa Mono SC: Inst. # scoop install SarasaGothic-SC
 scooter: Inst. # scoop install scooter
 sd: Inst. # sudo pacman -S sd
 sd: Inst. # scoop install sd
-serve: Inst. # bun add -g serve
+serve: Inst. # bun add -g serve@latest
 Sigil: Inst. # sudo pacman -S sigil
 Sigil: Inst. # scoop install sigil
 Sioyek: Inst. # sudo pacamn -S sioyek
 Sioyek: Inst. # scoop install sioyek
-Skills: Inst. # bun add -g skills
+Skills: Inst. # bun add -g skills@latest
 Skills: Ex. # skills add https://github.com/vercel-labs/skills --skill find-skills
 Skills: Ex. # skills add https://github.com/anthropics/skills --skill skill-creator
 Skills: Ex. # skills add https://github.com/juliusbrussee/caveman --skill caveman
@@ -411,7 +416,6 @@ Smiley Sans: Inst. # scoop install pile/Smiley-Sans
 SSHFS: Inst. # sudo pacman -S sshfs
 SSHFS: Inst. # sudo apt install sshfs
 SSHFS: Depend. # gsudo scoop install winfsp-np sshfs-np
-steamguard-cli: Inst. # scoop install steamguard-cli
 Stirling-PDF: Inst. # yay -S --noconfirm stirling-pdf-bin
 Stirling-PDF: Inst. # scoop install stirling-pdf
 sub-batch: Inst. # scoop install pile/sub-batch
@@ -432,7 +436,7 @@ Subloader: Inst. # scoop install https://raw.githubusercontent.com/Valyreon/Subl
 Subloader: Inst. # gsudo pwsh %SCOOP%\apps\subloader\create_registry.ps1
 sudo: Depend. # scoop install sudo
 SVGO: Depend. # sudo pacman -S svgo
-SVGO: Depend. # bun add -g svgo
+SVGO: Depend. # bun add -g svgo@latest
 Tabiew: Inst. # scoop install tabiew
 Tabiew: # tw <csvs>
 TablacusExplorer: Inst. # tablacus-explorer
@@ -443,7 +447,7 @@ tailspin: # tspin <log>
 tere: Inst. # sudo pacman install tere
 tere: Inst. # scoop install tere
 terser: Depend. # yay -S --noconfirm terser
-terser: Depend. # bun add -g terser
+terser: Depend. # bun add -g terser@latest
 tesseract: Inst. # sudo pacman -S tesseract tesseract-data-eng tesseract-data-chi_sim tesseract-data-chi_sim_vert
 tesseract: Inst. # scoop install tesseract tesseract-languages
 tex-fmt: Depend. # yay -S --noconfirm tex-fmt
@@ -459,21 +463,22 @@ TightVNC: tvnviewer <your_host>::5901 -password=<vncuser_passwd>
 tlrc: Inst. # scoop install tlrc
 tlrc: Inst. # yay -S --noconfirm tlrc-bin
 tlrc: Conf. # tldr -u
+Tokscale: Inst. # bun add -g tokscale
 trashy: Inst. # yay -S --noconfirm trashy
 trashy: Inst. # scoop install trashy
 trashy: Inst. # cargo install -f trashy
 TrID: Inst. # scoop install trid
-ttf2woff2: Inst. # bun add -g ttf2woff2
+ttf2woff2: Inst. # bun add -g ttf2woff2@latest
 typst: Inst. # scoop install typst
 typst: (VSCodium) # scoop install tinymist typstyle
 ugit: Inst. # scoop install ugit
-UglifyJS: Depend. # bun add -g uglify-js
+UglifyJS: Depend. # bun add -g uglify-js@latest
 Unicodia: Inst. # scoop install unicodia
 unrar: Depend. # scoop install unrar
 Upscayl: Inst. # scoop install upscayl
 upscayl-ncnn: Inst. # scoop install pile/upscayl-bin
 uv: Inst. # sudo pacman -S uv
-uv: Inst. # scoop install python310 python312 uv
+uv: Inst. # scoop install python312 uv
 uv: Install python 1. # uv python list
 uv: Install python 2. # uv python install <version>
 uv: Install python 3. # uv python pin <version> --global
@@ -494,7 +499,6 @@ WezTerm: Inst. # scoop install wezterm
 WezTerm: Conf. # vim ~/.config/wezterm/wezterm.lua
 WezTerm: Conf. # subl %SCOOP%\apps\wezterm\current\wezterm.lua
 which: Depend. # scoop install which
-witr: Inst. # scoop install witr
 xan: Inst. # sudo pacman -S xan
 xan: Inst. # scoop install xan
 XnConvert: Inst. # yay -S --noconfirm xnconvert
@@ -711,14 +715,15 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows)(Extra) virgo: Inst. # scoop install pile/virgo-fork
 (Windows)(Extra) WinCDEmu: Inst. # scoop install wincdemu
 (Later) Beads(bd): Inst. # scoop install beads
+(Later) Dasel: Inst. # scoop install dasel
 (Later) dyff: Inst. # scoop install dyff
 (Later) FreeCAD: Inst. # sudo pacman -S freecad
 (Later) FreeCAD: Inst. # scoop install freecad
+(Later) Gas Town: Inst. # bin install github.com/gastownhall/gastown gastown.exe
 (Later) Hermes Agent: Env. # hermes config set model.provider ollama
 (Later) Hermes Agent: Env. # hermes config set model.base_url http://127.0.0.1:11434/v1
 (Later) Hermes Agent: Env. # hermes config set model.api_key dummy
 (Later) Hermes Agent: Env. # hermes config set model.default gemma3:12b
-(Later) Gas Town: Inst. # bin install github.com/gastownhall/gastown gastown.exe
 (Later) JSON diff and patch: Inst. # scoop install jd
 (Later) jj: Inst. # scoop install jj
 (Later) jjui: Inst. # scoop install jjui
@@ -752,7 +757,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) agg: Inst. # scoop install agg
 (Extra) AnythingLLM: Inst. # scoop install anythingllm
 (Extra) ASCII Moon: Inst. # scoop install pile/ascii-moon
-(Extra) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify
+(Extra) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify@latest
 (Extra) asciify-them: Inst. # uv tool install -U asciify-them
 (Extra) Aspell: Inst. # sudo pacman -S aspell aspell-en
 (Extra) Aspell: Inst. # scoop install aspell
@@ -793,7 +798,6 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) deadbranch: Inst: # bin install github.com/armgabrielyan/deadbranch deadbranch.exe
 (Extra) dedoc: Inst. # cargo install -f dedoc
 (Extra) dedoc: Env. # DEDOC_HOME=<path_to>/Data/dedoc
-(Later) depsguard: Inst. # scoop install https://github.com/arnica/depsguard/bucket/depsguard
 (Extra) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
 (Extra) deputui: Inst. # pnpm outdated --format json | deputui
 (Extra) Desed: Inst. # cargo install desed
@@ -819,7 +823,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) epub2txt: Inst. # uv tool install epub2txt
 (Extra) eva: Inst. # sudo pacman -S eva
 (Extra) eva: Inst. # scoop install eva
-(Extra) faviator: Inst. # bun add -g faviator
+(Extra) faviator: Inst. # bun add -g faviator@latest
 (Extra) Favocon: Inst. # cargo isntall favocon
 (Extra) Fluent Reader: Inst. # yay -S --noconfirm fluent-reader
 (Extra) Fluent Reader: Inst. # scoop install fluent-reader
@@ -831,7 +835,6 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) giff: Inst. # scoop install giff
 (Extra) Gifski: Inst. # sudo pacman -S gifski
 (Extra) Gifski: Inst. # scoop install gifski
-(Later) gistui: Inst. # scoop install https://github.com/akunzai/scoop-bucket/bucket/gistui.json
 (Extra) Git Extensions: Inst. # yay -S --noconfirm gitextensions
 (Extra) Git Extensions: Inst. # scoop install gitextensions
 (Extra) Git Overview: Inst. # uv tool install -U git-overview
@@ -866,14 +869,10 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Krita: Inst. # scoop install krita
 (Extra) LeanCTX: Inst. # scoop install lean-ctx
 (Extra) LeanCTX: # lean-ctx init --agent opencode
+(Extra) LeanCTX: # lean-ctx init --agent pi
 (Extra) LeanCTX: # lean-ctx gain
 (Extra) libretrans: Inst. # cargo install --force libretrans
 (Extra) libretrans: # libretrans -u http://<your_host> en:zh "This is a text"
-(Extra) LobeHub: Inst. # scoop install pile/lobehub-np
-(Extra) LobeHub CLI: Inst. # bun add -g @lobehub/cli
-(Extra) LobeHub CLI: # lh login
-(Extra) LobeHub CLI: # lh provider config openai --api-key <api_key> --base-url <base_url>
-(Extra) LobeHub CLI: # lh agent list
 (Extra) LÖVE: Inst. # scoop install love
 (Extra) lssh: Inst. # scoop install pile/lssh
 (Extra) Madamiru: Inst. # scoop install pile/madamiru
@@ -899,12 +898,11 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Ollama: Env. # OLLAMA_ORIGINS=*
 (Extra) OmegaT: Inst. # scoop install omegat
 (Extra) Open Cubic Player: Inst. # scoop install pile/open-cubic-player
-(Extra) OpenCode: Ex. # bun add -g opencode-input-translator@latest
+(Extra) OpenCode: Ex. # bun add -g opencode-input-translator@latest@latest
 (Extra) OpenCode: Ex. Env. # TRANSLATOR_API_KEY=Ollama
 (Extra) OpenCode: Ex. Env. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
 (Extra) OpenCode: Ex. Env. # TRANSLATOR_MODEL=gemma3:12b-it-qat
 (Extra) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
-(Later) Oyui: Inst. # cargo install oyui
 (Extra) Paletter: Inst. # bin install github.com/Baldomo/paletter paletter.exe
 (Extra) PAR LLAMA: Inst. # uv tool install -U parllama
 (Extra) Parm: Inst. # scoop install pile/parm
@@ -912,14 +910,14 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Pegasus Frontend: Inst. # yay -S --noconfirm pegasus-frontend-git
 (Extra) Pegasus Frontend: Inst. # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/pegasus.json
 (Extra) Pegasus Frontend: Inst. # gsudo scoop install k-lite-codec-pack-basic-np
-(Extra) percollate: Inst. # bun add -g percollate
+(Extra) percollate: Inst. # bun add -g percollate@latest
 (Extra) PgsToSrt: Inst. # scoop install pile/pgstosrt
 (Extra) Picocrypt NG: Inst. # scoop install picocrypt-ng
 (Extra) PicView: Inst. # scoop install picview
 (Extra) pip_search: Inst. # uv tool install -U pip_search
 (Extra) pngquant: Instl. # sudo pacman -S pngquant
 (Extra) pngquant: Instl. # scoop install pngquant
-(Extra) pom-tool: Inst. # bun add -g pom-tool
+(Extra) pom-tool: Inst. # bun add -g pom-tool@latest
 (Extra) pom-tool: # pom
 (Extra) presenterm: Inst. # scoop install presenterm
 (Extra) presse: Inst. # bin install github.com/SimonBure/presse presse.exe
@@ -935,7 +933,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) reader: Inst. # sudo pacman -S reader
 (Extra) reader: Inst. # bin install github.com/mrusme/reader reader.exe
 (Extra) Resterm: Inst. # scoop install resterm
-(Extra) Retype: bun add -g retypeapp
+(Extra) Retype: bun add -g retypeapp@latest
 (Extra) Riff: Inst. # scoop install riff
 (Extra) Riff: # git diff | riff
 (Extra) Ruff: Inst. # scoop install ruff
@@ -946,7 +944,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) ShellGPT: Inst. # ollama pull mistral:7b-instruct
 (Extra) sig: Inst. # pacman -S sig
 (Extra) sig: Inst. # scoop install sig
-(Extra) sitefetch: Inst. # bun add -g sitefetch
+(Extra) sitefetch: Inst. # bun add -g sitefetch@latest
 (Extra) Sloc Cloc and Code (scc): Inst. # yay -S --noconfirm scc
 (Extra) Sloc Cloc and Code (scc): Inst. # scoop install scc
 (Extra) Slumber: Inst. # bin install github.com/LucasPickering/slumber slumber.exe
@@ -980,7 +978,6 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) tldr: Pulls the latest commits from github.com/tldr-pages/tldr # tldr -u
 (Extra) Trafilatura: Inst. # uv tool install -U trafilatura
 (Extra) ttyd: Inst. # scoop install ttyd
-(Later) Tuckr: Inst. # scoop install tuckr
 (Extra) Uncap: Inst. # scoop install uncap
 (Extra) ugrep: Inst. # sudo pacman -S ugrep
 (Extra) ugrep: Inst. # scoop install ugrep
