@@ -3,9 +3,10 @@
 7-Zip: 10m volume size # 7z a -v10m <compress_dir>.7z <compress_dir>
 7-Zip: With password # 7z x <input> -p"<password>"
 actionlint: Inst. # scoop install actionlint
+agentsview: Inst. # scoop install agentsview
 Alacritty: Inst. # scoop install alacritty
-andcli: Inst. # scoop install andcli
 alass: Inst. # scoop install alass
+andcli: Inst. # scoop install andcli
 ast-grep: Depend. # pacman -S ast-grep
 ast-grep: Depend. # scoop install ast-grep
 Audacity: Inst. # sudo pacman -S audacity
@@ -22,6 +23,7 @@ Bulk Rename Command: # brc /?
 Bulk Rename Utility: Inst. # scoop install bulk-rename-utility
 bun: Inst. # scoop install bun
 CA certificate: Depend. # scoop install cacert
+Caesium Image Compressor: Inst. # scoop install caesium-image-compressor
 Calibre: Inst. # sudo pacman -S calibre
 Calibre: Inst. # scoop install calibre
 Cargo: Depend. # cargo search --registry crates-io
@@ -40,14 +42,13 @@ cliamp: Inst. # sudo pacman -S alsa-lib && yay -S --noconfirm cliamp
 cliamp: Inst. # scoop install cliamp
 cloc: Inst. # scoop install cloc
 CMake: Depend. # scoop install cmake
-CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
-CodeGraph: # codegraph init -i
+Codiff: Inst. # scoop install codiff
 commandOK: Inst. # scoop install commandok
 cpr: Inst. # scoop install cpr
 csvlens: Inst. # scoop install csvlens
 curl : Depend. # sudo pacman -S curl
 curl : Depend. # scoop install curl
-cxt: Inst. # scoop install cxt
+cxt: Inst. # scoop install pile/cxt
 dark: Depend. # scoop install dark
 Darktable: Inst. # sudo pacman -S darktable
 Darktable: Inst. # scoop install darktable
@@ -72,6 +73,7 @@ Double Commander: Inst. # scoop install doublecmd
 dua: Inst. # sudo pacman -S dua-cli
 dua: Inst. # scoop install dua
 dua: Interactive mode # dua i
+easy-conflict(ec): Inst. # scoop install pile/easy-conflict
 echo-cli: Inst. # bun add -g echo-cli@latest
 edge-tts: Inst. # uv tool install -U edge-tts
 edge-tts: # edge-playback --voice en-US-AndrewMultilingualNeural --text
@@ -552,6 +554,7 @@ Zellij: Inst. # scoop install zellij
 zoxide: Inst. # sudo pacman -S zoxide
 zoxide: Inst. # scoop install zoxide
 Zig: Depend. # scoop install zig
+zizmor: Inst. # scoop install zizmor
 zlib: Depend. # scoop install zlib
 (Arch) pdftoppm: Depend. # yay -S --noconfirm pdftoppm
 (Arch) Newsboat: Conf. # vim ~/.config/newsboat/config
@@ -595,7 +598,7 @@ zlib: Depend. # scoop install zlib
 (Arch)(Extra) hiSHtory: Inst. # bin install github.com/ddworken/hishtory.exe
 (Arch)(Extra) khal: Inst. # uv tool install -U khal
 (Arch)(Extra) khal: Conf. # khal configure
-(Arch)(Extra) pwndbg : Inst. # sudo pacman -S pwndbg
+(Arch)(Extra) pwndbg: Inst. # sudo pacman -S pwndbg
 (Arch)(Extra) systemctl-tui: Inst. # sudo pacman -S systemctl-tui
 (Arch)(Extra) systeroid: Inst. # sudo pacman -S systeroid
 (Windows) .NET: Depend. # gsudo scoop install windowsdesktop-runtime-lts
@@ -680,6 +683,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows) ShellExView: Inst. # scoop install https://raw.githubusercontent.com/kodybrown/scoop-nirsoft/refs/heads/master/bucket/shellexview.json
 (Windows) SilentCMD: Inst. # scoop install silentcmd
 (Windows) Sizer: Inst. # scoop install pile/sizer
+(Windows) Snoretoast: Inst. # scoop install snoretoast
 (Windows) SSHFS-Win Manager: Inst. # scoop install sshfs-win-manager
 (Windows) SumatraPDF Reader: Inst. # scoop install sumatrapdf-installer
 (Windows) SVG Viewer Extension for Windows Explorer: Inst. # scoop install svg-explorer-extension-np
@@ -715,6 +719,8 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Windows)(Extra) virgo: Inst. # scoop install pile/virgo-fork
 (Windows)(Extra) WinCDEmu: Inst. # scoop install wincdemu
 (Later) Beads(bd): Inst. # scoop install beads
+(Later) CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
+(Later) CodeGraph: # codegraph init -i
 (Later) Dasel: Inst. # scoop install dasel
 (Later) dyff: Inst. # scoop install dyff
 (Later) FreeCAD: Inst. # sudo pacman -S freecad
@@ -743,6 +749,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Later) QMD: Inst. # bun add -g @tobilu/qmd
 (Later) qsv: Inst. # yay -S --noconfirm qsv-bin
 (Later) qsv: Inst. # scoop install qsv
+(Later) ROM Properties Page: Inst. # scoop install rom-properties-np
 (Later) sem: Inst. # bin install github.com/Ataraxy-Labs/sem sem.exe
 (Later) sem: Inst. # scoop install zem
 (Later) sq: Inst. # scoop install sq
@@ -861,6 +868,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) jc: Inst. # scoop install jc
 (Extra) jnv: Inst. # scoop install jnv
 (Extra) jqp: Inst. # scoop install jqp
+(Extra) issue2md: Inst. # go install github.com/bigwhite/issue2md/cmd/issue2md@latest
 (Extra) ISx: Depend. # scoop install isx
 (Extra) kalk: Inst. # scoop install kalk
 (Extra) kalker: Inst. # scoop install kalker
@@ -903,6 +911,7 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) OpenCode: Ex. Env. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
 (Extra) OpenCode: Ex. Env. # TRANSLATOR_MODEL=gemma3:12b-it-qat
 (Extra) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
+(Extra) page-dewarp: Inst. # uv tool install -U page-dewarp
 (Extra) Paletter: Inst. # bin install github.com/Baldomo/paletter paletter.exe
 (Extra) PAR LLAMA: Inst. # uv tool install -U parllama
 (Extra) Parm: Inst. # scoop install pile/parm
@@ -915,8 +924,8 @@ Autoruns: Autoruns: Inst. # scoop install https://raw.githubusercontent.com/nihe
 (Extra) Picocrypt NG: Inst. # scoop install picocrypt-ng
 (Extra) PicView: Inst. # scoop install picview
 (Extra) pip_search: Inst. # uv tool install -U pip_search
-(Extra) pngquant: Instl. # sudo pacman -S pngquant
-(Extra) pngquant: Instl. # scoop install pngquant
+(Extra) pngquant: Inst. # sudo pacman -S pngquant
+(Extra) pngquant: Inst. # scoop install pngquant
 (Extra) pom-tool: Inst. # bun add -g pom-tool@latest
 (Extra) pom-tool: # pom
 (Extra) presenterm: Inst. # scoop install presenterm
