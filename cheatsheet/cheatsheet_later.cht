@@ -1,0 +1,78 @@
+Beads(bd): Inst. # scoop install beads
+Binside: Inst. # scoop install binsider
+CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
+CodeGraph: # codegraph init -i
+Dasel: Inst. # scoop install dasel
+Double Commander: Inst. # scoop install doublecmd
+dyff: Inst. # scoop install dyff
+FreeCAD: Inst. # sudo pacman -S freecad
+FreeCAD: Inst. # scoop install freecad
+Gas Town: Inst. # bin install github.com/gastownhall/gastown gastown.exe
+Harlequin: Inst. # uv tool install -U harlequin
+Hermes Agent: Env. # hermes config set model.provider ollama
+Hermes Agent: Env. # hermes config set model.base_url http://127.0.0.1:11434/v1
+Hermes Agent: Env. # hermes config set model.api_key dummy
+Hermes Agent: Env. # hermes config set model.default gemma3:12b
+JSON diff and patch: Inst. # scoop install jd
+jj: Inst. # scoop install jj
+jjui: Inst. # scoop install jjui
+KiCad: Inst. # sudo pacman -S kicad
+KiCad: Inst. # scoop install kicad
+kmeans-colors: Inst. # scoop install kmeans-colors
+Mergiraf: Inst. # scoop install mergiraf
+Miller: Inst. # sudo pacman -S miller
+Miller: Inst. # scoop install miller
+mise-en-place: Inst. # scoop install mise
+open-pdf-sign: # java -jar open-pdf-sign.jar --input $ --output _.pdf --certificate <crt> --key <pem> --passphrase <password> --page -1 --locale zh-CN
+PassTUI: Inst. # uv tool install -U passtui --python 3.14
+PDF ToC: Inst. # uv tool install -U pdf-toc
+Pueue: Inst. # scoop install pueue
+QMD: Inst. # bun add -g @tobilu/qmd@latest
+qsv: Inst. # yay -S --noconfirm qsv-bin
+qsv: Inst. # scoop install qsv
+ROM Properties Page: Inst. # scoop install rom-properties-np
+Ruff: Inst. # scoop install ruff
+dunk: Inst. # pipx install dunk
+dunk: # git diff | dunk
+sem: Inst. # bin install github.com/Ataraxy-Labs/sem sem.exe
+sem: Inst. # scoop install zem
+sig: Inst. # pacman -S sig
+sig: Inst. # scoop install sig
+Slumber: Inst. # bin install github.com/LucasPickering/slumber slumber.exe
+sq: Inst. # scoop install sq
+sqlit: Inst. # uv tool install -U sqlit-tui
+Tabby AI assistant: Inst. # scoop install tabby-agent-cuda
+wuzz: Inst. # scoop install wuzz
+Zellij: Inst. # sudo pacman -S zellij
+Zellij: Inst. # scoop install zellij
+
+(Wait) Carapace-bin: Inst. # yay -S --noconfirm carapace-bin
+(Wait) Carapace-bin: Inst. # scoop install carapace-bin
+(Wait) choose: Inst. # scoop install choose
+(Wait) diskus: Inst. # scoop install diskus
+(Wait) F3D: Inst. # scoop install f3d
+(Wait) Keyviz: Inst. # scoop install keyviz
+(Wait) Parabolic: Inst. # scoop install parabolic
+(Wait) Subloader: Inst. # scoop install https://raw.githubusercontent.com/Valyreon/Subloader/master/subloader.json
+(Wait) Subloader: Inst. # gsudo pwsh %SCOOP%\apps\subloader\create_registry.ps1
+(Wait) Windows Dual Key Remap: Inst. # scoop install dual-key-remap
+
+[Arch] Caligula Burning Tool: Inst. # sudo pacman -S caligula
+[Arch] cheznav: Inst. # yay -S --noconfirm cheznav
+[Arch] gtrash: Inst. # sudo pacman -S gtrash-bin
+[Arch] hiSHtory: Inst. # bin install github.com/ddworken/hishtory.exe
+[Arch] lazyactions: Inst. # lazyactions
+[Arch] OFFPUNK: Inst. # pacman -S offpunk
+[Arch] Pacsea: Inst. # yay -S --noconfirm pacsea-bin
+[Arch] passepartui: Inst. # yay -S --noconfirm passepartui
+[Arch] pdfgrep: Inst. # sudo pacman -S pdfgrep
+[Arch] pwndbg: Inst. # sudo pacman -S pwndbg
+[Arch] Qman: Inst. # sudo pacman -S qman
+[Arch] systemctl-tui: Inst. # sudo pacman -S systemctl-tui
+[Arch] Systemd manager tui: Inst. # yay -S --noconfirm systemd-manager-tui
+[Arch] systeroid: Inst. # sudo pacman -S systeroid
+[Arch] Terminal UI for ufw: Inst. # yay -S --noconfirm tufw
+[Arch] wifitui: Inst. # yay -S --noconfirm wifitui-bin
+[Arch] WRKFLW: Inst. # bin install github.com/bahdotsh/wrkflw wrkflw.exe
+[Arch] wut: Inst. # pipx install wut-cli
+[Arch] wut: Env. # OLLAMA_MODEL=gemma3:12b-it-qat

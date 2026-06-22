@@ -1,0 +1,124 @@
+agg: Inst. # scoop install agg
+Alacritty: Inst. # sudo pacman -S alacritty ueberzugpp
+Alacritty: Inst. # scoop install alacritty
+AntiMicroX: Inst. # scoop install antimicrox
+AnythingLLM: Inst. # scoop install anythingllm
+autocast: Inst. # yay -S --noconfirm autocast
+autocast: Inst. # cargo install --force autocast
+BeeRef: Inst. # scoop install beeref
+Branchless workflow for Git: Inst. # scoop install git-branchless
+Branchless workflow for Git: Conf. # git-branchless init [-- uninstall]
+broot: Inst. # scoop install broot
+Btop: Inst. # sudo pacman -S btop
+Btop: Inst. # scoop install btop
+Carnac: Inst. # scoop install carnac
+critique: Inst. # bun add -g critique@latest
+code-minimap: Inst. # scoop install code-minimap
+Code2prompt: Inst. # yay -S --noconfirm code2prompt
+Code2prompt: Inst. # cargo install -f code2prompt
+csview: Inst. # yay -S --noconfirm csview
+csview: Inst. # scoop install csview
+daktilo: Inst. # sudo pacman -S daktilo
+daktilo: Inst. # cargo install -f daktilo
+dawn: Inst. # scoop install pile/dawn
+deadbranch: Inst: # bin install github.com/armgabrielyan/deadbranch deadbranch.exe
+dedoc: Inst. # cargo install -f dedoc
+dedoc: Env. # DEDOC_HOME=<path_to>/Data/dedoc
+diffnav: Inst. # scoop install diffnav
+diffnav: Inst. # git diff | diffnav
+Dolt: Inst. # scoop install dolt
+Doxygen: Inst. # scoop install doxygen
+duf: Inst. # scoop install duf
+Dufs: Inst. # yay -S --noconfirm dufs-bin
+Dufs: Inst. # scoop install dufs
+erdtree: Inst. # sudo pacman -S erdtree
+erdtree: Inst. # scoop install erdtree
+erdtree: # erd --color auto --hidden --follow --human --sort name --dir-order first --layout inverted
+faviator: Inst. # bun add -g faviator@latest
+Favocon: Inst. # cargo isntall favocon
+Fluent Reader: Inst. # yay -S --noconfirm fluent-reader
+Fluent Reader: Inst. # scoop install fluent-reader
+fq: Inst. # scoop install fq
+Fztea: Inst. # bin install github.com/jon4hz/fztea fztea.exe
+giff: Inst. # scoop install giff
+Gaze: Inst. # bin install github.com/wtetsu/gaze gaze.exe
+Git Extensions: Inst. # yay -S --noconfirm gitextensions
+Git Extensions: Inst. # scoop install gitextensions
+GlazePKG (gpk): Inst. # scoop install glazepkg
+gPodder: Inst. # sudo pacman -S gpodder
+gPodder: Inst. # scoop install gpodder
+ki-cli: Inst. # bun add -g ki-cli@latest
+komokana: Inst. # scoop install kanata komokana
+Lazysql: Inst. # scoop install lazysql
+LeanCTX: Inst. # scoop install lean-ctx
+LeanCTX: # lean-ctx init --agent opencode
+LeanCTX: # lean-ctx init --agent pi
+LeanCTX: # lean-ctx gain
+libretrans: Inst. # cargo install --force libretrans
+libretrans: # libretrans -u http://<your_host> en:zh "This is a text"
+LobeHub: Inst. # scoop install pile/lobehub-np
+LobeHub CLI: Inst. # bun add -g @lobehub/cli@latest
+LobeHub CLI: # lh login
+LobeHub CLI: # lh provider config openai --api-key <api_key> --base-url <base_url>
+LobeHub CLI: # lh agent list
+lssh: Inst. # scoop install pile/lssh
+massCode: Inst. # scoop install masscode
+mdterm: Inst. # scoop install pile/mdterm
+oken: Inst. # scoop install pile/oken
+Ollama: Inst. # scoop install ollama
+Ollama: Env. # OLLAMA_HOST=localhost
+Ollama: Env. # OLLAMA_ORIGINS=*
+OmegaT: Inst. # scoop install omegat
+Open Cubic Player: Inst. # scoop install pile/open-cubic-player
+Open WebUI: Inst. # uv tool install -U open-webui --python 3.11
+Open WebUI: # open-webui serve
+OpenCode: Ex. # bun add -g opencode-input-translator@latest@latest
+OpenCode: Ex. Env. # TRANSLATOR_API_KEY=Ollama
+OpenCode: Ex. Env. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
+OpenCode: Ex. Env. # TRANSLATOR_MODEL=gemma3:12b-it-qat
+PAR LLAMA: Inst. # uv tool install -U parllama
+Parm: Inst. # scoop install pile/parm
+percollate: Inst. # bun add -g percollate@latest
+PicView: Inst. # scoop install picview
+pip_search: Inst. # uv tool install -U pip_search
+pom-tool: Inst. # bun add -g pom-tool@latest
+pom-tool: # pom
+presenterm: Inst. # scoop install presenterm
+PureRef: Inst. # yay -S --noconfirm pureref
+PureRef: Inst. # scoop install pureref
+PureRef: C-Rt → C-Dn → C-f → MW → C-S-r
+Qalculate!: Inst. # scoop install qalculate
+qmtn: Inst. # scoop install pile/qmtn-np
+QuickSFV: Inst. # scoop install quicksfv
+RClone Manager: Inst. # yay -S --noconfirm rclone-manager
+RClone Manager: Inst. # scoop install rclone-manager
+Retype: bun add -g retypeapp@latest
+redthread: Inst. # go install github.com/B33pBeeps/redthread/cmd/redthread@latest
+Rime: Inst. # scoop install weasel
+Sentences: Inst. # go install github.com/neurosnap/sentences/cmd/sentences@latest
+Serie: Inst. # cargo install -f --locked serie
+ShellGPT: Inst. # ollama pull mistral:7b-instruct
+ShellGPT: Inst. # uv tool install -U "shell-gpt[litellm]"
+silicon: Inst. # sudo pacman -S silicon
+silicon: Inst. # scoop install silicon
+Tag Editor: Inst. # yay -S --noconfirm tageditor
+Tag Editor: Inst. # scoop install tageditor
+Tag Editor: Conf. # mklink "%APPDATA%\Microsoft\Windows\SendTo\tageditor.exe" "%SCOOP%\apps\tageditor\current\tageditor.exe"
+TagScanner: Inst. # yay -S --noconfirm tagscanner
+TagScanner: Inst. # scoop install tagscanner
+TagSpaces: Inst. # yay -S --noconfirm tagspaces-bin
+TagSpaces: Inst. # scoop install tagspaces
+THE PDFALYZER: Inst. # uv tool install -U pdfalyzer
+Thorium: Inst. # yay -S --noconfirm thorium-reader-bin
+Thorium: Inst. # scoop install thorium-reader
+tldr: Inst. # sudo pacman tldr
+tldr: Inst. # scoop install tldr
+tldr: Clear local repository then clone # tldr -c
+tldr: Pulls the latest commits from github.com/tldr-pages/tldr # tldr -u
+ttyd: Inst. # scoop install ttyd
+Untree: Inst. # bin install github.com/codeinred/untree untree.exe
+Vieb: Inst. # scoop install vieb
+VSCodium: Inst. # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
+VSCodium: Inst. # scoop install vscodium
+yoga: Inst. # pipx install yoga
+YOGA Image Optimizer: Inst. # scoop install pile/yoga-image-optimizer

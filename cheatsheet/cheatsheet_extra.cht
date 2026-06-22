@@ -1,0 +1,190 @@
+age: Inst. # scoop install age
+ASCII Moon: Inst. # scoop install pile/ascii-moon
+Aspell: Inst. # sudo pacman -S aspell aspell-en
+Aspell: Inst. # scoop install aspell
+ATAC: Inst. # scoop install atac
+Bibiman: Inst. # cargo install -f bibiman
+chaiNNer: Inst. # scoop install pile/chainner
+coBib: Inst. # yay -S --noconfirm cobib
+coBib: Inst. # uv tool install -U cobib
+COOK: Inst. # go install -v github.com/glitchedgitz/cook/v2/cmd/cook@latest
+DBeaver: Inst. # scoop install dbeaver
+deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
+deputui: Inst. # pnpm outdated --format json | deputui
+Desed: Inst. # cargo install desed
+diffsitter: Inst. # scoop install diffsitter
+difftastic: Inst. # scoop install difftastic
+difftastic: # difft <old_path> <new_path>
+diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
+dupeGuru: Inst. # yay -S --noconfirm dupeguru
+dupeGuru: Inst. # scoop install dupeguru
+epub2txt: Inst. # uv tool install -U epub2txt
+eva: Inst. # sudo pacman -S eva
+eva: Inst. # scoop install eva
+Gifski: Inst. # sudo pacman -S gifski
+Gifski: Inst. # scoop install gifski
+Git Overview: Inst. # uv tool install -U git-overview
+git-filter-repo: Inst. # scoop install git-filter-repo
+Gitify: Inst. # yay -S --noconfirm gitify-bin
+Gitify: Inst. # scoop install gitify
+goji: Inst. # scoop install pile/goji
+Gopher360: Inst. # scoop install gopher360
+grex: Inst. # sudo pacman -S grex
+grex: Inst. # scoop install grex
+gutenbit: Inst. # uv tool install -U gutenbit
+HakuNeko: Inst. # scoop install hakuneko
+hl: Inst. # scoop install hl
+html-to-markdown: Inst. # scoop install html-to-markdown
+htmlq: Inst. # scoop install htmlq
+jc: Inst. # scoop install jc
+jnv: Inst. # scoop install jnv
+jqp: Inst. # scoop install jqp
+issue2md: Inst. # go install github.com/bigwhite/issue2md/cmd/issue2md@latest
+ISx: Depend. # scoop install isx
+kalk: Inst. # scoop install kalk
+kalker: Inst. # scoop install kalker
+Kiwix Serve: Inst. # scoop install shovel/kiwix-server
+Kiwix Serve: 1. # kiwix-serve --address 0.0.0.0 --port 5173 $.zim
+Kiwix Serve: 2.1. # kiwix-manage <path_to>\kiwix\library.xml add $1.zim $2.zim
+Kiwix Serve: 2.1. # kiwix-serve --library <path_to>\kiwix\library.xml --address 0.0.0.0 --port 5173
+Kopia: Inst. # scoop install kopia kopiaui
+Krita: Inst. # sudo pacman -S krita
+Krita: Inst. # scoop install krita
+LÖVE: Inst. # scoop install love
+Meson: Depend. # scoop install meson
+mgitstatus: Inst. # yay -S --noconfirm multi-git-status
+mgitstatus: Inst. # scoop install shovel/mgitstatus
+Neovide: # neovide --size=1250x720 --frame none --no-tabs --wsl archwsl
+Neovide: Inst. # scoop install neovide
+Neovide: Inst. # sudo pacman -S neovide
+nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
+Picocrypt NG: Inst. # scoop install picocrypt-ng
+qutebrowser: Inst. # scoop install qutebrowser
+python-pinyin: Inst. # uv tool install -U pypinyin
+pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
+reader: Inst. # sudo pacman -S reader
+reader: Inst. # bin install github.com/mrusme/reader reader.exe
+Riff: Inst. # scoop install riff
+Riff: # git diff | riff
+Saber: Inst. # scoop install saber
+sitefetch: Inst. # bun add -g sitefetch@latest
+Sloc Cloc and Code (scc): Inst. # yay -S --noconfirm scc
+Sloc Cloc and Code (scc): Inst. # scoop install scc
+split-manga-pages: Inst. # uv tool install -U split_manga_pages
+SSHM: Inst. # scoop install sshm
+stl-thumb: Inst. # yay -S --noconfirm stl-thumb
+stl-thumb: Inst. # bin install github.com/unlimitedbacon/stl-thumb stl-thumb.exe
+syncthing: Inst. # sudo pacman -S syncthing
+syncthing: Inst. # scoop install syncthing
+rip2: Inst. # scoop install rip
+Text Grab: Inst. # scoop install text-grab
+Tidy Viewer (tv): Inst. # yay -S --noconfirm tidy-viewer
+Tidy Viewer (tv): Inst. # cargo install -f tidy-viewer
+Trafilatura: Inst. # uv tool install -U trafilatura
+ugrep: Inst. # sudo pacman -S ugrep
+ugrep: Inst. # scoop install ugrep
+Unison: Inst. # scoop install unison
+Unison: Conf. # subl %USERPROFILE%\.unison\<profile>.prf
+zim-tools: Inst. # scoop install pile/zim-tools
+
+(Audio) Audio Waveform Image Generator: Inst. # yay -S --noconfirm audiowaveform
+(Audio) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
+(Audio) AudioBookConverter: Inst. # scoop install audiobookconverter
+(Dev) Resterm: Inst. # scoop install resterm
+(Dev) Wappalyzer Next: Inst. # uv tool install -U wappalyzer
+(Dev) Watchman: Inst. # scoop install watchman
+(Font) Ark Pixel Font: Inst. # scoop install Ark-Pixel-Font-12px-proportional
+(Font) FontFor: Inst. # scoop install pile/fontfor
+(Font) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
+(Font) ttf2woff2: Inst. # bun add -g ttf2woff2@latest
+(Font) Webify: Inst. # scoop install pile/webify
+(Game) CompactGUI: Inst. # scoop install compactgui
+(Game) Hydra Launcher: Inst. # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/on
+(Game) Igir: Inst. # bin install github.com/emmercm/igir igir.exe
+(Game) Pegasus Frontend: Inst. # yay -S --noconfirm pegasus-frontend-git
+(Game) Pegasus Frontend: Inst. # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/json
+(Game) Pegasus Frontend: Inst. # gsudo scoop install k-lite-codec-pack-basic-np
+(Game) RetroArch: Inst. # sudo pacman -S retroarch
+(Game) RetroArch: Inst. # scoop install retroarch
+(Image) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify@latest
+(Image) ascii-image-converter: Inst. # yay -S --noconfirm ascii-image-converter
+(Image) ascii-image-converter: Inst. # scoop install ascii-image-converter
+(Image) asciify-them: Inst. # uv tool install -U asciify-them
+(Image) autocrop: Inst. # uv tool install -U autocrop
+(Image) AutoTrace: Inst. # sudo pacman -S autotrace
+(Image) color-matcher: Inst. # uv tool install -U color-matcher
+(Image) didder: Inst. # scoop install didder
+(Image) Paletter: Inst. # bin install github.com/Baldomo/paletter paletter.exe
+(Image) pngquant: Inst. # sudo pacman -S pngquant
+(Image) pngquant: Inst. # scoop install pngquant
+(Image) rclip: Inst. # scoop install rclip
+(Image) Vipsdisp: Inst. # scoop install vipsdisp
+(Image) Wait4X: Inst. # scoop install wait4x
+(Image) XnConvert: Inst. # yay -S --noconfirm nconvert
+(Image) XnConvert: Inst. # scoop install xnconvert
+(Music) CUETools: Inst. # sudo pacman -S cuetools
+(Music) CUETools: Inst. # scoop install cuetools
+(Music) CUETools: # Export → `[%directoryname%\]%artist% - %album%\%filename%-new[%unique%].cue`
+(Music) cyanrip: Inst. # scoop install cyanrip
+(Music) mp3rgain: Inst. # scoop install pile/mp3rgain
+(Music) MuseScore: Inst. # yay -S --noconfirm musescore-bin muse-sounds-manager-bin
+(Music) MuseScore: Inst. # scoop install musescore
+(Music) MusicBrainz Picard: Inst. # scoop install picard
+(Music) musikcube: Inst. # scoop install musikcube
+(Music) ZonyLrcToolsX: Inst. # scoop install pile/zonylrctoolsx
+(Music) ZonyLrcToolsX: Inst. # yay -S --noconfirm zonylrctools-bin
+(PDF) marker: Inst. # uv tool install -w hf_transfer -w streamlit -U marker-pdf
+(PDF) markpdf: Inst. # bin install github.com/ajaxray/markpdf markpdf.exe
+(PDF) page-dewarp: Inst. # uv tool install -U page-dewarp
+(PDF) presse: Inst. # bin install github.com/SimonBure/presse presse.exe
+(PDF) presse: Inst. # presse press <pdf> -q <quality> -o _.pdf
+(Subtitle) alass: Inst. # scoop install alass
+(Subtitle) ass2srt: Inst. # uv tool install -U ass2srt
+(Subtitle) PgsToSrt: Inst. # scoop install pile/pgstosrt
+(Subtitle) subaligner: Inst. # uv tool install -U subaligner
+(Subtitle) Subliminal: Inst. # uv tool install -U subliminal
+(Subtitle) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
+(Tool-Keyboard) Uncap: Inst. # scoop install uncap
+(Tool-Network) hostctl: Inst. # sudo pacman -S hostctl
+(Tool-Network) hostctl: Inst. # scoop install hostctl
+(Tool-Network) quien: Inst. # scoop install quien
+(Tool-Network) Whosthere: Inst. # scoop install whosthere
+(Video) GridPlayer: Inst. # yay -S --noconfirm gridplayer-appimage
+(Video) GridPlayer: Inst. # sudo pacman -S vlc
+(Video) GridPlayer: Inst. # scoop install gridplayer vlc
+(Video) Madamiru: Inst. # scoop install pile/madamiru
+(Video) MKVToolNix: Inst. # sudo pacman -S mkvtoolnix-cli mkvtoolnix-gui
+(Video) MKVToolNix: Inst. # scoop install mkvtoolnix
+(Video) mnamer: Inst. # uv tool install mnamer
+(Video) Movie Thumbnailer (mtn): Inst. # yay -S --noconfirm mtn
+(Video) Movie Thumbnailer (mtn): Inst. # scoop install mtn
+(Video) mt: Inst. # go install github.com/mutschler/mt@latest
+(Video) ntsc-rs: Inst. # scoop install ntsc-rs
+(Video) vcsi: Inst. # yay -S --noconfirm vcsi
+(Video) vcsi: Inst. # uv tool install -U vcsi
+(Video) video-compare: Inst. # yay -S --noconfirm video-compare
+(Video) video-compare: Inst. # scoop install video-compare
+(Video) video-to-ascii: Inst. # uv tool install -U video-to-ascii
+(Video) vimg: Inst. # yay -S --noconfirm vimg
+(Video) vimg: Inst. # cargo install -f vimg
+(Video) vimg: Inst. # scoop install pile/vimg
+
+[Windows] AltBacktick: Inst. # scoop install altbacktick
+[Windows] CPU-Z: Inst. # scoop install cpu-z
+[Windows] CapsLock Input Method Switcher: Inst. # scoop install pile/capslock-ime-switcher-non-cursor
+[Windows] Cjam: Inst. # scoop install pilecjam
+[Windows] Cygwin: Inst. # scoop install cygwin
+[Windows] Cygwin: apt-cyg install gcc-core gcc-g++ make automake autoconf libtool pkg-config
+[Windows] GNU utilities: Depend. # scoop install unxutils
+[Windows] GPU-Z: Inst. # scoop install gpu-z
+[Windows] Lintalist: Inst. # scoop install lintalist
+[Windows] Microsoft Activation Scripts: Inst. # gh download massgravel/Microsoft-Activation-Scripts MAS
+[Windows] SharpKeys: Inst. # scoop install sharpkeys
+[Windows] SmartTaskbar: Inst. # scoop install smarttaskbar
+[Windows] StaxRip: Inst. # scoop install staxrip
+[Windows] SyncTrayzor: Inst. # scoop install synctrayzor
+[Windows] T-Clock: Conf. # Options → Time → Format → Time options → Hour (On), Minute (On)
+[Windows] T-Clock: Inst. # scoop install t-clock
+[Windows] UniExtract2: Inst. # scoop install uniextract2
+[Windows] WinCDEmu: Inst. # scoop install wincdemu
+[Windows] virgo: Inst. # scoop install pile/virgo-fork
