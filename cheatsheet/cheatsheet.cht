@@ -17,8 +17,6 @@ bun: Inst. # scoop install bun
 Calibre: Inst. # sudo pacman -S calibre
 Calibre: Inst. # scoop install calibre
 cargo-seek: Inst. # scoop install cargo-seek
-chezmoi: Inst. # sudo pacman -S chezmoi
-chezmoi: Inst. # scoop install chezmoi
 ClamAV: Inst. # sudo pacman -S clamav
 ClamAV: Inst. # scoop install clamav
 cloc: Inst. # scoop install cloc
@@ -52,18 +50,6 @@ Etcher: Inst. # yay -S --noconfirm etcher-bin
 Etcher: Inst. # scoop install etcher
 ExifCleaner: Inst. # yay -S --noconfirm exifcleaner
 ExifCleaner: Inst. # scoop install exifcleaner
-easy-conflict(ec): Inst. # scoop install pile/easy-conflict
-delta: Inst. # scoop install delta
-delta: Conf. # git config --global core.pager delta
-delta: Conf. # git config --global interactive.diffFilter 'delta --color-only'
-delta: Conf. # git config --global delta.navigate true
-delta: Conf. # git config --global merge.conflictStyle zdiff3
-(Tool) fend: Inst. # scoop install fend
-(Tool) fend: Inst. # yay -S --noconfirm fend-bin
-(LLM) fff: Inst. # scoop install fff
-(Video) FFmpeg: Inst. # sudo pacman -S ffmpeg
-(Video) FFmpeg: Inst. # scoop install ffmpeg-shared
-(Subtitle) FFsubsync: Inst. # uv tool install -U ffsubsync
 eza: Inst. # sudo pacman -S eza
 eza: Inst. # scoop install eza
 f(x): Inst. # scoop install fx
@@ -82,12 +68,14 @@ Flameshot: Inst. # sudo pacman -S flameshot
 Flameshot: Inst. # scoop install flameshot
 fzf: Inst. # sudo pacman -S fzf
 fzf: Inst. # scoop install fzf
-fzf-make: Inst. # yay -S --noconfirm fzf-make
-fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make/
 GNU Make: Inst. # scoop install make
 GnuPG: Inst. # sudo pacman -S gnupg
 GnuPG: Inst. # scoop install gnupg
 GnuPG: # gpg --full-generate-key
+GnuPG: # gpg --export-secret-keys --armor > secret_keys.asc
+GnuPG: # gpg --export-ownertrust > otrust.txt
+GnuPG: # gpg --import secret_keys.asc
+GnuPG: # gpg --import-ownertrust otrust.txt
 Go OpenCC: Inst. # go install -v github.com/razonyang/gopencc@latest
 Go OpenCC: Simplified Chinese to Traditional Chinese # gopencc -c s2t -i
 Go OpenCC: Traditional Chinese to Simplified Chinese # gopencc -c t2s -i
@@ -356,6 +344,11 @@ zizmor: Inst. # scoop install zizmor
 (Dependence) yq: Inst. # scoop install yq
 (Dependence) Zig: Inst. # scoop install zig
 (Dependence) zlib: Inst. # scoop install zlib
+(Diff) delta: Inst. # scoop install delta
+(Diff) delta: Conf. # git config --global core.pager delta
+(Diff) delta: Conf. # git config --global interactive.diffFilter 'delta --color-only'
+(Diff) delta: Conf. # git config --global delta.navigate true
+(Diff) delta: Conf. # git config --global merge.conflictStyle zdiff3
 (Audio) Audacity: Inst. # sudo pacman -S audacity
 (Audio) Audacity: Inst. # scoop install audacity ffmpeg-shared
 (Audio) cliamp: Inst. # sudo pacman -S alsa-lib && yay -S --noconfirm cliamp
@@ -382,6 +375,7 @@ zizmor: Inst. # scoop install zizmor
 (Git) Git: SSL # git config --global http.sslVerify false
 (Git) Git: SSL # git config --global http.sslVerify true
 (Git) Codiff: Inst. # scoop install codiff
+(Git) easy-conflict(ec): Inst. # scoop install pile/easy-conflict
 (Git) forgit: Inst. # scoop install shovel/forgit
 (Git) gfold: Inst. # scoop install gfold
 (Git) Git Extras: Inst. # scoop install shovel/git-extras
@@ -402,6 +396,8 @@ zizmor: Inst. # scoop install zizmor
 (Git) lazygit: Inst. # sudo pacman -S lazygit
 (Git) lazygit: Inst. # scoop install lazygit
 (Git) lazygit: # lazygit -sm half
+(Git) mgitstatus: Inst. # yay -S --noconfirm multi-git-status
+(Git) mgitstatus: Inst. # scoop install shovel/mgitstatus
 (Git) OpenCommit: Inst. # bun add -g opencommit@latest
 (Git) OpenCommit: Env. # oco config set OCO_EMOJI=false
 (Git) OpenCommit: Env. # oco config set OCO_AI_PROVIDER=llamacpp OCO_API_KEY=llamacpp
@@ -438,9 +434,11 @@ OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 (Image) SVG to PNG converter: Inst. # scoop install svg2png
 (Image) Upscayl: Inst. # scoop install upscayl
 (Image) upscayl-ncnn: Inst. # scoop install pile/upscayl-bin
+(Image) yoga: Inst. # pipx install yoga
 (LLM) agentsview: Inst. # scoop install agentsview
 (LLM) commandOK: Inst. # scoop install commandok
 (LLM) cxt: Inst. # scoop install pile/cxt
+(LLM) fff: Inst. # scoop install fff
 (LLM) llama.cpp: Inst. # scoop install llama.cpp-cu124
 (LLM) llama.cpp: # llama-server --port 8070 --model "<path_to>/gemma-3-12b-it-Q4_K_M.gguf" --n-gpu-layers 999 --ctx-size 8192
 (LLM) llama-swap: Inst. # scoop install llama-swap
@@ -496,6 +494,8 @@ OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 (PDF) Sioyek: Inst. # scoop install sioyek
 (PDF) Stirling-PDF: Inst. # yay -S --noconfirm stirling-pdf-bin
 (PDF) Stirling-PDF: Inst. # scoop install stirling-pdf
+(Subtitle) alass: Inst. # scoop install alass
+(Subtitle) FFsubsync: Inst. # uv tool install -U ffsubsync
 (Subtitle) sub-batch: Inst. # scoop install pile/sub-batch
 (Subtitle) subsetzer: Inst. # uv tool install -U subsetzer
 (Subtitle) Subtitle Edit: Inst. # yay -S --noconfirm subtitleedit
@@ -509,9 +509,14 @@ OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 (Tool-Network) Nmap: Inst. # scoop install nmap
 (Tool-Network) Nmap: Inst. # %SCOOP%\apps\nmap\current\npcap.exe
 (Tool-Network) Numa: Inst. # scoop install numa
+(Tool-Others) fend: Inst. # yay -S --noconfirm fend-bin
+(Tool-Others) fend: Inst. # scoop install fend
 (Tool-Others) bttf: Inst. # scoop install bttf
 (Tool-Others) carl: Inst. # cargo install -f carl
 (Tool-Security) andcli: Inst. # scoop install andcli
+(Tool-Security) Picocrypt NG: Inst. # scoop install picocrypt-ng
+(Video) FFmpeg: Inst. # sudo pacman -S ffmpeg
+(Video) FFmpeg: Inst. # scoop install ffmpeg-shared
 (Video) Kdenlive: Inst. # sudo pacman -S kdenlive
 (Video) Kdenlive: Inst. # scoop install kdenlive
 (Video) HandBrake: Inst. # sudo pacman -S handbrake handbrake-cli

@@ -5,29 +5,22 @@ Aspell: Inst. # scoop install aspell
 ATAC: Inst. # scoop install atac
 Bibiman: Inst. # cargo install -f bibiman
 chaiNNer: Inst. # scoop install pile/chainner
+chezmoi: Inst. # sudo pacman -S chezmoi
+chezmoi: Inst. # scoop install chezmoi
 coBib: Inst. # yay -S --noconfirm cobib
 coBib: Inst. # uv tool install -U cobib
 COOK: Inst. # go install -v github.com/glitchedgitz/cook/v2/cmd/cook@latest
 DBeaver: Inst. # scoop install dbeaver
-deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
-deputui: Inst. # pnpm outdated --format json | deputui
 Desed: Inst. # cargo install desed
-diffsitter: Inst. # scoop install diffsitter
-difftastic: Inst. # scoop install difftastic
-difftastic: # difft <old_path> <new_path>
-diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
 dupeGuru: Inst. # yay -S --noconfirm dupeguru
 dupeGuru: Inst. # scoop install dupeguru
 epub2txt: Inst. # uv tool install -U epub2txt
 eva: Inst. # sudo pacman -S eva
 eva: Inst. # scoop install eva
+fzf-make: Inst. # yay -S --noconfirm fzf-make
+fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make
 Gifski: Inst. # sudo pacman -S gifski
 Gifski: Inst. # scoop install gifski
-Git Overview: Inst. # uv tool install -U git-overview
-git-filter-repo: Inst. # scoop install git-filter-repo
-Gitify: Inst. # yay -S --noconfirm gitify-bin
-Gitify: Inst. # scoop install gitify
-goji: Inst. # scoop install pile/goji
 Gopher360: Inst. # scoop install gopher360
 grex: Inst. # sudo pacman -S grex
 grex: Inst. # scoop install grex
@@ -52,20 +45,15 @@ Krita: Inst. # sudo pacman -S krita
 Krita: Inst. # scoop install krita
 LÖVE: Inst. # scoop install love
 Meson: Depend. # scoop install meson
-mgitstatus: Inst. # yay -S --noconfirm multi-git-status
-mgitstatus: Inst. # scoop install shovel/mgitstatus
 Neovide: # neovide --size=1250x720 --frame none --no-tabs --wsl archwsl
 Neovide: Inst. # scoop install neovide
 Neovide: Inst. # sudo pacman -S neovide
 nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
-Picocrypt NG: Inst. # scoop install picocrypt-ng
 qutebrowser: Inst. # scoop install qutebrowser
 python-pinyin: Inst. # uv tool install -U pypinyin
 pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
 reader: Inst. # sudo pacman -S reader
 reader: Inst. # bin install github.com/mrusme/reader reader.exe
-Riff: Inst. # scoop install riff
-Riff: # git diff | riff
 Saber: Inst. # scoop install saber
 sitefetch: Inst. # bun add -g sitefetch@latest
 Sloc Cloc and Code (scc): Inst. # yay -S --noconfirm scc
@@ -90,9 +78,17 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Audio) Audio Waveform Image Generator: Inst. # yay -S --noconfirm audiowaveform
 (Audio) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
 (Audio) AudioBookConverter: Inst. # scoop install audiobookconverter
+(Dev) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
+(Dev) deputui: Inst. # pnpm outdated --format json | deputui
 (Dev) Resterm: Inst. # scoop install resterm
 (Dev) Wappalyzer Next: Inst. # uv tool install -U wappalyzer
 (Dev) Watchman: Inst. # scoop install watchman
+(Diff) diffsitter: Inst. # scoop install diffsitter
+(Diff) difftastic: Inst. # scoop install difftastic
+(Diff) difftastic: # difft <old_path> <new_path>
+(Diff) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
+(Diff) Riff: Inst. # scoop install riff
+(Diff) Riff: # git diff | riff
 (Font) Ark Pixel Font: Inst. # scoop install Ark-Pixel-Font-12px-proportional
 (Font) FontFor: Inst. # scoop install pile/fontfor
 (Font) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
@@ -106,6 +102,11 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Game) Pegasus Frontend: Inst. # gsudo scoop install k-lite-codec-pack-basic-np
 (Game) RetroArch: Inst. # sudo pacman -S retroarch
 (Game) RetroArch: Inst. # scoop install retroarch
+(Git) Git Overview: Inst. # uv tool install -U git-overview
+(Git) git-filter-repo: Inst. # scoop install git-filter-repo
+(Git) Gitify: Inst. # yay -S --noconfirm gitify-bin
+(Git) Gitify: Inst. # scoop install gitify
+(Git) goji: Inst. # scoop install pile/goji
 (Image) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify@latest
 (Image) ascii-image-converter: Inst. # yay -S --noconfirm ascii-image-converter
 (Image) ascii-image-converter: Inst. # scoop install ascii-image-converter
@@ -138,7 +139,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (PDF) page-dewarp: Inst. # uv tool install -U page-dewarp
 (PDF) presse: Inst. # bin install github.com/SimonBure/presse presse.exe
 (PDF) presse: Inst. # presse press <pdf> -q <quality> -o _.pdf
-(Subtitle) alass: Inst. # scoop install alass
 (Subtitle) ass2srt: Inst. # uv tool install -U ass2srt
 (Subtitle) PgsToSrt: Inst. # scoop install pile/pgstosrt
 (Subtitle) subaligner: Inst. # uv tool install -U subaligner

@@ -38,13 +38,14 @@ sem: Inst. # bin install github.com/Ataraxy-Labs/sem sem.exe
 sem: Inst. # scoop install zem
 sig: Inst. # pacman -S sig
 sig: Inst. # scoop install sig
-Slumber: Inst. # bin install github.com/LucasPickering/slumber slumber.exe
 sq: Inst. # scoop install sq
 sqlit: Inst. # uv tool install -U sqlit-tui
 Tabby AI assistant: Inst. # scoop install tabby-agent-cuda
 wuzz: Inst. # scoop install wuzz
 Zellij: Inst. # sudo pacman -S zellij
 Zellij: Inst. # scoop install zellij
+
+(Tool-Network) Slumber: Inst. # bin install github.com/LucasPickering/slumber slumber.exe
 
 (Wait) Carapace-bin: Inst. # yay -S --noconfirm carapace-bin
 (Wait) Carapace-bin: Inst. # scoop install carapace-bin
