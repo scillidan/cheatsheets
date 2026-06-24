@@ -451,6 +451,7 @@ OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 (LLM) OpenCode: Ex. # bun add -g @cortexkit/magic-context@latest
 (LLM) OpenCode: Ex. # magic-context setup
 (LLM) OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest@latest
+(LLM) OpenCode: Ex. # bun add -g @latestopencode-codebuddy-auth@latest
 (LLM) OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest@latest
 (LLM) OpenSpec: Conf. # openspec init
 (LLM) Pi: Inst. # scoop install pi-coding-agent
