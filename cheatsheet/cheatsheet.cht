@@ -64,6 +64,7 @@ g: Env. # GOPATH=%USERHOME%\\.gopath
 g: Install go 1. # g ls-remote stable
 g: Install go 2. # g install <version>
 g: Install go 3. # g use <version>
+GSmartControl: Inst. # scoop install gsmartcontrol smartmontools
 Flameshot: Inst. # sudo pacman -S flameshot
 Flameshot: Inst. # scoop install flameshot
 fzf: Inst. # sudo pacman -S fzf
@@ -83,6 +84,7 @@ Godots: Inst. # scoop install godots
 GoldenDict: Inst. # yay -S --noconfirm goldendict-git
 GoldenDict: Inst. # scoop install goldendict
 Handy: Inst. # scoop install handy
+Hash It: Inst. # scoop install pile/hashit
 has: Inst. # scoop install shovel/has
 hexyl: Inst. # scoop install hexyl
 huggingface_hub: Inst. # uv tool install -U "huggingface_hub[cli]"
@@ -353,6 +355,7 @@ zizmor: Inst. # scoop install zizmor
 (Audio) Audacity: Inst. # scoop install audacity ffmpeg-shared
 (Audio) cliamp: Inst. # sudo pacman -S alsa-lib && yay -S --noconfirm cliamp
 (Audio) cliamp: Inst. # scoop install cliamp
+(Audio) Kid3: Inst. # scoop install kid3
 (Font) LXGW Wenkai GB: Inst. # scoop install pile/LXGW-Wenkai-GB
 (Font) Monaspace: Inst. # scoop install Monaspace-NF-Mono
 (Font) No!! MeiryoUI: Inst. # scoop install nomeiryoui
@@ -482,6 +485,11 @@ OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 (LLM) rtk: Conf. # rtk init -g --agent pi
 (LLM) rtk: # rtk gain
 (LLM) Tokscale: Inst. # bun add -g tokscale@latest
+(Media) MediaInfo: Inst. # sudo pacman -S mediainfo mediainfo-gui
+(Media) MediaInfo: Inst. # scoop install mediainfo mediainfo-gui
+(Media) ExifTool: Inst. # scoop install exiftool
+(Media) FFmpeg: Inst. # sudo pacman -S ffmpeg
+(Media) FFmpeg: Inst. # scoop install ffmpeg-shared
 (Music) LRCGET: Inst. # yay -S --noconfirm lrcget-bin
 (Music) LRCGET: Inst. # scoop install lrcget
 (Music) mp3rgain: Inst. # scoop install mp3rgui
@@ -516,22 +524,16 @@ OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 (Tool-Others) carl: Inst. # cargo install -f carl
 (Tool-Security) andcli: Inst. # scoop install andcli
 (Tool-Security) Picocrypt NG: Inst. # scoop install picocrypt-ng
-(Video) FFmpeg: Inst. # sudo pacman -S ffmpeg
-(Video) FFmpeg: Inst. # scoop install ffmpeg-shared
 (Video) Kdenlive: Inst. # sudo pacman -S kdenlive
 (Video) Kdenlive: Inst. # scoop install kdenlive
 (Video) HandBrake: Inst. # sudo pacman -S handbrake handbrake-cli
 (Video) HandBrake: Inst. # scoop install handbrake handbrake-cli
 (Video) LosslessCut: Inst. # yay -S --noconfirm losslesscut-bin
 (Video) LosslessCut: Inst. # scoop install losslesscut
-(Video) MediaInfo: Inst. # sudo pacman -S mediainfo mediainfo-gui
-(Video) MediaInfo: Inst. # scoop install mediainfo mediainfo-gui
 
 [Windows] .NET: Depend. # gsudo scoop install windowsdesktop-runtime-lts
 [Windows] Autoruns: Inst. # scoop install https://raw.githubusercontent.com/niheaven/scoop-sysinternals/refs/heads/main/bucket/autoruns.json
-[Windows] Caffeine: Inst. # scoop install caffeine
 [Windows] CenterTaskbar: Inst. # scoop install centertaskbar
-[Windows] CrystalDiskInfo: Inst. # scoop install crystaldiskinfo
 [Windows] DeskPins: Inst. # scoop install deskpins
 [Windows] clink: Inst. # scoop install clink clink-completions
 [Windows] ConEmu: Inst. # scoop install conemu
@@ -543,7 +545,6 @@ OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 [Windows] Everything: Inst. # scoop install everything
 [Windows] ExifGlass: Inst. # scoop install exifglass
 [Windows] ExifGlass: Conf. # Menu → Settings → Executable Path → Select → `exiftool.exe`
-[Windows] ExifTool: Inst. # scoop install exiftool
 [Windows] FastCopy: Inst. # scoop install fastcopy
 [Windows] Geek Uninstaller: Inst. # scoop install geekuninstaller
 [Windows] git: Conf. # git config --global core.autocrlf true
@@ -561,14 +562,12 @@ OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 [Windows] Magpie: Inst. # scoop install magpie
 [Windows] Magpie: Conf. # Profiles → Defaults → General → Capture method → Desktop Duplication
 [Windows] MiKTeX: Inst. # scoop install miktex
-[Windows] Mp3tag: Inst. # scoop install mp3tag
 [Windows] MSYS2: Inst. # scoop install msys2
 [Windows] nexusfont: Inst. # scoop install nexusfont
 [Windows] nvm: # nvm list available
 [Windows] nvm: # nvm install lts
 [Windows] nvm: # nvm use lts
 [Windows] Open Shell: Inst. # gsudo scoop install open-shell-np
-[Windows] OpenHashTab: Inst. # gsudo scoop install openhashtab-np
 [Windows] PowerShell: Inst. # scoop install pwsh
 [Windows] Rapid Environment Editor: Inst. # scoop install rapidee
 [Windows] Resource Hacker: Inst. # scoop install resource-hacker

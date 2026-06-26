@@ -54,13 +54,17 @@ Zellij: Inst. # scoop install zellij
 (Wait) F3D: Inst. # scoop install f3d
 (Wait) Keyviz: Inst. # scoop install keyviz
 (Wait) Parabolic: Inst. # scoop install parabolic
+(Wait) Pinkbin: Inst. # scoop install pinkbin
 (Wait) Subloader: Inst. # scoop install https://raw.githubusercontent.com/Valyreon/Subloader/master/subloader.json
 (Wait) Subloader: Inst. # gsudo pwsh %SCOOP%\apps\subloader\create_registry.ps1
 (Wait) Windows Dual Key Remap: Inst. # scoop install dual-key-remap
 
+[Arch] brightnessctl: Inst. # sudo pacman -S brightnessctl
 [Arch] Caligula Burning Tool: Inst. # sudo pacman -S caligula
 [Arch] cheznav: Inst. # yay -S --noconfirm cheznav
+[Arch] Font Manager: Inst. # pacman -S font-manager
 [Arch] gtrash: Inst. # sudo pacman -S gtrash-bin
+[Arch] gamescope: Inst. # sudo pacman -S gamescope
 [Arch] hiSHtory: Inst. # bin install github.com/ddworken/hishtory.exe
 [Arch] lazyactions: Inst. # lazyactions
 [Arch] OFFPUNK: Inst. # pacman -S offpunk
@@ -73,6 +77,7 @@ Zellij: Inst. # scoop install zellij
 [Arch] Systemd manager tui: Inst. # yay -S --noconfirm systemd-manager-tui
 [Arch] systeroid: Inst. # sudo pacman -S systeroid
 [Arch] Terminal UI for ufw: Inst. # yay -S --noconfirm tufw
+[Arch] Vicinae: Inst. # 
 [Arch] wifitui: Inst. # yay -S --noconfirm wifitui-bin
 [Arch] WRKFLW: Inst. # bin install github.com/bahdotsh/wrkflw wrkflw.exe
 [Arch] wut: Inst. # pipx install wut-cli

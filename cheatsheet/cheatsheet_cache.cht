@@ -67,6 +67,7 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 Vieb: Inst. # scoop install vieb
 VSCodium: Inst. # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
 VSCodium: Inst. # scoop install vscodium
+
 (Git) Branchless workflow for Git: Inst. # scoop install git-branchless
 (Git) Branchless workflow for Git: Conf. # git-branchless init [-- uninstall]
 (Git) critique: Inst. # bun add -g critique@latest
@@ -121,3 +122,7 @@ VSCodium: Inst. # scoop install vscodium
 (Tool-Others) pom-tool: # pom
 (Tool-Others) Qalculate!: Inst. # scoop install qalculate
 (Video) qmtn: Inst. # scoop install pile/qmtn-np
+
+[Windows] Caffeine: Inst. # scoop install caffeine
+[Windows] Mp3tag: Inst. # scoop install mp3tag
+[Windows] OpenHashTab: Inst. # gsudo scoop install openhashtab-np

@@ -1,0 +1,24 @@
+What's : LaTeX
+What's : firmware
+What's : framework
+What's difference: -b:a 192k, -bufsize 192k in ffmpeg
+What's difference: .zprofile, .zshrc, .zshenv, .zlogin, .zlogout
+What's difference: /usr/bin, /bin, /usr/local/bin
+What's difference: 75%sRGB, 100%sRGB screen
+What's difference: 7z, tar, zip
+What's difference: APNG, AVIF, GIF, JPEG, PNG, SVG, WebP, BMP, ICO, TIFF
+What's difference: Explicative Translation, Literal Translation, Free Translation
+What's difference: Nearest Neighbour, Bilinear, Hermite, Gaussian, Bell, Bspline, Mitchell, Lanczos, Hanning, Cubic, Lanczos2
+What's difference: PyTorch, NCNN, ONNX
+What's difference: Simplex Noise, Circular, Value Noise, Worley Noise, FBM Noise, Voronoi Noise, Domain Warping, Waves, Smooth Noise, Oval, Rows, Columns, Flat
+What's difference: TDD, DDD, CDD
+What's difference: TeX, LaTeX, XeTeX, LuaLaTeX
+What's difference: document, manual, guide, wiki
+What's difference: i3, sway, wayland, hyprland
+What's difference: link, URL, URI
+What's difference: machine language, assembly language, high-level language
+What's difference: reference, cross-reference, circular cross-reference
+What's difference: run, debug, dap, idle
+What's difference: silero-vad, silero-vad-skip-gaps, silero-vad-expand-into-gaps, periodic-vad
+What's difference: space, tab, trail, nbsp, eol
+What's difference: yank, copy
