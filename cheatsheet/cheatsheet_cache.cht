@@ -56,6 +56,7 @@ Rime: Inst. # scoop install weasel
 Sentences: Inst. # go install github.com/neurosnap/sentences/cmd/sentences@latest
 silicon: Inst. # sudo pacman -S silicon
 silicon: Inst. # scoop install silicon
+swpui: Inst. # bin install github.com/beeb/swpui swpui.exe
 Thorium: Inst. # yay -S --noconfirm thorium-reader-bin
 Thorium: Inst. # scoop install thorium-reader
 tldr: Inst. # sudo pacman tldr
@@ -117,6 +118,7 @@ VSCodium: Inst. # scoop install vscodium
 (Music) TagScanner: Inst. # yay -S --noconfirm tagscanner
 (Music) TagScanner: Inst. # scoop install tagscanner
 (PDF) THE PDFALYZER: Inst. # uv tool install -U pdfalyzer
+(Tool-Hardware) MTUI: Inst. # bin install github.com/inowattio/MTUI mtui.exe
 (Tool-Keyboard) komokana: Inst. # scoop install kanata komokana
 (Tool-Others) pom-tool: Inst. # bun add -g pom-tool@latest
 (Tool-Others) pom-tool: # pom

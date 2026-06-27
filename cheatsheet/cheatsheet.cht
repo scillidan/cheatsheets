@@ -175,6 +175,7 @@ Python: Publish 3. # twine upload --repository testpypi dist/*
 Python: Publish 4. # twine upload dist/*
 QuiteRSS: Inst. # yay -S --noconfirm quiterss
 QuiteRSS: Inst. # scoop install quiterss
+qutebrowser: Inst. # scoop install qutebrowser
 Raspberry Pi Imager: Inst. # sudo pacman -S rpi-imager
 Raspberry Pi Imager: Inst. # scoop install raspberry-pi-imager
 RefrEnv: Inst. # scoop install shovel/refrenv
@@ -185,6 +186,7 @@ rsync: Inst. # sudo pacman -S rsync
 rsync: Inst. # scoop install cwrsync
 rsync: Update nvim config from ArchWSL to Windows # rsync -r ~/.config/nvim/ /mnt/c/Users/User/AppData/Local/nvim --include={".*"} --exclude={"lazy-lock.json"}
 Rum: Inst. # scoop install pile/rum
+ScanTailor Advanced: Inst. # scoop install pile/scantailor-advanced-fork
 scooter: Inst. # scoop install scooter
 sd: Inst. # sudo pacman -S sd
 sd: Inst. # scoop install sd
@@ -405,7 +407,6 @@ zizmor: Inst. # scoop install zizmor
 (Git) OpenCommit: Env. # oco config set OCO_EMOJI=false
 (Git) OpenCommit: Env. # oco config set OCO_AI_PROVIDER=llamacpp OCO_API_KEY=llamacpp
 OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
-(Git) OpenCommit: Env. # oco config set OCO_AI_PROVIDER=openai OCO_API_KEY=$CHATANYWHERE_API_KEY OCO_API_URL=https://api.chatanywhere.tech/v1 OCO_MODEL=gpt-4o-mini
 (Git) OpenCommit: # oco hook set
 (Git) OpenCommit: # git commit
 (Git) pro: Inst. # scoop install pile/pro
@@ -440,6 +441,7 @@ OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 (Image) yoga: Inst. # pipx install yoga
 (LLM) agentsview: Inst. # scoop install agentsview
 (LLM) commandOK: Inst. # scoop install commandok
+(LLM) context-mod: Inst. # bun add -g context-mode@latest
 (LLM) cxt: Inst. # scoop install pile/cxt
 (LLM) fff: Inst. # scoop install fff
 (LLM) llama.cpp: Inst. # scoop install llama.cpp-cu124
@@ -453,11 +455,12 @@ OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 (LLM) OpenCode: Conf. # npm config set registry https://mirrors.cloud.tencent.com/npm/
 (LLM) OpenCode: Ex. # bun add -g @cortexkit/magic-context@latest
 (LLM) OpenCode: Ex. # magic-context setup
-(LLM) OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest@latest
-(LLM) OpenCode: Ex. # bun add -g @latestopencode-codebuddy-auth@latest
 (LLM) OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest@latest
 (LLM) OpenSpec: Conf. # openspec init
 (LLM) Pi: Inst. # scoop install pi-coding-agent
+(LLM) Pi: Ex. # pi install npm:@ff-labs/pi-fff
+(LLM) Pi: Ex. # pi install npm:pi-autoresearch
+(LLM) Pi: Ex. # pi install npm:pi-lens
 (LLM) Skills: Inst. # bun add -g skills@latest
 (LLM) Skills: Ex. # skills add https://github.com/vercel-labs/skills --skill find-skills
 (LLM) Skills: Ex. # skills add https://github.com/anthropics/skills --skill skill-creator

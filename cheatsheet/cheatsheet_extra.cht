@@ -4,7 +4,6 @@ Aspell: Inst. # sudo pacman -S aspell aspell-en
 Aspell: Inst. # scoop install aspell
 ATAC: Inst. # scoop install atac
 Bibiman: Inst. # cargo install -f bibiman
-chaiNNer: Inst. # scoop install pile/chainner
 chezmoi: Inst. # sudo pacman -S chezmoi
 chezmoi: Inst. # scoop install chezmoi
 coBib: Inst. # yay -S --noconfirm cobib
@@ -19,11 +18,10 @@ eva: Inst. # sudo pacman -S eva
 eva: Inst. # scoop install eva
 fzf-make: Inst. # yay -S --noconfirm fzf-make
 fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make
-Gifski: Inst. # sudo pacman -S gifski
-Gifski: Inst. # scoop install gifski
 Gopher360: Inst. # scoop install gopher360
 grex: Inst. # sudo pacman -S grex
 grex: Inst. # scoop install grex
+gutenbergpy: Inst. # uv tool install -U gutenbergpy
 gutenbit: Inst. # uv tool install -U gutenbit
 HakuNeko: Inst. # scoop install hakuneko
 hl: Inst. # scoop install hl
@@ -41,15 +39,12 @@ Kiwix Serve: 1. # kiwix-serve --address 0.0.0.0 --port 5173 $.zim
 Kiwix Serve: 2.1. # kiwix-manage <path_to>\kiwix\library.xml add $1.zim $2.zim
 Kiwix Serve: 2.1. # kiwix-serve --library <path_to>\kiwix\library.xml --address 0.0.0.0 --port 5173
 Kopia: Inst. # scoop install kopia kopiaui
-Krita: Inst. # sudo pacman -S krita
-Krita: Inst. # scoop install krita
 LÖVE: Inst. # scoop install love
 Meson: Depend. # scoop install meson
 Neovide: # neovide --size=1250x720 --frame none --no-tabs --wsl archwsl
 Neovide: Inst. # scoop install neovide
 Neovide: Inst. # sudo pacman -S neovide
 nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
-qutebrowser: Inst. # scoop install qutebrowser
 python-pinyin: Inst. # uv tool install -U pypinyin
 pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
 reader: Inst. # sudo pacman -S reader
@@ -89,6 +84,10 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Diff) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
 (Diff) Riff: Inst. # scoop install riff
 (Diff) Riff: # git diff | riff
+(Docker) layerx: Inst. # bin install github.com/deveshctl/layerx layerx.exe
+(Draw) draw.io: Inst. # scoop install draw.io
+(Draw) Krita: Inst. # sudo pacman -S krita
+(Draw) Krita: Inst. # scoop install krita
 (Font) Ark Pixel Font: Inst. # scoop install Ark-Pixel-Font-12px-proportional
 (Font) FontFor: Inst. # scoop install pile/fontfor
 (Font) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
@@ -113,8 +112,11 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) asciify-them: Inst. # uv tool install -U asciify-them
 (Image) autocrop: Inst. # uv tool install -U autocrop
 (Image) AutoTrace: Inst. # sudo pacman -S autotrace
+(Image) chaiNNer: Inst. # scoop install pile/chainner
 (Image) color-matcher: Inst. # uv tool install -U color-matcher
 (Image) didder: Inst. # scoop install didder
+(Image) Gifski: Inst. # sudo pacman -S gifski
+(Image) Gifski: Inst. # scoop install gifski
 (Image) Paletter: Inst. # bin install github.com/Baldomo/paletter paletter.exe
 (Image) pngquant: Inst. # sudo pacman -S pngquant
 (Image) pngquant: Inst. # scoop install pngquant
@@ -123,6 +125,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) Wait4X: Inst. # scoop install wait4x
 (Image) XnConvert: Inst. # yay -S --noconfirm nconvert
 (Image) XnConvert: Inst. # scoop install xnconvert
+(LLM) OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest@latest
 (Music) CUETools: Inst. # sudo pacman -S cuetools
 (Music) CUETools: Inst. # scoop install cuetools
 (Music) CUETools: # Export → `[%directoryname%\]%artist% - %album%\%filename%-new[%unique%].cue`
