@@ -101,6 +101,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Game) Pegasus Frontend: Inst. # gsudo scoop install k-lite-codec-pack-basic-np
 (Game) RetroArch: Inst. # sudo pacman -S retroarch
 (Game) RetroArch: Inst. # scoop install retroarch
+(Game) XBox One Controller Battery Indicator: Inst. # scoop install xb1cbi
 (Git) Git Overview: Inst. # uv tool install -U git-overview
 (Git) git-filter-repo: Inst. # scoop install git-filter-repo
 (Git) Gitify: Inst. # yay -S --noconfirm gitify-bin
