@@ -69,6 +69,8 @@ Vieb: Inst. # scoop install vieb
 VSCodium: Inst. # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
 VSCodium: Inst. # scoop install vscodium
 
+(Formatter) js-beautify: Inst. # sudo pacman -S js-beautify
+(Formatter) js-beautify: Inst. # bun add -g js-beautify@latest
 (Git) Branchless workflow for Git: Inst. # scoop install git-branchless
 (Git) Branchless workflow for Git: Conf. # git-branchless init [-- uninstall]
 (Git) critique: Inst. # bun add -g critique@latest
@@ -102,6 +104,7 @@ VSCodium: Inst. # scoop install vscodium
 (LLM) Ollama: Inst. # scoop install ollama
 (LLM) Ollama: Env. # OLLAMA_HOST=localhost
 (LLM) Ollama: Env. # OLLAMA_ORIGINS=*
+(LLM) OpenTab: Inst. # pipx install opentab-ai
 (LLM) Open WebUI: Inst. # uv tool install -U open-webui --python 3.11
 (LLM) Open WebUI: # open-webui serve
 (LLM) OpenCode: Ex. # bun add -g opencode-input-translator@latest@latest
@@ -111,6 +114,14 @@ VSCodium: Inst. # scoop install vscodium
 (LLM) PAR LLAMA: Inst. # uv tool install -U parllama
 (LLM) ShellGPT: Inst. # ollama pull mistral:7b-instruct
 (LLM) ShellGPT: Inst. # uv tool install -U "shell-gpt[litellm]"
+(Minifier) clean-css: Inst. # sudo pacman -S nodejs-clean-css nodejs-clean-css-cli
+(Minifier) clean-css: Inst. # bun add -g clean-css clean-css-cli@latest
+(Minifier) HTML Minifier Next: Inst. # bun add -g html-minifier-next@latest
+(Minifier) SVGO: Inst. # sudo pacman -S svgo
+(Minifier) SVGO: Inst. # bun add -g svgo@latest
+(Minifier) terser: Inst. # sudo pacman -S terser
+(Minifier) terser: Inst. # bun add -g terser@latest
+(Minifier) UglifyJS: Inst. # bun add -g uglify-js@latest
 (Music) Open Cubic Player: Inst. # scoop install pile/open-cubic-player
 (Music) Tag Editor: Inst. # yay -S --noconfirm tageditor
 (Music) Tag Editor: Inst. # scoop install tageditor

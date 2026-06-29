@@ -78,12 +78,12 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Dev) Resterm: Inst. # scoop install resterm
 (Dev) Wappalyzer Next: Inst. # uv tool install -U wappalyzer
 (Dev) Watchman: Inst. # scoop install watchman
-(Diff) diffsitter: Inst. # scoop install diffsitter
-(Diff) difftastic: Inst. # scoop install difftastic
-(Diff) difftastic: # difft <old_path> <new_path>
-(Diff) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
-(Diff) Riff: Inst. # scoop install riff
-(Diff) Riff: # git diff | riff
+(Differ) diffsitter: Inst. # scoop install diffsitter
+(Differ) difftastic: Inst. # scoop install difftastic
+(Differ) difftastic: # difft <old_path> <new_path>
+(Differ) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
+(Differ) Riff: Inst. # scoop install riff
+(Differ) Riff: # git diff | riff
 (Docker) layerx: Inst. # bin install github.com/deveshctl/layerx layerx.exe
 (Draw) draw.io: Inst. # scoop install draw.io
 (Draw) Krita: Inst. # sudo pacman -S krita
@@ -116,6 +116,8 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) chaiNNer: Inst. # scoop install pile/chainner
 (Image) color-matcher: Inst. # uv tool install -U color-matcher
 (Image) didder: Inst. # scoop install didder
+(Image) ExifCleaner: Inst. # yay -S --noconfirm exifcleaner-bin
+(Image) ExifCleaner: Inst. # scoop install exifcleaner
 (Image) Gifski: Inst. # sudo pacman -S gifski
 (Image) Gifski: Inst. # scoop install gifski
 (Image) Paletter: Inst. # bin install github.com/Baldomo/paletter paletter.exe

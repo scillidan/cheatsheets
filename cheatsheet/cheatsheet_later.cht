@@ -15,7 +15,6 @@ PassTUI: Inst. # uv tool install -U passtui --python 3.14
 PDF ToC: Inst. # uv tool install -U pdf-toc
 qsv: Inst. # yay -S --noconfirm qsv-bin
 qsv: Inst. # scoop install qsv
-Ruff: Inst. # scoop install ruff
 sig: Inst. # pacman -S sig
 sig: Inst. # scoop install sig
 sq: Inst. # scoop install sq
@@ -23,12 +22,14 @@ sqlit: Inst. # uv tool install -U sqlit-tui
 Zellij: Inst. # sudo pacman -S zellij
 Zellij: Inst. # scoop install zellij
 
-(Diff) dyff: Inst. # scoop install dyff
-(Diff) JSON diff and patch: Inst. # scoop install jd
+(Differ) dyff: Inst. # scoop install dyff
+(Differ) JSON diff and patch: Inst. # scoop install jd
 (Git) cz-git: Inst. # bun add -g czg
 (Git) jj: Inst. # scoop install jj
 (Git) jjui: Inst. # scoop install jjui
 (Git) Mergiraf: Inst. # scoop install mergiraf
+(Linter) Vale: Inst. # scoop install vale
+(Linter) Vale: Inst. # sudo pacman -S vale
 (LLM) Beads(bd): Inst. # scoop install beads
 (LLM) CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
 (LLM) CodeGraph: # codegraph init -i
@@ -64,15 +65,15 @@ Zellij: Inst. # scoop install zellij
 [Arch] lazyactions: Inst. # lazyactions
 [Arch] OFFPUNK: Inst. # pacman -S offpunk
 [Arch] Pacsea: Inst. # yay -S --noconfirm pacsea-bin
-[Arch] passepartui: Inst. # yay -S --noconfirm passepartui
+[Arch] passepartui: Inst. # yay -S --noconfirm passepartui-bin
 [Arch] pdfgrep: Inst. # sudo pacman -S pdfgrep
 [Arch] pwndbg: Inst. # sudo pacman -S pwndbg
 [Arch] Qman: Inst. # sudo pacman -S qman
 [Arch] systemctl-tui: Inst. # sudo pacman -S systemctl-tui
-[Arch] Systemd manager tui: Inst. # yay -S --noconfirm systemd-manager-tui
+[Arch] Systemd manager tui: Inst. # yay -S --noconfirm systemd-manager-tui-bin
 [Arch] systeroid: Inst. # sudo pacman -S systeroid
-[Arch] Terminal UI for ufw: Inst. # yay -S --noconfirm tufw
-[Arch] Vicinae: Inst. # 
+[Arch] Terminal UI for ufw: Inst. # yay -S --noconfirm tufw-bin
+[Arch] Vicinae: Inst. # yay -S --noconfirm vicinae
 [Arch] wifitui: Inst. # yay -S --noconfirm wifitui-bin
 [Arch] WRKFLW: Inst. # bin install github.com/bahdotsh/wrkflw wrkflw.exe
 [Arch] wut: Inst. # pipx install wut-cli
