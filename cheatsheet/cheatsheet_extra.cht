@@ -181,7 +181,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 [Windows] Cjam: Inst. # scoop install pilecjam
 [Windows] Cygwin: Inst. # scoop install cygwin
 [Windows] Cygwin: apt-cyg install gcc-core gcc-g++ make automake autoconf libtool pkg-config
-[Windows] GNU utilities: Depend. # scoop install unxutils
 [Windows] GPU-Z: Inst. # scoop install gpu-z
 [Windows] Lintalist: Inst. # scoop install lintalist
 [Windows] Microsoft Activation Scripts: Inst. # gh download massgravel/Microsoft-Activation-Scripts MAS

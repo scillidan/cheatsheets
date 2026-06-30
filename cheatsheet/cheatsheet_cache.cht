@@ -137,5 +137,6 @@ VSCodium: Inst. # scoop install vscodium
 (Video) qmtn: Inst. # scoop install pile/qmtn-np
 
 [Windows] Caffeine: Inst. # scoop install caffeine
+[Windows] GNU utilities: Depend. # scoop install unxutils
 [Windows] Mp3tag: Inst. # scoop install mp3tag
 [Windows] OpenHashTab: Inst. # gsudo scoop install openhashtab-np
