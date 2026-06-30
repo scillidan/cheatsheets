@@ -477,7 +477,15 @@ Neovim:: love2d.nvim: LoveStop | <leader>vs
 Neovim:: hodur.nvim: Open file or copy url | C-S-u
 
 ## ~/Share/dotfiles/.config/nvim/lua/config/keys/opencode.lua
-Neovim:: opencode.nvim: 
+Neovim: Increment                      | +
+Neovim: Decrement                      | -
+Neovim:: opencode: Ask opencode                  | <C-a>
+Neovim:: opencode: Execute opencode action       | <C-x>
+Neovim:: opencode: Toggle opencode               | <C-.>
+Neovim:: opencode: Add range to opencode         | go
+Neovim:: opencode: Add line to opencode          | goo
+Neovim:: opencode: Half page up                  | <S-C-u>
+Neovim:: opencode: Half page down                | <S-C-d>
 
 Neovim:: vim-tmux-navigator: TmuxNavigateLeft | C-h
 Neovim:: vim-tmux-navigator: TmuxNavigateDown | C-j
