@@ -128,7 +128,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) Wait4X: Inst. # scoop install wait4x
 (Image) XnConvert: Inst. # yay -S --noconfirm nconvert
 (Image) XnConvert: Inst. # scoop install xnconvert
-(LLM) OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest@latest
 (Music) CUETools: Inst. # sudo pacman -S cuetools
 (Music) CUETools: Inst. # scoop install cuetools
 (Music) CUETools: # Export → `[%directoryname%\]%artist% - %album%\%filename%-new[%unique%].cue`

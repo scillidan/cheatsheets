@@ -107,13 +107,15 @@ VSCodium: Inst. # scoop install vscodium
 (LLM) OpenTab: Inst. # pipx install opentab-ai
 (LLM) Open WebUI: Inst. # uv tool install -U open-webui --python 3.11
 (LLM) Open WebUI: # open-webui serve
+(LLM) OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest@latest
 (LLM) OpenCode: Ex. # bun add -g opencode-input-translator@latest@latest
 (LLM) OpenCode: Ex. Env. # TRANSLATOR_API_KEY=Ollama
 (LLM) OpenCode: Ex. Env. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
 (LLM) OpenCode: Ex. Env. # TRANSLATOR_MODEL=gemma3:12b-it-qat
-(LLM) PAR LLAMA: Inst. # uv tool install -U parllama
 (LLM) ShellGPT: Inst. # ollama pull mistral:7b-instruct
 (LLM) ShellGPT: Inst. # uv tool install -U "shell-gpt[litellm]"
+(LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill writing-plans
+(LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill test-driven-development
 (Minifier) clean-css: Inst. # sudo pacman -S nodejs-clean-css nodejs-clean-css-cli
 (Minifier) clean-css: Inst. # bun add -g clean-css clean-css-cli@latest
 (Minifier) HTML Minifier Next: Inst. # bun add -g html-minifier-next@latest

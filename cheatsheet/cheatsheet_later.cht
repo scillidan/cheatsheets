@@ -30,7 +30,7 @@ Zellij: Inst. # scoop install zellij
 (Git) Mergiraf: Inst. # scoop install mergiraf
 (Linter) Vale: Inst. # scoop install vale
 (Linter) Vale: Inst. # sudo pacman -S vale
-(LLM) Beads(bd): Inst. # scoop install beads
+
 (LLM) CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
 (LLM) CodeGraph: # codegraph init -i
 (LLM) Gas Town: Inst. # bin install github.com/gastownhall/gastown gastown.exe

@@ -153,7 +153,6 @@ OWASP Dependency-Check: Inst. # scoop install dependency-check
 OWASP Dependency-Check: # dependency-check -s .
 Pet: Inst. # yay -S --noconfirm pet-bin
 Pet: Inst. # scoop install pet
-Pet: Conf. # subl %APPDATA%\pet\config.toml
 Pet: # pet search -t <tag> | clip
 Picocrypt NG: Inst. # scoop install picocrypt-ng
 pipe-rename: Inst. # sudo pacman -S pipe-rename
@@ -234,10 +233,9 @@ Vim: Inst. # sudo pacman -S vim
 Vim: Inst. # scoop install vim
 VirusTotal CLI: Inst. # scoop install vt-cli
 VirusTotal CLI: Conf. # vt init
+warp-wd: Inst. # scoop install pile/warp-wd
 WezTerm: Inst. # sudo pacman -S wezterm
 WezTerm: Inst. # scoop install wezterm
-WezTerm: Conf. # vim ~/.config/wezterm/wezterm.lua
-WezTerm: Conf. # subl %SCOOP%\apps\wezterm\current\wezterm.lua
 xan: Inst. # sudo pacman -S xan
 xan: Inst. # scoop install xan
 Yaak: Inst. # scoop install yaak
@@ -338,6 +336,8 @@ zizmor: Inst. # scoop install zizmor
 (Differ) delta: Conf. # git config --global interactive.diffFilter 'delta --color-only'
 (Differ) delta: Conf. # git config --global delta.navigate true
 (Differ) delta: Conf. # git config --global merge.conflictStyle zdiff3
+(Differ) hunk: Inst. # scoop install hunk
+(Differ) hunk: # hunk diff
 (Font) LXGW Wenkai GB: Inst. # scoop install pile/LXGW-Wenkai-GB
 (Font) Monaspace: Inst. # scoop install Monaspace-NF-Mono
 (Font) No!! MeiryoUI: Inst. # scoop install nomeiryoui
@@ -400,6 +400,13 @@ zizmor: Inst. # scoop install zizmor
 (Git) lazygit: # lazygit -sm half
 (Git) mgitstatus: Inst. # yay -S --noconfirm multi-git-status
 (Git) mgitstatus: Inst. # scoop install shovel/mgitstatus
+(Git) no-mistakes: Inst. # scoop install no-mistakes
+(Git) no-mistakes: Env. # NO_MISTAKES_TELEMETRY=0
+(Git) no-mistakes: # no-mistakes init
+(Git) no-mistakes: # git push no-mistakes
+(Git) pre-commit: Inst. # uv tool install -U pre-commit
+(Git) pre-commit: # pre-commit install
+(Git) pre-commit: # pre-commit run --all-files
 (Git) OpenCommit: Inst. # bun add -g opencommit@latest
 (Git) OpenCommit: Env. # oco config set OCO_EMOJI=false
 (Git) OpenCommit: Env. # oco config set OCO_AI_PROVIDER=llamacpp OCO_API_KEY=llamacpp OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
@@ -436,6 +443,8 @@ zizmor: Inst. # scoop install zizmor
 (Image) upscayl-ncnn: Inst. # scoop install pile/upscayl-bin
 (Image) yoga: Inst. # pipx install yoga
 (LLM) agentsview: Inst. # scoop install agentsview
+(LLM) agnix: Inst. # scoop install pile/agnix
+(LLM) agnix: # agnix .
 (LLM) commandOK: Inst. # scoop install commandok
 (LLM) context-mode: Inst. # bun add -g context-mode@latest
 (LLM) cxt: Inst. # scoop install pile/cxt
@@ -452,7 +461,7 @@ zizmor: Inst. # scoop install zizmor
 (LLM) OpenCode: Ex. # bun add -g @cortexkit/magic-context@latest
 (LLM) OpenCode: Ex. # magic-context setup
 (LLM) OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
-(LLM) OpenSpec: Conf. # openspec init
+(LLM) OpenSpec: # openspec init
 (LLM) Pi: Inst. # scoop install pi-coding-agent
 (LLM) Pi: Ex. # pi install npm:@ff-labs/pi-fff
 (LLM) Pi: Ex. # pi install npm:pi-autoresearch
@@ -465,8 +474,6 @@ zizmor: Inst. # scoop install zizmor
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-with-docs
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill prototype
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-prd
-(LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill writing-plans
-(LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill test-driven-development
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-issues
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill improve-codebase-architecture
 (LLM) Skills: Ex. # skills add https://github.com/google-gemini/gemini-cli --skill code-reviewer
@@ -645,9 +652,9 @@ zizmor: Inst. # scoop install zizmor
 [Arch] Tailscale: Conf. 2. # sudo tailscale login
 [Arch] nvm: # nvm install --lts
 [Arch] nvm: # nvm use --lts
+[Arch] tmuxp: Inst. # uv tool install -U tmuxp
 [Arch] tmuxp: Conf. # vim ~/.config/tmuxp/user.yaml
 [Arch] tmuxp: # tmuxp load user
-[Arch] tmuxp: Inst. # uv tool install -U tmuxp
 [Arch] pdftoppm: Depend. # yay -S --noconfirm pdftoppm
 [Arch] Yazi: Ex. # ya pkg add barbanevosa/autosession
 [Arch] Yazi: Ex. # ya pkg add yazi-rs/plugins:chmod
