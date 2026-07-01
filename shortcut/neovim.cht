@@ -23,9 +23,20 @@ Neovim: Scoll up half a page                  | C-u
 
 
 ## Key
-Neovim:: which-key.nvim: quit     | <leader>q
-Neovim:: which-key.nvim: write    | <leader>w
 Neovim:: which-key.nvim: show {n} | <leader>!
+Neovim:: which-key.nvim: write    | <leader>w
+Neovim:: which-key.nvim: quit     | <leader>q
+
+## Treesitter
+## https://github.com/CKolkey/ts-node-action#usage
+Neovim:: TS Node Action: Trigger Node Action {n} | K
+
+## LSP
+## https://github.com/retran/meow.yarn.nvim#keymaps
+Neovim:: MeowYarn: type super {n}   | <leader>yS
+Neovim:: MeowYarn: type sub {n}     | <leader>ys
+Neovim:: MeowYarn: call callers {n} | <leader>yC
+Neovim:: MeowYarn: call callees {n} | <leader>yc
 
 ## CMP
 Neovim:: blink.cmp: hide, fallback                           | C-e
@@ -48,13 +59,19 @@ Neovim:: luasnip: luasnip.change_choice {i} {s} | C-e
 
 
 ## Markdown
-Neovim:: marksman Hover preview   | K
-Neovim:: marksman Find references | gr
+Neovim:: marksman: Hover preview   | K
+Neovim:: marksman: Find references | gr
 
-Neovim:: md-headers.nvim MDHeadersCurrent | <leader>mh
+## https://github.com/rogue-sly/inlyne.nvim#-installation
+Neovim:: Inlyne.nvim: Inlyne enable  | <leader>ie
+Neovim:: Inlyne.nvim: Inlyne disable | <leader>id
+Neovim:: Inlyne.nvim: Inlyne toggle  | <leader>it
 
-Neovim:: nvim-mdlink Follow the link under the cursor, or create a new link | CR
-Neovim:: nvim-mdlink After following a link, go back to the previous file   | BS
+Neovim:: nvim-mdlink: Follow the link under the cursor, or create a new link | CR
+Neovim:: nvim-mdlink: After following a link, go back to the previous file   | BS
+
+Neovim:: md-headers.nvim: MDHeadersCurrent | <leader>mh
+
 
 ## CSV
 Neovim:: csvview.nvim: textobject_field_inner {o} {x} | if
@@ -139,15 +156,15 @@ Neovim:: yazi.nvim: Replace in directory / selected files  | C-g
 Neovim:: yazi.nvim: Cycle open buffers                     | Tab
 Neovim:: yazi.nvim: Copy relative path to selected file(s) | C-y
 Neovim:: yazi.nvim: Change cwd to current directory        | C-\\
-Neovim:: yazi.nvim: Resume the last yazi session           | C-Up
+# Neovim:: yazi.nvim: Resume the last yazi session           | C-Up
 
 ## Buffer
 Neovim:: snipe.nvim: open_buffer_menu | <leader>gb
 
 ## ~/Share/dotfiles/.config/nvim/lua/config/keys/buffer_sticks.lua
-Neovim:: buffer-sticks.nvim: Jump to buffer  | <leader>bbj
-Neovim:: buffer-sticks.nvim: Close buffer    | <leader>bbq
-Neovim:: buffer-sticks.nvim: Buffer picker   | <leader>bbp
+Neovim:: buffer-sticks.nvim: Jump to buffer  | <leader>bj
+Neovim:: buffer-sticks.nvim: Close buffer    | <leader>bq
+Neovim:: buffer-sticks.nvim: Buffer picker   | <leader>bp
 
 Neovim:: gitsigns.nvim: (Navigation) nav_hunk (next) {n}        | ]c
 Neovim:: gitsigns.nvim: (Navigation) nav_hunk (prev) {n}        | [c
@@ -198,13 +215,12 @@ Neovim:: arrow.nvim: next_item       | ]
 Neovim:: arrow.nvim: prev_item       | ["
 
 ## https://github.com/heilgar/bookmarks.nvim#default-keymaps
-
-Add bookmark                                              | <leader>bma
-Remove bookmark                                           | <leader>bmr
-Jump to next bookmark in file                             | <leader>bmj
-Jump to previous bookmark in file                         | <leader>bmk
-List bookmarks (opens Telescope, filtered by active list) | <leader>bml
-Switch bookmark list (Telescope picker)                   | <leader>bms
+Neovim:: bookmarks.nvim: Add bookmark                                              | <leader>bma
+Neovim:: bookmarks.nvim: Remove bookmark                                           | <leader>bmr
+Neovim:: bookmarks.nvim: Jump to next bookmark in file                             | <leader>bmj
+Neovim:: bookmarks.nvim: Jump to previous bookmark in file                         | <leader>bmk
+Neovim:: bookmarks.nvim: List bookmarks (opens Telescope, filtered by active list) | <leader>bml
+Neovim:: bookmarks.nvim: Switch bookmark list (Telescope picker)                   | <leader>bms
 
 ## Fold
 Neovim:: nvim-origami: h {n} | Left
@@ -256,22 +272,30 @@ Neovim:: multiple-cursors.nvim: MultipleCursorsAddUp {i} {n} {x}      | S-Up
 Neovim:: multiple-cursors.nvim: MultipleCursorsMouseAddDelete {i} {n} | C-LeftMouse
 Neovim:: multiple-cursors.nvim: MultipleCursorsAddMatches {n} {x}     | <leader>a
 
-## scooter
-Neovim:: scooter: Open scooter            | <leader>sc
-Neovim:: scooter: Search selected in scooter | <leader>sr
-
 ## Replace
 Neovim:: grug-far.nvim: grug-far.open {n} | <leader>gf
+
+Neovim:: scooter: Open scooter {n}               | <leader>cr
+Neovim:: scooter: Search selected in scooter {v} | <leader>cR
 
 ## Sort
 Neovim:: tssorter: TSSort list {n} {v} | <leader>ts
 
 ## Yank
 ## https://github.com/nemanjamalesija/smart-paste.nvim#mappings
-
+Neovim:: smart-paste.nvim: Smart paste after cursor line {n}                                                   | p
+Neovim:: smart-paste.nvim: Smart paste before cursor line {n}                                                  | P
+Neovim:: smart-paste.nvim: Smart paste after cursor line and follow to end {n}                                 | gp
+Neovim:: smart-paste.nvim: Smart paste before cursor line and follow to end {n}                                | gP
+Neovim:: smart-paste.nvim: Paste charwise content as smart-indented new line below (linewise: same as `p`) {n} | ]p
+Neovim:: smart-paste.nvim: Paste charwise content as smart-indented new line above (linewise: same as `P`) {n} | [p
+Neovim:: smart-paste.nvim: Replace selection with smart-indented linewise content {v}                          | p
+Neovim:: smart-paste.nvim: Replace selection with smart-indented linewise content {v}                          | P
+Neovim:: smart-paste.nvim: Raw `p` (bypass smart paste) {n}                                                    | <leader>p
+Neovim:: smart-paste.nvim: Raw `P` (bypass smart paste) {n}                                                    | <leader>P
 
 ## ~/Share/dotfiles/.config/nvim/lua/config/keys/neoclip.lua
-Neovim:: nvim-neoclip.lua: Telescope neoclip  | <leader>n
+Neovim:: nvim-neoclip.lua: Telescope neoclip  | <leader>clp
 Neovim:: nvim-neoclip.lua: select {i}         | CR
 Neovim:: nvim-neoclip.lua: paste {i}          | C-p
 Neovim:: nvim-neoclip.lua: paste behind {i}   | C-k
@@ -305,6 +329,12 @@ Neovim:: mini.align: enhanced for ','                                           
 Neovim:: mini.align: enhanced for \|                                              | \|
 Neovim:: mini.align: enhanced for ' '                                             | Spc
 
+## https://github.com/nvim-mini/mini.comment#default-config
+Neovim:: mini.comment: comment        | gc
+Neovim:: mini.comment: comment_line   | gcc
+Neovim:: mini.comment: comment_visual | gc
+Neovim:: mini.comment: textobject     | gc
+
 ## https://github.com/nvim-mini/mini.diff#mappings
 Neovim:: mini.diff: apply      | gh
 Neovim:: mini.diff: reset      | gH
@@ -314,21 +344,15 @@ Neovim:: mini.diff: goto_prev  | [h
 Neovim:: mini.diff: goto_next  | ]h
 Neovim:: mini.diff: goto_last  | ]H
 
-## https://github.com/nvim-mini/mini.comment#default-config
-Neovim:: mini.comment: comment        | gc
-Neovim:: mini.comment: comment_line   | gcc
-Neovim:: mini.comment: comment_visual | gc
-Neovim:: mini.comment: textobject     | gc
-
 ## ~/Share/dotfiles/.config/nvim/lua/config/keys/mini_move.lua
-Neovim:: mini.move: line_left {n}  | A-h
-Neovim:: mini.move: line_right {n} | A-l
-Neovim:: mini.move: line_down {n}  | A-j
-Neovim:: mini.move: line_up {n}    | A-k
-Neovim:: mini.move: left {v}       | A-h
-Neovim:: mini.move: right {v}      | A-l
-Neovim:: mini.move: down {v}       | A-j
-Neovim:: mini.move: up {v}         | A-k
+Neovim:: mini.move: left {v}       | A-S-h
+Neovim:: mini.move: right {v}      | A-S-l
+Neovim:: mini.move: down {v}       | A-S-j
+Neovim:: mini.move: up {v}         | A-S-k
+Neovim:: mini.move: line_left {n}  | A-S-h
+Neovim:: mini.move: line_right {n} | A-S-l
+Neovim:: mini.move: line_down {n}  | A-S-j
+Neovim:: mini.move: line_up {n}    | A-S-k
 
 ## https://github.com/nvim-mini/mini.surround#features
 Neovim:: mini.surround: add            | sa
@@ -341,6 +365,8 @@ Neovim:: mini.surround: update_n_lines | sn
 Neovim:: mini.surround: suffix_last    | l
 Neovim:: mini.surround: suffix_next    | n
 
+## https://github.com/nvim-mini/mini.splitjoin#default-config
+Neovim:: mini.splitjoin: toggle | gS
 
 ## telescope.nvim
 ## https://github.com/nvim-telescope/telescope.nvim#default-mappings
@@ -485,18 +511,15 @@ Neovim:: love2d.nvim: LoveStop | <leader>vs
 Neovim:: hodur.nvim: Open file or copy url | C-S-u
 
 ## ~/Share/dotfiles/.config/nvim/lua/config/keys/opencode.lua
-Neovim: Increment                      | +
-Neovim: Decrement                      | -
-Neovim:: opencode: Ask opencode                  | <C-a>
-Neovim:: opencode: Execute opencode action       | <C-x>
-Neovim:: opencode: Toggle opencode               | <C-.>
+Neovim:: opencode: Ask opencode                  | <leader>oa
+Neovim:: opencode: Execute opencode action       | <leader>os
 Neovim:: opencode: Add range to opencode         | go
 Neovim:: opencode: Add line to opencode          | goo
 Neovim:: opencode: Half page up                  | <S-C-u>
 Neovim:: opencode: Half page down                | <S-C-d>
 
-Neovim:: vim-tmux-navigator: TmuxNavigateLeft | C-h
-Neovim:: vim-tmux-navigator: TmuxNavigateDown | C-j
-Neovim:: vim-tmux-navigator: TmuxNavigateUp | C-k
-Neovim:: vim-tmux-navigator: TmuxNavigateRight | C-l
-Neovim:: vim-tmux-navigator: TmuxNavigatePrevious | C-\\
+Neovim:: vim-tmux-navigator: Tmux Navigate Left     | C-h
+Neovim:: vim-tmux-navigator: Tmux Navigate Down     | C-j
+Neovim:: vim-tmux-navigator: Tmux Navigate Up       | C-k
+Neovim:: vim-tmux-navigator: Tmux Navigate Right    | C-l
+Neovim:: vim-tmux-navigator: Tmux Navigate Previous | C-\\

@@ -36,7 +36,6 @@ Zellij: Inst. # scoop install zellij
 (LLM) Gas Town: Inst. # bin install github.com/gastownhall/gastown gastown.exe
 (LLM) Skills: Ex. # skills install earthtojake/text-to-cad
 (LLM) QMD: Inst. # bun add -g @tobilu/qmd@latest
-(LLM) Tabby AI assistant: Inst. # scoop install tabby-agent-cuda
 (Tool-Hardware) ROM Properties Page: Inst. # scoop install rom-properties-np
 (Tool-Network) Slumber: Inst. # bin install github.com/LucasPickering/slumber slumber.exe
 (Tool-Network) wuzz: Inst. # scoop install wuzz

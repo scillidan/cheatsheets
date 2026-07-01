@@ -486,6 +486,7 @@ zizmor: Inst. # scoop install zizmor
 (LLM) Skills: Ex. # skills add https://github.com/wshobson/agents --skill godot-gdscript-patterns
 (LLM) Skills: Ex. # skills add https://github.com/chongdashu/love2d-pocket-bomber-game --skill love2d-gamedev
 (LLM) Repomix: Inst. # bun add -g repomix@latest
+(LLM) Tabby AI assistant: Inst. # scoop install tabby-agent-cuda
 (LLM) rtk: Inst. # scoop install rtk
 (LLM) rtk: Conf. # rtk init -g --opencode
 (LLM) rtk: Conf. # rtk init -g --agent pi
@@ -616,6 +617,7 @@ zizmor: Inst. # scoop install zizmor
 [Windows] Servy: # 2.1. # gsudo servy-cli install --name="Numa" --path="C:\Users\User\Scoop\apps\numa\current\numa.exe"
 [Windows] Servy: # 2.2. # gsudo servy-cli start --name="Numa"
 [Windows] Servy: # 2.3. # servy-cli status --name="Numa"
+[Windows] Servy: # 3.1. # gsudo servy-cli install --name="Tabby" --path="C:\Users\User\Scoop\apps\tabby-agent-cuda\current\tabby.exe" --params="serve --model DeepSeekCoder-6.7B --device cuda --host 127.0.0.1 --port 8020"
 [Windows] ShellExView: Inst. # scoop install https://raw.githubusercontent.com/kodybrown/scoop-nirsoft/refs/heads/master/bucket/shellexview.json
 [Windows] SilentCMD: Inst. # scoop install silentcmd
 [Windows] Sizer: Inst. # scoop install pile/sizer
