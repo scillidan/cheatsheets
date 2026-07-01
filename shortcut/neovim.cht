@@ -131,7 +131,7 @@ Neovim:: oil.nvim: parent {n}          | BS
 Neovim:: oil.nvim: open_cwd {n}        | _
 Neovim:: oil.nvim: cd {n}              | `
 Neovim:: oil.nvim: cd (tab) {n}        | ~
-Neovim:: oil.nvim: close {n}           | -
+Neovim:: oil.nvim: open/close {n}      | -
 Neovim:: oil.nvim: select              | CR
 Neovim:: oil.nvim: select (vertical)   | \|
 Neovim:: oil.nvim: select (horizontal) | %
