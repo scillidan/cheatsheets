@@ -1,25 +1,18 @@
 ## Neovim:: https://neovim.io/doc/user/quickref.html:
-Neovim: Insert in V-Block mode | C-v i Esc
-Neovim: V-Block                | C-v
-Neovim: Previous tab                          | [b
-Neovim: Next tab                              | ]b
-Neovim: Split window                          | C-w s
-Neovim: Split window vertically               | C-w v
-Neovim: Increase height                       | C-w +
-Neovim: Decrease height                       | C-w -
-Neovim: Decrease width                        | C-w <
-Neovim: Increase width                        | C-w >
+Neovim: Insert in V-Block mode                | C-v i Esc
+Neovim: V-Block                               | C-v
+Neovim: Previous tab                          | [/]b
+Neovim: Split window horizontal/vertically    | C-w s/v
+Neovim: Increase/decrease height              | C-w +/-
+Neovim: Increase/decrease width               | C-w >/<
 Neovim: Equally high and wide                 | C-w =
-Neovim: Add a line below {n}                  | o
-Neovim: Add a line after {n}                  | O
+Neovim: Add a line below/after {n}            | o/O
 Neovim: Change word and enter Insert Mode {i} | ciw
 Neovim: Select word and change                | viw c
 Neovim: Go to the last edit                   | g;
 Neovim: Go forward to the next edit           | g,
-Neovim: Undo                                  | u
-Neovim: Redo                                  | C-r
-Neovim: Scoll down half a page                | C-d
-Neovim: Scoll up half a page                  | C-u
+Neovim: Undo/redo                             | u / C-r
+Neovim: Scoll up/down half a page             | C-u/d
 
 
 ## Key
@@ -31,24 +24,13 @@ Neovim:: which-key.nvim: quit     | <leader>q
 ## https://github.com/CKolkey/ts-node-action#usage
 Neovim:: TS Node Action: Trigger Node Action {n} | K
 
-## LSP
-## https://github.com/retran/meow.yarn.nvim#keymaps
-Neovim:: MeowYarn: type super {n}   | <leader>yS
-Neovim:: MeowYarn: type sub {n}     | <leader>ys
-Neovim:: MeowYarn: call callers {n} | <leader>yC
-Neovim:: MeowYarn: call callees {n} | <leader>yc
-
 ## CMP
-Neovim:: blink.cmp: hide, fallback                           | C-e
 Neovim:: blink.cmp: accept, fallback                         | CR
-Neovim:: blink.cmp: snippet_forward, fallback                | Tab
-Neovim:: blink.cmp: snippet_backward, fallback               | S-Tab
-Neovim:: blink.cmp: select_prev, fallback                    | Up
-Neovim:: blink.cmp: select_next, fallback                    | Down
-Neovim:: blink.cmp: select_prev, fallback_to_mappings        | C-p
-Neovim:: blink.cmp: select_next, fallback_to_mappings        | C-n
-Neovim:: blink.cmp: scroll_documentation_up, fallback        | C-b
-Neovim:: blink.cmp: scroll_documentation_down, fallback      | C-f
+Neovim:: blink.cmp: hide, fallback                           | C-e
+Neovim:: blink.cmp: snippet_forward/backward, fallback       | S-Tab / Tab
+Neovim:: blink.cmp: select_prev/next, fallback               | Up/Dn
+Neovim:: blink.cmp: select_prev/next, fallback_to_mappings   | C-p/n
+Neovim:: blink.cmp: scroll_documentation_up/down, fallback   | C-b/f
 Neovim:: blink.cmp: show_signature, hide_signature, fallback | C-k
 
 ## Snippet
@@ -63,9 +45,8 @@ Neovim:: marksman: Hover preview   | K
 Neovim:: marksman: Find references | gr
 
 ## https://github.com/rogue-sly/inlyne.nvim#-installation
-Neovim:: Inlyne.nvim: Inlyne enable  | <leader>ie
-Neovim:: Inlyne.nvim: Inlyne disable | <leader>id
-Neovim:: Inlyne.nvim: Inlyne toggle  | <leader>it
+Neovim:: Inlyne.nvim: Inlyne enable/disable | <leader>ie / <leader>id
+Neovim:: Inlyne.nvim: Inlyne toggle         | <leader>it
 
 Neovim:: nvim-mdlink: Follow the link under the cursor, or create a new link | CR
 Neovim:: nvim-mdlink: After following a link, go back to the previous file   | BS
@@ -74,64 +55,60 @@ Neovim:: md-headers.nvim: MDHeadersCurrent | <leader>mh
 
 
 ## CSV
-Neovim:: csvview.nvim: textobject_field_inner {o} {x} | if
-Neovim:: csvview.nvim: textobject_field_outer {o} {x} | af
-Neovim:: csvview.nvim: jump_next_field_end {n} {v}    | Tab
-Neovim:: csvview.nvim: jump_prev_field_end {n} {v}    | S-Tab
-Neovim:: csvview.nvim: jump_next_row {n} {v}          | Etr
-Neovim:: csvview.nvim: jump_prev_row {n} {v}          | S-Etr
+Neovim:: csvview.nvim: textobject_field_inner/outer {o} {x} | if/af
+Neovim:: csvview.nvim: jump_prev/next_field_end {n} {v}     | S-Tab / Tab
+Neovim:: csvview.nvim: jump_prev/next_row {n} {v}           | S-Etr / Etr
 
 ## LaTeX
-Neovim: Dialog (noremap, silent)      | Spc
-Neovim: Esc {i}                       | jk
-Neovim: Fold "zc" {n}                 | <leader>j
-Neovim: Fold "zo" {n}                 | <leader>k
+Neovim: Dialog (noremap, silent) | Spc
+Neovim: Esc {i}                  | jk
+Neovim: Fold "zc"/"zo" {n}       | <leader>j/k
 
 Neovim:: bibcite.nvim: CiteInsert | <leader>ci
 Neovim:: bibcite.nvim: CitePeek   | <leader>cp
 Neovim:: bibcite.nvim: CiteOpen   | <leader>co
 Neovim:: bibcite.nvim: CiteNote   | <leader>cn
 
-Neovim:: vimtex: Motion: Move between section boundaries                          | [[, [], ][, ]]
-Neovim:: vimtex: Motion: Move between environment boundaries                      | [m, [M, ]m, ]M
-Neovim:: vimtex: Motion: Move between math environment boundaries                 | [{n,} [N, ]n, ]N
-Neovim:: vimtex: Motion: Move between frame environment boundaries                | [r, [R, ]r, ]R
-Neovim:: vimtex: Motion: Move between comment boundaries                          | [*, ]*
-Neovim:: vimtex: Motion: Move between matching delimiters                         | %
-Neovim:: vimtex: Text Objects: Inner Command                                      | ic
-Neovim:: vimtex: Text Objects: A Command                                          | ac
-Neovim:: vimtex: Text Objects: Inner Delimiter                                    | id
-Neovim:: vimtex: Text Objects: A Delimiter                                        | ad
-Neovim:: vimtex: Text Objects: Inner LaTeX Environment                            | ie
-Neovim:: vimtex: Text Objects: A LaTeX Environment                                | ae
-Neovim:: vimtex: Text Objects: Inner Math Environment                             | i$
-Neovim:: vimtex: Text Objects: A Math Environment                                 | a$
-Neovim:: vimtex: Text Objects: Inner Section                                      | iP
-Neovim:: vimtex: Text Objects: A Section                                          | aP
-Neovim:: vimtex: Text Objects: Inner Item                                         | im
-Neovim:: vimtex: Text Objects: A Item                                             | am
-Neovim:: vimtex: Other: Delete the surrounding command, environment, or delimiter | dsc/dse/ds$/dsd
-Neovim:: vimtex: Other: Change the surrounding command, environment, or delimiter | csc/cse/cs$/csd
-Neovim:: vimtex: Other: Toggle between complementary environments                 | tse
-Neovim:: vimtex: Other: Toggle starred command or environment                     | tsc/tss
-Neovim:: vimtex: Other: Toggle inline and display math                            | ts$
-Neovim:: vimtex: Other: Toggle between e.g. () and \left(\right)                  | tsd
-Neovim:: vimtex: Other: Toggle (inline) fractions                                 | tsf
-Neovim:: vimtex: Other: Toggle line-break macro \\                                | tsb
-Neovim:: vimtex: Other: Close the current environment/delimiter in insert mode    | ]]
-Neovim:: vimtex: Other: Add \left ... \right modifiers to surrounding delimiters  | F8
-Neovim:: vimtex: Other: Insert new command                                        | F7
-Neovim:: vimtex: Other: Context menu on citations (e.g. \cite{...})               | CR
-Neovim:: vimtex: Other: Improved folding                                          | :h 'foldexpr'
-Neovim:: vimtex: Other: Improved indentation                                      | :h 'indentexpr'
+Neovim:: vimtex: (Motion) Move between section boundaries                          | [[, [], ][, ]]
+Neovim:: vimtex: (Motion) Move between environment boundaries                      | [m, [M, ]m, ]M
+Neovim:: vimtex: (Motion) Move between math environment boundaries                 | [{n,} [N, ]n, ]N
+Neovim:: vimtex: (Motion) Move between frame environment boundaries                | [r, [R, ]r, ]R
+Neovim:: vimtex: (Motion) Move between comment boundaries                          | [*, ]*
+Neovim:: vimtex: (Motion) Move between matching delimiters                         | %
+Neovim:: vimtex: (Text Objects) Inner Command                                      | ic
+Neovim:: vimtex: (Text Objects) A Command                                          | ac
+Neovim:: vimtex: (Text Objects) Inner Delimiter                                    | id
+Neovim:: vimtex: (Text Objects) A Delimiter                                        | ad
+Neovim:: vimtex: (Text Objects) Inner LaTeX Environment                            | ie
+Neovim:: vimtex: (Text Objects) A LaTeX Environment                                | ae
+Neovim:: vimtex: (Text Objects) Inner Math Environment                             | i$
+Neovim:: vimtex: (Text Objects) A Math Environment                                 | a$
+Neovim:: vimtex: (Text Objects) Inner Section                                      | iP
+Neovim:: vimtex: (Text Objects) A Section                                          | aP
+Neovim:: vimtex: (Text Objects) Inner Item                                         | im
+Neovim:: vimtex: (Text Objects) A Item                                             | am
+Neovim:: vimtex: (Other) Delete the surrounding command, environment, or delimiter | dsc/dse/ds$/dsd
+Neovim:: vimtex: (Other) Change the surrounding command, environment, or delimiter | csc/cse/cs$/csd
+Neovim:: vimtex: (Other) Toggle between complementary environments                 | tse
+Neovim:: vimtex: (Other) Toggle starred command or environment                     | tsc/tss
+Neovim:: vimtex: (Other) Toggle inline and display math                            | ts$
+Neovim:: vimtex: (Other) Toggle between e.g. () and \left(\right)                  | tsd
+Neovim:: vimtex: (Other) Toggle (inline) fractions                                 | tsf
+Neovim:: vimtex: (Other) Toggle line-break macro \\                                | tsb
+Neovim:: vimtex: (Other) Close the current environment/delimiter in insert mode    | ]]
+Neovim:: vimtex: (Other) Add \left ... \right modifiers to surrounding delimiters  | F8
+Neovim:: vimtex: (Other) Insert new command                                        | F7
+Neovim:: vimtex: (Other) Context menu on citations (e.g. \cite{...})               | CR
+Neovim:: vimtex: (Other) Improved folding                                          | :h 'foldexpr'
+Neovim:: vimtex: (Other) Improved indentation                                      | :h 'indentexpr'
 
 
 ## Explorer
-Neovim:: oil.nvim: parent {n}          | BS
+Neovim:: oil.nvim: open/close {n}      | -
 Neovim:: oil.nvim: open_cwd {n}        | _
+Neovim:: oil.nvim: parent {n}          | BS
 Neovim:: oil.nvim: cd {n}              | `
 Neovim:: oil.nvim: cd (tab) {n}        | ~
-Neovim:: oil.nvim: open/close {n}      | -
 Neovim:: oil.nvim: select              | CR
 Neovim:: oil.nvim: select (vertical)   | \|
 Neovim:: oil.nvim: select (horizontal) | %
@@ -148,30 +125,21 @@ Neovim:: oil.nvim: toggle_trash {n}    | g\\
 Neovim:: yazi.nvim: Show the help menu                     | F1
 Neovim:: yazi.nvim: Open file in tab                       | C-t
 Neovim:: yazi.nvim: Open file and pick window              | C-o
-Neovim:: yazi.nvim: Open file in horizontal split          | C-x
-Neovim:: yazi.nvim: Open file in vertical split            | C-v
+Neovim:: yazi.nvim: Open file in horizontal/vertical split | C-x/v
 Neovim:: yazi.nvim: Send to the quickfix list              | C-q
 Neovim:: yazi.nvim: Search in directory / selected files   | C-s
 Neovim:: yazi.nvim: Replace in directory / selected files  | C-g
 Neovim:: yazi.nvim: Cycle open buffers                     | Tab
 Neovim:: yazi.nvim: Copy relative path to selected file(s) | C-y
 Neovim:: yazi.nvim: Change cwd to current directory        | C-\\
-# Neovim:: yazi.nvim: Resume the last yazi session           | C-Up
+Neovim:: yazi.nvim: Resume the last yazi session           | C-Up
 
 ## Buffer
 Neovim:: snipe.nvim: open_buffer_menu | <leader>gb
 
-## ~/Share/dotfiles/.config/nvim/lua/config/keys/buffer_sticks.lua
-Neovim:: buffer-sticks.nvim: Jump to buffer  | <leader>bj
-Neovim:: buffer-sticks.nvim: Close buffer    | <leader>bq
-Neovim:: buffer-sticks.nvim: Buffer picker   | <leader>bp
-
-Neovim:: gitsigns.nvim: (Navigation) nav_hunk (next) {n}        | ]c
-Neovim:: gitsigns.nvim: (Navigation) nav_hunk (prev) {n}        | [c
-Neovim:: gitsigns.nvim: (Actions) stage_hunk {n}                | <leader>hs
-Neovim:: gitsigns.nvim: (Actions) reset_hunk {n}                | <leader>hr
-Neovim:: gitsigns.nvim: (Actions) stage_hunk (visual) {v}       | <leader>hs
-Neovim:: gitsigns.nvim: (Actions) reset_hunk (visual) {v}       | <leader>hr
+Neovim:: gitsigns.nvim: (Navigation) nav_hunk (prev/next) {n}   | [/]c
+Neovim:: gitsigns.nvim: (Actions) stage_hunk {n} {v}            | <leader>hs
+Neovim:: gitsigns.nvim: (Actions) reset_hunk {n} {v}            | <leader>hr
 Neovim:: gitsigns.nvim: (Actions) stage_buffer {n}              | <leader>hS
 Neovim:: gitsigns.nvim: (Actions) reset_buffer {n}              | <leader>hR
 Neovim:: gitsigns.nvim: (Actions) preview_hunk {n}              | <leader>hp
@@ -179,40 +147,37 @@ Neovim:: gitsigns.nvim: (Actions) preview_hunk_inline {n}       | <leader>hi
 Neovim:: gitsigns.nvim: (Actions) blame_line (full) {n}         | <leader>hb
 Neovim:: gitsigns.nvim: (Actions) diffthis {n}                  | <leader>hd
 Neovim:: gitsigns.nvim: (Actions) diffthis ('~') {n}            | <leader>hD
-Neovim:: gitsigns.nvim: (Actions) setqflist (all) {n}           | <leader>hQ
 Neovim:: gitsigns.nvim: (Actions) setqflist {n}                 | <leader>hq
+Neovim:: gitsigns.nvim: (Actions) setqflist (all) {n}           | <leader>hQ
 Neovim:: gitsigns.nvim: (Toggles) toggle_current_line_blame {n} | <leader>tb
 Neovim:: gitsigns.nvim: (Toggles) toggle_word_diff {n}          | <leader>tw
 Neovim:: gitsigns.nvim: (Text object) select_hunk {o, x}        | ih
 
 ## Window
-Neovim:: winshift.nvim: WinShift       | C-w C-m
-Neovim:: winshift.nvim: WinShift       | C-w m
-Neovim:: winshift.nvim: WinShift swap  | C-w x
-Neovim:: winshift.nvim: WinShift left  | C-M-h
-Neovim:: winshift.nvim: WinShift down  | C-M-J
-Neovim:: winshift.nvim: WinShift up    | C-M-K
-Neovim:: winshift.nvim: WinShift right | C-M-L
+## https://github.com/sindrets/winshift.nvim#configuration
+Neovim:: winshift.nvim: WinShift                      | C-w m/C-m
+Neovim:: winshift.nvim: WinShift swap                 | C-w x
+Neovim:: winshift.nvim: WinShift left/down/up/right   | C-M-h/j/k/l
+Neovim:: winshift.nvim: (Move) left/down/up/right     | h/j/k/l / Lt/Dn/Up/Rt
+Neovim:: winshift.nvim: (Move) far_left/down/up/right | H/J/K/L / S-Lt/Dn/Up/Rt
 
 ## Session
 Neovim:: auto-session: AutoSession search | <leader>wr
-Neovim:: auto-session: AutoSession save   | <leader>ws
 Neovim:: auto-session: AutoSession toggle | <leader>wa
+Neovim:: auto-session: AutoSession save   | <leader>ws
 Neovim:: auto-session: AutoSession delete | <leader>wd
 
 
 ## Bookmark
-Neovim:: arrow.nvim: arrow.nvim      | ;
-Neovim:: arrow.nvim: edit            | e
-Neovim:: arrow.nvim: delete_mode     | d
-Neovim:: arrow.nvim: clear_all_items | C
-Neovim:: arrow.nvim: toggle          | s
-Neovim:: arrow.nvim: open_vertical   | v
-Neovim:: arrow.nvim: open_horizontal | -
-Neovim:: arrow.nvim: quit            | q
-Neovim:: arrow.nvim: remove          | x
-Neovim:: arrow.nvim: next_item       | ]
-Neovim:: arrow.nvim: prev_item       | ["
+Neovim:: arrow.nvim: arrow.nvim               | ;
+Neovim:: arrow.nvim: edit                     | e
+Neovim:: arrow.nvim: delete_mode              | d
+Neovim:: arrow.nvim: clear_all_items          | C
+Neovim:: arrow.nvim: toggle                   | s
+Neovim:: arrow.nvim: open_horizontal/vertical | -/v
+Neovim:: arrow.nvim: quit                     | q
+Neovim:: arrow.nvim: remove                   | x
+Neovim:: arrow.nvim: prev/next_item           | [/]
 
 ## https://github.com/heilgar/bookmarks.nvim#default-keymaps
 Neovim:: bookmarks.nvim: Add bookmark                                              | <leader>bma
@@ -222,54 +187,105 @@ Neovim:: bookmarks.nvim: Jump to previous bookmark in file                      
 Neovim:: bookmarks.nvim: List bookmarks (opens Telescope, filtered by active list) | <leader>bml
 Neovim:: bookmarks.nvim: Switch bookmark list (Telescope picker)                   | <leader>bms
 
+## Diff
+## https://github.com/esmuellert/codediff.nvim#using-lazynvim
+Neovim:: codediff.nvim: (View) Close diff tab                                                  | q
+Neovim:: codediff.nvim: (View) Toggle explorer visibility (explorer mode only)                 | <leader>b
+Neovim:: codediff.nvim: (View) Focus explorer panel (explorer mode only)                       | <leader>e
+Neovim:: codediff.nvim: (View) Jump to previous/next change                                    | [/]c
+Neovim:: codediff.nvim: (View) Previous/next file in explorer/history mode                     | [/]f
+Neovim:: codediff.nvim: (View) Get change from other buffer (like vimdiff)                     | do
+Neovim:: codediff.nvim: (View) Put change to other buffer (like vimdiff)                       | dp
+Neovim:: codediff.nvim: (View) Open current buffer in previous tab (or create one before)      | gf
+Neovim:: codediff.nvim: (View) Close codediff tab after gf opens file in previous tab          | False
+Neovim:: codediff.nvim: (View) Stage/unstage current file (works in explorer and diff buffers) | -
+Neovim:: codediff.nvim: (View) Stage hunk under cursor to git index                            | <leader>hs
+Neovim:: codediff.nvim: (View) Unstage hunk under cursor from git index                        | <leader>hu
+Neovim:: codediff.nvim: (View) Discard hunk under cursor (working tree only)                   | <leader>hr
+Neovim:: codediff.nvim: (View) Textobject for hunk (vih to select, yih to yank, etc.)          | ih
+Neovim:: codediff.nvim: (View) Show floating window with available keymaps                     | g?
+Neovim:: codediff.nvim: (View) Temporarily align moved code blocks across panes                | gm
+Neovim:: codediff.nvim: (View) Toggle between side-by-side and inline layout                   | t
+Neovim:: codediff.nvim: (View) Toggle compact mode (fold unchanged regions)                    | gc
+Neovim:: codediff.nvim: (Explorer) Open diff for selected file                                 | CR
+Neovim:: codediff.nvim: (Explorer) Show file diff preview                                      | K
+Neovim:: codediff.nvim: (Explorer) Refresh git status                                          | R
+Neovim:: codediff.nvim: (Explorer) Toggle between 'list' and 'tree' views                      | i
+Neovim:: codediff.nvim: (Explorer) Stage all files                                             | S
+Neovim:: codediff.nvim: (Explorer) Unstage all files                                           | U
+Neovim:: codediff.nvim: (Explorer) Discard changes (restore file)                              | X
+Neovim:: codediff.nvim: (Explorer) Toggle Changes (unstaged) group visibility                  | gu
+Neovim:: codediff.nvim: (Explorer) Toggle Staged Changes group visibility                      | gs
+Neovim:: codediff.nvim: (Explorer) Fold keymaps (Vim-style)                                    |
+Neovim:: codediff.nvim: (Explorer) Open fold (expand current node)                             | zo
+Neovim:: codediff.nvim: (Explorer) Open fold recursively (expand all descendants)              | zO
+Neovim:: codediff.nvim: (Explorer) Close fold (collapse current node)                          | zc
+Neovim:: codediff.nvim: (Explorer) Close fold recursively (collapse all descendants)           | zC
+Neovim:: codediff.nvim: (Explorer) Toggle fold (expand/collapse current node)                  | za
+Neovim:: codediff.nvim: (Explorer) Toggle fold recursively                                     | zA
+Neovim:: codediff.nvim: (Explorer) Open all folds in tree                                      | zR
+Neovim:: codediff.nvim: (Explorer) Close all folds in tree                                     | zM
+Neovim:: codediff.nvim: (History) Select commit/file or toggle expand                          | CR
+Neovim:: codediff.nvim: (History) Toggle between 'list' and 'tree' views                       | i
+Neovim:: codediff.nvim: (History) Refresh history (re-fetch commits)                           | R
+Neovim:: codediff.nvim: (History) Fold keymaps (Vim-style, apply to directory nodes only)      |
+Neovim:: codediff.nvim: (History) Open fold (expand current node)                              | zo
+Neovim:: codediff.nvim: (History) Open fold recursively (expand all descendants)               | zO
+Neovim:: codediff.nvim: (History) Close fold (collapse current node)                           | zc
+Neovim:: codediff.nvim: (History) Close fold recursively (collapse all descendants)            | zC
+Neovim:: codediff.nvim: (History) Toggle fold (expand/collapse current node)                   | za
+Neovim:: codediff.nvim: (History) Toggle fold recursively                                      | zA
+Neovim:: codediff.nvim: (History) Open all folds in tree                                       | zR
+Neovim:: codediff.nvim: (History) Close all folds in tree                                      | zM
+Neovim:: codediff.nvim: (Conflict) Accept incoming (theirs/left) change                        | <leader>ct
+Neovim:: codediff.nvim: (Conflict) Accept current (ours/right) change                          | <leader>co
+Neovim:: codediff.nvim: (Conflict) Accept both changes (incoming first)                        | <leader>cb
+Neovim:: codediff.nvim: (Conflict) Discard both, keep base                                     | <leader>cx
+Neovim:: codediff.nvim: (Conflict) Accept all (whole file) - uppercase versions                |
+Neovim:: codediff.nvim: (Conflict) Accept ALL incoming changes                                 | <leader>cT
+Neovim:: codediff.nvim: (Conflict) Accept ALL current changes                                  | <leader>cO
+Neovim:: codediff.nvim: (Conflict) Accept ALL both changes                                     | <leader>cB
+Neovim:: codediff.nvim: (Conflict) Discard ALL, reset to base                                  | <leader>cX
+Neovim:: codediff.nvim: (Conflict) Jump to previous/next conflict                              | [/]x
+Neovim:: codediff.nvim: (Conflict) Get hunk from incoming (left/theirs) buffer                 | 2do
+Neovim:: codediff.nvim: (Conflict) Get hunk from current (right/ours) buffer                   | 3do
+
 ## Fold
-Neovim:: nvim-origami: h {n} | Left
-Neovim:: nvim-origami: l {n} | Right
+Neovim:: nvim-origami: h/l {n}          | Lt/Rt
+Neovim:: nvim-origami: caret/dollar {n} | Home/End
 
 ## Goto
-Neovim:: glance.nvim: Glance references {n}          | gR
-Neovim:: glance.nvim: Glance definitions {n}         | gD
-Neovim:: glance.nvim: Glance type_definitions {n}    | gY
-Neovim:: glance.nvim: Glance implementations {n}     | gM
-Neovim:: glance.nvim: list: Next item                | j
-Neovim:: glance.nvim: list: Previous item            | k
-Neovim:: glance.nvim: list: Next item                | Down
-Neovim:: glance.nvim: list: Previous item            | Up
-Neovim:: glance.nvim: list: Next location            | Tab
-Neovim:: glance.nvim: list: Previous location        | S-Tab
-Neovim:: glance.nvim: list: Scroll up preview        | C-u
-Neovim:: glance.nvim: list: Scroll down preview      | C-d
-Neovim:: glance.nvim: list: Open in vertical split   | v
-Neovim:: glance.nvim: list: Open in horizontal split | s
-Neovim:: glance.nvim: list: Open in new tab          | t
-Neovim:: glance.nvim: list: Jump to location         | CR
-Neovim:: glance.nvim: list: Jump to location         | o
-Neovim:: glance.nvim: list: Open fold                | l
-Neovim:: glance.nvim: list: Close fold               | h
-Neovim:: glance.nvim: list: Focus preview window     | <leader>l
-Neovim:: glance.nvim: list: Close Glance window      | q
-Neovim:: glance.nvim: list: Close Glance window      | Q
-Neovim:: glance.nvim: list: Close Glance window      | Esc
-Neovim:: glance.nvim: list: Send to quickfix list    | C-q
-Neovim:: glance.nvim: window: Close                  | Q
-Neovim:: glance.nvim: window: Next location          | Tab
-Neovim:: glance.nvim: window: Previous location      | S-Tab
-Neovim:: glance.nvim: window: Focus list window      | <leader>l
+Neovim:: glance.nvim: Glance references {n}                    | gR
+Neovim:: glance.nvim: Glance definitions {n}                   | gD
+Neovim:: glance.nvim: Glance type_definitions {n}              | gY
+Neovim:: glance.nvim: Glance implementations {n}               | gM
+Neovim:: glance.nvim: (List) Previous/next item                | k/j
+Neovim:: glance.nvim: (List) Previous/next item                | Up/Dn
+Neovim:: glance.nvim: (List) Previous/next location            | S-Tab / Tab
+Neovim:: glance.nvim: (List) Scroll up/down preview            | C-u/d
+Neovim:: glance.nvim: (List) Open in horizontal/vertical split | s/v
+Neovim:: glance.nvim: (List) Open in new tab                   | t
+Neovim:: glance.nvim: (List) Jump to location                  | o / CR
+Neovim:: glance.nvim: (List) Open/close fold                   | l/h
+Neovim:: glance.nvim: (List) Focus preview window              | <leader>l
+Neovim:: glance.nvim: (List) Close Glance window               | q/Q/Esc
+Neovim:: glance.nvim: (List) Send to quickfix list             | C-q
+Neovim:: glance.nvim: (Window) Close                           | Q
+Neovim:: glance.nvim: (Window) Previous/next location          | S-Tab / Tab
+Neovim:: glance.nvim: (Window) Focus list window               | <leader>l
 
 ## Jump
-## ~/Share/dotfiles/.config/nvim/lua/config/keys/flash.lua
 Neovim:: flash.nvim: Flash {n} {o} {x}            | <leader>s
 Neovim:: flash.nvim: Flash Treesitter {n} {o} {x} | <leader>S
 Neovim:: flash.nvim: Remote Flash {o}             | <leader>r
 Neovim:: flash.nvim: Treesitter Search {o} {x}    | <leader>R
 Neovim:: flash.nvim: Toggle Flash Search {c}      | <C-s>
-Neovim:: flash.nvim: Table: next                  | Right
-Neovim:: flash.nvim: Table: prev                  | Left
+Neovim:: flash.nvim: (Table) prev/next            | Lt/Rt
 
 ## Multiple-cursor
-Neovim:: multiple-cursors.nvim: MultipleCursorsAddDown {i} {n} {x}    | S-Down
+Neovim:: multiple-cursors.nvim: MultipleCursorsAddDown {i} {n} {x}    | S-Dn
 Neovim:: multiple-cursors.nvim: MultipleCursorsAddUp {i} {n} {x}      | S-Up
-Neovim:: multiple-cursors.nvim: MultipleCursorsMouseAddDelete {i} {n} | C-LeftMouse
+Neovim:: multiple-cursors.nvim: MultipleCursorsMouseAddDelete {i} {n} | C-MBtn_L
 Neovim:: multiple-cursors.nvim: MultipleCursorsAddMatches {n} {x}     | <leader>a
 
 ## Replace
@@ -283,18 +299,12 @@ Neovim:: tssorter: TSSort list {n} {v} | <leader>ts
 
 ## Yank
 ## https://github.com/nemanjamalesija/smart-paste.nvim#mappings
-Neovim:: smart-paste.nvim: Smart paste after cursor line {n}                                                   | p
-Neovim:: smart-paste.nvim: Smart paste before cursor line {n}                                                  | P
-Neovim:: smart-paste.nvim: Smart paste after cursor line and follow to end {n}                                 | gp
-Neovim:: smart-paste.nvim: Smart paste before cursor line and follow to end {n}                                | gP
-Neovim:: smart-paste.nvim: Paste charwise content as smart-indented new line below (linewise: same as `p`) {n} | ]p
-Neovim:: smart-paste.nvim: Paste charwise content as smart-indented new line above (linewise: same as `P`) {n} | [p
-Neovim:: smart-paste.nvim: Replace selection with smart-indented linewise content {v}                          | p
-Neovim:: smart-paste.nvim: Replace selection with smart-indented linewise content {v}                          | P
-Neovim:: smart-paste.nvim: Raw `p` (bypass smart paste) {n}                                                    | <leader>p
-Neovim:: smart-paste.nvim: Raw `P` (bypass smart paste) {n}                                                    | <leader>P
+Neovim:: smart-paste.nvim: Smart paste before/after cursor line {n}                                                  | P/p
+Neovim:: smart-paste.nvim: Smart paste before/after cursor line and follow to end {n}                                | gP/p
+Neovim:: smart-paste.nvim: Paste charwise content as smart-indented new line above/below (linewise: same as `P`) {n} | [/]p
+Neovim:: smart-paste.nvim: Replace selection with smart-indented linewise content {v}                                | p/P
+Neovim:: smart-paste.nvim: Raw `p/P` (bypass smart paste) {n}                                                        | <leader>p/P
 
-## ~/Share/dotfiles/.config/nvim/lua/config/keys/neoclip.lua
 Neovim:: nvim-neoclip.lua: Telescope neoclip  | <leader>clp
 Neovim:: nvim-neoclip.lua: select {i}         | CR
 Neovim:: nvim-neoclip.lua: paste {i}          | C-p
@@ -336,23 +346,14 @@ Neovim:: mini.comment: comment_visual | gc
 Neovim:: mini.comment: textobject     | gc
 
 ## https://github.com/nvim-mini/mini.diff#mappings
-Neovim:: mini.diff: apply      | gh
-Neovim:: mini.diff: reset      | gH
-Neovim:: mini.diff: textobject | gh
-Neovim:: mini.diff: goto_first | [H
-Neovim:: mini.diff: goto_prev  | [h
-Neovim:: mini.diff: goto_next  | ]h
-Neovim:: mini.diff: goto_last  | ]H
+Neovim:: mini.diff: apply           | gh
+Neovim:: mini.diff: reset           | gH
+Neovim:: mini.diff: textobject      | gh
+Neovim:: mini.diff: Goto first/last | [/]H
+Neovim:: mini.diff: Goto prev/next  | [/]h
 
-## ~/Share/dotfiles/.config/nvim/lua/config/keys/mini_move.lua
-Neovim:: mini.move: left {v}       | A-S-h
-Neovim:: mini.move: right {v}      | A-S-l
-Neovim:: mini.move: down {v}       | A-S-j
-Neovim:: mini.move: up {v}         | A-S-k
-Neovim:: mini.move: line_left {n}  | A-S-h
-Neovim:: mini.move: line_right {n} | A-S-l
-Neovim:: mini.move: line_down {n}  | A-S-j
-Neovim:: mini.move: line_up {n}    | A-S-k
+Neovim:: mini.move: Left/down/up/right {v} | A-S-h/j/k/l
+Neovim:: mini.move: Left/down/up/right {n} | A-S-h/j/k/l
 
 ## https://github.com/nvim-mini/mini.surround#features
 Neovim:: mini.surround: add            | sa
@@ -370,40 +371,35 @@ Neovim:: mini.splitjoin: toggle | gS
 
 ## telescope.nvim
 ## https://github.com/nvim-telescope/telescope.nvim#default-mappings
-Neovim:: telescope.nvim: Telescope keymaps {n}                                | <leader>kk
-Neovim:: telescope.nvim: Telescope find_files {n}                             | <leader>ff
-Neovim:: telescope.nvim: Telescope live_grep {n}                              | <leader>fg
+Neovim:: telescope: Previous/next item                                        | C-p/n / Up/Dn
+Neovim:: telescope: Previous/next {n}                                         | k/j
+Neovim:: telescope: Select high/diddle/low {n}                                | H/M/L
+Neovim:: telescope: Select the first/last item {n}                            | gg/G
+Neovim:: telescope: Confirm selection                                         | CR
+Neovim:: telescope: Go to file selection as a split/vsplit                    | C-x/v
+Neovim:: telescope: Go to a file in a new tab                                 | C-t
+Neovim:: telescope: Scroll up/down in preview window                          | C-u/d
+Neovim:: telescope: Scroll left/right in preview window                       | C-f/k
+Neovim:: telescope: Scroll left/right in results window                       | M-f/k
+Neovim:: telescope: Show mappings for picker actions {n}/{i}                  | ? / C-/
+Neovim:: telescope: Close telescope {n}/{i}                                   | Esc / C-c
+Neovim:: telescope: Toggle selection and move to prev/next selection          | S-Tab / Tab
+Neovim:: telescope: Send all items not filtered to quickfixlist (qflist)      | C-q
+Neovim:: telescope: Send all selected items to qflist                         | M-q
+Neovim:: telescope: Insert cword in original window into prompt {i}           | C-r C-w
+Neovim:: telescope: Insert cWORD in original window into prompt {i}           | C-r C-a
+Neovim:: telescope: Insert cfile in original window into prompt {i}           | C-r C-f
+Neovim:: telescope: Insert cline in original window into prompt {i}           | C-r C-l
+Neovim:: telescope.nvim: Telescope help_tags {n}                              | <leader>ft
+Neovim:: telescope.nvim: Telescope keymaps {n}                                | <leader>fk
 Neovim:: telescope.nvim: Telescope buffers {n}                                | <leader>fb
-Neovim:: telescope.nvim: Telescope help_tags {n}                              | <leader>fg
-Neovim:: telescope.nvim: Next item                                            | C-n Down
-Neovim:: telescope.nvim: Previous item                                        | C-p Up
-Neovim:: telescope.nvim: Next/previous {n}                                    | j/k
-Neovim:: telescope.nvim: Select High/Middle/Low {n}                           | H/M/L
-Neovim:: telescope.nvim: Select the first/last item {n}                       | gg/G
-Neovim:: telescope.nvim: Confirm selection                                    | CR
-Neovim:: telescope.nvim: Go to file selection as a split                      | C-x
-Neovim:: telescope.nvim: Go to file selection as a vsplit                     | C-v
-Neovim:: telescope.nvim: Go to a file in a new tab                            | C-t
-Neovim:: telescope.nvim: Scroll up in preview window                          | C-u
-Neovim:: telescope.nvim: Scroll down in preview window                        | C-d
-Neovim:: telescope.nvim: Scroll left in preview window                        | C-f
-Neovim:: telescope.nvim: Scroll right in preview window                       | C-k
-Neovim:: telescope.nvim: Scroll left in results window                        | M-f
-Neovim:: telescope.nvim: Scroll right in results window                       | M-k
-Neovim:: telescope.nvim: Show mappings for picker actions {i}                 | C-/
-Neovim:: telescope.nvim: Show mappings for picker actions {n}                 | ?
-Neovim:: telescope.nvim: Close telescope {i}                                  | C-c
-Neovim:: telescope.nvim: Close telescope {n}                                  | Esc
-Neovim:: telescope.nvim: Toggle selection and move to next selection          | Tab
-Neovim:: telescope.nvim: Toggle selection and move to prev selection          | S-Tab
-Neovim:: telescope.nvim: Send all items not filtered to quickfixlist (qflist) | C-q
-Neovim:: telescope.nvim: Send all selected items to qflist                    | M-q
-Neovim:: telescope.nvim: Insert cword in original window into prompt {i}      | C-r C-w
-Neovim:: telescope.nvim: Insert cWORD in original window into prompt {i}      | C-r C-a
-Neovim:: telescope.nvim: Insert cfile in original window into prompt {i}      | C-r C-f
-Neovim:: telescope.nvim: Insert cline in original window into prompt {i}      | C-r C-l
+# Neovim:: telescope.nvim: Telescope find_files {n}                             | <leader>ff
+# Neovim:: telescope.nvim: Telescope live_grep {n}                              | <leader>fg
 
-Neovim:: adjacent.nvim: Telescope adjacent {n} | <leader>fa
+Neovim: seeker.nvim: Seek Files     | <leader>ff
+Neovim: seeker.nvim: Seek Git Files | <leader>sg
+Neovim: seeker.nvim: Seek Grep      | <leader>fg
+Neovim: seeker.nvim: Seek Grep Word | <leader>sw
 
 Neovim:: telescope-cmdline.nvim: Telescope cmdline {n} | Q
 Neovim:: telescope-cmdline.nvim: Complete              | Tab
@@ -412,8 +408,6 @@ Neovim:: telescope-cmdline.nvim: Run input             | CR
 
 Neovim:: dir-telescope.nvim: Telescope dir live_grep {n}  | <leader>dfg
 Neovim:: dir-telescope.nvim: Telescope dir find_files {n} | <leader>dff
-
-Neovim:: dir-telescope.nvim: Telescope dir find_files {n} | <leader>
 
 Neovim:: telescope-lazy.nvim: Telescope lazy {n}        | <leader>lzy
 Neovim:: telescope-lazy.nvim: Open in browser           | C-o
@@ -427,65 +421,43 @@ Neovim:: telescope-lazy.nvim: Open lazy root live grep  | C-r g
 Neovim:: telescope-lazy.nvim: Change cwd to plugin      | C-c d
 
 Neovim:: telescope-lazy-plugins.nvim: Telescope lazy_plugins {n} | <leader>lzp
-Neovim:: telescope-lazy-plugins.nvim: open_repo_dir {i}          | C-g d
-Neovim:: telescope-lazy-plugins.nvim: open_repo_find_files {i}   | C-g f
-Neovim:: telescope-lazy-plugins.nvim: open_repo_live_grep {i}    | C-g l
-Neovim:: telescope-lazy-plugins.nvim: open_plugin_opts {i}       | C-g c
-Neovim:: telescope-lazy-plugins.nvim: open_plugin_readme {i}     | C-g r
-Neovim:: telescope-lazy-plugins.nvim: open_repo_url {i}          | C-g x
-Neovim:: telescope-lazy-plugins.nvim: rescan_plugins {i}         | C-g R
-Neovim:: telescope-lazy-plugins.nvim: open_repo_dir {n}          | gd
-Neovim:: telescope-lazy-plugins.nvim: open_repo_find_files {n}   | gf
-Neovim:: telescope-lazy-plugins.nvim: open_repo_live_grep {n}    | gl
-Neovim:: telescope-lazy-plugins.nvim: open_plugin_opts {n}       | gc
-Neovim:: telescope-lazy-plugins.nvim: open_plugin_readme {n}     | gr
-Neovim:: telescope-lazy-plugins.nvim: open_repo_url {n}          | gx
-Neovim:: telescope-lazy-plugins.nvim: rescan_plugins {n}         | gR
+Neovim:: telescope-lazy-plugins.nvim: open_repo_dir {n}/{i}        | gd / C-g d
+Neovim:: telescope-lazy-plugins.nvim: open_repo_find_files {n}/{i} | gf / C-g f
+Neovim:: telescope-lazy-plugins.nvim: open_repo_live_grep {n}/{i}  | gl / C-g l
+Neovim:: telescope-lazy-plugins.nvim: open_plugin_opts {n}/{i}     | gc / C-g c
+Neovim:: telescope-lazy-plugins.nvim: open_plugin_readme {n}/{i}   | gr / C-g r
+Neovim:: telescope-lazy-plugins.nvim: open_repo_url {n}/{i}        | gx / C-g x
+Neovim:: telescope-lazy-plugins.nvim: rescan_plugins {n}/{i}       | gR / C-g R
 
 Neovim:: telescope-recent-files:Telescope recent_files {n} | R
 
-Neovim:: telescope-undo.nvim: Telescope undo     | <leader>und
-Neovim:: telescope-undo.nvim: yank_additions {i} | CR
-Neovim:: telescope-undo.nvim: yank_deletions {i} | S-CR
-Neovim:: telescope-undo.nvim: restore {i}        | C-CR
-Neovim:: telescope-undo.nvim: yank_deletions {i} | C-y
-Neovim:: telescope-undo.nvim: restore {i}        | C-r
-Neovim:: telescope-undo.nvim: yank_additions {n} | y
-Neovim:: telescope-undo.nvim: yank_deletions {n} | Y
-Neovim:: telescope-undo.nvim: restore {n}        | u
+Neovim:: telescope-undo.nvim: Telescope undo     | <leader>U
+Neovim:: telescope-undo.nvim: yank_additions {i} | y / CR
+Neovim:: telescope-undo.nvim: yank_deletions {i} | Y / C-y / S-CR
+Neovim:: telescope-undo.nvim: restore {i}        | u / C-r / C-CR
 
 Neovim:: telescope-zoxide: Telescope zoxide list {n}    | <leader>zi
 Neovim:: telescope-zoxide: vim.cmd.edit(selection.path) | C-s
 Neovim:: telescope-zoxide: z_utils.create_basic_command | C-q
 
-
 ## Console
-## ~/Share/dotfiles/.config/nvim/lua/config/keys/toggleterm.lua
 Neovim:: toggleterm.nvim: terminal                                    | C-\
 Neovim:: toggleterm.nvim: send_lines_to_terminal single_line {v}      | Spc ts
 Neovim:: toggleterm.nvim: send_lines_to_terminal visual_lines {v}     | Spc ts
 Neovim:: toggleterm.nvim: send_lines_to_terminal visual_selection {v} | Spc ts
 Neovim:: toggleterm.nvim: terminal lazygit                            | <leader>lg
-Neovim:: toggleterm.nvim: Toggle All                                   | <leader>t0
-Neovim:: toggleterm.nvim: Horizontal 1                                 | <leader>t1
-Neovim:: toggleterm.nvim: Horizontal 2                                 | <leader>t2
-Neovim:: toggleterm.nvim: Horizontal 3                                 | <leader>t3
-Neovim:: toggleterm.nvim: Horizontal 4                                 | <leader>t4
+Neovim:: toggleterm.nvim: Toggle All                                  | <leader>t0
+Neovim:: toggleterm.nvim: Horizontal $                                | <leader>t$
 
 ## DAP
 Neovim:: nvim-dap-ui: DAP: Toggle UI              | <leader>du
-Neovim:: nvim-dap-ui: Start/Continue              | <leader>ds
-Neovim:: nvim-dap-ui: Start/Continue              | F1
-Neovim:: nvim-dap-ui: Step into                   | <leader>di
-Neovim:: nvim-dap-ui: Step into                   | F2
-Neovim:: nvim-dap-ui: Step over                   | <leader>do
-Neovim:: nvim-dap-ui: Step over                   | F3
-Neovim:: nvim-dap-ui: Step out                    | <leader>dO
-Neovim:: nvim-dap-ui: Step out                    | F4
+Neovim:: nvim-dap-ui: Start/Continue              | <leader>ds / F1
+Neovim:: nvim-dap-ui: Step into                   | <leader>di / F2
+Neovim:: nvim-dap-ui: Step over                   | <leader>do / F3
+Neovim:: nvim-dap-ui: Step out                    | <leader>dO / F4
 Neovim:: nvim-dap-ui: DAP: Close session          | <leader>dq
 Neovim:: nvim-dap-ui: Terminate session           | <leader>dQ
-Neovim:: nvim-dap-ui: DAP: Restart                | <leader>dr
-Neovim:: nvim-dap-ui: DAP: Restart                | F5
+Neovim:: nvim-dap-ui: DAP: Restart                | <leader>dr / F5
 Neovim:: nvim-dap-ui: DAP: Run to Cursor          | <leader>dc
 Neovim:: nvim-dap-ui: DAP: Toggle REPL            | <leader>dR
 Neovim:: nvim-dap-ui: DAP: Hover                  | <leader>dh
@@ -507,19 +479,15 @@ Neovim:: love2d.nvim: LoveStop | <leader>vs
 
 
 ## Others
-~/Share/dotfiles/.config/nvim/lua/config/keys/hodur.lua
 Neovim:: hodur.nvim: Open file or copy url | C-S-u
 
 ## ~/Share/dotfiles/.config/nvim/lua/config/keys/opencode.lua
-Neovim:: opencode: Ask opencode                  | <leader>oa
-Neovim:: opencode: Execute opencode action       | <leader>os
-Neovim:: opencode: Add range to opencode         | go
-Neovim:: opencode: Add line to opencode          | goo
-Neovim:: opencode: Half page up                  | <S-C-u>
-Neovim:: opencode: Half page down                | <S-C-d>
+Neovim:: opencode: Ask opencode            | <leader>oa
+Neovim:: opencode: Execute opencode action | <leader>os
+Neovim:: opencode: Add range to opencode   | go
+Neovim:: opencode: Add line to opencode    | goo
+Neovim:: opencode: Half page up            | <S-C-u>
+Neovim:: opencode: Half page down          | <S-C-d>
 
-Neovim:: vim-tmux-navigator: Tmux Navigate Left     | C-h
-Neovim:: vim-tmux-navigator: Tmux Navigate Down     | C-j
-Neovim:: vim-tmux-navigator: Tmux Navigate Up       | C-k
-Neovim:: vim-tmux-navigator: Tmux Navigate Right    | C-l
-Neovim:: vim-tmux-navigator: Tmux Navigate Previous | C-\\
+Neovim:: vim-tmux-navigator: TmuxNavigateLeft/Down/Up/Right | C-h/j/k/l
+Neovim:: vim-tmux-navigator: TmuxNavigatePrevious           | C-\\

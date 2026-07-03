@@ -250,6 +250,7 @@ Yazi: Ex. # ya pkg add gosxrgxx/flexoki-light
 Yazi: Ex. # ya pkg add MasouShizuka/close-and-restore-tab
 Yazi: Ex. # ya pkg add terrakok/split-tabs
 Yazi: Ex. # ya pkg add yazi-rs/plugins:toggle-pane
+Yazi: Ex. # ya pkg add leduckhc/responsive-layout
 Yazi: Ex. # ya pkg add XYenon/clipboard
 Yazi: Ex. # ya pkg add qwjyh/relative-path
 Yazi: Ex. # ya pkg add AnirudhG07/plugins-yazi:copy-file-contents
@@ -380,6 +381,7 @@ zizmor: Inst. # scoop install zizmor
 (Git) easy-conflict(ec): Inst. # scoop install pile/easy-conflict
 (Git) forgit: Inst. # scoop install shovel/forgit
 (Git) gfold: Inst. # scoop install gfold
+(Git) ghgrab: Inst. # scoop install ghgrab
 (Git) Git Extras: Inst. # scoop install shovel/git-extras
 (Git) git-crypt: Inst. # sudo pacman -S git-crypt
 (Git) git-crypt: Inst. # scoop install git-crypt
@@ -460,6 +462,7 @@ zizmor: Inst. # scoop install zizmor
 (LLM) OpenCode: Conf. # npm config set registry https://mirrors.cloud.tencent.com/npm/
 (LLM) OpenCode: Ex. # bun add -g @cortexkit/magic-context@latest
 (LLM) OpenCode: Ex. # magic-context setup
+(LLM) OpenCode: Ex. # bun add -g oc-sync@latest
 (LLM) OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
 (LLM) OpenSpec: # openspec init
 (LLM) Pi: Inst. # scoop install pi-coding-agent
@@ -469,13 +472,14 @@ zizmor: Inst. # scoop install zizmor
 (LLM) Skills: Inst. # bun add -g skills@latest
 (LLM) Skills: Ex. # skills add https://github.com/vercel-labs/skills --skill find-skills
 (LLM) Skills: Ex. # skills add https://github.com/anthropics/skills --skill skill-creator
-(LLM) Skills: Ex. # skills add https://github.com/juliusbrussee/caveman --skill caveman
+(LLM) Skills: Ex. # skills add https://github.com/forrestchang/andrej-karpathy-skills --skill karpathy-guidelines
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-me
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-with-docs
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill prototype
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-prd
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-issues
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill improve-codebase-architecture
+(LLM) Skills: Ex. # skills add https://github.com/juliusbrussee/caveman --skill caveman
 (LLM) Skills: Ex. # skills add https://github.com/google-gemini/gemini-cli --skill code-reviewer
 (LLM) Skills: Ex. # skills add https://github.com/wshobson/agents --skill shellcheck-configuration
 (LLM) Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator

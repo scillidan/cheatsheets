@@ -70,6 +70,7 @@ Unison: Inst. # scoop install unison
 Unison: Conf. # subl %USERPROFILE%\.unison\<profile>.prf
 zim-tools: Inst. # scoop install pile/zim-tools
 
+(3D) F3D: Inst. # scoop install f3d
 (Audio) Audio Waveform Image Generator: Inst. # yay -S --noconfirm audiowaveform
 (Audio) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
 (Audio) AudioBookConverter: Inst. # scoop install audiobookconverter

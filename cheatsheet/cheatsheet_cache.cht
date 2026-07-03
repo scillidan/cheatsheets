@@ -52,6 +52,7 @@ RClone Manager: Inst. # yay -S --noconfirm rclone-manager
 RClone Manager: Inst. # scoop install rclone-manager
 Retype: bun add -g retypeapp@latest
 redthread: Inst. # go install github.com/B33pBeeps/redthread/cmd/redthread@latest
+regexplain: bin install github.com/kapilpokhrel/regexplain regexplain.exe
 Rime: Inst. # scoop install weasel
 Sentences: Inst. # go install github.com/neurosnap/sentences/cmd/sentences@latest
 silicon: Inst. # sudo pacman -S silicon
@@ -92,6 +93,7 @@ VSCodium: Inst. # scoop install vscodium
 (LLM) AnythingLLM: Inst. # scoop install anythingllm
 (LLM) Code2prompt: Inst. # yay -S --noconfirm code2prompt
 (LLM) Code2prompt: Inst. # cargo install -f code2prompt
+(LLM) Gas Town: Inst. # bin install github.com/gastownhall/gastown gastown.exe
 (LLM) LeanCTX: Inst. # scoop install lean-ctx
 (LLM) LeanCTX: # lean-ctx init --agent opencode
 (LLM) LeanCTX: # lean-ctx init --agent pi
@@ -112,6 +114,7 @@ VSCodium: Inst. # scoop install vscodium
 (LLM) OpenCode: Ex. Env. # TRANSLATOR_API_KEY=Ollama
 (LLM) OpenCode: Ex. Env. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
 (LLM) OpenCode: Ex. Env. # TRANSLATOR_MODEL=gemma3:12b-it-qat
+(LLM) QMD: Inst. # bun add -g @tobilu/qmd@latest
 (LLM) ShellGPT: Inst. # ollama pull mistral:7b-instruct
 (LLM) ShellGPT: Inst. # uv tool install -U "shell-gpt[litellm]"
 (LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill writing-plans

@@ -1,0 +1,24 @@
+## https://github.com/thomasschafer/scooter/tree/main#keys-section
+scooter: (General) Quit | C-c
+scooter: (General) Reset = C-r
+scooter: (General) Show the help menu containing keymaps | C-h
+scooter: (Search) Toggle wrapping of lines that don't fit within the width of the preview | C-l
+scooter: (Search) Toggle inclusion of hidden files and directories, such as those whose name starts with a dot (.) | C-t
+scooter: (Search) Toggle multiline search mode, which allows patterns to match across line boundaries | A-m
+scooter: (Search) Toggle interpretation of escape sequences in replacement text | A-e
+scooter: (Search - field) Allow editing of fields that were populated using CLI args, such as `--search_text foo` | A-u
+scooter: (Search - field) Trigger a search | Etr
+scooter: (Search - field) Focus on the previous/next field | S-Tab / Tab
+scooter: (Search - result) Trigger a replacement | Etr
+scooter: (Search - result) Move focus back to the search fields | Esc / C-o
+scooter: (Search - result) Open the currently selected search result in your editor | e
+scooter: (Search - result) Navigate to the search result above/below | k/j / C-p/n / Up/Dn
+scooter: (Search - result) Navigate to the search result half a page above/below | C-u/d
+scooter: (Search - result) Navigate to the search result a page above/below | C-b/f / PgUp/PgDn
+scooter: (Search - result) Navigate to the first/last search result | g/G
+scooter: (Search - result) Toggle whether the currently highlighted result will be replaced or ignored | Spc
+scooter: (Search - result) Toggle whether all results will be replaced or ignored | a
+scooter: (Search - result) Toggle whether multiselect mode is enabled | v
+scooter: (Search - result) Flip the direction of the multiselect selection | A-;
+scooter: (Results) Navigate to the error above/below | k/j / C-p/n / Up/Dn
+scooter: (Results) Exit | q / Etr

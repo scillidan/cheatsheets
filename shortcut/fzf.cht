@@ -1,0 +1,26 @@
+## https://man.archlinux.org/man/fzf.1.en#AVAILABLE_ACTIONS:
+fzf: abort              | C-c / C-g / C-q / Esc
+fzf: accept             | Etr / L_clink2
+fzf: backward-char      | C-b / Lt
+fzf: backward-delete-char C-h / C-Bksp / Bksp
+fzf: backward-kill-word | A-bs
+fzf: backward-word      | A-b S-Lt
+fzf: beginning-of-line  | C-a / Home
+fzf: clear-screen       | C-l
+fzf: delete-char        | Del
+fzf: delete-char/eof    | C-d
+fzf: down               | C-j / Dn
+fzf: down-match         | C-n / A-Dn
+fzf: end-of-line        | C-e / End
+fzf: forward-char       | C-f / Rt
+fzf: forward-word       | A-f / S-Rt
+fzf: kill-word          | A-d
+fzf: page-up/down       | PgUp/PgDn
+fzf: preview-up/down    | S-Up/Dn
+fzf: toggle-wrap-word   | C-/ / A-/
+fzf: toggle+up/down     | S-tab / Tab
+fzf: unix-line-discard  | C-u
+fzf: unix-word-rubout   | C-w
+fzf: up                 | C-k / Up
+fzf: up-match           | C-p / A-up
+fzf: yank               | C-y
