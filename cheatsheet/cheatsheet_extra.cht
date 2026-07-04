@@ -166,6 +166,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Video) Movie Thumbnailer (mtn): Inst. # scoop install mtn
 (Video) mt: Inst. # go install github.com/mutschler/mt@latest
 (Video) ntsc-rs: Inst. # scoop install ntsc-rs
+(Video) Parabolic: Inst. # scoop install parabolic
 (Video) vcsi: Inst. # yay -S --noconfirm vcsi
 (Video) vcsi: Inst. # uv tool install -U vcsi
 (Video) video-compare: Inst. # yay -S --noconfirm video-compare

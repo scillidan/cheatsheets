@@ -6,7 +6,7 @@
 ~/.config/numa                | %ProgramData%\numa
 ~/.config/nvim                | %LOCALAPPDATA%\nvim
 ~/.config/pet                 | %LOCALAPP%\pet
-~/.config/qutebrowser         | %LOCALAPPDATA%\broot\qutebrowser\config
+~/.config/qutebrowser         | %LOCALAPP%\qutebrowser\config
 ~/.config/scooter             | %AppData%\scooter
 ~/.config/sioyek              | %SCOOP%\espanso\current
 ~/.config/sublime-text        | %SCOOP%\apps\sublime-text\current\Data

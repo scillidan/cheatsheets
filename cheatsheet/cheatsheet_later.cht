@@ -46,7 +46,6 @@ Zellij: Inst. # scoop install zellij
 (Wait) Carapace-bin: Inst. # scoop install carapace-bin
 (Wait) diskus: Inst. # scoop install diskus
 (Wait) Keyviz: Inst. # scoop install keyviz
-(Wait) Parabolic: Inst. # scoop install parabolic
 (Wait) Pinkbin: Inst. # scoop install pinkbin
 (Wait) sem: Inst. # scoop install sem
 (Wait) Subloader: Inst. # scoop install https://raw.githubusercontent.com/Valyreon/Subloader/master/subloader.json

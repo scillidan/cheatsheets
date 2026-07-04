@@ -20,6 +20,7 @@ Doxygen: Inst. # scoop install doxygen
 duf: Inst. # scoop install duf
 Dufs: Inst. # yay -S --noconfirm dufs-bin
 Dufs: Inst. # scoop install dufs
+Easy Context Menu: Inst. # scoop install easy-context-menu
 erdtree: Inst. # sudo pacman -S erdtree
 erdtree: Inst. # scoop install erdtree
 erdtree: # erd --color auto --hidden --follow --human --sort name --dir-order first --layout inverted
