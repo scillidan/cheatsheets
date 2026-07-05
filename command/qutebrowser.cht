@@ -1,0 +1,113 @@
+## https://qutebrowser.org/doc/help/commands.html
+qutebrowser: Update block lists for both the host- and the Brave ad blocker     | adblock-update
+qutebrowser: Go back in the history of the current tab                          | back
+qutebrowser: Bind a key to a command                                            | bind
+qutebrowser: Save the current page as a bookmark, or a specific url             | bookmark-add
+qutebrowser: Delete a bookmark                                                  | bookmark-del
+qutebrowser: Show all bookmarks/quickmarks                                      | bookmark-list
+qutebrowser: Load a bookmark                                                    | bookmark-load
+qutebrowser: Reload bookmarks from disk                                         | bookmarks-reload
+qutebrowser: Clear the currently entered key chain                              | clear-keychain
+qutebrowser: Clear all message notifications                                    | clear-messages
+qutebrowser: Click the element matching the given filter                        | click-element
+qutebrowser: Close the current window                                           | close
+qutebrowser: Open an editor to modify the current command                       | cmd-edit
+qutebrowser: Execute a command after some time                                  | cmd-later
+qutebrowser: Repeat a given command                                             | cmd-repeat
+qutebrowser: Repeat the last executed command                                   | cmd-repeat-last
+qutebrowser: Run a command with the given count                                 | cmd-run-with-count
+qutebrowser: Preset the statusbar to some text                                  | cmd-set-text
+qutebrowser: Set all settings back to their default                             | config-clear
+qutebrowser: Cycle an option between multiple values                            | config-cycle
+qutebrowser: Add a key/value pair to a dictionary option                        | config-dict-add
+qutebrowser: Remove a key from a dict                                           | config-dict-remove
+qutebrowser: Show all customized options                                        | config-diff
+qutebrowser: Open the config.py file in the editor                              | config-edit
+qutebrowser: Append a value to a config option that is a list                   | config-list-add
+qutebrowser: Remove a value from a list                                         | config-list-remove
+qutebrowser: Read a config.py file                                              | config-source
+qutebrowser: Unset an option                                                    | config-unset
+qutebrowser: Write the current configuration to a config.py file                | config-write-py
+qutebrowser: Toggle the developer tools (web inspector)                         | devtools
+qutebrowser: Toggle focus between the devtools/tab                              | devtools-focus
+qutebrowser: Download a given URL, or current page if no URL given              | download
+qutebrowser: Cancel the last/[count]th download                                 | download-cancel
+qutebrowser: Remove all finished downloads from the list                        | download-clear
+qutebrowser: Delete the last/[count]th download from disk                       | download-delete
+qutebrowser: Open the last/[count]th download                                   | download-open
+qutebrowser: Remove the last/[count]th download from the list                   | download-remove
+qutebrowser: Retry the first failed/[count]th download                          | download-retry
+qutebrowser: Open an external editor with the currently selected form field     | edit-text
+qutebrowser: Navigate to a url formed in an external editor                     | edit-url
+qutebrowser: Send a fake keypress or key string to the website or qutebrowser   | fake-key
+qutebrowser: Go forward in the history of the current tab                       | forward
+qutebrowser: Toggle fullscreen mode                                             | fullscreen
+qutebrowser: Re-read Greasemonkey scripts from disk                             | greasemonkey-reload
+qutebrowser: Show help about a command or setting                               | help
+qutebrowser: Start hinting                                                      | hint
+qutebrowser: Show browsing history                                              | history
+qutebrowser: Clear all browsing history                                         | history-clear
+qutebrowser: Open main startpage in current tab                                 | home
+qutebrowser: Insert text at cursor position                                     | insert-text
+qutebrowser: Evaluate a JavaScript string                                       | jseval
+qutebrowser: Jump to the mark named by key                                      | jump-mark
+qutebrowser: Start or stop recording a macro                                    | macro-record
+qutebrowser: Run a recorded macro                                               | macro-run
+qutebrowser: Show an error message in the statusbar                             | message-error
+qutebrowser: Show an info message in the statusbar                              | message-info
+qutebrowser: Show a warning message in the statusbar                            | message-warning
+qutebrowser: Show a log of past messages                                        | messages
+qutebrowser: Enter a key mode                                                   | mode-enter
+qutebrowser: Open typical prev/next links or navigate using the URL path        | navigate
+qutebrowser: Do nothing                                                         | nop
+qutebrowser: Open a URL in the current/[count]th tab                            | open
+qutebrowser: Print the current/[count]th tab                                    | print
+qutebrowser: Manage processes spawned by qutebrowser                            | process
+qutebrowser: Add a new quickmark                                                | quickmark-add
+qutebrowser: Delete a quickmark                                                 | quickmark-del
+qutebrowser: Load a quickmark                                                   | quickmark-load
+qutebrowser: Save the current page as a quickmark                               | quickmark-save
+qutebrowser: Reload quickmarks from disk                                        | quickmarks-reload
+qutebrowser: Quit qutebrowser                                                   | quit
+qutebrowser: Reload the current/[count]th tab                                   | reload
+qutebrowser: Report a bug in qutebrowser                                        | report
+qutebrowser: Restart qutebrowser while keeping existing tabs open               | restart
+qutebrowser: Save configs and state                                             | save
+qutebrowser: Take a screenshot of the currently shown part of the page          | screenshot
+qutebrowser: Scroll the current tab in the given direction                      | scroll
+qutebrowser: Scroll the frame page-wise                                         | scroll-page
+qutebrowser: Scroll the current tab by count * dx/dy pixels                     | scroll-px
+qutebrowser: Scroll to the given anchor in the document                         | scroll-to-anchor
+qutebrowser: Scroll to a specific percentage of the page                        | scroll-to-perc
+qutebrowser: Search for a text on the current page. With no text, clear results | search
+qutebrowser: Continue the search to the ([count]th) next term                   | search-next
+qutebrowser: Continue the search to the ([count]th) previous term               | search-prev
+qutebrowser: Follow the selected text                                           | selection-follow
+qutebrowser: Delete a session                                                   | session-delete
+qutebrowser: Load a session                                                     | session-load
+qutebrowser: Save a session                                                     | session-save
+qutebrowser: Set an option                                                      | set
+qutebrowser: Set a mark at the current scroll position in the current tab       | set-mark
+qutebrowser: Spawn an external command                                          | spawn
+qutebrowser: Stop loading in the current/[count]th tab                          | stop
+qutebrowser: Duplicate the current tab                                          | tab-clone
+qutebrowser: Close the current/[count]th tab                                    | tab-close
+qutebrowser: Select the tab given as argument/[count]                           | tab-focus
+qutebrowser: Give the current tab to a new or existing window if win_id given   | tab-give
+qutebrowser: Move the current tab according to the argument and [count]         | tab-move
+qutebrowser: Mute/Unmute the current/[count]th tab                              | tab-mute
+qutebrowser: Switch to the next tab, or switch [count] tabs forward             | tab-next
+qutebrowser: Close all tabs except for the current one                          | tab-only
+qutebrowser: Pin/Unpin the current/[count]th tab                                | tab-pin
+qutebrowser: Switch to the previous tab, or switch [count] tabs back            | tab-prev
+qutebrowser: Select tab by index or url/title best match                        | tab-select
+qutebrowser: Take a tab from another window                                     | tab-take
+qutebrowser: Unbind a keychain                                                  | unbind
+qutebrowser: Re-open the last closed tab(s) or window                           | undo
+qutebrowser: Show version information                                           | version
+qutebrowser: Show the source of the current page in a new tab                   | view-source
+qutebrowser: Close all windows except for the current one                       | window-only
+qutebrowser: Yank (copy) something to the clipboard or primary selection        | yank
+qutebrowser: Set the zoom level for the current tab                             | zoom
+qutebrowser: Increase the zoom level for the current tab                        | zoom-in
+qutebrowser: Decrease the zoom level for the current tab                        | zoom-out
