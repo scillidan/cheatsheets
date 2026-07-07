@@ -150,6 +150,8 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Subtitle) subaligner: Inst. # uv tool install -U subaligner
 (Subtitle) Subliminal: Inst. # uv tool install -U subliminal
 (Subtitle) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
+(Tool-Disk) diskus: Inst. # scoop install diskus
+(Tool-Disk) GSmartControl: Inst. # scoop install gsmartcontrol smartmontools
 (Tool-Keyboard) Uncap: Inst. # scoop install uncap
 (Tool-Network) hostctl: Inst. # sudo pacman -S hostctl
 (Tool-Network) hostctl: Inst. # scoop install hostctl

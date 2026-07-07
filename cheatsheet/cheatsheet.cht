@@ -62,7 +62,6 @@ g: Env. # GOPATH=%USERHOME%\\.gopath
 g: Install go 1. # g ls-remote stable
 g: Install go 2. # g install <version>
 g: Install go 3. # g use <version>
-GSmartControl: Inst. # scoop install gsmartcontrol smartmontools
 Flameshot: Inst. # sudo pacman -S flameshot
 Flameshot: Inst. # scoop install flameshot
 fzf: Inst. # sudo pacman -S fzf

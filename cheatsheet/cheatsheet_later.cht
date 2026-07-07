@@ -37,6 +37,7 @@ Zellij: Inst. # scoop install zellij
 (LLM) CodeGraph: # codegraph init -i
 (LLM) Cognee: Inst. # uv pip install cognee
 (LLM) Skills: Ex. # skills install earthtojake/text-to-cad
+(Tool-Disk) Pinkbin: Inst. # scoop install pinkbin
 (Tool-Hardware) ROM Properties Page: Inst. # scoop install rom-properties-np
 (Tool-Network) Slumber: Inst. # bin install github.com/LucasPickering/slumber slumber.exe
 (Tool-Network) wuzz: Inst. # scoop install wuzz
@@ -44,9 +45,7 @@ Zellij: Inst. # scoop install zellij
 
 (Wait) Carapace-bin: Inst. # yay -S --noconfirm carapace-bin
 (Wait) Carapace-bin: Inst. # scoop install carapace-bin
-(Wait) diskus: Inst. # scoop install diskus
 (Wait) Keyviz: Inst. # scoop install keyviz
-(Wait) Pinkbin: Inst. # scoop install pinkbin
 (Wait) sem: Inst. # scoop install sem
 (Wait) Subloader: Inst. # scoop install https://raw.githubusercontent.com/Valyreon/Subloader/master/subloader.json
 (Wait) Subloader: Inst. # gsudo pwsh %SCOOP%\apps\subloader\create_registry.ps1
