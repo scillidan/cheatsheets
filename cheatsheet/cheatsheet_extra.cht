@@ -153,6 +153,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Tool-Disk) diskus: Inst. # scoop install diskus
 (Tool-Disk) GSmartControl: Inst. # scoop install gsmartcontrol smartmontools
 (Tool-Keyboard) Uncap: Inst. # scoop install uncap
+(Tool-Network) dnsglobe: Inst. # scoop install dnsglobe
 (Tool-Network) hostctl: Inst. # sudo pacman -S hostctl
 (Tool-Network) hostctl: Inst. # scoop install hostctl
 (Tool-Network) quien: Inst. # scoop install quien
