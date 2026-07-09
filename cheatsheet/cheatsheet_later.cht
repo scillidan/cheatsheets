@@ -18,6 +18,7 @@ qsv: Inst. # yay -S --noconfirm qsv-bin
 qsv: Inst. # scoop install qsv
 sig: Inst. # pacman -S sig
 sig: Inst. # scoop install sig
+SilverBullet: Inst. # scoop install silverbullet
 sq: Inst. # scoop install sq
 sqlit: Inst. # uv tool install -U sqlit-tui
 Zellij: Inst. # sudo pacman -S zellij
@@ -37,6 +38,7 @@ Zellij: Inst. # scoop install zellij
 (LLM) CodeGraph: # codegraph init -i
 (LLM) Cognee: Inst. # uv pip install cognee
 (LLM) Skills: Ex. # skills install earthtojake/text-to-cad
+(LLM) OfficeCLI: Inst. # scoop install officecli
 (Tool-Disk) Pinkbin: Inst. # scoop install pinkbin
 (Tool-Hardware) ROM Properties Page: Inst. # scoop install rom-properties-np
 (Tool-Network) Slumber: Inst. # bin install github.com/LucasPickering/slumber slumber.exe
