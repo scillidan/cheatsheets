@@ -1,0 +1,16 @@
+## https://github.com/agavra/tuicr/blob/main/README.md#keybindings
+tuicr: Down/up                                  | k/j
+tuicr: Half-page down/up                        | C-d/u
+tuicr: Top/bottom                               | g/G
+tuicr: Previous/next file                       | {/}
+tuicr: Previous/next hunk                       | [/]
+tuicr: Search                                   | /
+tuicr: Add line/file comment                    | c/C
+tuicr: Visual mode (range comment)              | v/V
+tuicr: Toggle file reviewed                     | r
+tuicr: Toggle hunk reviewed                     | R
+tuicr: Copy review to clipboard                 | y
+tuicr: Open focused file in $EDITOR             | :edit
+tuicr: Push review to GitHub                    | :submit
+tuicr: Complete or cycle commands (in : prompt) | Tab
+tuicr: Toggle full help                         | ?

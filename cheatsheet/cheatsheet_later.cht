@@ -37,20 +37,18 @@ Zellij: Inst. # scoop install zellij
 (LLM) CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
 (LLM) CodeGraph: # codegraph init -i
 (LLM) Cognee: Inst. # uv pip install cognee
-(LLM) Skills: Ex. # skills install earthtojake/text-to-cad
 (LLM) OfficeCLI: Inst. # scoop install officecli
+(LLM) Skills: Ex. # skills install earthtojake/text-to-cad
+(LLM) tuicr: Inst. # scoop install tuicr
 (Tool-Disk) Pinkbin: Inst. # scoop install pinkbin
 (Tool-Hardware) ROM Properties Page: Inst. # scoop install rom-properties-np
 (Tool-Network) Slumber: Inst. # bin install github.com/LucasPickering/slumber slumber.exe
 (Tool-Network) wuzz: Inst. # scoop install wuzz
 (Tool-Others) Pueue: Inst. # scoop install pueue
 
-(Wait) Carapace-bin: Inst. # yay -S --noconfirm carapace-bin
 (Wait) Carapace-bin: Inst. # scoop install carapace-bin
 (Wait) Keyviz: Inst. # scoop install keyviz
 (Wait) sem: Inst. # scoop install sem
-(Wait) Subloader: Inst. # scoop install https://raw.githubusercontent.com/Valyreon/Subloader/master/subloader.json
-(Wait) Subloader: Inst. # gsudo pwsh %SCOOP%\apps\subloader\create_registry.ps1
 (Wait) Windows Dual Key Remap: Inst. # scoop install dual-key-remap
 
 [Arch] brightnessctl: Inst. # sudo pacman -S brightnessctl

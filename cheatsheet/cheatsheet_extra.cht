@@ -6,12 +6,10 @@ ATAC: Inst. # scoop install atac
 Bibiman: Inst. # cargo install -f bibiman
 chezmoi: Inst. # sudo pacman -S chezmoi
 chezmoi: Inst. # scoop install chezmoi
-coBib: Inst. # yay -S --noconfirm cobib
 coBib: Inst. # uv tool install -U cobib
 COOK: Inst. # go install -v github.com/glitchedgitz/cook/v2/cmd/cook@latest
 DBeaver: Inst. # scoop install dbeaver
 Desed: Inst. # cargo install desed
-dupeGuru: Inst. # yay -S --noconfirm dupeguru
 dupeGuru: Inst. # scoop install dupeguru
 epub2txt: Inst. # uv tool install -U epub2txt
 eva: Inst. # sudo pacman -S eva
@@ -51,17 +49,14 @@ reader: Inst. # sudo pacman -S reader
 reader: Inst. # bin install github.com/mrusme/reader reader.exe
 Saber: Inst. # scoop install saber
 sitefetch: Inst. # bun add -g sitefetch@latest
-Sloc Cloc and Code (scc): Inst. # yay -S --noconfirm scc
 Sloc Cloc and Code (scc): Inst. # scoop install scc
 split-manga-pages: Inst. # uv tool install -U split_manga_pages
 SSHM: Inst. # scoop install sshm
-stl-thumb: Inst. # yay -S --noconfirm stl-thumb
 stl-thumb: Inst. # bin install github.com/unlimitedbacon/stl-thumb stl-thumb.exe
 syncthing: Inst. # sudo pacman -S syncthing
 syncthing: Inst. # scoop install syncthing
 rip2: Inst. # scoop install rip
 Text Grab: Inst. # scoop install text-grab
-Tidy Viewer (tv): Inst. # yay -S --noconfirm tidy-viewer
 Tidy Viewer (tv): Inst. # cargo install -f tidy-viewer
 Trafilatura: Inst. # uv tool install -U trafilatura
 ugrep: Inst. # sudo pacman -S ugrep
@@ -71,7 +66,6 @@ Unison: Conf. # subl %USERPROFILE%\.unison\<profile>.prf
 zim-tools: Inst. # scoop install pile/zim-tools
 
 (3D) F3D: Inst. # scoop install f3d
-(Audio) Audio Waveform Image Generator: Inst. # yay -S --noconfirm audiowaveform
 (Audio) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
 (Audio) AudioBookConverter: Inst. # scoop install audiobookconverter
 (Dev) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
@@ -95,10 +89,10 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Font) ttf2woff2: Inst. # bun add -g ttf2woff2@latest
 (Font) Webify: Inst. # scoop install pile/webify
 (Game) CompactGUI: Inst. # scoop install compactgui
-(Game) Hydra Launcher: Inst. # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/on
+(Game) Hydra Launcher: Inst. # scoop install scoop-games/hydra
 (Game) Igir: Inst. # bin install github.com/emmercm/igir igir.exe
 (Game) Pegasus Frontend: Inst. # yay -S --noconfirm pegasus-frontend-git
-(Game) Pegasus Frontend: Inst. # scoop install https://raw.githubusercontent.com/Calinou/scoop-games/refs/heads/master/bucket/json
+(Game) Pegasus Frontend: Inst. # scoop install scoop-games/pegasus
 (Game) Pegasus Frontend: Inst. # gsudo scoop install k-lite-codec-pack-basic-np
 (Game) RetroArch: Inst. # sudo pacman -S retroarch
 (Game) RetroArch: Inst. # scoop install retroarch
@@ -109,7 +103,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Git) Gitify: Inst. # scoop install gitify
 (Git) goji: Inst. # scoop install pile/goji
 (Image) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify@latest
-(Image) ascii-image-converter: Inst. # yay -S --noconfirm ascii-image-converter
 (Image) ascii-image-converter: Inst. # scoop install ascii-image-converter
 (Image) asciify-them: Inst. # uv tool install -U asciify-them
 (Image) autocrop: Inst. # uv tool install -U autocrop
@@ -127,8 +120,8 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) rclip: Inst. # scoop install rclip
 (Image) Vipsdisp: Inst. # scoop install vipsdisp
 (Image) Wait4X: Inst. # scoop install wait4x
-(Image) XnConvert: Inst. # yay -S --noconfirm nconvert
 (Image) XnConvert: Inst. # scoop install xnconvert
+(LLM) context-mode: Inst. # bun add -g context-mode@latest
 (Music) CUETools: Inst. # sudo pacman -S cuetools
 (Music) CUETools: Inst. # scoop install cuetools
 (Music) CUETools: # Export → `[%directoryname%\]%artist% - %album%\%filename%-new[%unique%].cue`
@@ -139,7 +132,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Music) MusicBrainz Picard: Inst. # scoop install picard
 (Music) musikcube: Inst. # scoop install musikcube
 (Music) ZonyLrcToolsX: Inst. # scoop install pile/zonylrctoolsx
-(Music) ZonyLrcToolsX: Inst. # yay -S --noconfirm zonylrctools-bin
 (PDF) marker: Inst. # uv tool install -w hf_transfer -w streamlit -U marker-pdf
 (PDF) markpdf: Inst. # bin install github.com/ajaxray/markpdf markpdf.exe
 (PDF) page-dewarp: Inst. # uv tool install -U page-dewarp
@@ -149,6 +141,8 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Subtitle) PgsToSrt: Inst. # scoop install pile/pgstosrt
 (Subtitle) subaligner: Inst. # uv tool install -U subaligner
 (Subtitle) Subliminal: Inst. # uv tool install -U subliminal
+(Subtitle) Subloader: Inst. # scoop install https://raw.githubusercontent.com/Valyreon/Subloader/master/subloader.json
+(Subtitle) Subloader: Inst. # gsudo pwsh %SCOOP%\apps\subloader\create_registry.ps1
 (Subtitle) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
 (Tool-Disk) diskus: Inst. # scoop install diskus
 (Tool-Disk) GSmartControl: Inst. # scoop install gsmartcontrol smartmontools
@@ -165,18 +159,13 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Video) MKVToolNix: Inst. # sudo pacman -S mkvtoolnix-cli mkvtoolnix-gui
 (Video) MKVToolNix: Inst. # scoop install mkvtoolnix
 (Video) mnamer: Inst. # uv tool install mnamer
-(Video) Movie Thumbnailer (mtn): Inst. # yay -S --noconfirm mtn
 (Video) Movie Thumbnailer (mtn): Inst. # scoop install mtn
 (Video) mt: Inst. # go install github.com/mutschler/mt@latest
 (Video) ntsc-rs: Inst. # scoop install ntsc-rs
 (Video) Parabolic: Inst. # scoop install parabolic
-(Video) vcsi: Inst. # yay -S --noconfirm vcsi
 (Video) vcsi: Inst. # uv tool install -U vcsi
-(Video) video-compare: Inst. # yay -S --noconfirm video-compare
 (Video) video-compare: Inst. # scoop install video-compare
 (Video) video-to-ascii: Inst. # uv tool install -U video-to-ascii
-(Video) vimg: Inst. # yay -S --noconfirm vimg
-(Video) vimg: Inst. # cargo install -f vimg
 (Video) vimg: Inst. # scoop install pile/vimg
 
 [Windows] AltBacktick: Inst. # scoop install altbacktick

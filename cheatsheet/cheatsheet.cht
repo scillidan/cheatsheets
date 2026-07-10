@@ -39,7 +39,6 @@ echo-cli: Inst. # bun add -g echo-cli@latest
 edge-tts: Inst. # uv tool install -U edge-tts
 edge-tts: # edge-playback --voice en-US-AndrewMultilingualNeural --text
 eget: Inst. # scoop install eget
-eilmeldung: Inst. # yay -S --noconfirm eilmeldung
 eilmeldung: Inst. # scoop install eilmeldung
 envlens: Inst. # scoop install envlens
 envx: Inst. # scoop install pile/envx
@@ -205,7 +204,6 @@ tere: Inst. # sudo pacman install tere
 tere: Inst. # scoop install tere
 Thunderbird: Inst. # sudo pacman -S thunderbird thunderbird-i18n-zh-cn
 Thunderbird: Inst. # scoop install thunderbird
-TightVNC: Inst. # yay -S --noconfirm tightvnc
 TightVNC: Inst. # scoop install tightvnc
 TightVNC: # tvnviewer <your_host>::5901 -password=<vncuser_passwd>
 tlrc: Inst. # scoop install tlrc
@@ -425,7 +423,7 @@ zizmor: Inst. # scoop install zizmor
 (Github) GitHub CLI: # gh extension install yuler/gh-download
 (Github) GitHub CLI: # gh release list --limit 200
 (Github) GitHub CLI: # gh release delete "$tag" --cleanup-tag --yes
-(Github) Github Desktop: Inst. # scoop install github
+(Github) Desktop Plus: Inst. # scoop install desktop-plus
 (Image) Caesium Image Compressor: Inst. # scoop install caesium-image-compressor
 (Image) GIMP: Inst. # sudo pacman -S gimp
 (Image) GIMP: Inst. # scoop install gimp
@@ -447,7 +445,9 @@ zizmor: Inst. # scoop install zizmor
 (LLM) agnix: Inst. # scoop install pile/agnix
 (LLM) agnix: # agnix .
 (LLM) commandOK: Inst. # scoop install commandok
-(LLM) context-mode: Inst. # bun add -g context-mode@latest
+(LLM) cq: Inst. # scoop install cq
+(LLM) cq: Conf. # cq install --target opencode
+(LLM) cq: Conf. # cq install --target pi
 (LLM) cxt: Inst. # scoop install pile/cxt
 (LLM) fff: Inst. # scoop install fff
 (LLM) llama.cpp: Inst. # scoop install llama.cpp-cu124
@@ -530,7 +530,6 @@ zizmor: Inst. # scoop install zizmor
 (Subtitle) FFsubsync: Inst. # uv tool install -U ffsubsync
 (Subtitle) sub-batch: Inst. # scoop install pile/sub-batch
 (Subtitle) subsetzer: Inst. # uv tool install -U subsetzer
-(Subtitle) Subtitle Edit: Inst. # yay -S --noconfirm subtitleedit
 (Subtitle) Subtitle Edit: Inst. # scoop install subtitleedit
 (Subtitle) Subtitle Edit: # Auto-translate → Select `Ollama` or `LM Studio` → Translate
 (Tool-Download) qBittorrent Enhanced Edition: Inst. # scoop install qbittorrent-enhanced
