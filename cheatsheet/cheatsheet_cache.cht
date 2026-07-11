@@ -83,6 +83,7 @@ VSCodium: Inst. # scoop install vscodium
 (Git) Git Extensions: Inst. # yay -S --noconfirm gitextensions
 (Git) Git Extensions: Inst. # scoop install gitextensions
 (Git) Serie: Inst. # cargo install -f --locked serie
+(Github) Github Desktop: Inst. # scoop install github
 (Image) BeeRef: Inst. # scoop install beeref
 (Image) PicView: Inst. # scoop install picview
 (Image) PureRef: Inst. # yay -S --noconfirm pureref
