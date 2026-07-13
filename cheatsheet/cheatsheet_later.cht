@@ -1,3 +1,4 @@
+beancount: Inst. # pipx install beanquery
 Binside: Inst. # scoop install binsider
 choose: Inst. # scoop install choose
 Dasel: Inst. # scoop install dasel
