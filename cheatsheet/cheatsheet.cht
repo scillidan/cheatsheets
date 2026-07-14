@@ -127,6 +127,7 @@ mpv: # mpv --merge-files <file_1> <file_2> ...
 NeoHtop: Inst. # scoop install neohtop
 Neovim: Inst. # sudo pacman -S neovim
 Neovim: Inst. # scoop insatll neovim
+Neovim: Conf. # scoop install tree-sitter
 nomino: Inst. # scoop install nomino
 NPM: Publish 1. # npm login
 NPM: Publish 2. # npm init

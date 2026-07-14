@@ -122,6 +122,22 @@ Neovim:: oil.nvim: change_sort {n}     | gs
 Neovim:: oil.nvim: open_external       | gx
 Neovim:: oil.nvim: toggle_trash {n}    | g\\
 
+## https://github.com/ingur/fzf-oil.nvim#keybindings
+Neovim:: fzf-oil.nvim: (fzf mode) Open file or enter directory | CR
+Neovim:: fzf-oil.nvim: (fzf mode) Go to parent directory       | C-h
+Neovim:: fzf-oil.nvim: (fzf mode) Enter directory              | C-l
+Neovim:: fzf-oil.nvim: (fzf mode) Move down/up                 | C-j/k
+Neovim:: fzf-oil.nvim: (fzf mode) Toggle find mode             | C-f
+Neovim:: fzf-oil.nvim: (fzf mode) Switch to oil                | C-e
+Neovim:: fzf-oil.nvim: (fzf mode) Jump to home directory       | C-g
+Neovim:: fzf-oil.nvim: (oil mode) Go to parent directory       | C-h
+Neovim:: fzf-oil.nvim: (oil mode) Enter directory              | C-l
+Neovim:: fzf-oil.nvim: (oil mode) Move down/up                 | C-j/k
+Neovim:: fzf-oil.nvim: (oil mode) Switch to fzf in find mode   | C-f
+Neovim:: fzf-oil.nvim: (oil mode) Switch back to fzf           | C-e
+Neovim:: fzf-oil.nvim: (oil mode) Quit the browser             | q
+Neovim:: fzf-oil.nvim: (oil mode) Jump to home directory       | C-g
+
 Neovim:: yazi.nvim: Show the help menu                     | F1
 Neovim:: yazi.nvim: Open file in tab                       | C-t
 Neovim:: yazi.nvim: Open file and pick window              | C-o
@@ -274,19 +290,36 @@ Neovim:: glance.nvim: (Window) Close                           | Q
 Neovim:: glance.nvim: (Window) Previous/next location          | S-Tab / Tab
 Neovim:: glance.nvim: (Window) Focus list window               | <leader>l
 
-## Jump
-Neovim:: flash.nvim: Flash {n} {o} {x}            | <leader>s
-Neovim:: flash.nvim: Flash Treesitter {n} {o} {x} | <leader>S
-Neovim:: flash.nvim: Remote Flash {o}             | <leader>r
-Neovim:: flash.nvim: Treesitter Search {o} {x}    | <leader>R
-Neovim:: flash.nvim: Toggle Flash Search {c}      | <C-s>
-Neovim:: flash.nvim: (Table) prev/next            | Lt/Rt
-
-## Multiple-cursor
-Neovim:: multiple-cursors.nvim: MultipleCursorsAddDown {i} {n} {x}    | S-Dn
-Neovim:: multiple-cursors.nvim: MultipleCursorsAddUp {i} {n} {x}      | S-Up
-Neovim:: multiple-cursors.nvim: MultipleCursorsMouseAddDelete {i} {n} | C-MBtn_L
-Neovim:: multiple-cursors.nvim: MultipleCursorsAddMatches {n} {x}     | <leader>a
+## Multiple cursors
+## https://github.com/jake-stewart/multicursor.nvim/blob/main/readme.md#example-config-lazynvim
+Neovim:: multicursor: Add cursor up/down                                      | Up/Dn
+Neovim:: multicursor: Skip cursor up/down                                     | <leader>Up/Dn
+Neovim:: multicursor: Match word/add forward/back                             | <leader>n/N
+Neovim:: multicursor: Skip match forward/back                                 | <leader>s/S
+Neovim:: multicursor: Add cursor via Mouse                                    | C-MBtn_L
+Neovim:: multicursor: Toggle cursor at pos                                    | C-q
+Neovim:: multicursor: Restore cleared cursors                                 | <leader>gv
+Neovim:: multicursor: Prev/next main cursor                                   | Lt/Rt
+Neovim:: multicursor: Delete current cursor                                   | <leader>x
+Neovim:: multicursor: Clear all cursors                                       | Esc
+Neovim:: multicursor: Enable/disable cursors                                  | C-q
+Neovim:: multicursor: (Operators & Ranges) Add cursors by Motion              | ga$
+Neovim:: multicursor: (Operators & Ranges) Match pattern by Motion            | <leader>m$
+Neovim:: multicursor: (Operators & Ranges) Duplicate & disable origins        | <leader>C-q
+Neovim:: multicursor: (Operators & Ranges) Align cursors (columns)            | <leader>a
+Neovim:: multicursor: (Operators & Ranges) Add cursor for ALL matches         | <leader>A
+Neovim:: multicursor: (Visual mode) Insert at start of each line              | I
+Neovim:: multicursor: (Visual mode) Append at end of each line                | A
+Neovim:: multicursor: (Visual mode) Split selection by Regex                  | S
+Neovim:: multicursor: (Visual mode) Match cursors by Regex                    | M
+Neovim:: multicursor: (Visual mode) Transpose (rotate) content                | <leader>t/T
+Neovim:: multicursor: (Sequences & Search) Increment/decrement sequence       | gC-a/x
+Neovim:: multicursor: (Sequences & Search) Add cursor to next/previous search | <leader>n/N
+Neovim:: multicursor: (Sequences & Search) Skip to next/previous search       | <leader>s/S
+Neovim:: multicursor: (Sequences & Search) Add cursors to ALL search results  | <leader>A
+Neovim:: multicursor: (Diagnostics) Next/previous diagnostic cursor           | ]/[d
+Neovim:: multicursor: (Diagnostics) Skip next/previous diagnostic             | ]s / [S
+Neovim:: multicursor: (Diagnostics) Add cursors for errors in range           | md$
 
 ## Replace
 Neovim:: grug-far.nvim: grug-far.open {n} | <leader>gf
@@ -405,9 +438,6 @@ Neovim:: telescope-cmdline.nvim: Telescope cmdline {n} | Q
 Neovim:: telescope-cmdline.nvim: Complete              | Tab
 Neovim:: telescope-cmdline.nvim: Run selection         | C-CR
 Neovim:: telescope-cmdline.nvim: Run input             | CR
-
-Neovim:: dir-telescope.nvim: Telescope dir live_grep {n}  | <leader>dfg
-Neovim:: dir-telescope.nvim: Telescope dir find_files {n} | <leader>dff
 
 Neovim:: telescope-lazy.nvim: Telescope lazy {n}        | <leader>lzy
 Neovim:: telescope-lazy.nvim: Open in browser           | C-o
