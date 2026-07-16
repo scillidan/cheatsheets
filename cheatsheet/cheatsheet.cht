@@ -127,7 +127,6 @@ mpv: # mpv --merge-files <file_1> <file_2> ...
 NeoHtop: Inst. # scoop install neohtop
 Neovim: Inst. # sudo pacman -S neovim
 Neovim: Inst. # scoop insatll neovim
-Neovim: Conf. # scoop install tree-sitter
 nomino: Inst. # scoop install nomino
 NPM: Publish 1. # npm login
 NPM: Publish 2. # npm init
@@ -412,7 +411,6 @@ zizmor: Inst. # scoop install zizmor
 (Git) OpenCommit: Env. # oco config set OCO_AI_PROVIDER=llamacpp OCO_API_KEY=llamacpp OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 (Git) OpenCommit: # oco hook set
 (Git) OpenCommit: # git commit
-(Git) pro: Inst. # scoop install pile/pro
 (Git) Repos: Inst. # scoop install pile/repos
 (Git) ugit: Inst. # scoop install shovel/ugit
 (Github) GitHub CLI: Inst. # sudo pacman -S github-cli
