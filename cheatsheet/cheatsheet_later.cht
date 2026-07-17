@@ -41,6 +41,8 @@ Zellij: Inst. # scoop install zellij
 (LLM) Cognee: Inst. # uv pip install cognee
 (LLM) OfficeCLI: Inst. # scoop install officecli
 (LLM) Skills: Ex. # skills install earthtojake/text-to-cad
+(LLM) Spec Kit: Inst. # uv tool install -U specify-cli
+(LLM) spectatui: Inst. # scoop install pile/spectatui
 (LLM) tuicr: Inst. # scoop install tuicr
 (Tool-Disk) Pinkbin: Inst. # scoop install pinkbin
 (Tool-Hardware) ROM Properties Page: Inst. # scoop install rom-properties-np

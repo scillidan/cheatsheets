@@ -27,11 +27,6 @@ Darktable: Inst. # scoop install darktable
 Delect It Easy: Inst. # yay -S --noconfirm detect-it-easy-bin
 Delect It Easy: Inst. # scoop install detect-it-easy
 doc2dash: Inst. # uv tool install -U doc2dash
-Docker: Update # sudo docker compose down
-Docker: Update # sudo docker compose pull
-Docker: Update # sudo docker compose up -d
-Docker: Clean up dangling resources # sudo docker system prune -f
-Docker: Wipe all Docker resources # sudo docker system prune -a --volumes -f
 dua: Inst. # sudo pacman -S dua-cli
 dua: Inst. # scoop install dua
 dua: Interactive mode # dua i
@@ -127,6 +122,7 @@ mpv: # mpv --merge-files <file_1> <file_2> ...
 NeoHtop: Inst. # scoop install neohtop
 Neovim: Inst. # sudo pacman -S neovim
 Neovim: Inst. # scoop insatll neovim
+Neovim: Conf. # scoop install tree-sitter
 nomino: Inst. # scoop install nomino
 NPM: Publish 1. # npm login
 NPM: Publish 2. # npm init
@@ -189,11 +185,12 @@ sd: Inst. # scoop install sd
 serve: Inst. # bun add -g serve@latest
 Sigil: Inst. # sudo pacman -S sigil
 Sigil: Inst. # scoop install sigil
+SilverBulle: Inst. # scoop install silverbulle
 SSHFS: Inst. # sudo pacman -S sshfs
 SSHFS: Inst. # sudo apt install sshfs
+Starship: Inst. # scoop install starship
 Sublime Text: Inst. # sudo pacman -S sublime-text
 Sublime Text: Inst. # scoop install sublime-text
-Starship: Inst. # scoop install starship
 Tabiew: Inst. # scoop install tabiew
 Tabiew: # tw file1.csv file2.csv ...
 Tailscale: Inst. # gsudo scoop install tailscale
@@ -336,6 +333,11 @@ zizmor: Inst. # scoop install zizmor
 (Differ) delta: Conf. # git config --global merge.conflictStyle zdiff3
 (Differ) hunk: Inst. # scoop install hunk
 (Differ) hunk: # hunk diff
+(Docker) Docker: Update # sudo docker compose down
+(Docker) Docker: Update # sudo docker compose pull
+(Docker) Docker: Update # sudo docker compose up -d
+(Docker) Docker: Clean up dangling resources # sudo docker system prune -f
+(Docker) Docker: Wipe all Docker resources # sudo docker system prune -a --volumes -f
 (Font) LXGW Wenkai GB: Inst. # scoop install pile/LXGW-Wenkai-GB
 (Font) Monaspace: Inst. # scoop install Monaspace-NF-Mono
 (Font) No!! MeiryoUI: Inst. # scoop install nomeiryoui

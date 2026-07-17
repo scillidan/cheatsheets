@@ -72,6 +72,7 @@ Vieb: Inst. # scoop install vieb
 VSCodium: Inst. # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
 VSCodium: Inst. # scoop install vscodium
 
+(Docker) lazytilt: Inst. # go install github.com/tdi/lazytilt@latest
 (Formatter) js-beautify: Inst. # sudo pacman -S js-beautify
 (Formatter) js-beautify: Inst. # bun add -g js-beautify@latest
 (Git) Branchless workflow for Git: Inst. # scoop install git-branchless
@@ -131,6 +132,9 @@ VSCodium: Inst. # scoop install vscodium
 (Minifier) terser: Inst. # sudo pacman -S terser
 (Minifier) terser: Inst. # bun add -g terser@latest
 (Minifier) UglifyJS: Inst. # bun add -g uglify-js@latest
+(Music) LilyPond: Inst. # scoop install lilypond
+(Music) LilyPond: # python %SCOOP%\apps\lilypond\current\bin\midi2ly.py $.mid -o $.ly
+(Music) LilyPond: # lilypond -dno-point-and-click --svg $.ly
 (Music) Open Cubic Player: Inst. # scoop install pile/open-cubic-player
 (Music) Tag Editor: Inst. # yay -S --noconfirm tageditor
 (Music) Tag Editor: Inst. # scoop install tageditor
