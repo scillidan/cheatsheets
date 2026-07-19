@@ -1,0 +1,15 @@
+## https://github.com/meiji163/gh-notify#key-bindings-fzf
+Toggle help                                         | ?
+View the selected notification in the 'less' pager  | Etr
+Toggle notification preview                         | Tab
+Resize the preview window                           | S-Tab
+Scroll the preview up/down                          | S-Up/Dn
+Mark all displayed notifications as read and reload | C-a
+Browser                                             | C-b
+View diff                                           | C-d
+View diff in patch format                           | C-p
+Reload                                              | C-r
+Mark the selected notification as read and reload   | C-t
+Write a comment with the editor and quit            | C-x
+Toggle the selected notification                    | C-y
+Quit                                                | Esc

@@ -1,0 +1,31 @@
+## https://github.com/MitMaro/git-interactive-rebase-tool#common-default-key-bindings
+Git Interactive Rebase Tool: (All) Show help                                          | ?
+Git Interactive Rebase Tool: (Normal/Diff) Move selection up/down                     | Up
+Git Interactive Rebase Tool: (Normal/Diff) Move selection up/down five lines          | PgUp/PgDn
+Git Interactive Rebase Tool: (Normal/Diff) Move selection to start/end of list        | Home/End
+Git Interactive Rebase Tool: (Normal/Diff) Abort interactive rebase                   | q
+Git Interactive Rebase Tool: (Normal/Diff) Immediately abort interactive rebase       | Q
+Git Interactive Rebase Tool: (Normal/Diff) Write interactive rebase file              | w
+Git Interactive Rebase Tool: (Normal/Diff) Immediately write interactive rebase file  | W
+Git Interactive Rebase Tool: (Normal/Diff) Move selected commit(s) down/up            | j/k
+Git Interactive Rebase Tool: (Normal) Toggle break action                             | b
+Git Interactive Rebase Tool: (Normal/Diff) Set selected commit(s) to be picked        | p
+Git Interactive Rebase Tool: (Normal/Diff) Set selected commit(s) to be reworded      | r
+Git Interactive Rebase Tool: (Normal/Diff) Set selected commit(s) to be edited        | e
+Git Interactive Rebase Tool: (Normal/Diff) Set selected commit(s) to be squashed      | s
+Git Interactive Rebase Tool: (Normal/Diff) Set selected commit(s) to be fixed-up      | f
+Git Interactive Rebase Tool: (Normal) Set selected commit(s) to be dropped            | d
+Git Interactive Rebase Tool: (Diff) Show full commit diff                             | d
+Git Interactive Rebase Tool: (Normal) Edit the command of an editable action          | E
+Git Interactive Rebase Tool: (Normal/Diff) Enter and exit visual mode (for selection) | v
+Git Interactive Rebase Tool: (Normal) Insert a new line                               | I
+Git Interactive Rebase Tool: (Normal) Duplicate the selected line                     | C-d
+Git Interactive Rebase Tool: (Normal/Diff) Remove selected lines                      | Del
+Git Interactive Rebase Tool: (Normal/Diff) Open todo file in external editor          | !
+Git Interactive Rebase Tool: (Normal/Diff) Undo the previous change                   | C-z
+Git Interactive Rebase Tool: (Normal/Diff) Redo the previously undone change          | C-y
+Git Interactive Rebase Tool: (Normal/Diff) Show commit information                    | c
+Git Interactive Rebase Tool: (Diff) Scroll view down/up                               | Down/Up
+Git Interactive Rebase Tool: (Diff) Scroll view left/right                            | Lt/Rt
+Git Interactive Rebase Tool: (Diff) Scroll view to the top/end                        | Home/End
+Git Interactive Rebase Tool: (Diff) Scroll view a step up/down                        | PgUp/PgDn

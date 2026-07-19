@@ -28,6 +28,8 @@ Zellij: Inst. # scoop install zellij
 (Differ) dyff: Inst. # scoop install dyff
 (Differ) JSON diff and patch: Inst. # scoop install jd
 (Git) cz-git: Inst. # bun add -g czg
+(Git) Git Interactive Rebase Tool: Inst. # scoop install git-interactive-rebase-tool
+(Git) Git Machete: Inst. # scoop install git-machete
 (Git) jj: Inst. # scoop install jj
 (Git) jjui: Inst. # scoop install jjui
 (Git) Mergiraf: Inst. # scoop install mergiraf
@@ -51,7 +53,9 @@ Zellij: Inst. # scoop install zellij
 (Tool-Others) Pueue: Inst. # scoop install pueue
 
 (Wait) Carapace-bin: Inst. # scoop install carapace-bin
+(Wait) FluentCleaner: Inst. # scoop install fluent-cleaner
 (Wait) Keyviz: Inst. # scoop install keyviz
+(Wait) Octos: Inst. # scoop install octos
 (Wait) sem: Inst. # scoop install sem
 (Wait) Windows Dual Key Remap: Inst. # scoop install dual-key-remap
 

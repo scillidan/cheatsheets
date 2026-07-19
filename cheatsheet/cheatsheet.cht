@@ -466,6 +466,7 @@ zizmor: Inst. # scoop install zizmor
 (LLM) OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
 (LLM) OpenSpec: # openspec init
 (LLM) Pi: Inst. # scoop install pi-coding-agent
+(LLM) Pi: Ex. # pi install git:github.com/DietrichGebert/ponytail
 (LLM) Pi: Ex. # pi install npm:@ff-labs/pi-fff
 (LLM) Pi: Ex. # pi install npm:pi-autoresearch
 (LLM) Pi: Ex. # pi install npm:pi-lens
@@ -653,18 +654,26 @@ zizmor: Inst. # scoop install zizmor
 [Windows](AutoHotkey) Window Switcher: Inst. # scoop install window-switcher
 
 [Arch] act: Inst. # yay -S --noconfirm act-bin
+[Arch] Atuin: Inst. # sudo pacman -S atuin
 [Arch] Tailscale: Conf. 1. # sudo systemctl enable --now tailscaled
 [Arch] Tailscale: Conf. 2. # sudo tailscale login
+[Arch] NetworkManager: Inst. # sudo pacman -S networkmanager
+[Arch] NetworkManager: Conf. # sudo systemctl stop netctl
+[Arch] NetworkManager: Conf. # sudo systemctl disable netctl
+[Arch] NetworkManager: Conf. # sudo systemctl enable --now networkmanager
+[Arch] NetworkManager: Ex. # sudo pacman -S network-manager-applet
 [Arch] nvm: # nvm install --lts
 [Arch] nvm: # nvm use --lts
 [Arch] tmuxp: Inst. # uv tool install -U tmuxp
 [Arch] tmuxp: Conf. # vim ~/.config/tmuxp/user.yaml
 [Arch] tmuxp: # tmuxp load user
 [Arch] pdftoppm: Depend. # yay -S --noconfirm pdftoppm
+[Arch] ufw: Inst. # sudo pacman -S ufw
+[Arch] ufw: conf. # sudo systemctl enable --now ufw
+[Arch] ufw: # sudo ufw status
 [Arch] Yazi: Ex. # ya pkg add barbanevosa/autosession
 [Arch] Yazi: Ex. # ya pkg add yazi-rs/plugins:chmod
 [Arch] Yazi: Ex. # ya pkg add yazi-rs/plugins:mount
 [Arch] Yazi: Ex. # ya pkg add uhs-robert/sshfs
 [Arch] Yazi: Ex. # ya pkg add NoponyAsked/sxiv
 [Arch] Wine: # wine uninstaller
-[Arch] zathura: Inst. # sudo pacman -S zathura zathura-cb zathura-pdf-mupdf

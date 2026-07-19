@@ -48,6 +48,8 @@ pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylan
 reader: Inst. # sudo pacman -S reader
 reader: Inst. # bin install github.com/mrusme/reader reader.exe
 Saber: Inst. # scoop install saber
+sdcv: Inst. # sudo pacman -S sdcv
+sdcv: Inst. # scoop install pile/sdcv
 sitefetch: Inst. # bun add -g sitefetch@latest
 Sloc Cloc and Code (scc): Inst. # scoop install scc
 split-manga-pages: Inst. # uv tool install -U split_manga_pages
@@ -122,6 +124,8 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) Wait4X: Inst. # scoop install wait4x
 (Image) XnConvert: Inst. # scoop install xnconvert
 (LLM) context-mode: Inst. # bun add -g context-mode@latest
+(LLM) HAPI: Inst. # scoop install hapi
+(Media) Shutter Encoder: Inst. # scoop install shutter-encoder
 (Music) CUETools: Inst. # sudo pacman -S cuetools
 (Music) CUETools: Inst. # scoop install cuetools
 (Music) CUETools: # Export → `[%directoryname%\]%artist% - %album%\%filename%-new[%unique%].cue`
