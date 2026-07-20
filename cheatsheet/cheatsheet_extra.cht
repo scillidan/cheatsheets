@@ -173,9 +173,12 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Video) video-to-ascii: Inst. # uv tool install -U video-to-ascii
 (Video) vimg: Inst. # scoop install pile/vimg
 
+[Arch] Fuzzy-pkg-finder: Inst. # yay -S --noconfirm fuzzy-pkg-finder
+[Arch] Paru: Inst. # yay -S --noconfirm paru
 [Arch] Timeshift: Inst. # sudo pacman -S timeshift
 [Arch] Timeshift: Inst. # sudo pacman -S cronie
 [Arch] Timeshift: Inst. # sudo systemctl enable --now cronie.service
+[Arch] wd: Inst. # yay -S --noconfirm zsh-plugin-wd-git
 
 [Windows] AltBacktick: Inst. # scoop install altbacktick
 [Windows] CPU-Z: Inst. # scoop install cpu-z

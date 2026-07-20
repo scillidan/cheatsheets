@@ -1,6 +1,8 @@
 beancount: Inst. # pipx install beanquery
 Binside: Inst. # scoop install binsider
 choose: Inst. # scoop install choose
+Codemark: Inst. # scoop install pile/codemark
+Codemark: Conf. # codemark install-skill --agent agents --scope user
 Dasel: Inst. # scoop install dasel
 Double Commander: Inst. # scoop install doublecmd
 FreeCAD: Inst. # sudo pacman -S freecad

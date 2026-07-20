@@ -35,6 +35,7 @@ Gaze: Inst. # bin install github.com/wtetsu/gaze gaze.exe
 GlazePKG (gpk): Inst. # scoop install glazepkg
 gPodder: Inst. # sudo pacman -S gpodder
 gPodder: Inst. # scoop install gpodder
+Horizon EDA: Inst. # scoop install horizon-eda
 ki-cli: Inst. # bun add -g ki-cli@latest
 lazyrsync: Inst. # cargo install lazyrsync
 Lazysql: Inst. # scoop install lazysql
@@ -150,6 +151,7 @@ VSCodium: Inst. # scoop install vscodium
 (Video) qmtn: Inst. # scoop install pile/qmtn-np
 
 [Arch] asciinema: Inst. # sudo pacman -S asciinema
+[Arch] pass: Inst. # sudo pacman -S pass
 [Arch] zathura: Inst. # sudo pacman -S zathura zathura-cb zathura-pdf-mupdf
 
 [Windows] Caffeine: Inst. # scoop install caffeine
