@@ -13,6 +13,7 @@ Neovim: Go to the last edit                   | g;
 Neovim: Go forward to the next edit           | g,
 Neovim: Undo/redo                             | u / C-r
 Neovim: Scoll up/down half a page             | C-u/d
+Neovim: LSP hover (User)                      | <leader>K
 
 
 ## Key
@@ -22,7 +23,7 @@ Neovim:: which-key.nvim: quit     | <leader>q
 
 ## Treesitter
 ## https://github.com/CKolkey/ts-node-action#usage
-Neovim:: TS Node Action: Trigger Node Action {n} | K
+Neovim:: TS Node Action: Trigger Node Action {n} (User) | <leader>k
 
 ## CMP
 Neovim:: blink.cmp: accept, fallback                         | CR

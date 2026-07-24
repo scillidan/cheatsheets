@@ -54,6 +54,7 @@ sitefetch: Inst. # bun add -g sitefetch@latest
 Sloc Cloc and Code (scc): Inst. # scoop install scc
 split-manga-pages: Inst. # uv tool install -U split_manga_pages
 SSHM: Inst. # scoop install sshm
+Keyward: Inst. # bin install github.com/gateway-of-last-resort/keyward keyward.exe
 stl-thumb: Inst. # bin install github.com/unlimitedbacon/stl-thumb stl-thumb.exe
 syncthing: Inst. # sudo pacman -S syncthing
 syncthing: Inst. # scoop install syncthing
@@ -96,6 +97,8 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Game) Pegasus Frontend: Inst. # yay -S --noconfirm pegasus-frontend-git
 (Game) Pegasus Frontend: Inst. # scoop install scoop-games/pegasus
 (Game) Pegasus Frontend: Inst. # gsudo scoop install k-lite-codec-pack-basic-np
+(Game) PPSSPP: Inst. # yay -S --noconfirm ppsspp-bin
+(Game) PPSSPP: Inst. # scoop install ppsspp
 (Game) RetroArch: Inst. # sudo pacman -S retroarch
 (Game) RetroArch: Inst. # scoop install retroarch
 (Game) XBox One Controller Battery Indicator: Inst. # scoop install xb1cbi
