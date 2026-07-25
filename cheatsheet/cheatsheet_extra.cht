@@ -176,8 +176,15 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Video) video-to-ascii: Inst. # uv tool install -U video-to-ascii
 (Video) vimg: Inst. # scoop install pile/vimg
 
+[Arch] auto-cpufreq: Inst. # yay -S --noconfirm auto-cpufreq
+[Arch] auto-cpufreq: Conf. # sudo systemctl enable --now auto-cpufreq
+[Arch] Flacon: Inst. # yay -S --noconfirm flacon
+[Arch] Flacon: Inst. # sudo pacman -S mac
 [Arch] Fuzzy-pkg-finder: Inst. # yay -S --noconfirm fuzzy-pkg-finder
 [Arch] Paru: Inst. # yay -S --noconfirm paru
+[Arch] preload: Inst. # yay -S --noconfirm preload
+[Arch] preload: Conf. # sudo systemctl enable --now preload
+[Arch] QDiskInfo: Inst. # yay -S --noconfirm qdiskinfo-bin
 [Arch] Timeshift: Inst. # sudo pacman -S timeshift
 [Arch] Timeshift: Inst. # sudo pacman -S cronie
 [Arch] Timeshift: Inst. # sudo systemctl enable --now cronie.service

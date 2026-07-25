@@ -656,16 +656,26 @@ zizmor: Inst. # scoop install zizmor
 [Windows](AutoHotkey) Window Switcher: Inst. # scoop install window-switcher
 
 [Arch] act: Inst. # yay -S --noconfirm act-bin
+[Arch] Ark Archving Tool: Inst. # sudo pacman -S ark
 [Arch] Atuin: Inst. # sudo pacman -S atuin
+[Arch] dunst: Inst. # sudo pacman -S dunst
 [Arch] man-db: Inst. # sudo pacman -S man-db
 [Arch] NetworkManager: Inst. # sudo pacman -S networkmanager
 [Arch] NetworkManager: Conf. # sudo systemctl stop netctl
 [Arch] NetworkManager: Conf. # sudo systemctl disable netctl
 [Arch] NetworkManager: Conf. # sudo systemctl enable --now networkmanager
 [Arch] NetworkManager: Ex. # sudo pacman -S network-manager-applet
+[Arch] nsxiv: Inst. # sudo pacman -S nsxiv
 [Arch] nvm: # nvm install --lts
 [Arch] nvm: # nvm use --lts
 [Arch] pdftoppm: Depend. # yay -S --noconfirm pdftoppm
+[Arch] PipeWire: Inst. # sudo pacman -S sof-firmware alsa-firmware alsa-ucm-conf
+[Arch] PipeWire: Inst. # sudo pacman -S pipewire pipewire-pulse pipewire-alsa
+[Arch] PipeWire: Conf. # systemctl --user stop pulseaudio.service
+[Arch] PipeWire: Conf. # systemctl --user stop pulseaudio.socket
+[Arch] PipeWire: Conf. # systemctl --user enable --now pipewire.service
+[Arch] PipeWire: Conf. # systemctl --user enable --now pipewire-pulse.service
+[Arch] PipeWire: Ex. # sudo pacman -S pavucontrol
 [Arch] sddm: Inst. # sudo pacman -S sddm
 [Arch] sddm: Conf. # sudo systemctl enable --now sddm
 [Arch] Tailscale: Conf. 1. # sudo systemctl enable --now tailscaled
