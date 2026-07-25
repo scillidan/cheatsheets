@@ -46,7 +46,7 @@ nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
 python-pinyin: Inst. # uv tool install -U pypinyin
 pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
 reader: Inst. # sudo pacman -S reader
-reader: Inst. # bin install github.com/mrusme/reader reader.exe
+reader: Inst. # scoop install pile/reader
 Saber: Inst. # scoop install saber
 sdcv: Inst. # sudo pacman -S sdcv
 sdcv: Inst. # scoop install pile/sdcv
