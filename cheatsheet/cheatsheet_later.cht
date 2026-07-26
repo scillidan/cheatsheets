@@ -54,6 +54,7 @@ Zellij: Inst. # scoop install zellij
 (Tool-Network) Slumber: Inst. # bin install github.com/LucasPickering/slumber slumber.exe
 (Tool-Network) wuzz: Inst. # scoop install wuzz
 (Tool-Others) Pueue: Inst. # scoop install pueue
+(Tool-Transfer) vib: Inst. # bin install github.com/ayanchavand/vib vib.exe
 
 (Wait) Carapace-bin: Inst. # scoop install carapace-bin
 (Wait) FluentCleaner: Inst. # scoop install fluent-cleaner
