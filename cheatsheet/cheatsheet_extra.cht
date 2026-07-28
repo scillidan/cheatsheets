@@ -114,6 +114,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) AutoTrace: Inst. # sudo pacman -S autotrace
 (Image) chaiNNer: Inst. # scoop install pile/chainner
 (Image) color-matcher: Inst. # uv tool install -U color-matcher
+(Image) Deskew: Inst. # uv tool install deskew
 (Image) didder: Inst. # scoop install didder
 (Image) ExifCleaner: Inst. # yay -S --noconfirm exifcleaner-bin
 (Image) ExifCleaner: Inst. # scoop install exifcleaner
