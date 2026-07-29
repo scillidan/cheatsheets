@@ -28,7 +28,7 @@ htmlq: Inst. # scoop install htmlq
 jc: Inst. # scoop install jc
 jnv: Inst. # scoop install jnv
 jqp: Inst. # scoop install jqp
-issue2md: Inst. # go install github.com/bigwhite/issue2md/cmd/issue2md@latest
+issue2md: Inst. # go install github.com/bigwhite/issue2md/cmdline/issue2md@latest
 ISx: Depend. # scoop install isx
 kalk: Inst. # scoop install kalk
 kalker: Inst. # scoop install kalker
@@ -92,6 +92,8 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Font) ttf2woff2: Inst. # bun add -g ttf2woff2@latest
 (Font) Webify: Inst. # scoop install pile/webify
 (Game) CompactGUI: Inst. # scoop install compactgui
+(Game) ES-DE: Inst. # yay -S --noconfirm emulationstation-de
+(Game) ES-DE: Inst. # scoop install games/es-de
 (Game) Hydra Launcher: Inst. # scoop install scoop-games/hydra
 (Game) Igir: Inst. # bin install github.com/emmercm/igir igir.exe
 (Game) Pegasus Frontend: Inst. # yay -S --noconfirm pegasus-frontend-git
@@ -102,6 +104,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Game) RetroArch: Inst. # sudo pacman -S retroarch
 (Game) RetroArch: Inst. # scoop install retroarch
 (Game) XBox One Controller Battery Indicator: Inst. # scoop install xb1cbi
+(Game) xone: Inst. # yay -S --noconfirm xone-dkms-git xone-dongle-firmware
 (Git) Git Overview: Inst. # uv tool install -U git-overview
 (Git) git-filter-repo: Inst. # scoop install git-filter-repo
 (Git) Gitify: Inst. # yay -S --noconfirm gitify-bin
@@ -190,6 +193,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 [Arch] Timeshift: Inst. # sudo pacman -S cronie
 [Arch] Timeshift: Inst. # sudo systemctl enable --now cronie.service
 [Arch] wd: Inst. # yay -S --noconfirm zsh-plugin-wd-git
+[Arch] zsh: Inst. # sudo pacman -S zsh zsh-completions
 
 [Windows] AltBacktick: Inst. # scoop install altbacktick
 [Windows] CPU-Z: Inst. # scoop install cpu-z

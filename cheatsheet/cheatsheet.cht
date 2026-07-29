@@ -243,6 +243,7 @@ Yazi: Ex. # ya pkg add gosxrgxx/flexoki-dark
 Yazi: Ex. # ya pkg add gosxrgxx/flexoki-light
 Yazi: Ex. # ya pkg add MasouShizuka/close-and-restore-tab
 Yazi: Ex. # ya pkg add terrakok/split-tabs
+Yazi: Ex. # ya pkg add towingie/switch-ratio
 Yazi: Ex. # ya pkg add yazi-rs/plugins:toggle-pane
 Yazi: Ex. # ya pkg add leduckhc/responsive-layout
 Yazi: Ex. # ya pkg add XYenon/clipboard
@@ -427,6 +428,8 @@ zizmor: Inst. # scoop install zizmor
 (Github) GitHub CLI: # gh release list --limit 200
 (Github) GitHub CLI: # gh release delete "$tag" --cleanup-tag --yes
 (Github) Desktop Plus: Inst. # scoop install desktop-plus
+(GitLab) GitLab CLI: Inst. # scoop install glab
+(Gitlab) glab-tui: Inst. # scoop install pile/glab-tui
 (Image) Caesium Image Compressor: Inst. # scoop install caesium-image-compressor
 (Image) GIMP: Inst. # sudo pacman -S gimp
 (Image) GIMP: Inst. # scoop install gimp
@@ -483,6 +486,7 @@ zizmor: Inst. # scoop install zizmor
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-issues
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill improve-codebase-architecture
 (LLM) Skills: Ex. # skills add https://github.com/juliusbrussee/caveman --skill caveman
+(LLM) Skills: Ex. # skills add ayghri/i-have-adhd
 (LLM) Skills: Ex. # skills add https://github.com/google-gemini/gemini-cli --skill code-reviewer
 (LLM) Skills: Ex. # skills add https://github.com/wshobson/agents --skill shellcheck-configuration
 (LLM) Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator
@@ -680,6 +684,10 @@ zizmor: Inst. # scoop install zizmor
 [Arch] sddm: Conf. # sudo systemctl enable --now sddm
 [Arch] Tailscale: Conf. 1. # sudo systemctl enable --now tailscaled
 [Arch] Tailscale: Conf. 2. # sudo tailscale login
+[Arch] tmux: Inst. # sudo pacman -S tmux
+[Arch] tmux: # tmux detach
+[Arch] tmux: # tmux attach
+[Arch] tmux: Ex. # cargo install --force thumbs
 [Arch] tmuxp: Inst. # uv tool install -U tmuxp
 [Arch] tmuxp: Conf. # vim ~/.config/tmuxp/user.yaml
 [Arch] tmuxp: # tmuxp load user
