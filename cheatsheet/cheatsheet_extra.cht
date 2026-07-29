@@ -146,6 +146,8 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (PDF) marker: Inst. # uv tool install -w hf_transfer -w streamlit -U marker-pdf
 (PDF) markpdf: Inst. # bin install github.com/ajaxray/markpdf markpdf.exe
 (PDF) page-dewarp: Inst. # uv tool install -U page-dewarp
+(PDF) pdfCropMargins: Inst. # uv tool install -U pdfCropMargins
+(PDF) pdfCropMargins: # pdfcropmargins -v -s -u -gui file.pdf
 (PDF) presse: Inst. # bin install github.com/SimonBure/presse presse.exe
 (PDF) presse: Inst. # presse press <pdf> -q <quality> -o _.pdf
 (Subtitle) ass2srt: Inst. # uv tool install -U ass2srt
