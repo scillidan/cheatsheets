@@ -297,8 +297,10 @@ zizmor: Inst. # scoop install zizmor
 (Dependence) Glow: Inst. # sudo pacman -S glow
 (Dependence) Glow: Inst. # scoop install glow
 (Dependence) GNU sed: Inst. # scoop install sed
+(Dependence) GNU wget: Inst. # sudo pacman -S wget
 (Dependence) GNU wget: Inst. # scoop install wget
 (Dependence) Gzip: Inst. # scoop install gzip
+(Dependence) Info-ZIP: Inst. # sudo pacman -S unzip
 (Dependence) Info-ZIP: Inst. # scoop install zip unzip
 (Dependence) JDK: Inst. # scoop install temurin21-jre
 (Dependence) JDK: Inst. # scoop install openjdk22
@@ -663,6 +665,7 @@ zizmor: Inst. # scoop install zizmor
 [Arch] Ark Archving Tool: Inst. # sudo pacman -S ark
 [Arch] Atuin: Inst. # sudo pacman -S atuin
 [Arch] dunst: Inst. # sudo pacman -S dunst
+[Arch] InetUtils: Inst. # sudo pacman -S inetutils
 [Arch] man-db: Inst. # sudo pacman -S man-db
 [Arch] NetworkManager: Inst. # sudo pacman -S networkmanager
 [Arch] NetworkManager: Conf. # sudo systemctl stop netctl
@@ -680,6 +683,7 @@ zizmor: Inst. # scoop install zizmor
 [Arch] PipeWire: Conf. # systemctl --user enable --now pipewire.service
 [Arch] PipeWire: Conf. # systemctl --user enable --now pipewire-pulse.service
 [Arch] PipeWire: Ex. # sudo pacman -S pavucontrol
+[Arch] Rofi: Inst. # sudo pacman -S rofi
 [Arch] sddm: Inst. # sudo pacman -S sddm
 [Arch] sddm: Conf. # sudo systemctl enable --now sddm
 [Arch] Tailscale: Conf. 1. # sudo systemctl enable --now tailscaled
@@ -695,6 +699,7 @@ zizmor: Inst. # scoop install zizmor
 [Arch] ufw: conf. # sudo systemctl enable --now ufw
 [Arch] ufw: # sudo ufw status
 [Arch] Wine: # wine uninstaller
+[Arch] XSel: # sudo pacman -S xsel
 [Arch] Yazi: Ex. # ya pkg add barbanevosa/autosession
 [Arch] Yazi: Ex. # ya pkg add yazi-rs/plugins:chmod
 [Arch] Yazi: Ex. # ya pkg add yazi-rs/plugins:mount
