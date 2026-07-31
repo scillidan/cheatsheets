@@ -11,6 +11,7 @@ Harlequin: Inst. # uv tool install -U harlequin
 KiCad: Inst. # sudo pacman -S kicad
 KiCad: Inst. # scoop install kicad
 kmeans-colors: Inst. # scoop install kmeans-colors
+Koharu: Inst. # scoop install koharu
 Miller: Inst. # sudo pacman -S miller
 Miller: Inst. # scoop install miller
 mise-en-place: Inst. # scoop install mise
