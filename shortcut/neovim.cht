@@ -520,5 +520,14 @@ Neovim:: opencode: Add line to opencode    | goo
 Neovim:: opencode: Half page up            | <S-C-u>
 Neovim:: opencode: Half page down          | <S-C-d>
 
+## https://github.com/zgs225/pi2.nvim#example-setup
+Neovim:: pi2.nvim: Pi side {n} {v}                        | <leader>pp
+Neovim:: pi2.nvim: Pi float {n} {v}                       | <leader>pf
+Neovim:: pi2.nvim: Pi toggle layout {n} {v}               | <leader>pl
+Neovim:: pi2.nvim: Pi continue last session {n} {v}       | <leader>pc
+Neovim:: pi2.nvim: Pi resume past session {n} {v}         | <leader>pr
+Neovim:: pi2.nvim: Pi mention file/selection {n} {v}      | <leader>pm
+Neovim:: pi2.nvim: Pi open next attention request {n} {v} | <leader>pa
+
 Neovim:: vim-tmux-navigator: TmuxNavigateLeft/Down/Up/Right | C-h/j/k/l
 Neovim:: vim-tmux-navigator: TmuxNavigatePrevious           | C-\\
