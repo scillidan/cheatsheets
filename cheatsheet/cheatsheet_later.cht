@@ -22,7 +22,6 @@ qsv: Inst. # yay -S --noconfirm qsv-bin
 qsv: Inst. # scoop install qsv
 sig: Inst. # pacman -S sig
 sig: Inst. # scoop install sig
-SilverBullet: Inst. # scoop install silverbullet
 sq: Inst. # scoop install sq
 sqlit: Inst. # uv tool install -U sqlit-tui
 Zellij: Inst. # sudo pacman -S zellij

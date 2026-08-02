@@ -170,6 +170,8 @@ QuiteRSS: Inst. # scoop install quiterss
 qutebrowser: Inst. # scoop install qutebrowser
 Raspberry Pi Imager: Inst. # sudo pacman -S rpi-imager
 Raspberry Pi Imager: Inst. # scoop install raspberry-pi-imager
+reader: Inst. # sudo pacman -S reader
+reader: Inst. # scoop install pile/reader
 RefrEnv: Inst. # scoop install shovel/refrenv
 rgx: Inst. # scoop install pile/rgx
 ripgrep: Inst. # sudo pacman -S ripgrep ripgrep-all
