@@ -72,6 +72,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Audio) AudioBookConverter: Inst. # scoop install audiobookconverter
 (Dev) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
 (Dev) deputui: Inst. # pnpm outdated --format json | deputui
+(Dev) Live Server: Inst. # bun add -g live-server@latest
 (Dev) Resterm: Inst. # scoop install resterm
 (Dev) Wappalyzer Next: Inst. # uv tool install -U wappalyzer
 (Dev) Watchman: Inst. # scoop install watchman

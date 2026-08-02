@@ -20,6 +20,7 @@ PassTUI: Inst. # uv tool install -U passtui --python 3.14
 PDF ToC: Inst. # uv tool install -U pdf-toc
 qsv: Inst. # yay -S --noconfirm qsv-bin
 qsv: Inst. # scoop install qsv
+Shutter Encoder: Inst. # scoop install shutter-encoder
 sig: Inst. # pacman -S sig
 sig: Inst. # scoop install sig
 sq: Inst. # scoop install sq
