@@ -54,11 +54,15 @@ Neovim:: nvim-mdlink: After following a link, go back to the previous file   | B
 
 Neovim:: md-headers.nvim: MDHeadersCurrent | <leader>mh
 
+Neovim:: obsidian.nvim: Follow wiki/markdown link (passthrough gf)   | gf
+Neovim:: obsidian.nvim: Toggle checkbox                              | <leader>ch
+Neovim:: obsidian.nvim: Smart action (follow link / toggle checkbox) | CR
+
 
 ## CSV
 Neovim:: csvview.nvim: textobject_field_inner/outer {o} {x} | if/af
 Neovim:: csvview.nvim: jump_prev/next_field_end {n} {v}     | S-Tab / Tab
-Neovim:: csvview.nvim: jump_prev/next_row {n} {v}           | S-Etr / Etr
+Neovim:: csvview.nvim: jump_prev/next_row {n} {v}           | S-Etr / CR
 
 ## LaTeX
 Neovim: Dialog (noremap, silent) | Spc
