@@ -36,6 +36,7 @@ GlazePKG (gpk): Inst. # scoop install glazepkg
 gPodder: Inst. # sudo pacman -S gpodder
 gPodder: Inst. # scoop install gpodder
 Horizon EDA: Inst. # scoop install horizon-eda
+keepkit: Inst. # scoop install pile/keepkit
 ki-cli: Inst. # bun add -g ki-cli@latest
 lazyrsync: Inst. # cargo install lazyrsync
 Lazysql: Inst. # scoop install lazysql
