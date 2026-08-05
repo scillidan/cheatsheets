@@ -32,7 +32,7 @@ issue2md: Inst. # go install github.com/bigwhite/issue2md/cmdline/issue2md@lates
 ISx: Depend. # scoop install isx
 kalk: Inst. # scoop install kalk
 kalker: Inst. # scoop install kalker
-Kiwix Serve: Inst. # scoop install shovel/kiwix-server
+Kiwix Serve: Inst. # scoop install pile/kiwix-server
 Kiwix Serve: 1. # kiwix-serve --address 0.0.0.0 --port 5173 $.zim
 Kiwix Serve: 2.1. # kiwix-manage <path_to>\kiwix\library.xml add $1.zim $2.zim
 Kiwix Serve: 2.1. # kiwix-serve --library <path_to>\kiwix\library.xml --address 0.0.0.0 --port 5173

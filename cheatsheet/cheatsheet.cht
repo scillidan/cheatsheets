@@ -77,7 +77,7 @@ GoldenDict: Inst. # yay -S --noconfirm goldendict-git
 GoldenDict: Inst. # scoop install goldendict
 Handy: Inst. # scoop install handy
 Hash It: Inst. # scoop install pile/hashit
-has: Inst. # scoop install shovel/has
+has: Inst. # scoop install bash/has
 hexyl: Inst. # scoop install hexyl
 huggingface_hub: Inst. # uv tool install -U "huggingface_hub[cli]"
 huggingface_hub: Env. # HF_HUB_ENABLE_HF_TRANSFER=1
@@ -172,7 +172,7 @@ Raspberry Pi Imager: Inst. # sudo pacman -S rpi-imager
 Raspberry Pi Imager: Inst. # scoop install raspberry-pi-imager
 reader: Inst. # sudo pacman -S reader
 reader: Inst. # scoop install pile/reader
-RefrEnv: Inst. # scoop install shovel/refrenv
+RefrEnv: Inst. # scoop install bash/refrenv
 rgx: Inst. # scoop install pile/rgx
 ripgrep: Inst. # sudo pacman -S ripgrep ripgrep-all
 ripgrep: Inst. # scoop install ripgrep rga
@@ -385,13 +385,13 @@ zizmor: Inst. # scoop install zizmor
 (Git) Git: SSL # git config --global http.sslVerify true
 (Git) Codiff: Inst. # scoop install codiff
 (Git) easy-conflict(ec): Inst. # scoop install pile/easy-conflict
-(Git) forgit: Inst. # scoop install shovel/forgit
+(Git) forgit: Inst. # scoop install bash/forgit
 (Git) gfold: Inst. # scoop install gfold
 (Git) ghgrab: Inst. # scoop install ghgrab
-(Git) Git Extras: Inst. # scoop install shovel/git-extras
+(Git) Git Extras: Inst. # scoop install bash/git-extras
 (Git) git-crypt: Inst. # sudo pacman -S git-crypt
 (Git) git-crypt: Inst. # scoop install git-crypt
-(Git) git-sync: Inst. # scoop install shovel/git-sync
+(Git) git-sync: Inst. # scoop install bash/git-sync
 (Git) git-sync: Conf. # git config --bool branch.main.sync true
 (Git) git-cliff: Inst. # scoop install git-cliff
 (Git) git-cliff: 1. # cd <proj>
@@ -407,7 +407,7 @@ zizmor: Inst. # scoop install zizmor
 (Git) lazygit: Inst. # scoop install lazygit
 (Git) lazygit: # lazygit -sm half
 (Git) mgitstatus: Inst. # yay -S --noconfirm multi-git-status
-(Git) mgitstatus: Inst. # scoop install shovel/mgitstatus
+(Git) mgitstatus: Inst. # scoop install bash/mgitstatus
 (Git) no-mistakes: Inst. # scoop install no-mistakes
 (Git) no-mistakes: Env. # NO_MISTAKES_TELEMETRY=0
 (Git) no-mistakes: # no-mistakes init
@@ -421,7 +421,7 @@ zizmor: Inst. # scoop install zizmor
 (Git) OpenCommit: # oco hook set
 (Git) OpenCommit: # git commit
 (Git) Repos: Inst. # scoop install pile/repos
-(Git) ugit: Inst. # scoop install shovel/ugit
+(Git) ugit: Inst. # scoop install bash/ugit
 (Github) GitHub CLI: Inst. # sudo pacman -S github-cli
 (Github) GitHub CLI: Inst. # scoop install gh
 (Github) GitHub CLI: Env. # GH_CONFIG_DIR=%USERPROFILE%\.config\gh
@@ -658,8 +658,8 @@ zizmor: Inst. # scoop install zizmor
 [Windows](AutoHotkey) Keyboard Locker: Inst. # scoop install pile/keyboard-locker
 [Windows](AutoHotkey) Keyboard Switch: Inst. # scoop install pile/keyboard-switch
 [Windows](AutoHotkey) Screen OCR: Inst. # scoop install pile/screen-ocr
-[Windows](AutoHotkey) Toggle screen: Inst. # scoop install shovel/togglescreen
-[Windows](AutoHotkey) QuickSwitch: Inst. # scoop install shovel/quickswitch
+[Windows](AutoHotkey) Toggle screen: Inst. # scoop install bash/togglescreen
+[Windows](AutoHotkey) QuickSwitch: Inst. # scoop install bash/quickswitch
 [Windows](AutoHotkey) QuickSwitch: Conf. # MBtn_R → Always AutoSwitch (On)
 [Windows](AutoHotkey) Window Switcher: Inst. # scoop install window-switcher
 
