@@ -42,6 +42,8 @@ Meson: Depend. # scoop install meson
 Neovide: # neovide --size=1250x720 --frame none --no-tabs --wsl archwsl
 Neovide: Inst. # scoop install neovide
 Neovide: Inst. # sudo pacman -S neovide
+Neovim: Ex. # uv tool install gdtoolkit
+Neovim: Ex. # uv tool install neovim-remote
 nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
 python-pinyin: Inst. # uv tool install -U pypinyin
 pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
@@ -160,6 +162,8 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Tool-Disk) diskus: Inst. # scoop install diskus
 (Tool-Disk) GSmartControl: Inst. # scoop install gsmartcontrol smartmontools
 (Tool-Disk) usbtree: Inst. # scoop install pile/usbtree
+(Tool-Download) Jackett: Inst. # sudo pacman -S jackett
+(Tool-Download) Jackett: Inst. # scoop install jackett
 (Tool-Keyboard) Uncap: Inst. # scoop install uncap
 (Tool-Network) dnsglobe: Inst. # scoop install dnsglobe
 (Tool-Network) hostctl: Inst. # sudo pacman -S hostctl
