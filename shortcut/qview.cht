@@ -1,0 +1,28 @@
+Open                    | C-o
+Open URL                | C-S-o
+Reload file             | F5
+Show in explorer        |
+Show file info          | \|
+Undo delete             | C-z, A-Bksp
+Copy                    | C-c, C-Ins
+Paste                   | C-v, S-Ins
+Rename                  | C-r / C-Rtn / F2
+Delete                  | C-Bksp / Del
+Delete permanently      | S-Del
+First/last file         | Home/End
+Previous/next file      | Lt/Rt
+Zoom in/out             | C-+/= / C--
+Reset zoom              | C-0
+Original size           | O
+Rotate right/left       | Up/Dn
+Mirror                  | f
+Flip                    | C-f
+Full screen             | A-Etr/Rtn / F11
+Save frame as           | C-s
+Pause                   | p
+Next frame              | n
+Increase/Decrease Speed | ]/[
+Reset Speed             | \
+Toggle slideshow        |
+Settings                |
+Exit                    | C-w
