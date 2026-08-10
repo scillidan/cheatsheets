@@ -107,6 +107,9 @@ Neovim:: vimtex: (Other) Context menu on citations (e.g. \cite{...})            
 Neovim:: vimtex: (Other) Improved folding                                          | :h 'foldexpr'
 Neovim:: vimtex: (Other) Improved indentation                                      | :h 'indentexpr'
 
+## https://github.com/itsfernn/vimtex-follow#usage
+Neovim:: vimtex-follow: Toggles follow mode | <leader>lf
+
 
 ## Explorer
 Neovim:: oil.nvim: open/close {n}      | -
