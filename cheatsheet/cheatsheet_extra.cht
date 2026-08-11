@@ -125,9 +125,11 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) ExifCleaner: Inst. # scoop install exifcleaner
 (Image) Gifski: Inst. # sudo pacman -S gifski
 (Image) Gifski: Inst. # scoop install gifski
+(Image) GMI'C: Inst. # scoop install gmic-cli gmic-qt
 (Image) Paletter: Inst. # bin install github.com/Baldomo/paletter paletter.exe
 (Image) pngquant: Inst. # sudo pacman -S pngquant
 (Image) pngquant: Inst. # scoop install pngquant
+(Image) posterust: Inst. # cargo install posterust
 (Image) rclip: Inst. # scoop install rclip
 (Image) Vipsdisp: Inst. # scoop install vipsdisp
 (Image) Wait4X: Inst. # scoop install wait4x
