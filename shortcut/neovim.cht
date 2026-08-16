@@ -335,6 +335,10 @@ Neovim:: grug-far.nvim: grug-far.open {n} | <leader>gf
 Neovim:: scooter: Open scooter {n}               | <leader>cr
 Neovim:: scooter: Search selected in scooter {v} | <leader>cR
 
+## Shift
+## https://github.com/DRoma82/add-subtract-ex.nvim#configuration
+Neovim:: add-subtract-ex.nvim: Increment/decrement (User) | C-=/-
+
 ## Sort
 Neovim:: tssorter: TSSort list {n} {v} | <leader>ts
 
