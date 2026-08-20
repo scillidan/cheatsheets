@@ -84,6 +84,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Differ) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
 (Differ) Riff: Inst. # scoop install riff
 (Differ) Riff: # git diff | riff
+(Docker) dtop: Inst. # cargo install dtop
 (Docker) layerx: Inst. # bin install github.com/deveshctl/layerx layerx.exe
 (Draw) draw.io: Inst. # scoop install draw.io
 (Draw) Krita: Inst. # sudo pacman -S krita
