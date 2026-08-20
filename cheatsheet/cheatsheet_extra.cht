@@ -95,12 +95,12 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Font) ttf2woff2: Inst. # bun add -g ttf2woff2@latest
 (Font) Webify: Inst. # scoop install pile/webify
 (Game) CompactGUI: Inst. # scoop install compactgui
-(Game) ES-DE: Inst. # yay -S --noconfirm emulationstation-de
-(Game) ES-DE: Inst. # scoop install games/es-de
-(Game) Hydra Launcher: Inst. # scoop install scoop-games/hydra
+(Game) EmulationStation Desktop Edition: Inst. # yay -S --noconfirm emulationstation-de
+(Game) EmulationStation Desktop Edition: Inst. # scoop install games/es-de
+(Game) Hydra Launcher: Inst. # scoop install games/hydra
 (Game) Igir: Inst. # bin install github.com/emmercm/igir igir.exe
 (Game) Pegasus Frontend: Inst. # yay -S --noconfirm pegasus-frontend-git
-(Game) Pegasus Frontend: Inst. # scoop install scoop-games/pegasus
+(Game) Pegasus Frontend: Inst. # scoop install games/pegasus
 (Game) Pegasus Frontend: Inst. # gsudo scoop install k-lite-codec-pack-basic-np
 (Game) PPSSPP: Inst. # yay -S --noconfirm ppsspp-bin
 (Game) PPSSPP: Inst. # scoop install ppsspp
