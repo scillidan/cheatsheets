@@ -164,7 +164,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Subtitle) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
 (Tool-Disk) diskus: Inst. # scoop install diskus
 (Tool-Disk) GSmartControl: Inst. # scoop install gsmartcontrol smartmontools
-(Tool-Disk) usbtree: Inst. # scoop install pile/usbtree
+(Tool-Disk) usbtree: Inst. # scoop install usbtree
 (Tool-Download) Jackett: Inst. # sudo pacman -S jackett
 (Tool-Download) Jackett: Inst. # scoop install jackett
 (Tool-Keyboard) Uncap: Inst. # scoop install uncap
