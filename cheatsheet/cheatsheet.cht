@@ -617,8 +617,9 @@ zizmor: Inst. # scoop install zizmor
 [Windows] Scoop: # scoop bucket add Versions
 [Windows] Scoop: # scoop bucket add Java
 [Windows] Scoop: # scoop bucket add nerd-fonts
-[Windows] Scoop: # scoop bucket add shovel https://github.com/scillidan/scoop-shovel
+[Windows] Scoop: # scoop bucket add bash https://github.com/scillidan/scoop-bash
 [Windows] Scoop: # scoop bucket add pile https://github.com/scillidan/scoop-pile
+[Windows] Scoop: # scoop bucket add fonts https://github.com/scillidan/scoop-fonts
 [Windows] Scoop: # scoop cleanup *
 [Windows] Scoop: # scoop cache rm *
 [Windows] Scooper: Inst. # scoop install scooper
