@@ -77,6 +77,7 @@ Zellij: Inst. # scoop install zellij
 [Arch] pdfgrep: Inst. # sudo pacman -S pdfgrep
 [Arch] pwndbg: Inst. # sudo pacman -S pwndbg
 [Arch] Qman: Inst. # sudo pacman -S qman
+[Arch] rwx: Inst. # cargo binstall rwx
 [Arch] systemctl-tui: Inst. # sudo pacman -S systemctl-tui
 [Arch] Systemd manager tui: Inst. # yay -S --noconfirm systemd-manager-tui-bin
 [Arch] systeroid: Inst. # sudo pacman -S systeroid
