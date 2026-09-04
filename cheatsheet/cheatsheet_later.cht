@@ -7,6 +7,7 @@ Dasel: Inst. # scoop install dasel
 Double Commander: Inst. # scoop install doublecmd
 FreeCAD: Inst. # sudo pacman -S freecad
 FreeCAD: Inst. # scoop install freecad
+glslViewer: Inst. # scoop install glslviewer
 Harlequin: Inst. # uv tool install -U harlequin
 KiCad: Inst. # sudo pacman -S kicad
 KiCad: Inst. # scoop install kicad

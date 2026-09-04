@@ -147,6 +147,9 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Music) MuseScore: Inst. # scoop install musescore
 (Music) MusicBrainz Picard: Inst. # scoop install picard
 (Music) musikcube: Inst. # scoop install musikcube
+(Music) Tag Editor: Inst. # yay -S --noconfirm tageditor
+(Music) Tag Editor: Inst. # scoop install tageditor
+(Music) Tag Editor: Conf. # mklink "%APPDATA%\Microsoft\Windows\SendTo\tageditor.exe" "%SCOOP%\apps\tageditor\current\tageditor.exe"
 (Music) ZonyLrcToolsX: Inst. # scoop install pile/zonylrctoolsx
 (PDF) marker: Inst. # uv tool install -w hf_transfer -w streamlit -U marker-pdf
 (PDF) markpdf: Inst. # bin install github.com/ajaxray/markpdf markpdf.exe

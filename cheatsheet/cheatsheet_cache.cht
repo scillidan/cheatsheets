@@ -138,9 +138,6 @@ VSCodium: Inst. # scoop install vscodium
 (Music) LilyPond: # python %SCOOP%\apps\lilypond\current\bin\midi2ly.py $.mid -o $.ly
 (Music) LilyPond: # lilypond -dno-point-and-click --svg $.ly
 (Music) Open Cubic Player: Inst. # scoop install pile/open-cubic-player
-(Music) Tag Editor: Inst. # yay -S --noconfirm tageditor
-(Music) Tag Editor: Inst. # scoop install tageditor
-(Music) Tag Editor: Conf. # mklink "%APPDATA%\Microsoft\Windows\SendTo\tageditor.exe" "%SCOOP%\apps\tageditor\current\tageditor.exe"
 (Music) TagScanner: Inst. # yay -S --noconfirm tagscanner
 (Music) TagScanner: Inst. # scoop install tagscanner
 (PDF) THE PDFALYZER: Inst. # uv tool install -U pdfalyzer
