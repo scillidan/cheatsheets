@@ -61,6 +61,7 @@ Rime: Inst. # scoop install weasel
 Sentences: Inst. # go install github.com/neurosnap/sentences/cmd/sentences@latest
 silicon: Inst. # sudo pacman -S silicon
 silicon: Inst. # scoop install silicon
+SilverBulle: Inst. # scoop install silverbulle
 swpui: Inst. # bin install github.com/beeb/swpui swpui.exe
 Thorium: Inst. # yay -S --noconfirm thorium-reader-bin
 Thorium: Inst. # scoop install thorium-reader

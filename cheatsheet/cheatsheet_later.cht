@@ -11,7 +11,6 @@ glslViewer: Inst. # scoop install glslviewer
 Harlequin: Inst. # uv tool install -U harlequin
 KiCad: Inst. # sudo pacman -S kicad
 KiCad: Inst. # scoop install kicad
-kmeans-colors: Inst. # scoop install kmeans-colors
 Koharu: Inst. # scoop install koharu
 Miller: Inst. # sudo pacman -S miller
 Miller: Inst. # scoop install miller
@@ -39,6 +38,7 @@ Zellij: Inst. # scoop install zellij
 (Git) jjui: Inst. # scoop install jjui
 (Git) Mergiraf: Inst. # scoop install mergiraf
 (Git) SourceGit: Inst. # scoop install sourcegit
+(Image) kmeans-colors: Inst. # scoop install kmeans-colors
 (Linter) Vale: Inst. # scoop install vale
 (Linter) Vale: Inst. # sudo pacman -S vale
 

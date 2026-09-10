@@ -187,7 +187,6 @@ sd: Inst. # scoop install sd
 serve: Inst. # bun add -g serve@latest
 Sigil: Inst. # sudo pacman -S sigil
 Sigil: Inst. # scoop install sigil
-SilverBulle: Inst. # scoop install silverbulle
 SSHFS: Inst. # sudo pacman -S sshfs
 SSHFS: Inst. # sudo apt install sshfs
 Starship: Inst. # scoop install starship
