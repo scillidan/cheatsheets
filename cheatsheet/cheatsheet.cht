@@ -489,11 +489,13 @@ zizmor: Inst. # scoop install zizmor
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-prd
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-issues
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill improve-codebase-architecture
+(LLM) Skills: Ex. # skills add https://github.com/blader/humanizer --skill humanizer
 (LLM) Skills: Ex. # skills add https://github.com/juliusbrussee/caveman --skill caveman
 (LLM) Skills: Ex. # skills add ayghri/i-have-adhd
 (LLM) Skills: Ex. # skills add https://github.com/google-gemini/gemini-cli --skill code-reviewer
 (LLM) Skills: Ex. # skills add https://github.com/wshobson/agents --skill shellcheck-configuration
 (LLM) Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator
+(LLM) Skills: Ex. # skills add https://github.com/advaitpaliwal/feynman --skill paper-writing
 (LLM) Skills: Ex. # skills add https://github.com/xixu-me/skills --skill github-actions-docs
 (LLM) Skills: Ex. # skills add https://github.com/jamditis/claude-skills-journalism --skill web-scraping
 (LLM) Skills: Ex. # skills add https://github.com/lucifer1004/claude-skill-typst --skill typst
