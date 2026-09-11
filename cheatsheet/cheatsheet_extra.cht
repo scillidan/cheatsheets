@@ -11,7 +11,6 @@ COOK: Inst. # go install -v github.com/glitchedgitz/cook/v2/cmd/cook@latest
 DBeaver: Inst. # scoop install dbeaver
 Desed: Inst. # cargo install desed
 dupeGuru: Inst. # scoop install dupeguru
-epub2txt: Inst. # uv tool install -U epub2txt
 eva: Inst. # sudo pacman -S eva
 eva: Inst. # scoop install eva
 fzf-make: Inst. # yay -S --noconfirm fzf-make
@@ -89,6 +88,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Draw) draw.io: Inst. # scoop install draw.io
 (Draw) Krita: Inst. # sudo pacman -S krita
 (Draw) Krita: Inst. # scoop install krita
+(Epub) epub2txt: Inst. # uv tool install -U epub2text[lxml]
 (Font) Ark Pixel Font: Inst. # scoop install Ark-Pixel-Font-12px-proportional
 (Font) FontFor: Inst. # scoop install pile/fontfor
 (Font) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
