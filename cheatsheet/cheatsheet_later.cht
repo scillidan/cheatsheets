@@ -25,6 +25,7 @@ sig: Inst. # pacman -S sig
 sig: Inst. # scoop install sig
 sq: Inst. # scoop install sq
 sqlit: Inst. # uv tool install -U sqlit-tui
+Vicinae: Inst. # scoop intall vicinae
 Zellij: Inst. # sudo pacman -S zellij
 Zellij: Inst. # scoop install zellij
 
@@ -88,3 +89,4 @@ Zellij: Inst. # scoop install zellij
 [Arch] WRKFLW: Inst. # bin install github.com/bahdotsh/wrkflw wrkflw.exe
 [Arch] wut: Inst. # pipx install wut-cli
 [Arch] wut: Env. # OLLAMA_MODEL=gemma3:12b-it-qat
+[Arch] xdgctl: Inst. # yay -S --noconfirm xdgctl

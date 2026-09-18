@@ -545,6 +545,7 @@ zizmor: Inst. # scoop install zizmor
 (Subtitle) subsetzer: Inst. # uv tool install -U subsetzer
 (Subtitle) Subtitle Edit: Inst. # scoop install subtitleedit
 (Subtitle) Subtitle Edit: # Auto-translate → Select `Ollama` or `LM Studio` → Translate
+(Tool-Disk) DiskWatch: Inst. # scoop install diskwatch
 (Tool-Download) qBittorrent Enhanced Edition: Inst. # scoop install qbittorrent-enhanced
 (Tool-Download) yt-dlp: Inst. # sudo pacman -S yt-dlp
 (Tool-Download) yt-dlp: Inst. # scoop install yt-dlp
