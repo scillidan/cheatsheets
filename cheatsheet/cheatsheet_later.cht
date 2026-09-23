@@ -52,6 +52,7 @@ Zellij: Inst. # scoop install zellij
 (LLM) Spec Kit: Inst. # uv tool install -U specify-cli
 (LLM) spectatui: Inst. # scoop install pile/spectatui
 (LLM) tuicr: Inst. # scoop install tuicr
+(Music) MuseScore: Inst. # scoop install musescore
 (Tool-Disk) Pinkbin: Inst. # scoop install pinkbin
 (Tool-Hardware) ROM Properties Page: Inst. # scoop install rom-properties-np
 (Tool-Network) Slumber: Inst. # bin install github.com/LucasPickering/slumber slumber.exe
