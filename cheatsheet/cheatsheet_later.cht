@@ -47,6 +47,8 @@ Zellij: Inst. # scoop install zellij
 (LLM) CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
 (LLM) CodeGraph: # codegraph init -i
 (LLM) Cognee: Inst. # uv pip install cognee
+(LLM) Headroom: Inst. # uv tool install --python 3.13 "headroom-ai[all]"
+(LLM) Headroom: Inst. # headroom wrap opencode
 (LLM) OfficeCLI: Inst. # scoop install officecli
 (LLM) Skills: Ex. # skills install earthtojake/text-to-cad
 (LLM) Spec Kit: Inst. # uv tool install -U specify-cli
