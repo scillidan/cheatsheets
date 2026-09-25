@@ -467,6 +467,7 @@ zizmor: Inst. # scoop install zizmor
 (LLM) llmfit: Inst. # sudo pacman -S llmfit-bin
 (LLM) OpenCode: Inst. # paru -S opencode
 (LLM) OpenCode: Inst. # scoop install opencode
+(LLM) OpenCode: Inst. # scoop install versions/opencode2
 (LLM) OpenCode: Conf. # npm config set registry https://mirrors.cloud.tencent.com/npm/
 (LLM) OpenCode: Ex. # bun add -g @cortexkit/magic-context@latest
 (LLM) OpenCode: Ex. # magic-context setup
