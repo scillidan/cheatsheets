@@ -1,4 +1,4 @@
-## Neovim:: https://neovim.io/doc/user/quickref.html:
+## https://neovim.io/doc/user/quickref.html:
 Neovim: Insert in V-Block mode                | C-v i Esc
 Neovim: V-Block                               | C-v
 Neovim: Previous tab                          | [/]b
