@@ -1,6 +1,6 @@
 ## https://github.com/thomasschafer/scooter/tree/main#keys-section
 scooter: (General) Quit | C-c
-scooter: (General) Reset = C-r
+scooter: (General) Reset | C-r
 scooter: (General) Show the help menu containing keymaps | C-h
 scooter: (Search) Toggle wrapping of lines that don't fit within the width of the preview | C-l
 scooter: (Search) Toggle inclusion of hidden files and directories, such as those whose name starts with a dot (.) | C-t

@@ -143,8 +143,10 @@ VSCodium: Inst. # scoop install vscodium
 (Music) TagScanner: Inst. # yay -S --noconfirm tagscanner
 (Music) TagScanner: Inst. # scoop install tagscanner
 (PDF) THE PDFALYZER: Inst. # uv tool install -U pdfalyzer
+(Tool-Download) nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
 (Tool-Hardware) MTUI: Inst. # bin install github.com/inowattio/MTUI mtui.exe
 (Tool-Keyboard) komokana: Inst. # scoop install kanata komokana
+(Tool-Disk) Ext4Fsd: Inst. # gsudo scoop install ext4fsd-np
 (Tool-Others) pom-tool: Inst. # bun add -g pom-tool@latest
 (Tool-Others) pom-tool: # pom
 (Tool-Others) Qalculate!: Inst. # scoop install qalculate

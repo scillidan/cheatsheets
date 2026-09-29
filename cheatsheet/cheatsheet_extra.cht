@@ -43,7 +43,6 @@ Neovide: Inst. # scoop install neovide
 Neovide: Inst. # sudo pacman -S neovide
 Neovim: Ex. # uv tool install gdtoolkit
 Neovim: Ex. # uv tool install neovim-remote
-nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
 python-pinyin: Inst. # uv tool install -U pypinyin
 pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
 Saber: Inst. # scoop install saber

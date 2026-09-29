@@ -560,6 +560,7 @@ zizmor: Inst. # scoop install zizmor
 (Tool-Others) fend: Inst. # scoop install fend
 (Tool-Others) bttf: Inst. # scoop install bttf
 (Tool-Others) carl: Inst. # cargo install -f carl
+(Tool-Others) witr: Inst. # scoop install witr
 (Tool-Security) andcli: Inst. # scoop install andcli
 (Tool-Security) Picocrypt NG: Inst. # scoop install picocrypt-ng
 (Video) Kdenlive: Inst. # sudo pacman -S kdenlive

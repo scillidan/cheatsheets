@@ -1,0 +1,7 @@
+## https://github.com/Snipaste/feedback/wiki/Key-Bindings
+Snipaste PRO: Disable/enable global hotkeys (User) | C-A-S-PrtSc
+Snipaste PRO: Hide/Show all images (User)          | S-PrtSc
+Snipaste PRO: Paste (User)                         | C-PrtSc
+Snipaste PRO: Scan QRcode (User)                   | C-A-S-q
+Snipaste PRO: Snip (User)                          | PrtSc
+Snipaste PRO: Snip and pin (User)                  | Win-C-L_drag
