@@ -61,7 +61,7 @@ Rime: Inst. # scoop install weasel
 Sentences: Inst. # go install github.com/neurosnap/sentences/cmd/sentences@latest
 silicon: Inst. # sudo pacman -S silicon
 silicon: Inst. # scoop install silicon
-SilverBulle: Inst. # scoop install silverbulle
+SilverBullet: Inst. # scoop install silverbullet
 swpui: Inst. # bin install github.com/beeb/swpui swpui.exe
 Thorium: Inst. # yay -S --noconfirm thorium-reader-bin
 Thorium: Inst. # scoop install thorium-reader
@@ -89,6 +89,7 @@ VSCodium: Inst. # scoop install vscodium
 (Git) Git Extensions: Inst. # scoop install gitextensions
 (Git) pro: Inst. # scoop install pile/pro
 (Git) Serie: Inst. # cargo install -f --locked serie
+(Git) SourceGit: Inst. # scoop install sourcegit
 (Git) grut: Inst. # scoop install pile/grut
 (Github) Github Desktop: Inst. # scoop install github
 (Image) BeeRef: Inst. # scoop install beeref
@@ -157,7 +158,10 @@ VSCodium: Inst. # scoop install vscodium
 [Arch] zathura: Inst. # sudo pacman -S zathura zathura-cb zathura-pdf-mupdf
 
 [Windows] Caffeine: Inst. # scoop install caffeine
+[Windows] Ditto: Inst. # scoop install ditto
 [Windows] GNU utilities: Depend. # scoop install unxutils
+[Windows] IrfanView: Inst. # scoop install irfanview
 [Windows] Mp3tag: Inst. # scoop install mp3tag
 [Windows] NohBoard: Inst. # scoop install nohboard
 [Windows] OpenHashTab: Inst. # gsudo scoop install openhashtab-np
+[Windows] TablacusExplorer: Inst. # scoop install tablacus-explorer

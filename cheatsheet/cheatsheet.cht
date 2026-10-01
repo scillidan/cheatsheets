@@ -20,6 +20,7 @@ cargo-seek: Inst. # scoop install cargo-seek
 ClamAV: Inst. # sudo pacman -S clamav
 ClamAV: Inst. # scoop install clamav
 cloc: Inst. # scoop install cloc
+CopyQ: Inst. # scoop install copyq
 cpr: Inst. # scoop install cpr
 csvlens: Inst. # scoop install csvlens
 Darktable: Inst. # sudo pacman -S darktable
@@ -104,8 +105,6 @@ LazySSH: Inst. # scoop install lazyssh
 Less: Inst. # scoop install less
 LibreOffice: Inst. # sudo pacman -S libreoffice
 LibreOffice: Inst. # scoop install libreoffice
-LibreWolf: Inst. # sudo pacman -S librewolf speech-dispatcher
-LibreWolf: Inst. # scoop install librewolf
 links: Inst. # sudo pacman -S links
 links: Inst. # scoop install links
 LocalSend: Inst. # yay -S --noconfirm localsend-bin
@@ -433,7 +432,6 @@ zizmor: Inst. # scoop install zizmor
 (Github) Desktop Plus: Inst. # scoop install desktop-plus
 (GitLab) GitLab CLI: Inst. # scoop install glab
 (Gitlab) glab-tui: Inst. # scoop install pile/glab-tui
-(Image) Caesium Image Compressor: Inst. # scoop install caesium-image-compressor
 (Image) GIMP: Inst. # sudo pacman -S gimp
 (Image) GIMP: Inst. # scoop install gimp
 (Image) ImageMagick: Inst. # sudo pacman -S imagemagick
@@ -579,12 +577,10 @@ zizmor: Inst. # scoop install zizmor
 [Windows] DirX: Inst. # bin install github.com/chrisant996/dirx	dirx.exe
 [Windows] dnGrep: Inst. # scoop install dngrep
 [Windows] Dependencies: Inst. # scoop install dependencies
-[Windows] Ditto: Inst. # scoop install ditto
 [Windows] EarTrumpet: Inst. # scoop install eartrumpet
 [Windows] Everything: Inst. # scoop install everything
 [Windows] ExifGlass: Inst. # scoop install exifglass
 [Windows] ExifGlass: Conf. # Menu → Settings → Executable Path → Select → `exiftool.exe`
-[Windows] FastCopy: Inst. # scoop install fastcopy
 [Windows] Geek Uninstaller: Inst. # scoop install geekuninstaller
 [Windows] git: Conf. # git config --global core.autocrlf true
 [Windows] git: Conf. # git config --global core.editor "subl --new-window --wait"
@@ -593,7 +589,6 @@ zizmor: Inst. # scoop install zizmor
 [Windows] Hotkey Detective: Inst. # scoop install hotkey-detective
 [Windows] ImageGlass: Inst. # scoop install imageglass
 [Windows] Inno Setup: Inst. # scoop install innounp innounp-unicode
-[Windows] IrfanView: Inst. # scoop install irfanview
 [Windows] JPEGView: Inst. # scoop install jpegview-fork
 [Windows] Keypirinha: Inst. # scoop install keypirinha
 [Windows] lessmsi: Depend. # scoop install lessmsi
@@ -645,7 +640,6 @@ zizmor: Inst. # scoop install zizmor
 [Windows] SSHFS-Win Manager: Inst. # scoop install sshfs-win-manager
 [Windows] SumatraPDF Reader: Inst. # scoop install sumatrapdf-installer
 [Windows] SVG Viewer Extension for Windows Explorer: Inst. # scoop install svg-explorer-extension-np
-[Windows] TablacusExplorer: Inst. # scoop install tablacus-explorer
 [Windows] virgo: Inst. # scoop install virgo
 [Windows] Visual Studio Locator: Depend. # scoop install vswhere
 [Windows] wcap: Inst. # scoop install wcap

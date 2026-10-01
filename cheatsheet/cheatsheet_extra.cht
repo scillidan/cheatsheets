@@ -36,6 +36,8 @@ Kiwix Serve: 1. # kiwix-serve --address 0.0.0.0 --port 5173 $.zim
 Kiwix Serve: 2.1. # kiwix-manage <path_to>\kiwix\library.xml add $1.zim $2.zim
 Kiwix Serve: 2.1. # kiwix-serve --library <path_to>\kiwix\library.xml --address 0.0.0.0 --port 5173
 Kopia: Inst. # scoop install kopia kopiaui
+LibreWolf: Inst. # sudo pacman -S librewolf speech-dispatcher
+LibreWolf: Inst. # scoop install librewolf
 LÖVE: Inst. # scoop install love
 Meson: Depend. # scoop install meson
 Neovide: # neovide --size=1250x720 --frame none --no-tabs --wsl archwsl
@@ -48,13 +50,10 @@ pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylan
 Saber: Inst. # scoop install saber
 sdcv: Inst. # sudo pacman -S sdcv
 sdcv: Inst. # scoop install pile/sdcv
-SilverBullet: Inst. # scoop install silverbullet
 sitefetch: Inst. # bun add -g sitefetch@latest
 Sloc Cloc and Code (scc): Inst. # scoop install scc
 split-manga-pages: Inst. # uv tool install -U split_manga_pages
 SSHM: Inst. # scoop install sshm
-Keyward: Inst. # bin install github.com/gateway-of-last-resort/keyward keyward.exe
-stl-thumb: Inst. # bin install github.com/unlimitedbacon/stl-thumb stl-thumb.exe
 syncthing: Inst. # sudo pacman -S syncthing
 syncthing: Inst. # scoop install syncthing
 rip2: Inst. # scoop install rip
@@ -68,6 +67,7 @@ Unison: Conf. # subl %USERPROFILE%\.unison\<profile>.prf
 zim-tools: Inst. # scoop install pile/zim-tools
 
 (3D) F3D: Inst. # scoop install f3d
+(3D) stl-thumb: Inst. # gsudo scoop install stl-thumb-np
 (Audio) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
 (Audio) AudioBookConverter: Inst. # scoop install audiobookconverter
 (Dev) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
@@ -117,6 +117,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) asciify-them: Inst. # uv tool install -U asciify-them
 (Image) autocrop: Inst. # uv tool install -U autocrop
 (Image) AutoTrace: Inst. # sudo pacman -S autotrace
+(Image) Caesium Image Compressor: Inst. # scoop install caesium-image-compressor
 (Image) chaiNNer: Inst. # scoop install pile/chainner
 (Image) color-matcher: Inst. # uv tool install -U color-matcher
 (Image) Deskew: Inst. # uv tool install deskew
@@ -126,7 +127,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) Gifski: Inst. # sudo pacman -S gifski
 (Image) Gifski: Inst. # scoop install gifski
 (Image) GMI'C: Inst. # scoop install gmic-cli gmic-qt
-(Image) Paletter: Inst. # bin install github.com/Baldomo/paletter paletter.exe
+(Image) Paletter: Inst. # scoop install pile/paletter
 (Image) pngquant: Inst. # sudo pacman -S pngquant
 (Image) pngquant: Inst. # scoop install pngquant
 (Image) posterust: Inst. # cargo install posterust
@@ -151,7 +152,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Music) Tag Editor: Conf. # mklink "%APPDATA%\Microsoft\Windows\SendTo\tageditor.exe" "%SCOOP%\apps\tageditor\current\tageditor.exe"
 (Music) ZonyLrcToolsX: Inst. # scoop install pile/zonylrctoolsx
 (PDF) marker: Inst. # uv tool install -w hf_transfer -w streamlit -U marker-pdf
-(PDF) markpdf: Inst. # bin install github.com/ajaxray/markpdf markpdf.exe
 (PDF) page-dewarp: Inst. # uv tool install -U page-dewarp
 (PDF) pdfCropMargins: Inst. # uv tool install -U pdfCropMargins
 (PDF) pdfCropMargins: # pdfcropmargins -v -s -u -gui file.pdf
@@ -212,6 +212,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 [Windows] Cjam: Inst. # scoop install pilecjam
 [Windows] Cygwin: Inst. # scoop install cygwin
 [Windows] Cygwin: apt-cyg install gcc-core gcc-g++ make automake autoconf libtool pkg-config
+[Windows] FastCopy: Inst. # scoop install fastcopy
 [Windows] GPU-Z: Inst. # scoop install gpu-z
 [Windows] Lintalist: Inst. # scoop install lintalist
 [Windows] Microsoft Activation Scripts: Inst. # gh download massgravel/Microsoft-Activation-Scripts MAS
