@@ -56,7 +56,7 @@ Kdenlive: (Editing) Toggle Track Active (3-point-editing)                    | a
 Kdenlive: (Editing) Slip multiple clips at once                              | S-L_drag
 Kdenlive: (Editing) Slip a clip                                              | Lt/Rt
 Kdenlive: (Timeline) Add Clip to Selection                                   | A-+
-Kdenlive: (Timeline) Add Subtitle                                            | S-S
+Kdenlive: (Timeline) Add Subtitle                                            | S-s
 Kdenlive: (Timeline) Create a new subtitle layer                             | S-L_drag
 Kdenlive: (Timeline) Add Transition to Selection                             | A-S-+
 Kdenlive: (Timeline) Add/Remove Guide                                        | g

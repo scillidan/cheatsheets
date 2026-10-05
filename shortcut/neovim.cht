@@ -6,7 +6,7 @@ Neovim: Split window horizontal/vertically    | C-w s/v
 Neovim: Increase/decrease height              | C-w +/-
 Neovim: Increase/decrease width               | C-w >/<
 Neovim: Equally high and wide                 | C-w =
-Neovim: Add a line below/after {n}            | o/O
+Neovim: Add a line before/after {n}            | o/O
 Neovim: Change word and enter Insert Mode {i} | ciw
 Neovim: Select word and change                | viw c
 Neovim: Go to the last edit                   | g;

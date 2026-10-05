@@ -5,16 +5,14 @@ yazi: (Navigation) Leave the current directory                                  
 yazi: (Navigation) Seek up/down 5 units in the preview                           | K/J
 yazi: (Navigation) Move cursor to the top/bottom                                 | gg/G
 yazi: (Selection) Toggle selection of hovered file/directory                     | Spc
-yazi: (Selection) Enter visual mode (selection mode)                             | v
-yazi: (Selection) Enter visual mode (unset mode)                                 | V
+yazi: (Selection) Enter visual mode (selection/unset mode)                       | v/V
 yazi: (Selection) Select all files                                               | C-a
 yazi: (Selection) Inverse selection of all files                                 | C-r
 yazi: (Selection) Cancel selection                                               | Esc
 yazi: (File operations) Open selected files                                      | o/Etr
 yazi: (File operations) Open selected files interactively                        | O/S-Etr
 yazi: (File operations) Show the file information                                | Tab
-yazi: (File operations) Yank selected files (copy)                               | y
-yazi: (File operations) Yank selected files (cut)                                | x
+yazi: (File operations) Yank selected files (cut/copy)                           | xy
 yazi: (File operations) Paste yanked files                                       | p
 yazi: (File operations) Paste yanked files (overwrite if the destination exists) | P
 yazi: (File operations) Cancel the yank status                                   | Y/X

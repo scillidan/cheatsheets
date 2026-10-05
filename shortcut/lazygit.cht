@@ -1,34 +1,32 @@
 ## https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md
 Lazygit: (Global) Switch to a recent repo                              | C-r
-Lazygit: (Global) Scroll Up/Down main window                           | PgUp/PgDn / K/J
+Lazygit: (Global) Scroll up/down main window                           | K/J / PgUp/PgDn
 Lazygit: (Global) View command log options                             | @
-Lazygit: (Global) Pull/Push                                            | p/P
-Lazygit: (Global) Decrease/Increase rename similarity threshold        | (/)
-Lazygit: (Global) Decrease/Increase diff context size                  | {/}
+Lazygit: (Global) Pull/push                                            | p/P
+Lazygit: (Global) Decrease/increase rename similarity threshold        | (/)
+Lazygit: (Global) Decrease/increase diff context size                  | {/}
 Lazygit: (Global) Execute shell command                                | :
 Lazygit: (Global) View custom patch options                            | C-p
 Lazygit: (Global) View merge/rebase options                            | m
 Lazygit: (Global) Refresh                                              | R
-Lazygit: (Global) Prev/Next screen mode (normal/half/fullscreen)       | _/+
+Lazygit: (Global) Prev/next screen mode (normal/half/fullscreen)       | _/+
 Lazygit: (Global) Cycle pagers                                         | \|
 Lazygit: (Global) Cancel                                               | Esc
 Lazygit: (Global) Open keybindings menu                                | ?
 Lazygit: (Global) View filter options                                  | C-s
-Lazygit: (Global) View diffing options                                 | W
-Lazygit: (Global) View diffing options                                 | C-e
+Lazygit: (Global) View diffing options                                 | W / C-e
 Lazygit: (Global) Quit                                                 | q
 Lazygit: (Global) Suspend the application                              | C-z
 Lazygit: (Global) Toggle whitespace                                    | C-w
-Lazygit: (Global) Undo                                                 | z
-Lazygit: (Global) Redo                                                 | Z
+Lazygit: (Global) Undo/redo                                            | z/Z
 Lazygit: (List panel navigation) Previous page                         | ,
 Lazygit: (List panel navigation) Next page                             | .
 Lazygit: (List panel navigation) Scroll to top/bottom                  | </> / Home/End
 Lazygit: (List panel navigation) Toggle range select                   | v
-Lazygit: (List panel navigation) Range select Up/Down                  | S-Up/Dn
+Lazygit: (List panel navigation) Range select up/down                  | S-Up/Dn
 Lazygit: (List panel navigation) Search the current view by text       | /
-Lazygit: (List panel navigation) Scroll Left/Right                     | H/L
-Lazygit: (List panel navigation) Previous/Next tab                     | [/]
+Lazygit: (List panel navigation) Scroll left/right                     | H/L
+Lazygit: (List panel navigation) Previous/next tab                     | [/]
 Lazygit: (Commit files) Copy path to clipboard                         | C-o
 Lazygit: (Commit files) Copy to clipboard                              | y
 Lazygit: (Commit files) Checkout                                       | c
@@ -40,8 +38,7 @@ Lazygit: (Commit files) Toggle file included in patch                  | Spc
 Lazygit: (Commit files) Toggle all files                               | a
 Lazygit: (Commit files) Enter file / Toggle directory collapsed        | Etr
 Lazygit: (Commit files) Toggle file tree view                          | `
-Lazygit: (Commit files) Collapse all files                             | -
-Lazygit: (Commit files) Expand all files                               | =
+Lazygit: (Commit files) Collapse/expand all files                      | -/=
 Lazygit: (Commit files) Focus main view                                | 0
 Lazygit: (Commit files) Search the current view by text                | /
 Lazygit: (Commit summary) Confirm                                      | Etr
@@ -59,7 +56,7 @@ Lazygit: (Commits) Start interactive rebase                            | i
 Lazygit: (Commits) Pick                                                | p
 Lazygit: (Commits) Create fixup commit                                 | F
 Lazygit: (Commits) Apply fixup commits                                 | S
-Lazygit: (Commits) Move commit Up/Down one                             | C-k/j
+Lazygit: (Commits) Move commit up/down one                             | C-k/j
 Lazygit: (Commits) Paste (cherry-pick)                                 | V
 Lazygit: (Commits) Mark as base commit for rebase                      | B
 Lazygit: (Commits) Amend                                               | A
@@ -81,9 +78,8 @@ Lazygit: (Commits) View files                                          | Etr
 Lazygit: (Commits) View worktree options                               | w
 Lazygit: (Commits) Search the current view by text                     | /
 Lazygit: (Confirmation panel) Confirm                                  | Etr
-Lazygit: (Confirmation panel) Close/Cancel                             | Esc
+Lazygit: (Confirmation panel) Close/cancel                             | Esc
 Lazygit: (Confirmation panel) Copy to clipboard                        | C-o
-Lazygit: (Files) Action                                                | Key
 Lazygit: (Files) Copy path to clipboard                                | C-o
 Lazygit: (Files) Stage                                                 | Spc
 Lazygit: (Files) Filter files by status                                | C-b
@@ -139,46 +135,46 @@ Lazygit: (Local branches) Focus main view                              | 0
 Lazygit: (Local branches) View commits                                 | Etr
 Lazygit: (Local branches) View worktree options                        | w
 Lazygit: (Local branches) Filter the current view by text              | /
-Lazygit: (Main panel (merging)) Pick hunk                              | Spc
-Lazygit: (Main panel (merging)) Pick all hunks                         | b
-Lazygit: (Main panel (merging)) Previous/Next hunk                     | Up/Dn
-Lazygit: (Main panel (merging)) Previous/Next conflict                 | Lt/Rt
-Lazygit: (Main panel (merging)) Undo                                   | z
-Lazygit: (Main panel (merging)) Edit file                              | e
-Lazygit: (Main panel (merging)) Open file                              | o
-Lazygit: (Main panel (merging)) View merge conflict options            | M
-Lazygit: (Main panel (merging)) Return to files panel                  | Esc
-Lazygit: (Main panel (normal)) Scroll Up/Down                          | MW_Up/Dn
-Lazygit: (Main panel (normal)) Switch view                             | Tab
-Lazygit: (Main panel (normal)) Exit back to side panel                 | Esc
-Lazygit: (Main panel (normal)) Search the current view by text         | /
-Lazygit: (Main panel (patch building)) Go to previous/next hunk        | Lt/Rt
-Lazygit: (Main panel (patch building)) Toggle range select             | v
-Lazygit: (Main panel (patch building)) Toggle hunk selection           | a
-Lazygit: (Main panel (patch building)) Copy selected text to clipboard | C-o
-Lazygit: (Main panel (patch building)) Open file                       | o
-Lazygit: (Main panel (patch building)) Edit file                       | e
-Lazygit: (Main panel (patch building)) Toggle lines in patch           | Spc
-Lazygit: (Main panel (patch building)) Exit custom patch builder       | Esc
-Lazygit: (Main panel (patch building)) Search the current view by text | /
-Lazygit: (Main panel (staging)) Go to previous/next hunk               | Lt/Rt
-Lazygit: (Main panel (staging)) Toggle range select                    | v
-Lazygit: (Main panel (staging)) Toggle hunk selection                  | a
-Lazygit: (Main panel (staging)) Copy selected text to clipboard        | C-o
-Lazygit: (Main panel (staging)) Stage                                  | Spc
-Lazygit: (Main panel (staging)) Discard                                | d
-Lazygit: (Main panel (staging)) Open file                              | o
-Lazygit: (Main panel (staging)) Edit file                              | e
-Lazygit: (Main panel (staging)) Return to files panel                  | Esc
-Lazygit: (Main panel (staging)) Switch view                            | Tab
-Lazygit: (Main panel (staging)) Edit hunk                              | E
-Lazygit: (Main panel (staging)) Commit                                 | c
-Lazygit: (Main panel (staging)) Commit changes without pre-commit hook | w
-Lazygit: (Main panel (staging)) Commit changes using git editor        | C
-Lazygit: (Main panel (staging)) Find base commit for fixup             | C-f
-Lazygit: (Main panel (staging)) Search the current view by text        | /
+Lazygit: (Main panel - merging) Pick hunk                              | Spc
+Lazygit: (Main panel - merging) Pick all hunks                         | b
+Lazygit: (Main panel - merging) Previous/next hunk                     | Up/Dn
+Lazygit: (Main panel - merging) Previous/next conflict                 | Lt/Rt
+Lazygit: (Main panel - merging) Undo                                   | z
+Lazygit: (Main panel - merging) Edit file                              | e
+Lazygit: (Main panel - merging) Open file                              | o
+Lazygit: (Main panel - merging) View merge conflict options            | M
+Lazygit: (Main panel - merging) Return to files panel                  | Esc
+Lazygit: (Main panel - normal) Scroll up/down                          | MW_Up/Dn
+Lazygit: (Main panel - normal) Switch view                             | Tab
+Lazygit: (Main panel - normal) Exit back to side panel                 | Esc
+Lazygit: (Main panel - normal) Search the current view by text         | /
+Lazygit: (Main panel - patch building) Go to previous/next hunk        | Lt/Rt
+Lazygit: (Main panel - patch building) Toggle range select             | v
+Lazygit: (Main panel - patch building) Toggle hunk selection           | a
+Lazygit: (Main panel - patch building) Copy selected text to clipboard | C-o
+Lazygit: (Main panel - patch building) Open file                       | o
+Lazygit: (Main panel - patch building) Edit file                       | e
+Lazygit: (Main panel - patch building) Toggle lines in patch           | Spc
+Lazygit: (Main panel - patch building) Exit custom patch builder       | Esc
+Lazygit: (Main panel - patch building) Search the current view by text | /
+Lazygit: (Main panel - staging) Go to previous/next hunk               | Lt/Rt
+Lazygit: (Main panel - staging) Toggle range select                    | v
+Lazygit: (Main panel - staging) Toggle hunk selection                  | a
+Lazygit: (Main panel - staging) Copy selected text to clipboard        | C-o
+Lazygit: (Main panel - staging) Stage                                  | Spc
+Lazygit: (Main panel - staging) Discard                                | d
+Lazygit: (Main panel - staging) Open file                              | o
+Lazygit: (Main panel - staging) Edit file                              | e
+Lazygit: (Main panel - staging) Return to files panel                  | Esc
+Lazygit: (Main panel - staging) Switch view                            | Tab
+Lazygit: (Main panel - staging) Edit hunk                              | E
+Lazygit: (Main panel - staging) Commit                                 | c
+Lazygit: (Main panel - staging) Commit changes without pre-commit hook | w
+Lazygit: (Main panel - staging) Commit changes using git editor        | C
+Lazygit: (Main panel - staging) Find base commit for fixup             | C-f
+Lazygit: (Main panel - staging) Search the current view by text        | /
 Lazygit: (Menu) Execute                                                | Etr
-Lazygit: (Menu) Close/Cancel                                           | Esc
+Lazygit: (Menu) Close/cancel                                           | Esc
 Lazygit: (Menu) Filter the current view by text                        | /
 Lazygit: (Reflog) Copy commit hash to clipboard                        | C-o
 Lazygit: (Reflog) Checkout                                             | Spc
@@ -195,7 +191,6 @@ Lazygit: (Reflog) Focus main view                                      | 0
 Lazygit: (Reflog) View commits                                         | Etr
 Lazygit: (Reflog) View worktree options                                | w
 Lazygit: (Reflog) Filter the current view by text                      | /
-Lazygit: (Remote branches) Action                                      | Key
 Lazygit: (Remote branches) Copy branch name to clipboard               | C-o
 Lazygit: (Remote branches) Checkout                                    | Spc
 Lazygit: (Remote branches) New branch                                  | n

@@ -18,7 +18,7 @@ fzf: kill-word            | A-d
 fzf: page-up/down         | PgUp/PgDn
 fzf: preview-up/down      | S-Up/Dn
 fzf: toggle-wrap-word     | C-/ / A-/
-fzf: toggle+up/down       | S-tab / Tab
+fzf: toggle-up/down       | S-Tab / Tab
 fzf: unix-line-discard    | C-u
 fzf: unix-word-rubout     | C-w
 fzf: up                   | C-k / Up

@@ -1,16 +1,13 @@
-## https://vim.rtorr.com/
-Vim: Copy all to clipboard | {n} %y+
-Vim: Autoindent            | =
+## https://vim.rtorr.com
 Vim: Delete line (Cut)     | dd
-Vim: Indent left           | <
-Vim: Indent right          | >
-Vim: Lowercase             | gu
-Vim: Next End Of Line      | e
-Vim: Next Word             | w
+Vim: Start Of line         | 0
 Vim: Previous end of line  | ge
-Vim: Previous word         | b
+Vim: Next End Of Line      | e
+Vim: Previous/Next Word    | b/w
 Vim: Select paragraph      | vip
 Vim: Selete more           | vipipip
-Vim: Start Of line         | 0
+Vim: Lowercase/Uppercase   | gu/U
 Vim: Swap Case             | g~
-Vim: Uppercase             | gU
+Vim: Autoindent            | =
+Vim: Indent left/right     | </>
+Vim: Copy all to clipboard | {n} %y+

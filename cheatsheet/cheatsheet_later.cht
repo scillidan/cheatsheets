@@ -8,6 +8,7 @@ Double Commander: Inst. # scoop install doublecmd
 FreeCAD: Inst. # sudo pacman -S freecad
 FreeCAD: Inst. # scoop install freecad
 glslViewer: Inst. # scoop install glslviewer
+godl: Inst. # scoop install pile/godl
 Harlequin: Inst. # uv tool install -U harlequin
 KiCad: Inst. # sudo pacman -S kicad
 KiCad: Inst. # scoop install kicad
@@ -50,6 +51,16 @@ Zellij: Inst. # scoop install zellij
 (LLM) Headroom: Inst. # uv tool install --python 3.13 "headroom-ai[all]"
 (LLM) Headroom: Inst. # headroom wrap opencode
 (LLM) OfficeCLI: Inst. # scoop install officecli
+(LLM) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill ui-skills-root
+(LLM) Skills: Ex. # skills add https://github.com/0xdesign/design-plugin --skill design-lab
+(LLM) Skills: Ex. # skills add https://github.com/pbakaus/impeccable --skill impeccable
+(LLM) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill improve-ui
+(LLM) Skills: Ex. # skills add https://github.com/jakubkrehel/skills --skill better-ui
+(LLM) Skills: Ex. # skills add https://github.com/shadcn/improve --skill improve
+(LLM) Skills: Ex. # skills add https://github.com/rams/rams-ai --skill rams
+(LLM) Skills: Ex. # skills add https://github.com/antfu/skills --skill web-design-guidelines
+(LLM) Skills: Ex. # skills add https://github.com/emilkowalski/skills --skill improve-animations
+(LLM) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
 (LLM) Skills: Ex. # skills install earthtojake/text-to-cad
 (LLM) Spec Kit: Inst. # uv tool install -U specify-cli
 (LLM) spectatui: Inst. # scoop install pile/spectatui

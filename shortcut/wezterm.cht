@@ -20,6 +20,5 @@ WezTerm: Toggle pane zoom state (User)              | <leader>z
 WezTerm: Close current pane (User)                  | <leader>x
 WezTerm: Activate tab $ (User)                      | <leader>$
 WezTerm: Close current tab (User)                   | <leader>&
-WezTerm: (Windows) Move tab left (User)             | C-A-h
-WezTerm: (Windows) Move tab right (User)            | C-A-l
+WezTerm: (Windows) Move tab left/right (User)       | C-A-h/l
 WezTerm: Send string "Ctrl-a" (User)                | <leader>C-a
