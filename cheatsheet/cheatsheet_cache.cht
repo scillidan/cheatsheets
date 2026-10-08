@@ -36,7 +36,6 @@ GlazePKG (gpk): Inst. # scoop install glazepkg
 gPodder: Inst. # sudo pacman -S gpodder
 gPodder: Inst. # scoop install gpodder
 Horizon EDA: Inst. # scoop install horizon-eda
-keepkit: Inst. # scoop install pile/keepkit
 ki-cli: Inst. # bun add -g ki-cli@latest
 lazyrsync: Inst. # cargo install lazyrsync
 Lazysql: Inst. # scoop install lazysql
@@ -47,6 +46,7 @@ massCode: Inst. # scoop install masscode
 mdterm: Inst. # scoop install pile/mdterm
 oken: Inst. # scoop install pile/oken
 OmegaT: Inst. # scoop install omegat
+PassTUI: Inst. # uv tool install -U passtui --python 3.14
 Parm: Inst. # scoop install pile/parm
 percollate: Inst. # bun add -g percollate@latest
 pip_search: Inst. # uv tool install -U pip_search
@@ -151,6 +151,7 @@ VSCodium: Inst. # scoop install vscodium
 (Tool-Others) pom-tool: Inst. # bun add -g pom-tool@latest
 (Tool-Others) pom-tool: # pom
 (Tool-Others) Qalculate!: Inst. # scoop install qalculate
+(Video) Parabolic: Inst. # scoop install parabolic
 (Video) qmtn: Inst. # scoop install pile/qmtn-np
 
 [Arch] asciinema: Inst. # sudo pacman -S asciinema

@@ -21,6 +21,7 @@ grex: Inst. # scoop install grex
 gutenbergpy: Inst. # uv tool install -U gutenbergpy
 gutenbit: Inst. # uv tool install -U gutenbit
 HakuNeko: Inst. # scoop install hakuneko
+Handy: Inst. # scoop install handy
 hl: Inst. # scoop install hl
 html-to-markdown: Inst. # scoop install html-to-markdown
 htmlq: Inst. # scoop install htmlq
@@ -70,8 +71,10 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (3D) stl-thumb: Inst. # gsudo scoop install stl-thumb-np
 (Audio) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
 (Audio) AudioBookConverter: Inst. # scoop install audiobookconverter
+(Audio) VoiceStudio: Inst. # scoop install voicestudio
 (Dev) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
 (Dev) deputui: Inst. # pnpm outdated --format json | deputui
+(Dev) Godots: Inst. # scoop install godots
 (Dev) Live Server: Inst. # bun add -g live-server@latest
 (Dev) Resterm: Inst. # scoop install resterm
 (Dev) Wappalyzer Next: Inst. # uv tool install -U wappalyzer
@@ -88,11 +91,13 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Draw) Krita: Inst. # sudo pacman -S krita
 (Draw) Krita: Inst. # scoop install krita
 (Epub) epub2txt: Inst. # uv tool install -U epub2text[lxml]
-(Font) Ark Pixel Font: Inst. # scoop install Ark-Pixel-Font-12px-proportional
-(Font) FontFor: Inst. # scoop install pile/fontfor
-(Font) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
-(Font) ttf2woff2: Inst. # bun add -g ttf2woff2@latest
-(Font) Webify: Inst. # scoop install pile/webify
+(Font) Ark Pixel Font: Inst. # scoop install fonts/Ark-Pixel-Font-12px-proportional
+(Font) Departure Mono: Inst. # scoop install fonts/DepartureMono
+(Font) Ioskeley Mono: Inst. # scoop install fonts/IoskeleyMono fonts/IoskeleyMono-SemiCondensed
+(Font-Tool) FontFor: Inst. # scoop install pile/fontfor
+(Font-Tool) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
+(Font-Tool) ttf2woff2: Inst. # bun add -g ttf2woff2@latest
+(Font-Tool) Webify: Inst. # scoop install pile/webify
 (Game) CompactGUI: Inst. # scoop install compactgui
 (Game) EmulationStation Desktop Edition: Inst. # yay -S --noconfirm emulationstation-de
 (Game) EmulationStation Desktop Edition: Inst. # scoop install games/es-de
@@ -132,11 +137,13 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) pngquant: Inst. # scoop install pngquant
 (Image) posterust: Inst. # cargo install posterust
 (Image) rclip: Inst. # scoop install rclip
+(Image) rusted_ascii_filter: Inst. # scoop install pile/rusted-ascii-filter
 (Image) Vipsdisp: Inst. # scoop install vipsdisp
 (Image) Wait4X: Inst. # scoop install wait4x
 (Image) XnConvert: Inst. # scoop install xnconvert
 (LLM) context-mode: Inst. # bun add -g context-mode@latest
 (LLM) HAPI: Inst. # scoop install hapi
+(Manga) Koharu: Inst. # scoop install koharu
 (Media) Shutter Encoder: Inst. # scoop install shutter-encoder
 (Music) CUETools: Inst. # sudo pacman -S cuetools
 (Music) CUETools: Inst. # scoop install cuetools
@@ -185,7 +192,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Video) Movie Thumbnailer (mtn): Inst. # scoop install mtn
 (Video) mt: Inst. # go install github.com/mutschler/mt@latest
 (Video) ntsc-rs: Inst. # scoop install ntsc-rs
-(Video) Parabolic: Inst. # scoop install parabolic
 (Video) vcsi: Inst. # uv tool install -U vcsi
 (Video) video-compare: Inst. # scoop install video-compare
 (Video) video-to-ascii: Inst. # uv tool install -U video-to-ascii
@@ -212,6 +218,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 [Windows] Cjam: Inst. # scoop install pilecjam
 [Windows] Cygwin: Inst. # scoop install cygwin
 [Windows] Cygwin: apt-cyg install gcc-core gcc-g++ make automake autoconf libtool pkg-config
+[Windows] dnGrep: Inst. # scoop install dngrep
 [Windows] FastCopy: Inst. # scoop install fastcopy
 [Windows] GPU-Z: Inst. # scoop install gpu-z
 [Windows] Lintalist: Inst. # scoop install lintalist

@@ -10,9 +10,6 @@ bat: # bat --list-themes | fzf --preview="bat --theme={} --color=always<file>"
 bin: Inst. # scoop install bin
 Barrier: Inst. # gsudo scoop install barrier-np
 Bob: Inst. # scoop install bob
-Bulk Rename Command: Inst. # scoop install bulk-rename-command
-Bulk Rename Command: # brc /?
-Bulk Rename Utility: Inst. # scoop install bulk-rename-utility
 bun: Inst. # scoop install bun
 Calibre: Inst. # sudo pacman -S calibre
 Calibre: Inst. # scoop install calibre
@@ -28,6 +25,7 @@ Darktable: Inst. # scoop install darktable
 Delect It Easy: Inst. # yay -S --noconfirm detect-it-easy-bin
 Delect It Easy: Inst. # scoop install detect-it-easy
 doc2dash: Inst. # uv tool install -U doc2dash
+Double Commander: Inst. # scoop install doublecmd
 dua: Inst. # sudo pacman -S dua-cli
 dua: Inst. # scoop install dua
 dua: Interactive mode # dua i
@@ -72,11 +70,9 @@ GnuPG: # gpg --import-ownertrust otrust.txt
 Go OpenCC: Inst. # go install -v github.com/razonyang/gopencc@latest
 Go OpenCC: Simplified Chinese to Traditional Chinese # gopencc -c s2t -i
 Go OpenCC: Traditional Chinese to Simplified Chinese # gopencc -c t2s -i
-Godots: Inst. # scoop install godots
 GoldenDict: Inst. # sudo pacman -S goldendict
 GoldenDict: Inst. # yay -S --noconfirm goldendict-git
 GoldenDict: Inst. # scoop install goldendict
-Handy: Inst. # scoop install handy
 Hash It: Inst. # scoop install pile/hashit
 has: Inst. # scoop install bash/has
 hexyl: Inst. # scoop install hexyl
@@ -338,6 +334,7 @@ zizmor: Inst. # scoop install zizmor
 (Differ) delta: Conf. # git config --global merge.conflictStyle zdiff3
 (Differ) hunk: Inst. # scoop install hunk
 (Differ) hunk: # hunk diff
+(Differ) tuicr: Inst. # scoop install tuicr
 (Docker) Docker: Update # sudo docker compose down
 (Docker) Docker: Update # sudo docker compose pull
 (Docker) Docker: Update # sudo docker compose up -d
@@ -345,10 +342,10 @@ zizmor: Inst. # scoop install zizmor
 (Docker) Docker: Wipe all Docker resources # sudo docker system prune -a --volumes -f
 (Font) LXGW Wenkai GB: Inst. # scoop install pile/LXGW-Wenkai-GB
 (Font) Monaspace: Inst. # scoop install Monaspace-NF-Mono
-(Font) No!! MeiryoUI: Inst. # scoop install nomeiryoui
 (Font) Sarasa Term SC Nerd: Inst. # scoop install pile/Sarasa-Term-SC-Nerd
 (Font) Sarasa Mono SC: Inst. # scoop install SarasaGothic-SC
 (Font) Smiley Sans: Inst. # scoop install pile/Smiley-Sans
+(Font-Tool) No!! MeiryoUI: Inst. # scoop install nomeiryoui
 (Formatter) Ruff: Inst. # sudo pacman -S ruff
 (Formatter) Ruff: Inst. # scoop install ruff
 (Formatter) shfmt: sudo pacman -S shfmt
@@ -570,13 +567,14 @@ zizmor: Inst. # scoop install zizmor
 
 [Windows] .NET: Depend. # gsudo scoop install windowsdesktop-runtime-lts
 [Windows] Autoruns: Inst. # scoop install https://raw.githubusercontent.com/niheaven/scoop-sysinternals/refs/heads/main/bucket/autoruns.json
+[Windows] Bulk Rename Command: Inst. # scoop install bulk-rename-command
+[Windows] Bulk Rename Command: # brc /?
+[Windows] Bulk Rename Utility: Inst. # scoop install bulk-rename-utility
 [Windows] CenterTaskbar: Inst. # scoop install centertaskbar
 [Windows] DeskPins: Inst. # scoop install deskpins
 [Windows] clink: Inst. # scoop install clink clink-completions
 [Windows] ConEmu: Inst. # scoop install conemu
 [Windows] DirX: Inst. # bin install github.com/chrisant996/dirx	dirx.exe
-[Windows] dnGrep: Inst. # scoop install dngrep
-[Windows] Dependencies: Inst. # scoop install dependencies
 [Windows] EarTrumpet: Inst. # scoop install eartrumpet
 [Windows] Everything: Inst. # scoop install everything
 [Windows] ExifGlass: Inst. # scoop install exifglass

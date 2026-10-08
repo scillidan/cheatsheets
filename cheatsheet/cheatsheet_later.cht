@@ -4,20 +4,18 @@ choose: Inst. # scoop install choose
 Codemark: Inst. # scoop install pile/codemark
 Codemark: Conf. # codemark install-skill --agent agents --scope user
 Dasel: Inst. # scoop install dasel
-Double Commander: Inst. # scoop install doublecmd
 FreeCAD: Inst. # sudo pacman -S freecad
 FreeCAD: Inst. # scoop install freecad
 glslViewer: Inst. # scoop install glslviewer
 godl: Inst. # scoop install pile/godl
 Harlequin: Inst. # uv tool install -U harlequin
+keepkit: Inst. # scoop install pile/keepkit
 KiCad: Inst. # sudo pacman -S kicad
 KiCad: Inst. # scoop install kicad
-Koharu: Inst. # scoop install koharu
 Miller: Inst. # sudo pacman -S miller
 Miller: Inst. # scoop install miller
 mise-en-place: Inst. # scoop install mise
 open-pdf-sign: # java -jar open-pdf-sign.jar --input $ --output _.pdf --certificate <crt> --key <pem> --passphrase <password> --page -1 --locale zh-CN
-PassTUI: Inst. # uv tool install -U passtui --python 3.14
 PDF ToC: Inst. # uv tool install -U pdf-toc
 qsv: Inst. # yay -S --noconfirm qsv-bin
 qsv: Inst. # scoop install qsv
@@ -27,7 +25,6 @@ sig: Inst. # scoop install sig
 sq: Inst. # scoop install sq
 sqlit: Inst. # uv tool install -U sqlit-tui
 Vicinae: Inst. # scoop intall vicinae
-VoiceStudio: Inst. # scoop install voicestudio
 Zellij: Inst. # sudo pacman -S zellij
 Zellij: Inst. # scoop install zellij
 
@@ -64,7 +61,6 @@ Zellij: Inst. # scoop install zellij
 (LLM) Skills: Ex. # skills install earthtojake/text-to-cad
 (LLM) Spec Kit: Inst. # uv tool install -U specify-cli
 (LLM) spectatui: Inst. # scoop install pile/spectatui
-(LLM) tuicr: Inst. # scoop install tuicr
 (Music) MuseScore: Inst. # scoop install musescore
 (Tool-Disk) Pinkbin: Inst. # scoop install pinkbin
 (Tool-Hardware) ROM Properties Page: Inst. # scoop install rom-properties-np
@@ -103,3 +99,5 @@ Zellij: Inst. # scoop install zellij
 [Arch] wut: Inst. # pipx install wut-cli
 [Arch] wut: Env. # OLLAMA_MODEL=gemma3:12b-it-qat
 [Arch] xdgctl: Inst. # yay -S --noconfirm xdgctl
+
+[Arch] [Windows] Dependencies: Inst. # scoop install dependencies
