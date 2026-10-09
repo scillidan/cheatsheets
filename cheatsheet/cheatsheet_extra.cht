@@ -74,6 +74,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Audio) VoiceStudio: Inst. # scoop install voicestudio
 (Dev) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
 (Dev) deputui: Inst. # pnpm outdated --format json | deputui
+(Dev) godl: Inst. # scoop install pile/godl
 (Dev) Godots: Inst. # scoop install godots
 (Dev) Live Server: Inst. # bun add -g live-server@latest
 (Dev) Resterm: Inst. # scoop install resterm

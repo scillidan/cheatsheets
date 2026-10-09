@@ -1,22 +1,14 @@
+(Image) PhotoCraft: Inst. # scoop install photocraft
+(Image) LightCraft: Inst. # scoop install lightcraft
 beancount: Inst. # pipx install beanquery
-Binside: Inst. # scoop install binsider
 choose: Inst. # scoop install choose
-Codemark: Inst. # scoop install pile/codemark
-Codemark: Conf. # codemark install-skill --agent agents --scope user
 Dasel: Inst. # scoop install dasel
-FreeCAD: Inst. # sudo pacman -S freecad
-FreeCAD: Inst. # scoop install freecad
 glslViewer: Inst. # scoop install glslviewer
-godl: Inst. # scoop install pile/godl
 Harlequin: Inst. # uv tool install -U harlequin
 keepkit: Inst. # scoop install pile/keepkit
-KiCad: Inst. # sudo pacman -S kicad
-KiCad: Inst. # scoop install kicad
 Miller: Inst. # sudo pacman -S miller
 Miller: Inst. # scoop install miller
 mise-en-place: Inst. # scoop install mise
-open-pdf-sign: # java -jar open-pdf-sign.jar --input $ --output _.pdf --certificate <crt> --key <pem> --passphrase <password> --page -1 --locale zh-CN
-PDF ToC: Inst. # uv tool install -U pdf-toc
 qsv: Inst. # yay -S --noconfirm qsv-bin
 qsv: Inst. # scoop install qsv
 Shutter Encoder: Inst. # scoop install shutter-encoder
@@ -28,6 +20,10 @@ Vicinae: Inst. # scoop intall vicinae
 Zellij: Inst. # sudo pacman -S zellij
 Zellij: Inst. # scoop install zellij
 
+(3D) FreeCAD: Inst. # sudo pacman -S freecad
+(3D) FreeCAD: Inst. # scoop install freecad
+(3D) KiCad: Inst. # sudo pacman -S kicad
+(3D) KiCad: Inst. # scoop install kicad
 (Differ) dyff: Inst. # scoop install dyff
 (Differ) JSON diff and patch: Inst. # scoop install jd
 (Differ) sem: Inst. # scoop install sem
@@ -40,10 +36,11 @@ Zellij: Inst. # scoop install zellij
 (Image) kmeans-colors: Inst. # scoop install kmeans-colors
 (Linter) Vale: Inst. # scoop install vale
 (Linter) Vale: Inst. # sudo pacman -S vale
-
 (LLM) Beads: Inst. # scoop install beads
 (LLM) CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
 (LLM) CodeGraph: # codegraph init -i
+(LLM) Codemark: Inst. # scoop install pile/codemark
+(LLM) Codemark: Conf. # codemark install-skill --agent agents --scope user
 (LLM) Cognee: Inst. # uv pip install cognee
 (LLM) Headroom: Inst. # uv tool install --python 3.13 "headroom-ai[all]"
 (LLM) Headroom: Inst. # headroom wrap opencode
@@ -62,7 +59,11 @@ Zellij: Inst. # scoop install zellij
 (LLM) Spec Kit: Inst. # uv tool install -U specify-cli
 (LLM) spectatui: Inst. # scoop install pile/spectatui
 (Music) MuseScore: Inst. # scoop install musescore
+(PDF) open-pdf-sign: # java -jar open-pdf-sign.jar --input $ --output _.pdf --certificate <crt> --key <pem> --passphrase <password> --page -1 --locale zh-CN
+(PDF) PDF ToC: Inst. # uv tool install -U pdf-toc
+(PDF) PDFCraft: Inst. # scoop install pdfcraft
 (Tool-Disk) Pinkbin: Inst. # scoop install pinkbin
+(Tool-Hardware) Binside: Inst. # scoop install binsider
 (Tool-Hardware) ROM Properties Page: Inst. # scoop install rom-properties-np
 (Tool-Network) Slumber: Inst. # scoop install slumber
 (Tool-Network) wuzz: Inst. # scoop install wuzz
