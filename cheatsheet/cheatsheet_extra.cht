@@ -10,6 +10,7 @@ coBib: Inst. # uv tool install -U cobib
 COOK: Inst. # go install -v github.com/glitchedgitz/cook/v2/cmd/cook@latest
 DBeaver: Inst. # scoop install dbeaver
 Desed: Inst. # cargo install desed
+djvulibre: Inst. # scoop install djvulibre
 dupeGuru: Inst. # scoop install dupeguru
 eva: Inst. # sudo pacman -S eva
 eva: Inst. # scoop install eva
