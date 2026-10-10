@@ -1,6 +1,6 @@
-What's : LaTeX
-What's : firmware
-What's : framework
+What's: LaTeX
+What's: firmware
+What's: framework
 What's difference: -b:a 192k, -bufsize 192k in ffmpeg
 What's difference: .zprofile, .zshrc, .zshenv, .zlogin, .zlogout
 What's difference: /usr/bin, /bin, /usr/local/bin

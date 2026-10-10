@@ -133,8 +133,6 @@ NPM: Proxy 3. # npm config delete https-proxy
 nvm: Inst. # sudo pacman -S nvm
 nvm: Inst. # scoop install nvm
 OBS Studio: Inst. # scoop install obs-studio
-Obsidian: Inst. # sudo pacman -S obsidian
-Obsidian: Inst. # scoop install obsidian
 Onefetch: Inst. # sudo pacman -S onefetch
 Onefetch: Inst. # scoop install onefetch
 open-cli: Inst. # bun add -g open-cli@latest
@@ -553,6 +551,7 @@ zizmor: Inst. # scoop install zizmor
 (Tool-Network) Numa: Inst. # scoop install numa
 (Tool-Others) fend: Inst. # yay -S --noconfirm fend-bin
 (Tool-Others) fend: Inst. # scoop install fend
+(Tool-Others) Flut Renamer: Inst. # scoop install flut-renamer
 (Tool-Others) bttf: Inst. # scoop install bttf
 (Tool-Others) carl: Inst. # cargo install -f carl
 (Tool-Others) witr: Inst. # scoop install witr

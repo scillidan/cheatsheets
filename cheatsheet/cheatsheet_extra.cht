@@ -183,6 +183,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Tool-Network) hostctl: Inst. # scoop install hostctl
 (Tool-Network) quien: Inst. # scoop install quien
 (Tool-Network) Whosthere: Inst. # scoop install whosthere
+(Tool-Others) REA: Inst. # npx rea-agents setup
 (Video) GridPlayer: Inst. # yay -S --noconfirm gridplayer-appimage
 (Video) GridPlayer: Inst. # sudo pacman -S vlc
 (Video) GridPlayer: Inst. # scoop install gridplayer vlc

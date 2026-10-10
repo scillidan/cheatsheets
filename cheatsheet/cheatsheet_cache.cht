@@ -45,6 +45,8 @@ lssh: Inst. # scoop install pile/lssh
 massCode: Inst. # scoop install masscode
 mdterm: Inst. # scoop install pile/mdterm
 oken: Inst. # scoop install pile/oken
+Obsidian: Inst. # sudo pacman -S obsidian
+Obsidian: Inst. # scoop install obsidian
 OmegaT: Inst. # scoop install omegat
 PassTUI: Inst. # uv tool install -U passtui --python 3.14
 Parm: Inst. # scoop install pile/parm
