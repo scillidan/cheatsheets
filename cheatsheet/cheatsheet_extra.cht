@@ -193,6 +193,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Video) MKVToolNix: Inst. # scoop install mkvtoolnix
 (Video) mnamer: Inst. # uv tool install mnamer
 (Video) Movie Thumbnailer (mtn): Inst. # scoop install mtn
+(Video) MPC-HC: Inst. # scoop install mpc-hc-fork
 (Video) mt: Inst. # go install github.com/mutschler/mt@latest
 (Video) ntsc-rs: Inst. # scoop install ntsc-rs
 (Video) vcsi: Inst. # uv tool install -U vcsi
