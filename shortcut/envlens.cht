@@ -1,5 +1,5 @@
 ## https://github.com/craigf-svg/envlens?tab=readme-ov-file#keybindings
-envlens: Navigate up/down                      | Up/Dn / k/j
+envlens: Navigate up/down                      | k/j / Up/Dn
 envlens: Select/deselect variable              | Etr/Spc
 envlens: Copy current variable to clipboard    | y
 envlens: Copy selected variables to clipboard  | Y
