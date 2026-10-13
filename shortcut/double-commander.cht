@@ -15,4 +15,5 @@ Double Commander: Quick view panel (User)                | C-q
 Double Commander: Edit (User)                            | F8
 Double Commander: Run terminal                           | F9
 Double Commander: Refresh (User)                         | F5
-Double Commander: Copy filename(s) with full path (User) | C-S-c
+Double Commander: Copy filename(s) to clipboard (User)   | C-S-c
+Double Commander: Copy filename(s) with full path (User) | S-c
