@@ -1,19 +1,19 @@
-qView: Open                    | C-o
-qView: Open URL                | C-S-o
+qView: Open (User)             | o
+qView: Open URL (User)         | C-o
 qView: Reload file             | F5
-qView: Show in explorer        |
-qView: Show file info          | \|
+qView: Show in explorer        | C-S-d
+qView: Show file info          | i
 qView: Undo delete             | C-z, A-Bksp
 qView: Copy                    | C-c, C-Ins
 qView: Paste                   | C-v, S-Ins
 qView: Rename                  | C-r / C-Rtn / F2
 qView: Delete                  | C-Bksp / Del
-qView: Delete permanently      | S-Del
+qView: Delete permanently      | C-Del
 qView: First/last file         | Home/End
 qView: Previous/next file      | Lt/Rt
 qView: Zoom in/out             | C-+/= / C--
 qView: Reset zoom              | C-0
-qView: Original size           | O
+qView: Original size (User)    | =
 qView: Rotate right/left       | Up/Dn
 qView: Mirror                  | f
 qView: Flip                    | C-f
@@ -25,4 +25,4 @@ qView: Increase/Decrease Speed | ]/[
 qView: Reset Speed             | \
 qView: Toggle slideshow        |
 qView: Settings                |
-qView: Exit                    | C-w
+qView: Exit (User)             | Esc
