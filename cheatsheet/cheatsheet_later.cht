@@ -1,5 +1,3 @@
-(Image) PhotoCraft: Inst. # scoop install photocraft
-(Image) LightCraft: Inst. # scoop install lightcraft
 beancount: Inst. # pipx install beanquery
 choose: Inst. # scoop install choose
 Dasel: Inst. # scoop install dasel
@@ -33,7 +31,8 @@ Zellij: Inst. # scoop install zellij
 (Git) jj: Inst. # scoop install jj
 (Git) jjui: Inst. # scoop install jjui
 (Git) Mergiraf: Inst. # scoop install mergiraf
-(Image) kmeans-colors: Inst. # scoop install kmeans-colors
+(Image) PhotoCraft: Inst. # scoop install photocraft
+(Image) LightCraft: Inst. # scoop install lightcraft
 (Linter) Vale: Inst. # scoop install vale
 (Linter) Vale: Inst. # sudo pacman -S vale
 (LLM) Beads: Inst. # scoop install beads
@@ -44,6 +43,7 @@ Zellij: Inst. # scoop install zellij
 (LLM) Cognee: Inst. # uv pip install cognee
 (LLM) Headroom: Inst. # uv tool install --python 3.13 "headroom-ai[all]"
 (LLM) Headroom: Inst. # headroom wrap opencode
+(LLM) MCP Server for WinDbg Crash Analysis: Inst. : uv tool install -U mcp-windbg
 (LLM) OfficeCLI: Inst. # scoop install officecli
 (LLM) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill ui-skills-root
 (LLM) Skills: Ex. # skills add https://github.com/0xdesign/design-plugin --skill design-lab

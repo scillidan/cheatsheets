@@ -134,6 +134,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) Gifski: Inst. # sudo pacman -S gifski
 (Image) Gifski: Inst. # scoop install gifski
 (Image) GMI'C: Inst. # scoop install gmic-cli gmic-qt
+(Image) kmeans-colors: Inst. # scoop install kmeans-colors
 (Image) Paletter: Inst. # scoop install pile/paletter
 (Image) pngquant: Inst. # sudo pacman -S pngquant
 (Image) pngquant: Inst. # scoop install pngquant
