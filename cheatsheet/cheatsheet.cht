@@ -492,10 +492,12 @@ zizmor: Inst. # scoop install zizmor
 (LLM) Skills: Ex. # skills add https://github.com/advaitpaliwal/feynman --skill paper-writing
 (LLM) Skills: Ex. # skills add https://github.com/xixu-me/skills --skill github-actions-docs
 (LLM) Skills: Ex. # skills add https://github.com/jamditis/claude-skills-journalism --skill web-scraping
+(LLM) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy
 (LLM) Skills: Ex. # skills add https://github.com/lucifer1004/claude-skill-typst --skill typst
 (LLM) Skills: Ex. # skills add https://github.com/bahayonghang/academic-writing-skills --skill latex-paper-en
 (LLM) Skills: Ex. # skills add https://github.com/wshobson/agents --skill godot-gdscript-patterns
 (LLM) Skills: Ex. # skills add https://github.com/chongdashu/love2d-pocket-bomber-game --skill love2d-gamedev
+(LLM) Skills: # skills update
 (LLM) Repomix: Inst. # bun add -g repomix@latest
 (LLM) Tabby AI assistant: Inst. # scoop install tabby-agent-cuda
 (LLM) rtk: Inst. # scoop install rtk
