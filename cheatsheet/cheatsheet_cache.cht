@@ -94,6 +94,9 @@ VSCodium: Inst. # scoop install vscodium
 (Git) SourceGit: Inst. # scoop install sourcegit
 (Git) grut: Inst. # scoop install pile/grut
 (Github) Github Desktop: Inst. # scoop install github
+(Image) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify@latest
+(Image) ascii-image-converter: Inst. # scoop install ascii-image-converter
+(Image) asciify-them: Inst. # uv tool install -U asciify-them
 (Image) BeeRef: Inst. # scoop install beeref
 (Image) PicView: Inst. # scoop install picview
 (Image) PureRef: Inst. # yay -S --noconfirm pureref

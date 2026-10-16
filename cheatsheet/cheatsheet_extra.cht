@@ -45,8 +45,8 @@ Meson: Depend. # scoop install meson
 Neovide: # neovide --size=1250x720 --frame none --no-tabs --wsl archwsl
 Neovide: Inst. # scoop install neovide
 Neovide: Inst. # sudo pacman -S neovide
-Neovim: Ex. # uv tool install gdtoolkit
-Neovim: Ex. # uv tool install neovim-remote
+Neovim: Ex. # uv tool install -U gdtoolkit
+Neovim: Ex. # uv tool install -U neovim-remote
 python-pinyin: Inst. # uv tool install -U pypinyin
 pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
 Saber: Inst. # scoop install saber
@@ -119,15 +119,11 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Git) Gitify: Inst. # yay -S --noconfirm gitify-bin
 (Git) Gitify: Inst. # scoop install gitify
 (Git) goji: Inst. # scoop install pile/goji
-(Image) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify@latest
-(Image) ascii-image-converter: Inst. # scoop install ascii-image-converter
-(Image) asciify-them: Inst. # uv tool install -U asciify-them
 (Image) autocrop: Inst. # uv tool install -U autocrop
 (Image) AutoTrace: Inst. # sudo pacman -S autotrace
 (Image) Caesium Image Compressor: Inst. # scoop install caesium-image-compressor
 (Image) chaiNNer: Inst. # scoop install pile/chainner
 (Image) color-matcher: Inst. # uv tool install -U color-matcher
-(Image) Deskew: Inst. # uv tool install deskew
 (Image) didder: Inst. # scoop install didder
 (Image) ExifCleaner: Inst. # yay -S --noconfirm exifcleaner-bin
 (Image) ExifCleaner: Inst. # scoop install exifcleaner
@@ -136,6 +132,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) GMI'C: Inst. # scoop install gmic-cli gmic-qt
 (Image) kmeans-colors: Inst. # scoop install kmeans-colors
 (Image) Paletter: Inst. # scoop install pile/paletter
+(Image) pastel: Inst. # scoop install pastel
 (Image) pngquant: Inst. # sudo pacman -S pngquant
 (Image) pngquant: Inst. # scoop install pngquant
 (Image) posterust: Inst. # cargo install posterust
@@ -161,6 +158,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Music) Tag Editor: Inst. # scoop install tageditor
 (Music) Tag Editor: Conf. # mklink "%APPDATA%\Microsoft\Windows\SendTo\tageditor.exe" "%SCOOP%\apps\tageditor\current\tageditor.exe"
 (Music) ZonyLrcToolsX: Inst. # scoop install pile/zonylrctoolsx
+(PDF) Deskew: Inst. # uv tool install -U deskew
 (PDF) marker: Inst. # uv tool install -w hf_transfer -w streamlit -U marker-pdf
 (PDF) page-dewarp: Inst. # uv tool install -U page-dewarp
 (PDF) pdfCropMargins: Inst. # uv tool install -U pdfCropMargins
@@ -192,7 +190,7 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Video) Madamiru: Inst. # scoop install pile/madamiru
 (Video) MKVToolNix: Inst. # sudo pacman -S mkvtoolnix-cli mkvtoolnix-gui
 (Video) MKVToolNix: Inst. # scoop install mkvtoolnix
-(Video) mnamer: Inst. # uv tool install mnamer
+(Video) mnamer: Inst. # uv tool install -U mnamer
 (Video) Movie Thumbnailer (mtn): Inst. # scoop install mtn
 (Video) MPC-HC: Inst. # scoop install mpc-hc-fork
 (Video) mt: Inst. # go install github.com/mutschler/mt@latest
