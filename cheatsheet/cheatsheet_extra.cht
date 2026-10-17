@@ -22,7 +22,6 @@ grex: Inst. # scoop install grex
 gutenbergpy: Inst. # uv tool install -U gutenbergpy
 gutenbit: Inst. # uv tool install -U gutenbit
 HakuNeko: Inst. # scoop install hakuneko
-Handy: Inst. # scoop install handy
 hl: Inst. # scoop install hl
 html-to-markdown: Inst. # scoop install html-to-markdown
 htmlq: Inst. # scoop install htmlq
@@ -38,8 +37,6 @@ Kiwix Serve: 1. # kiwix-serve --address 0.0.0.0 --port 5173 $.zim
 Kiwix Serve: 2.1. # kiwix-manage <path_to>\kiwix\library.xml add $1.zim $2.zim
 Kiwix Serve: 2.1. # kiwix-serve --library <path_to>\kiwix\library.xml --address 0.0.0.0 --port 5173
 Kopia: Inst. # scoop install kopia kopiaui
-LibreWolf: Inst. # sudo pacman -S librewolf speech-dispatcher
-LibreWolf: Inst. # scoop install librewolf
 LÖVE: Inst. # scoop install love
 Meson: Depend. # scoop install meson
 Neovide: # neovide --size=1250x720 --frame none --no-tabs --wsl archwsl
@@ -62,8 +59,6 @@ rip2: Inst. # scoop install rip
 Text Grab: Inst. # scoop install text-grab
 Tidy Viewer (tv): Inst. # cargo install -f tidy-viewer
 Trafilatura: Inst. # uv tool install -U trafilatura
-ugrep: Inst. # sudo pacman -S ugrep
-ugrep: Inst. # scoop install ugrep
 Unison: Inst. # scoop install unison
 Unison: Conf. # subl %USERPROFILE%\.unison\<profile>.prf
 zim-tools: Inst. # scoop install pile/zim-tools
@@ -72,7 +67,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (3D) stl-thumb: Inst. # gsudo scoop install stl-thumb-np
 (Audio) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
 (Audio) AudioBookConverter: Inst. # scoop install audiobookconverter
-(Audio) VoiceStudio: Inst. # scoop install voicestudio
 (Dev) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
 (Dev) deputui: Inst. # pnpm outdated --format json | deputui
 (Dev) godl: Inst. # scoop install pile/godl
@@ -143,7 +137,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) XnConvert: Inst. # scoop install xnconvert
 (LLM) context-mode: Inst. # bun add -g context-mode@latest
 (LLM) HAPI: Inst. # scoop install hapi
-(Manga) Koharu: Inst. # scoop install koharu
 (Media) Shutter Encoder: Inst. # scoop install shutter-encoder
 (Music) CUETools: Inst. # sudo pacman -S cuetools
 (Music) CUETools: Inst. # scoop install cuetools
@@ -213,7 +206,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 [Arch] Timeshift: Inst. # sudo pacman -S cronie
 [Arch] Timeshift: Inst. # sudo systemctl enable --now cronie.service
 [Arch] wd: Inst. # yay -S --noconfirm zsh-plugin-wd-git
-[Arch] zsh: Inst. # sudo pacman -S zsh zsh-completions
 
 [Windows] AltBacktick: Inst. # scoop install altbacktick
 [Windows] CPU-Z: Inst. # scoop install cpu-z

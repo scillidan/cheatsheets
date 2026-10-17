@@ -41,6 +41,8 @@ lazyrsync: Inst. # cargo install lazyrsync
 Lazysql: Inst. # scoop install lazysql
 libretrans: Inst. # cargo install --force libretrans
 libretrans: # libretrans -u http://<your_host> en:zh "This is a text"
+LibreWolf: Inst. # sudo pacman -S librewolf speech-dispatcher
+LibreWolf: Inst. # scoop install librewolf
 lssh: Inst. # scoop install pile/lssh
 massCode: Inst. # scoop install masscode
 mdterm: Inst. # scoop install pile/mdterm
@@ -72,6 +74,8 @@ tldr: Inst. # scoop install tldr
 tldr: Clear local repository then clone # tldr -c
 tldr: Pulls the latest commits from github.com/tldr-pages/tldr # tldr -u
 ttyd: Inst. # scoop install ttyd
+ugrep: Inst. # sudo pacman -S ugrep
+ugrep: Inst. # scoop install ugrep
 Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 Vieb: Inst. # scoop install vieb
 VSCodium: Inst. # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
@@ -162,12 +166,15 @@ VSCodium: Inst. # scoop install vscodium
 [Arch] asciinema: Inst. # sudo pacman -S asciinema
 [Arch] pass: Inst. # sudo pacman -S pass
 [Arch] zathura: Inst. # sudo pacman -S zathura zathura-cb zathura-pdf-mupdf
+[Arch] zsh: Inst. # sudo pacman -S zsh zsh-completions
 
 [Windows] Caffeine: Inst. # scoop install caffeine
 [Windows] Ditto: Inst. # scoop install ditto
 [Windows] GNU utilities: Depend. # scoop install unxutils
 [Windows] IrfanView: Inst. # scoop install irfanview
+[Windows] JPEGView: Inst. # scoop install jpegview-fork
 [Windows] Mp3tag: Inst. # scoop install mp3tag
 [Windows] NohBoard: Inst. # scoop install nohboard
 [Windows] OpenHashTab: Inst. # gsudo scoop install openhashtab-np
+[Windows] Scooper: Inst. # scoop install scooper
 [Windows] TablacusExplorer: Inst. # scoop install tablacus-explorer
