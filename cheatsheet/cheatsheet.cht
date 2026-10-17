@@ -572,9 +572,11 @@ zizmor: Inst. # scoop install zizmor
 [Windows] Bulk Rename Command: # brc /?
 [Windows] Bulk Rename Utility: Inst. # scoop install bulk-rename-utility
 [Windows] CenterTaskbar: Inst. # scoop install centertaskbar
-[Windows] DeskPins: Inst. # scoop install deskpins
 [Windows] clink: Inst. # scoop install clink clink-completions
 [Windows] ConEmu: Inst. # scoop install conemu
+[Windows] DarkThumbs: Inst. #
+[Windows] Icaros: Inst. # gsudo scoop install icaros-np
+[Windows] DeskPins: Inst. # scoop install deskpins
 [Windows] DirX: Inst. # bin install github.com/chrisant996/dirx	dirx.exe
 [Windows] EarTrumpet: Inst. # scoop install eartrumpet
 [Windows] Everything: Inst. # scoop install everything
