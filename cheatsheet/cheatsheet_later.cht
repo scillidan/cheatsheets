@@ -22,6 +22,8 @@ Zellij: Inst. # scoop install zellij
 (3D) FreeCAD: Inst. # scoop install freecad
 (3D) KiCad: Inst. # sudo pacman -S kicad
 (3D) KiCad: Inst. # scoop install kicad
+(Dev) Material Maker: Inst. # scoop install material-maker
+(Dev) Tiled: Inst. # scoop install tiled
 (Differ) dyff: Inst. # scoop install dyff
 (Differ) JSON diff and patch: Inst. # scoop install jd
 (Differ) sem: Inst. # scoop install sem
