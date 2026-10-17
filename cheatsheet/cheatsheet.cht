@@ -661,7 +661,7 @@ zizmor: Inst. # scoop install zizmor
 [Windows](AutoHotkey) Keyboard Locker: Inst. # scoop install pile/keyboard-locker
 [Windows](AutoHotkey) Keyboard Switch: Inst. # scoop install pile/keyboard-switch
 [Windows](AutoHotkey) Screen OCR: Inst. # scoop install pile/screen-ocr
-[Windows](AutoHotkey) Toggle screen: Inst. # scoop install bash/togglescreen
+[Windows](AutoHotkey) Toggle screen: Inst. # scoop install pile/togglescreen
 [Windows](AutoHotkey) QuickSwitch: Inst. # scoop install bash/quickswitch
 [Windows](AutoHotkey) QuickSwitch: Conf. # MBtn_R → Always AutoSwitch (On)
 [Windows](AutoHotkey) Window Switcher: Inst. # scoop install window-switcher
