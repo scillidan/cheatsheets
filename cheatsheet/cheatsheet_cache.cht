@@ -5,6 +5,7 @@ AntiMicroX: Inst. # scoop install antimicrox
 autocast: Inst. # yay -S --noconfirm autocast
 autocast: Inst. # cargo install --force autocast
 broot: Inst. # scoop install broot
+Bibiman: Inst. # cargo install -f bibiman
 Btop: Inst. # sudo pacman -S btop
 Btop: Inst. # scoop install btop
 Carnac: Inst. # scoop install carnac
@@ -66,6 +67,7 @@ Sentences: Inst. # go install github.com/neurosnap/sentences/cmd/sentences@lates
 silicon: Inst. # sudo pacman -S silicon
 silicon: Inst. # scoop install silicon
 SilverBullet: Inst. # scoop install silverbullet
+split-manga-pages: Inst. # uv tool install -U split_manga_pages
 swpui: Inst. # bin install github.com/beeb/swpui swpui.exe
 Thorium: Inst. # yay -S --noconfirm thorium-reader-bin
 Thorium: Inst. # scoop install thorium-reader
@@ -136,8 +138,6 @@ VSCodium: Inst. # scoop install vscodium
 (LLM) QMD: Inst. # bun add -g @tobilu/qmd@latest
 (LLM) ShellGPT: Inst. # ollama pull mistral:7b-instruct
 (LLM) ShellGPT: Inst. # uv tool install -U "shell-gpt[litellm]"
-(LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill writing-plans
-(LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill test-driven-development
 (Minifier) clean-css: Inst. # sudo pacman -S nodejs-clean-css nodejs-clean-css-cli
 (Minifier) clean-css: Inst. # bun add -g clean-css clean-css-cli@latest
 (Minifier) HTML Minifier Next: Inst. # bun add -g html-minifier-next@latest
@@ -153,6 +153,12 @@ VSCodium: Inst. # scoop install vscodium
 (Music) TagScanner: Inst. # yay -S --noconfirm tagscanner
 (Music) TagScanner: Inst. # scoop install tagscanner
 (PDF) THE PDFALYZER: Inst. # uv tool install -U pdfalyzer
+(Skill) Skills: Ex. # skills add https://github.com/juliusbrussee/caveman --skill caveman -g
+(Skill) Skills: Ex. # skills add https://github.com/obra/superpowers --skill writing-plans
+(Skill) Skills: Ex. # skills add https://github.com/obra/superpowers --skill test-driven-development
+(Skill) Skills: Ex. # skills add https://github.com/cloudflare/security-audit-skill --skill security-audit -g
+(Skill) Skills: Ex. # skills add https://github.com/advaitpaliwal/feynman --skill paper-writing -g
+(Skill) Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator
 (Tool-Download) nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
 (Tool-Hardware) MTUI: Inst. # bin install github.com/inowattio/MTUI mtui.exe
 (Tool-Keyboard) komokana: Inst. # scoop install kanata komokana

@@ -3,7 +3,6 @@ ASCII Moon: Inst. # scoop install pile/ascii-moon
 Aspell: Inst. # sudo pacman -S aspell aspell-en
 Aspell: Inst. # scoop install aspell
 ATAC: Inst. # scoop install atac
-Bibiman: Inst. # cargo install -f bibiman
 chezmoi: Inst. # sudo pacman -S chezmoi
 chezmoi: Inst. # scoop install chezmoi
 coBib: Inst. # uv tool install -U cobib
@@ -51,7 +50,6 @@ sdcv: Inst. # sudo pacman -S sdcv
 sdcv: Inst. # scoop install pile/sdcv
 sitefetch: Inst. # bun add -g sitefetch@latest
 Sloc Cloc and Code (scc): Inst. # scoop install scc
-split-manga-pages: Inst. # uv tool install -U split_manga_pages
 SSHM: Inst. # scoop install sshm
 syncthing: Inst. # sudo pacman -S syncthing
 syncthing: Inst. # scoop install syncthing

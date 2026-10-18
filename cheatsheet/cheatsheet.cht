@@ -472,32 +472,6 @@ zizmor: Inst. # scoop install zizmor
 (LLM) Pi: Ex. # pi install npm:@ff-labs/pi-fff
 (LLM) Pi: Ex. # pi install npm:pi-autoresearch
 (LLM) Pi: Ex. # pi install npm:pi-lens
-(LLM) Skills: Inst. # bun add -g skills@latest
-(LLM) Skills: Ex. # skills add https://github.com/vercel-labs/skills --skill find-skills
-(LLM) Skills: Ex. # skills add https://github.com/anthropics/skills --skill skill-creator
-(LLM) Skills: Ex. # skills add https://github.com/forrestchang/andrej-karpathy-skills --skill karpathy-guidelines
-(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-me
-(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-with-docs
-(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill prototype
-(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-prd
-(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-issues
-(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill improve-codebase-architecture
-(LLM) Skills: Ex. # skills add https://github.com/blader/humanizer --skill humanizer
-(LLM) Skills: Ex. # skills add https://github.com/juliusbrussee/caveman --skill caveman
-(LLM) Skills: Ex. # skills add ayghri/i-have-adhd
-(LLM) Skills: Ex. # skills add https://github.com/google-gemini/gemini-cli --skill code-reviewer
-(LLM) Skills: Ex. # skills add https://github.com/wshobson/agents --skill shellcheck-configuration
-(LLM) Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator
-(LLM) Skills: Ex. # skills add https://github.com/cloudflare/security-audit-skill --skill security-audit
-(LLM) Skills: Ex. # skills add https://github.com/advaitpaliwal/feynman --skill paper-writing
-(LLM) Skills: Ex. # skills add https://github.com/xixu-me/skills --skill github-actions-docs
-(LLM) Skills: Ex. # skills add https://github.com/jamditis/claude-skills-journalism --skill web-scraping
-(LLM) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy
-(LLM) Skills: Ex. # skills add https://github.com/lucifer1004/claude-skill-typst --skill typst
-(LLM) Skills: Ex. # skills add https://github.com/bahayonghang/academic-writing-skills --skill latex-paper-en
-(LLM) Skills: Ex. # skills add https://github.com/wshobson/agents --skill godot-gdscript-patterns
-(LLM) Skills: Ex. # skills add https://github.com/chongdashu/love2d-pocket-bomber-game --skill love2d-gamedev
-(LLM) Skills: # skills update
 (LLM) Repomix: Inst. # bun add -g repomix@latest
 (LLM) Tabby AI assistant: Inst. # scoop install tabby-agent-cuda
 (LLM) rtk: Inst. # scoop install rtk
@@ -540,6 +514,30 @@ zizmor: Inst. # scoop install zizmor
 (PDF) Sioyek: Inst. # scoop install sioyek
 (PDF) Stirling-PDF: Inst. # yay -S --noconfirm stirling-pdf-bin
 (PDF) Stirling-PDF: Inst. # scoop install stirling-pdf
+(Skill) Skills: Inst. # bun add -g skills@latest
+(Skill) Skills: Ex. # skills add https://github.com/vercel-labs/skills --skill find-skills -g
+(Skill) Skills: Ex. # skills add https://github.com/anthropics/skills --skill skill-creator -g
+(Skill) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill writing-for-agents -g
+(Skill) Skills: Ex. # skills add https://github.com/forrestchang/andrej-karpathy-skills --skill karpathy-guidelines -g
+(Skill) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-me -g
+(Skill) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill prototype -g
+(Skill) Skills: Ex. # skills add https://github.com/blader/humanizer --skill humanizer -g
+(Skill) Skills: Ex. # skills add ayghri/i-have-adhd -g
+(Skill) Skills: Ex. # skills add https://github.com/google-gemini/gemini-cli --skill code-reviewer -g
+(Skill) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill tdd -g
+(Skill) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill diagnosing-bugs -g
+(Skill) Skills: Ex. # skills add https://github.com/xixu-me/skills --skill github-actions-docs -g
+(Skill) Skills: Ex. # skills add https://github.com/jamditis/claude-skills-journalism --skill web-scraping -g
+(Skill-Project) Skills: Ex. # skills add https://github.com/wshobson/agents --skill shellcheck-configuration
+(Skill-Project) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-with-docs
+(Skill-Project) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-prd
+(Skill-Project) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-issues
+(Skill-Project) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill improve-codebase-architecture
+(Skill-Project) Skills: Ex. # skills add https://github.com/lucifer1004/claude-skill-typst --skill typst
+(Skill-Project) Skills: Ex. # skills add https://github.com/bahayonghang/academic-writing-skills --skill latex-paper-en
+(Skill-Project) Skills: Ex. # skills add https://github.com/wshobson/agents --skill godot-gdscript-patterns
+(Skill-Project) Skills: Ex. # skills add https://github.com/chongdashu/love2d-pocket-bomber-game --skill love2d-gamedev
+(Skill) Skills: # skills update
 (Subtitle) alass: Inst. # scoop install alass
 (Subtitle) FFsubsync: Inst. # uv tool install -U ffsubsync
 (Subtitle) sub-batch: Inst. # scoop install pile/sub-batch
@@ -615,7 +613,6 @@ zizmor: Inst. # scoop install zizmor
 [Windows] resizer2: Inst. # scoop install resizer2
 [Windows] Restart Explorer: Inst. # scoop install restart-explorer
 [Windows] Rufus: Inst. # scoop install rufus
-[Windows] Scoop: # scoop install scoop-search
 [Windows] Scoop: # scoop bucket add Extras
 [Windows] Scoop: # scoop bucket add Nonportable
 [Windows] Scoop: # scoop bucket add Versions

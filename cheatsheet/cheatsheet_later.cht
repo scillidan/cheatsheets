@@ -9,7 +9,6 @@ Miller: Inst. # scoop install miller
 mise-en-place: Inst. # scoop install mise
 qsv: Inst. # yay -S --noconfirm qsv-bin
 qsv: Inst. # scoop install qsv
-Shutter Encoder: Inst. # scoop install shutter-encoder
 sig: Inst. # pacman -S sig
 sig: Inst. # scoop install sig
 sq: Inst. # scoop install sq
@@ -47,17 +46,18 @@ Zellij: Inst. # scoop install zellij
 (LLM) Headroom: Inst. # headroom wrap opencode
 (LLM) MCP Server for WinDbg Crash Analysis: Inst. : uv tool install -U mcp-windbg
 (LLM) OfficeCLI: Inst. # scoop install officecli
-(LLM) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill ui-skills-root
-(LLM) Skills: Ex. # skills add https://github.com/0xdesign/design-plugin --skill design-lab
-(LLM) Skills: Ex. # skills add https://github.com/pbakaus/impeccable --skill impeccable
-(LLM) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill improve-ui
-(LLM) Skills: Ex. # skills add https://github.com/jakubkrehel/skills --skill better-ui
-(LLM) Skills: Ex. # skills add https://github.com/shadcn/improve --skill improve
-(LLM) Skills: Ex. # skills add https://github.com/rams/rams-ai --skill rams
-(LLM) Skills: Ex. # skills add https://github.com/antfu/skills --skill web-design-guidelines
-(LLM) Skills: Ex. # skills add https://github.com/emilkowalski/skills --skill improve-animations
-(LLM) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
-(LLM) Skills: Ex. # skills install earthtojake/text-to-cad
+(Skill) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill ui-skills-root
+(Skill) Skills: Ex. # skills add https://github.com/0xdesign/design-plugin --skill design-lab
+(Skill) Skills: Ex. # skills add https://github.com/pbakaus/impeccable --skill impeccable
+(Skill) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill improve-ui
+(Skill) Skills: Ex. # skills add https://github.com/jakubkrehel/skills --skill better-ui
+(Skill) Skills: Ex. # skills add https://github.com/shadcn/improve --skill improve
+(Skill) Skills: Ex. # skills add https://github.com/rams/rams-ai --skill rams
+(Skill) Skills: Ex. # skills add https://github.com/antfu/skills --skill web-design-guidelines
+(Skill) Skills: Ex. # skills add https://github.com/emilkowalski/skills --skill improve-animations
+(Skill) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
+(Skill) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy -g
+(Skill) Skills: Ex. # skills install earthtojake/text-to-cad
 (LLM) Spec Kit: Inst. # uv tool install -U specify-cli
 (LLM) spectatui: Inst. # scoop install pile/spectatui
 (Music) MuseScore: Inst. # scoop install musescore
