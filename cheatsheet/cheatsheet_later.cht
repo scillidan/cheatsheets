@@ -36,16 +36,19 @@ Zellij: Inst. # scoop install zellij
 (Image) LightCraft: Inst. # scoop install lightcraft
 (Linter) Vale: Inst. # scoop install vale
 (Linter) Vale: Inst. # sudo pacman -S vale
-(LLM) Beads: Inst. # scoop install beads
-(LLM) CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
-(LLM) CodeGraph: # codegraph init -i
 (LLM) Codemark: Inst. # scoop install pile/codemark
 (LLM) Codemark: Conf. # codemark install-skill --agent agents --scope user
-(LLM) Cognee: Inst. # uv pip install cognee
-(LLM) Headroom: Inst. # uv tool install --python 3.13 "headroom-ai[all]"
-(LLM) Headroom: Inst. # headroom wrap opencode
-(LLM) MCP Server for WinDbg Crash Analysis: Inst. : uv tool install -U mcp-windbg
-(LLM) OfficeCLI: Inst. # scoop install officecli
+(LLM) spectatui: Inst. # scoop install pile/spectatui
+(Music) MuseScore: Inst. # scoop install musescore
+(LLM-Ex) Beads: Inst. # scoop install beads
+(LLM-Ex) CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
+(LLM-Ex) CodeGraph: # codegraph init -i
+(LLM-Ex) Cognee: Inst. # uv pip install cognee
+(LLM-Ex) Headroom: Inst. # uv tool install --python 3.13 "headroom-ai[all]"
+(LLM-Ex) Headroom: Inst. # headroom wrap opencode
+(LLM-Ex) Spec Kit: Inst. # uv tool install -U specify-cli
+(MCP) MCP Server for WinDbg Crash Analysis: Inst. # uv tool install -U mcp-windbg
+(MCP) OfficeCLI: Inst. # scoop install officecli
 (Skill) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill ui-skills-root
 (Skill) Skills: Ex. # skills add https://github.com/0xdesign/design-plugin --skill design-lab
 (Skill) Skills: Ex. # skills add https://github.com/pbakaus/impeccable --skill impeccable
@@ -57,10 +60,6 @@ Zellij: Inst. # scoop install zellij
 (Skill) Skills: Ex. # skills add https://github.com/emilkowalski/skills --skill improve-animations
 (Skill) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
 (Skill) Skills: Ex. # skills install earthtojake/text-to-cad
-(Skill-Project) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy
-(LLM) Spec Kit: Inst. # uv tool install -U specify-cli
-(LLM) spectatui: Inst. # scoop install pile/spectatui
-(Music) MuseScore: Inst. # scoop install musescore
 (PDF) open-pdf-sign: # java -jar open-pdf-sign.jar --input $ --output _.pdf --certificate <crt> --key <pem> --passphrase <password> --page -1 --locale zh-CN
 (PDF) PDF ToC: Inst. # uv tool install -U pdf-toc
 (PDF) PDFCraft: Inst. # scoop install pdfcraft

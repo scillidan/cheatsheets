@@ -133,8 +133,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) Vipsdisp: Inst. # scoop install vipsdisp
 (Image) Wait4X: Inst. # scoop install wait4x
 (Image) XnConvert: Inst. # scoop install xnconvert
-(LLM) context-mode: Inst. # bun add -g context-mode@latest
-(LLM) HAPI: Inst. # scoop install hapi
 (Media) Shutter Encoder: Inst. # scoop install shutter-encoder
 (Music) CUETools: Inst. # sudo pacman -S cuetools
 (Music) CUETools: Inst. # scoop install cuetools

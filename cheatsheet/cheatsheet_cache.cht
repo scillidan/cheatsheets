@@ -114,11 +114,6 @@ VSCodium: Inst. # scoop install vscodium
 (LLM) AnythingLLM: Inst. # scoop install anythingllm
 (LLM) Code2prompt: Inst. # yay -S --noconfirm code2prompt
 (LLM) Code2prompt: Inst. # cargo install -f code2prompt
-(LLM) Gas Town: Inst. # bin install github.com/gastownhall/gastown gastown.exe
-(LLM) LeanCTX: Inst. # scoop install lean-ctx
-(LLM) LeanCTX: # lean-ctx init --agent opencode
-(LLM) LeanCTX: # lean-ctx init --agent pi
-(LLM) LeanCTX: # lean-ctx gain
 (LLM) LobeHub: Inst. # scoop install pile/lobehub-np
 (LLM) LobeHub CLI: Inst. # bun add -g @lobehub/cli@latest
 (LLM) LobeHub CLI: # lh login
@@ -135,9 +130,21 @@ VSCodium: Inst. # scoop install vscodium
 (LLM) OpenCode: Ex. Env. # TRANSLATOR_API_KEY=Ollama
 (LLM) OpenCode: Ex. Env. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
 (LLM) OpenCode: Ex. Env. # TRANSLATOR_MODEL=gemma3:12b-it-qat
-(LLM) QMD: Inst. # bun add -g @tobilu/qmd@latest
+(LLM) Pi: Inst. # scoop install pi-coding-agent
+(LLM) Pi: Ex. # pi install git:github.com/DietrichGebert/ponytail
+(LLM) Pi: Ex. # pi install npm:@ff-labs/pi-fff
+(LLM) Pi: Ex. # pi install npm:pi-autoresearch
+(LLM) Pi: Ex. # pi install npm:pi-lens
 (LLM) ShellGPT: Inst. # ollama pull mistral:7b-instruct
 (LLM) ShellGPT: Inst. # uv tool install -U "shell-gpt[litellm]"
+(LLM-Ex) context-mode: Inst. # bun add -g context-mode@latest
+(LLM-Ex) Gas Town: Inst. # bin install github.com/gastownhall/gastown gastown.exe
+(LLM-Ex) LeanCTX: Inst. # scoop install lean-ctx
+(LLM-Ex) LeanCTX: # lean-ctx init --agent opencode
+(LLM-Ex) LeanCTX: # lean-ctx init --agent pi
+(LLM-Ex) LeanCTX: # lean-ctx gain
+(LLM-Ex) QMD: Inst. # bun add -g @tobilu/qmd@latest
+(MCP) HAPI: Inst. # scoop install hapi
 (Minifier) clean-css: Inst. # sudo pacman -S nodejs-clean-css nodejs-clean-css-cli
 (Minifier) clean-css: Inst. # bun add -g clean-css clean-css-cli@latest
 (Minifier) HTML Minifier Next: Inst. # bun add -g html-minifier-next@latest
@@ -157,8 +164,9 @@ VSCodium: Inst. # scoop install vscodium
 (Skill) Skills: Ex. # skills add https://github.com/obra/superpowers --skill writing-plans
 (Skill) Skills: Ex. # skills add https://github.com/obra/superpowers --skill test-driven-development
 (Skill) Skills: Ex. # skills add https://github.com/cloudflare/security-audit-skill --skill security-audit -g
-(Skill) Skills: Ex. # skills add https://github.com/advaitpaliwal/feynman --skill paper-writing -g
 (Skill) Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator
+(Skill-Project) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy
+(Skill-Project) Skills: Ex. # skills add https://github.com/advaitpaliwal/feynman --skill paper-writing -g
 (Tool-Download) nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
 (Tool-Hardware) MTUI: Inst. # bin install github.com/inowattio/MTUI mtui.exe
 (Tool-Keyboard) komokana: Inst. # scoop install kanata komokana

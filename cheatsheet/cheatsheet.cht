@@ -444,14 +444,7 @@ zizmor: Inst. # scoop install zizmor
 (Image) upscayl-ncnn: Inst. # scoop install pile/upscayl-bin
 (Image) yoga: Inst. # pipx install yoga
 (LLM) agentsview: Inst. # scoop install agentsview
-(LLM) agnix: Inst. # scoop install pile/agnix
-(LLM) agnix: # agnix .
 (LLM) commandOK: Inst. # scoop install commandok
-(LLM) cq: Inst. # scoop install cq
-(LLM) cq: Conf. # cq install --target opencode
-(LLM) cq: Conf. # cq install --target pi
-(LLM) cxt: Inst. # scoop install pile/cxt
-(LLM) fff: Inst. # scoop install fff
 (LLM) llama.cpp: Inst. # scoop install llama.cpp-cu124
 (LLM) llama.cpp: # llama-server --port 8070 --model "<path_to>/gemma-3-12b-it-Q4_K_M.gguf" --n-gpu-layers 999 --ctx-size 8192
 (LLM) llama-swap: Inst. # scoop install llama-swap
@@ -462,23 +455,20 @@ zizmor: Inst. # scoop install zizmor
 (LLM) OpenCode: Inst. # scoop install opencode
 (LLM) OpenCode: Inst. # scoop install versions/opencode2
 (LLM) OpenCode: Conf. # npm config set registry https://mirrors.cloud.tencent.com/npm/
-(LLM) OpenCode: Ex. # bun add -g @cortexkit/magic-context@latest
-(LLM) OpenCode: Ex. # magic-context setup
-(LLM) OpenCode: Ex. # bun add -g oc-sync@latest
-(LLM) OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
-(LLM) OpenSpec: # openspec init
-(LLM) Pi: Inst. # scoop install pi-coding-agent
-(LLM) Pi: Ex. # pi install git:github.com/DietrichGebert/ponytail
-(LLM) Pi: Ex. # pi install npm:@ff-labs/pi-fff
-(LLM) Pi: Ex. # pi install npm:pi-autoresearch
-(LLM) Pi: Ex. # pi install npm:pi-lens
 (LLM) Repomix: Inst. # bun add -g repomix@latest
 (LLM) Tabby AI assistant: Inst. # scoop install tabby-agent-cuda
-(LLM) rtk: Inst. # scoop install rtk
-(LLM) rtk: Conf. # rtk init -g --opencode
-(LLM) rtk: Conf. # rtk init -g --agent pi
-(LLM) rtk: # rtk gain
 (LLM) Tokscale: Inst. # bun add -g tokscale@latest
+(LLM) OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
+(LLM) OpenSpec: # openspec init
+(LLM) cxt: Inst. # scoop install pile/cxt
+(LLM-Ex) Magic Context: # bun add -g @cortexkit/magic-context@latest
+(LLM-Ex) Magic Context: # magic-context setup
+(LLM-Ex) OpenCode quota: Inst. # bun add -g @slkiser/opencode-quota@latest
+(LLM-Ex) OpenCode quota: Conf. # opencode-quota init
+(LLM-Ex) Ponytail: # bun add -g oc-sync@latest
+(LLM-Ex) rtk: Inst. # scoop install rtk
+(LLM-Ex) rtk: Conf. # rtk init -g --opencode
+(LLM-Ex) rtk: # rtk gain
 (LSP) Bash Language Server: Inst. # bun add -g bash-language-server@latest
 (LSP) HTML/CSS/JSON/ESLint language servers: Inst. # bun add -g vscode-langservers-extracted@latest
 (LSP) Harper: Inst. # scoop install harper
@@ -492,6 +482,12 @@ zizmor: Inst. # scoop install zizmor
 (LSP) textab: Inst. # pacman -S texlab
 (LSP) textab: Inst. # scoop install texlab
 (LSP) yaml-language-server: Inst. # bun add -g yaml-language-server@latest
+(MCP) agnix: Inst. # scoop install pile/agnix
+(MCP) agnix: # agnix .
+(MCP) Context7: Inst. # npx ctx7 setup --mcp --opencode
+(MCP) cq: Inst. # scoop install cq
+(MCP) cq: Conf. # cq install --target opencode
+(MCP) fff: Inst. # scoop install fff
 (Media) MediaInfo: Inst. # sudo pacman -S mediainfo mediainfo-gui
 (Media) MediaInfo: Inst. # scoop install mediainfo mediainfo-gui
 (Media) ExifTool: Inst. # scoop install exiftool
