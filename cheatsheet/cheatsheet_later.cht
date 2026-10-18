@@ -56,8 +56,8 @@ Zellij: Inst. # scoop install zellij
 (Skill) Skills: Ex. # skills add https://github.com/antfu/skills --skill web-design-guidelines
 (Skill) Skills: Ex. # skills add https://github.com/emilkowalski/skills --skill improve-animations
 (Skill) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
-(Skill) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy -g
 (Skill) Skills: Ex. # skills install earthtojake/text-to-cad
+(Skill-Project) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy
 (LLM) Spec Kit: Inst. # uv tool install -U specify-cli
 (LLM) spectatui: Inst. # scoop install pile/spectatui
 (Music) MuseScore: Inst. # scoop install musescore
