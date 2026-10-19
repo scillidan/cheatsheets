@@ -49,17 +49,6 @@ Zellij: Inst. # scoop install zellij
 (LLM-Ex) Spec Kit: Inst. # uv tool install -U specify-cli
 (MCP) MCP Server for WinDbg Crash Analysis: Inst. # uv tool install -U mcp-windbg
 (MCP) OfficeCLI: Inst. # scoop install officecli
-(Skill) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill ui-skills-root
-(Skill) Skills: Ex. # skills add https://github.com/0xdesign/design-plugin --skill design-lab
-(Skill) Skills: Ex. # skills add https://github.com/pbakaus/impeccable --skill impeccable
-(Skill) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill improve-ui
-(Skill) Skills: Ex. # skills add https://github.com/jakubkrehel/skills --skill better-ui
-(Skill) Skills: Ex. # skills add https://github.com/shadcn/improve --skill improve
-(Skill) Skills: Ex. # skills add https://github.com/rams/rams-ai --skill rams
-(Skill) Skills: Ex. # skills add https://github.com/antfu/skills --skill web-design-guidelines
-(Skill) Skills: Ex. # skills add https://github.com/emilkowalski/skills --skill improve-animations
-(Skill) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
-(Skill) Skills: Ex. # skills install earthtojake/text-to-cad
 (PDF) open-pdf-sign: # java -jar open-pdf-sign.jar --input $ --output _.pdf --certificate <crt> --key <pem> --passphrase <password> --page -1 --locale zh-CN
 (PDF) PDF ToC: Inst. # uv tool install -U pdf-toc
 (PDF) PDFCraft: Inst. # scoop install pdfcraft

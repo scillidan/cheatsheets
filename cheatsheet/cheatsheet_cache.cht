@@ -165,6 +165,15 @@ VSCodium: Inst. # scoop install vscodium
 (Skill) Skills: Ex. # skills add https://github.com/obra/superpowers --skill test-driven-development
 (Skill) Skills: Ex. # skills add https://github.com/cloudflare/security-audit-skill --skill security-audit -g
 (Skill) Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator
+(Skill) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill ui-skills-root
+(Skill) Skills: Ex. # skills add https://github.com/0xdesign/design-plugin --skill design-lab
+(Skill) Skills: Ex. # skills add https://github.com/pbakaus/impeccable --skill impeccable
+(Skill) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill improve-ui
+(Skill) Skills: Ex. # skills add https://github.com/jakubkrehel/skills --skill better-ui
+(Skill) Skills: Ex. # skills add https://github.com/shadcn/improve --skill improve
+(Skill) Skills: Ex. # skills add https://github.com/rams/rams-ai --skill rams
+(Skill) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
+(Skill) Skills: Ex. # skills install earthtojake/text-to-cad
 (Skill-Project) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy
 (Skill-Project) Skills: Ex. # skills add https://github.com/advaitpaliwal/feynman --skill paper-writing -g
 (Tool-Download) nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe

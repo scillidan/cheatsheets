@@ -524,6 +524,8 @@ zizmor: Inst. # scoop install zizmor
 (Skill) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill diagnosing-bugs -g
 (Skill) Skills: Ex. # skills add https://github.com/xixu-me/skills --skill github-actions-docs -g
 (Skill) Skills: Ex. # skills add https://github.com/jamditis/claude-skills-journalism --skill web-scraping -g
+(Skill) Skills: Ex. # skills add https://github.com/vercel-labs/agent-skills --skill web-design-guidelines -g
+(Skill) Skills: Ex. # skills add https://github.com/emilkowalski/skills --skill improve-animations -g
 (Skill-Project) Skills: Ex. # skills add https://github.com/wshobson/agents --skill shellcheck-configuration
 (Skill-Project) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-with-docs
 (Skill-Project) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-prd
