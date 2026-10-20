@@ -60,7 +60,6 @@ Zellij: Inst. # scoop install zellij
 (Tool-Others) Pueue: Inst. # scoop install pueue
 
 (Wait) Carapace-bin: Inst. # scoop install carapace-bin
-(Wait) FluentCleaner: Inst. # scoop install fluent-cleaner
 (Wait) Keyviz: Inst. # scoop install keyviz
 (Wait) Octos: Inst. # scoop install octos
 (Wait) Windows Dual Key Remap: Inst. # scoop install dual-key-remap
