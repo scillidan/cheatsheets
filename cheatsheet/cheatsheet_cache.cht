@@ -17,6 +17,7 @@ daktilo: Inst. # cargo install -f daktilo
 dawn: Inst. # scoop install pile/dawn
 dedoc: Inst. # cargo install -f dedoc
 dedoc: Env. # DEDOC_HOME=<path_to>/Data/dedoc
+Dolphin: Inst. # scoop install dolphin
 Doxygen: Inst. # scoop install doxygen
 duf: Inst. # scoop install duf
 Dufs: Inst. # yay -S --noconfirm dufs-bin
@@ -24,7 +25,6 @@ Dufs: Inst. # scoop install dufs
 Easy Context Menu: Inst. # scoop install easy-context-menu
 erdtree: Inst. # sudo pacman -S erdtree
 erdtree: Inst. # scoop install erdtree
-erdtree: # erd --color auto --hidden --follow --human --sort name --dir-order first --layout inverted
 faviator: Inst. # bun add -g faviator@latest
 Favocon: Inst. # cargo isntall favocon
 Fluent Reader: Inst. # yay -S --noconfirm fluent-reader
@@ -41,7 +41,6 @@ ki-cli: Inst. # bun add -g ki-cli@latest
 lazyrsync: Inst. # cargo install lazyrsync
 Lazysql: Inst. # scoop install lazysql
 libretrans: Inst. # cargo install --force libretrans
-libretrans: # libretrans -u http://<your_host> en:zh "This is a text"
 LibreWolf: Inst. # sudo pacman -S librewolf speech-dispatcher
 LibreWolf: Inst. # scoop install librewolf
 lssh: Inst. # scoop install pile/lssh
@@ -89,7 +88,7 @@ VSCodium: Inst. # scoop install vscodium
 (Git) Branchless workflow for Git: Inst. # scoop install git-branchless
 (Git) Branchless workflow for Git: Conf. # git-branchless init [-- uninstall]
 (Git) critique: Inst. # bun add -g critique@latest
-(Git) deadbranch: Inst: # bin install github.com/armgabrielyan/deadbranch deadbranch.exe
+(Git) deadbranch: Inst. # bin install github.com/armgabrielyan/deadbranch deadbranch.exe
 (Git) diffnav: Inst. # scoop install diffnav
 (Git) diffnav: Inst. # git diff | diffnav
 (Git) Dolt: Inst. # scoop install dolt
@@ -105,6 +104,7 @@ VSCodium: Inst. # scoop install vscodium
 (Image) asciify-them: Inst. # uv tool install -U asciify-them
 (Image) BeeRef: Inst. # scoop install beeref
 (Image) PicView: Inst. # scoop install picview
+(Image) Pinta: Inst. # scoop install pinta
 (Image) PureRef: Inst. # yay -S --noconfirm pureref
 (Image) PureRef: Inst. # scoop install pureref
 (Image) PureRef: C-Rt → C-Dn → C-f → MW → C-S-r
@@ -116,15 +116,13 @@ VSCodium: Inst. # scoop install vscodium
 (LLM) Code2prompt: Inst. # cargo install -f code2prompt
 (LLM) LobeHub: Inst. # scoop install pile/lobehub-np
 (LLM) LobeHub CLI: Inst. # bun add -g @lobehub/cli@latest
-(LLM) LobeHub CLI: # lh login
-(LLM) LobeHub CLI: # lh provider config openai --api-key <api_key> --base-url <base_url>
-(LLM) LobeHub CLI: # lh agent list
+(LLM) LobeHub CLI: Conf. # lh login
+(LLM) LobeHub CLI: Conf. # lh provider config openai --api-key <api_key> --base-url <base_url>
 (LLM) Ollama: Inst. # scoop install ollama
 (LLM) Ollama: Env. # OLLAMA_HOST=localhost
 (LLM) Ollama: Env. # OLLAMA_ORIGINS=*
 (LLM) OpenTab: Inst. # pipx install opentab-ai
 (LLM) Open WebUI: Inst. # uv tool install -U open-webui --python 3.11
-(LLM) Open WebUI: # open-webui serve
 (LLM) OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest@latest
 (LLM) OpenCode: Ex. # bun add -g opencode-input-translator@latest@latest
 (LLM) OpenCode: Ex. Env. # TRANSLATOR_API_KEY=Ollama
@@ -140,9 +138,7 @@ VSCodium: Inst. # scoop install vscodium
 (LLM-Ex) context-mode: Inst. # bun add -g context-mode@latest
 (LLM-Ex) Gas Town: Inst. # bin install github.com/gastownhall/gastown gastown.exe
 (LLM-Ex) LeanCTX: Inst. # scoop install lean-ctx
-(LLM-Ex) LeanCTX: # lean-ctx init --agent opencode
-(LLM-Ex) LeanCTX: # lean-ctx init --agent pi
-(LLM-Ex) LeanCTX: # lean-ctx gain
+(LLM-Ex) LeanCTX: Conf. # lean-ctx init --agent opencode
 (LLM-Ex) QMD: Inst. # bun add -g @tobilu/qmd@latest
 (MCP) HAPI: Inst. # scoop install hapi
 (Minifier) clean-css: Inst. # sudo pacman -S nodejs-clean-css nodejs-clean-css-cli
@@ -154,8 +150,6 @@ VSCodium: Inst. # scoop install vscodium
 (Minifier) terser: Inst. # bun add -g terser@latest
 (Minifier) UglifyJS: Inst. # bun add -g uglify-js@latest
 (Music) LilyPond: Inst. # scoop install lilypond
-(Music) LilyPond: # python %SCOOP%\apps\lilypond\current\bin\midi2ly.py $.mid -o $.ly
-(Music) LilyPond: # lilypond -dno-point-and-click --svg $.ly
 (Music) Open Cubic Player: Inst. # scoop install pile/open-cubic-player
 (Music) TagScanner: Inst. # yay -S --noconfirm tagscanner
 (Music) TagScanner: Inst. # scoop install tagscanner
@@ -176,13 +170,12 @@ VSCodium: Inst. # scoop install vscodium
 (Skill) Skills: Ex. # skills install earthtojake/text-to-cad
 (Skill-Project) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy
 (Skill-Project) Skills: Ex. # skills add https://github.com/advaitpaliwal/feynman --skill paper-writing -g
+(Tool) pom-tool: Inst. # bun add -g pom-tool@latest
+(Tool) Qalculate!: Inst. # scoop install qalculate
 (Tool-Download) nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
 (Tool-Hardware) MTUI: Inst. # bin install github.com/inowattio/MTUI mtui.exe
 (Tool-Keyboard) komokana: Inst. # scoop install kanata komokana
 (Tool-Disk) Ext4Fsd: Inst. # gsudo scoop install ext4fsd-np
-(Tool-Others) pom-tool: Inst. # bun add -g pom-tool@latest
-(Tool-Others) pom-tool: # pom
-(Tool-Others) Qalculate!: Inst. # scoop install qalculate
 (Video) Parabolic: Inst. # scoop install parabolic
 (Video) qmtn: Inst. # scoop install pile/qmtn-np
 

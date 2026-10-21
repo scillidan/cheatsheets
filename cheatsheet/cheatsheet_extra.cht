@@ -38,7 +38,6 @@ Kiwix Serve: 2.1. # kiwix-serve --library <path_to>\kiwix\library.xml --address 
 Kopia: Inst. # scoop install kopia kopiaui
 LÖVE: Inst. # scoop install love
 Meson: Depend. # scoop install meson
-Neovide: # neovide --size=1250x720 --frame none --no-tabs --wsl archwsl
 Neovide: Inst. # scoop install neovide
 Neovide: Inst. # sudo pacman -S neovide
 Neovim: Ex. # uv tool install -U gdtoolkit
@@ -75,10 +74,8 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Dev) Watchman: Inst. # scoop install watchman
 (Differ) diffsitter: Inst. # scoop install diffsitter
 (Differ) difftastic: Inst. # scoop install difftastic
-(Differ) difftastic: # difft <old_path> <new_path>
 (Differ) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
 (Differ) Riff: Inst. # scoop install riff
-(Differ) Riff: # git diff | riff
 (Docker) dtop: Inst. # cargo install dtop
 (Docker) layerx: Inst. # bin install github.com/deveshctl/layerx layerx.exe
 (Draw) draw.io: Inst. # scoop install draw.io
@@ -89,7 +86,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Font) Departure Mono: Inst. # scoop install fonts/DepartureMono
 (Font) Ioskeley Mono: Inst. # scoop install fonts/IoskeleyMono fonts/IoskeleyMono-SemiCondensed
 (Font-Tool) FontFor: Inst. # scoop install pile/fontfor
-(Font-Tool) OpenType Sanitizer: # ots-sanitize <ttf> <otf>
 (Font-Tool) ttf2woff2: Inst. # bun add -g ttf2woff2@latest
 (Font-Tool) Webify: Inst. # scoop install pile/webify
 (Game) CompactGUI: Inst. # scoop install compactgui
@@ -133,10 +129,10 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Image) Vipsdisp: Inst. # scoop install vipsdisp
 (Image) Wait4X: Inst. # scoop install wait4x
 (Image) XnConvert: Inst. # scoop install xnconvert
+(LLM) REA: Inst. # npx rea-agents setup
 (Media) Shutter Encoder: Inst. # scoop install shutter-encoder
 (Music) CUETools: Inst. # sudo pacman -S cuetools
 (Music) CUETools: Inst. # scoop install cuetools
-(Music) CUETools: # Export → `[%directoryname%\]%artist% - %album%\%filename%-new[%unique%].cue`
 (Music) cyanrip: Inst. # scoop install cyanrip
 (Music) mp3rgain: Inst. # scoop install pile/mp3rgain
 (Music) MuseScore: Inst. # yay -S --noconfirm musescore-bin muse-sounds-manager-bin
@@ -151,7 +147,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (PDF) marker: Inst. # uv tool install -w hf_transfer -w streamlit -U marker-pdf
 (PDF) page-dewarp: Inst. # uv tool install -U page-dewarp
 (PDF) pdfCropMargins: Inst. # uv tool install -U pdfCropMargins
-(PDF) pdfCropMargins: # pdfcropmargins -v -s -u -gui file.pdf
 (PDF) presse: Inst. # scoop install pile/presse
 (PDF) presse: Inst. # presse press <pdf> -q <quality> -o _.pdf
 (Subtitle) ass2srt: Inst. # uv tool install -U ass2srt
@@ -172,11 +167,10 @@ zim-tools: Inst. # scoop install pile/zim-tools
 (Tool-Network) hostctl: Inst. # scoop install hostctl
 (Tool-Network) quien: Inst. # scoop install quien
 (Tool-Network) Whosthere: Inst. # scoop install whosthere
-(Tool-Others) REA: Inst. # npx rea-agents setup
 (Video) GridPlayer: Inst. # yay -S --noconfirm gridplayer-appimage
 (Video) GridPlayer: Inst. # sudo pacman -S vlc
 (Video) GridPlayer: Inst. # scoop install gridplayer vlc
-(Video) Madamiru: Inst. # scoop install pile/madamiru
+(Video) Madamiru: Inst. # scoop install madamiru
 (Video) MKVToolNix: Inst. # sudo pacman -S mkvtoolnix-cli mkvtoolnix-gui
 (Video) MKVToolNix: Inst. # scoop install mkvtoolnix
 (Video) mnamer: Inst. # uv tool install -U mnamer
@@ -218,7 +212,6 @@ zim-tools: Inst. # scoop install pile/zim-tools
 [Windows] SmartTaskbar: Inst. # scoop install smarttaskbar
 [Windows] StaxRip: Inst. # scoop install staxrip
 [Windows] SyncTrayzor: Inst. # scoop install synctrayzor
-[Windows] T-Clock: Conf. # Options → Time → Format → Time options → Hour (On), Minute (On)
 [Windows] T-Clock: Inst. # scoop install t-clock
 [Windows] UniExtract2: Inst. # scoop install uniextract2
 [Windows] WinCDEmu: Inst. # scoop install wincdemu
