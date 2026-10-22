@@ -2,7 +2,7 @@
 WezTerm: Select (When general selection is invalid) | S-L_drag
 WezTerm: Switch color scheme (User)                 | <leader>C
 WezTerm: Toggle full screen (User)                  | <leader>F
-WezTerm: Search (User)                              | C-S-p
+WezTerm: Search (User)                              | C-S-f
 WezTerm: Copy to clipboard (User)                   | C-Ins
 WezTerm: Paste from clipboard (User)                | C-v / S-Ins
 WezTerm: Trigger VIM with scrollback (User)         | C-S-e
@@ -20,5 +20,12 @@ WezTerm: Toggle pane zoom state (User)              | <leader>z
 WezTerm: Close current pane (User)                  | <leader>x
 WezTerm: Activate tab $ (User)                      | <leader>$
 WezTerm: Close current tab (User)                   | <leader>&
-WezTerm: (Windows) Move tab left/right (User)       | C-A-h/l
 WezTerm: Send string "Ctrl-a" (User)                | <leader>C-a
+WezTerm: QuickSelect                                | C-S-s/Spc
+WezTerm: ActivateCopyMode (User)                    | C-S-x
+WezTerm: Open url (User)                            | C-S-o
+WezTerm: Copy path (User)                           | C-S-p
+WezTerm: lazygit (User)                             | <leader>g
+WezTerm: [Windows] Move tab left/right (User)       | C-A-h/l
+WezTerm: [Windows] bash fzf-files.sh (User)         | <leader>f
+WezTerm: [Windows] tere.bat (User)                  | A-c
