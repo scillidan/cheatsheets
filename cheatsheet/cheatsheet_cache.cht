@@ -36,13 +36,8 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (Docker) lazytilt: Inst. # go install github.com/tdi/lazytilt@latest
 (Document) Doxygen: Inst. # scoop install doxygen
 (Document) Kiwix Serve: Inst. # scoop install pile/kiwix-server
-(Document) Kiwix Serve: 1. # kiwix-serve --address 0.0.0.0 --port 5173 $.zim
-(Document) Kiwix Serve: 2.1. # kiwix-manage <path_to>\kiwix\library.xml add $1.zim $2.zim
-(Document) Kiwix Serve: 2.1. # kiwix-serve --library <path_to>\kiwix\library.xml --address 0.0.0.0 --port 5173
 (Document) tldr: Inst. # sudo pacman tldr
 (Document) tldr: Inst. # scoop install tldr
-(Document) tldr: Clear local repository then clone # tldr -c
-(Document) tldr: Pulls the latest commits from github.com/tldr-pages/tldr # tldr -u
 (Document) zim-tools: Inst. # scoop install pile/zim-tools
 (Draw) draw.io: Inst. # scoop install draw.io
 (Draw) Krita: Inst. # sudo pacman -S krita
@@ -51,7 +46,7 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (Edit) Bibiman: Inst. # cargo install -f bibiman
 (Edit) libretrans: Inst. # cargo install --force libretrans
 (Edit) ki-cli: Inst. # bun add -g ki-cli@latest
-(Edit) regexplain: bin install github.com/kapilpokhrel/regexplain regexplain.exe
+(Edit) regexplain: Inst. # bin install github.com/kapilpokhrel/regexplain regexplain.exe
 (Edit) Sentences: Inst. # go install github.com/neurosnap/sentences/cmd/sentences@latest
 (Edit) ugrep: Inst. # sudo pacman -S ugrep
 (Edit) ugrep: Inst. # scoop install ugrep
@@ -107,7 +102,6 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (Image) ExifCleaner: Inst. # scoop install exifcleaner
 (Image) PureRef: Inst. # yay -S --noconfirm pureref
 (Image) PureRef: Inst. # scoop install pureref
-(Image) PureRef: C-Rt → C-Dn → C-f → MW → C-S-r
 (Image) rclip: Inst. # scoop install rclip
 (Image) TagSpaces: Inst. # yay -S --noconfirm tagspaces-bin
 (Image) TagSpaces: Inst. # scoop install tagspaces
@@ -244,7 +238,6 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 [Windows] CPU-Z: Inst. # scoop install cpu-z
 [Windows] Caffeine: Inst. # scoop install caffeine
 [Windows] Ditto: Inst. # scoop install ditto
-[Windows] GNU utilities: Depend. # scoop install unxutils
 [Windows] GPU-Z: Inst. # scoop install gpu-z
 [Windows] IrfanView: Inst. # scoop install irfanview
 [Windows] JPEGView: Inst. # scoop install jpegview-fork

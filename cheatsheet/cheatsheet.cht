@@ -213,7 +213,6 @@ Thunderbird: Inst. # scoop install thunderbird
 (Font) Sarasa Term SC Nerd: Inst. # scoop install pile/Sarasa-Term-SC-Nerd
 (Font) Sarasa Mono SC: Inst. # scoop install SarasaGothic-SC
 (Font) Smiley Sans: Inst. # scoop install pile/Smiley-Sans
-(Font-Tool) No!! MeiryoUI: Inst. # scoop install nomeiryoui
 (Formatter) Ruff: Inst. # sudo pacman -S ruff
 (Formatter) Ruff: Inst. # scoop install ruff
 (Formatter) shfmt: sudo pacman -S shfmt
@@ -412,6 +411,7 @@ Thunderbird: Inst. # scoop install thunderbird
 [Windows] MiKTeX: Inst. # scoop install miktex
 [Windows] MSYS2: Inst. # scoop install msys2
 [Windows] nexusfont: Inst. # scoop install nexusfont
+[Windows] No!! MeiryoUI: Inst. # scoop install nomeiryoui
 [Windows] Open Shell: Inst. # gsudo scoop install open-shell-np
 [Windows] PowerShell: Inst. # scoop install pwsh
 [Windows] Rapid Environment Editor: Inst. # scoop install rapidee

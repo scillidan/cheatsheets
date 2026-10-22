@@ -13,8 +13,8 @@ dupeGuru: Inst. # scoop install dupeguru
 (Dev-Game) LÖVE: Inst. # scoop install love
 (Dev-Web) Live Server: Inst. # bun add -g live-server@latest
 (Dev-Web) Wappalyzer Next: Inst. # uv tool install -U wappalyzer
-(Dependence) ISx: Depend. # scoop install isx
-(Dependence) Meson: Depend. # scoop install meson
+(Dependence) ISx: Inst. # scoop install isx
+(Dependence) Meson: Inst. # scoop install meson
 (Document) sdcv: Inst. # sudo pacman -S sdcv
 (Document) sdcv: Inst. # scoop install pile/sdcv
 (Edit) Aspell: Inst. # sudo pacman -S aspell aspell-en
@@ -171,7 +171,7 @@ dupeGuru: Inst. # scoop install dupeguru
 [Windows] ConEmu: Inst. # scoop install conemu
 [Windows] Cjam: Inst. # scoop install pilecjam
 [Windows] Cygwin: Inst. # scoop install cygwin
-[Windows] Cygwin: apt-cyg install gcc-core gcc-g++ make automake autoconf libtool pkg-config
+[Windows] Cygwin: Conf. # apt-cyg install gcc-core gcc-g++ make automake autoconf libtool pkg-config
 [Windows] Magpie: Inst. # scoop install magpie
 [Windows] Microsoft Activation Scripts: Inst. # gh download massgravel/Microsoft-Activation-Scripts MAS
 [Windows] SmartTaskbar: Inst. # scoop install smarttaskbar
