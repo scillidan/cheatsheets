@@ -494,5 +494,5 @@ Neovim:: opencode: Add line to opencode    | goo
 Neovim:: opencode: Half page up            | <S-C-u>
 Neovim:: opencode: Half page down          | <S-C-d>
 
-Neovim:: vim-tmux-navigator: TmuxNavigateLeft/Down/Up/Right | C-h/j/k/l
-Neovim:: vim-tmux-navigator: TmuxNavigatePrevious           | C-\\
+## https://github.com/y2w8/neolij.nvim#lazyvim
+Neovim:: Neolij.nvim: Move left/down/up/right {n} {t} | C-h/j/k/l
