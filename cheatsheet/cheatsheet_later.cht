@@ -54,17 +54,9 @@ Vicinae: Inst. # scoop intall vicinae
 (LLM) Codemark: Conf. # codemark install-skill --agent agents --scope user
 (LLM) OpenSpec: Inst. # bun add -g @fission-ai/openspec@latest
 (LLM) OpenSpec: Conf. # openspec init
-(LLM) spectatui: Inst. # scoop install pile/spectatui
 (LLM) Tabby AI assistant: Inst. # scoop install tabby-agent-cuda
-(LLM-Ex) Beads: Inst. # scoop install beads
 (LLM-Ex) CodeGraph: Inst. # bun add -g @colbymchenry/codegraph@latest
 (LLM-Ex) CodeGraph: Conf. # codegraph init -i
-(LLM-Ex) Cognee: Inst. # uv pip install cognee
-(LLM-Ex) Headroom: Inst. # uv tool install --python 3.13 "headroom-ai[all]"
-(LLM-Ex) Headroom: Inst. # headroom wrap opencode
-(LLM-Ex) Spec Kit: Inst. # uv tool install -U specify-cli
-(LLM-MCP) MCP Server for WinDbg Crash Analysis: Inst. # uv tool install -U mcp-windbg
-(LLM-MCP) OfficeCLI: Inst. # scoop install officecli
 (PDF) PDF ToC: Inst. # uv tool install -U pdf-toc
 (PDF) PDFCraft: Inst. # scoop install pdfcraft
 (Terminal) Reach: Inst. # scoop install reach

@@ -68,11 +68,17 @@ dupeGuru: Inst. # scoop install dupeguru
 (Image-Editor) Darktable: Inst. # scoop install darktable
 (Image-Editor) Inkscape: Inst. # sudo pacman -S inkscape
 (Image-Editor) Inkscape: Inst. # scoop install inkscape
-(LLM) agentsview: Inst. # scoop install agentsview
 (LLM) llmfit: Inst. # scoop install llmfit
 (LLM) llmfit: Inst. # sudo pacman -S llmfit-bin
-(LLM) Tokscale: Inst. # bun add -g tokscale@latest
-(LLM-Ex) REA: Inst. # npx rea-agents setup
+(LLM) OpenTab: Inst. # pipx install opentab-ai
+(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-with-docs
+(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-prd
+(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-issues
+(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill improve-codebase-architecture
+(LLM) Skills: Ex. # skills add https://github.com/lucifer1004/claude-skill-typst --skill typst
+(LLM) Skills: Ex. # skills add https://github.com/bahayonghang/academic-writing-skills --skill latex-paper-en
+(LLM) Skills: Ex. # skills add https://github.com/wshobson/agents --skill godot-gdscript-patterns
+(LLM) Skills: Ex. # skills add https://github.com/chongdashu/love2d-pocket-bomber-game --skill love2d-gamedev
 (Media) ExifTool: Inst. # scoop install exiftool
 (Media) Shutter Encoder: Inst. # scoop install shutter-encoder
 (Music) mp3rgain: Inst. # scoop install mp3rgui

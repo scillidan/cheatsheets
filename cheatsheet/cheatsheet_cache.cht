@@ -107,9 +107,20 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Image) Vipsdisp: Inst. # scoop install vipsdisp
 (Image) Wait4X: Inst. # scoop install wait4x
 (Image) YOGA Image Optimizer: Inst. # scoop install pile/yoga-image-optimizer
+(LLM) agentsview: Inst. # scoop install agentsview
 (LLM) AnythingLLM: Inst. # scoop install anythingllm
 (LLM) Code2prompt: Inst. # yay -S --noconfirm code2prompt
 (LLM) Code2prompt: Inst. # cargo install -f code2prompt
+(LLM) OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest@latest
+(LLM) OpenCode: Ex. # bun add -g opencode-input-translator@latest@latest
+(LLM) OpenCode: Ex. Env. # TRANSLATOR_API_KEY=Ollama
+(LLM) OpenCode: Ex. Env. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
+(LLM) OpenCode: Ex. Env. # TRANSLATOR_MODEL=gemma3:12b-it-qat
+(LLM) Pi: Inst. # scoop install pi-coding-agent
+(LLM) Pi: Ex. # pi install git:github.com/DietrichGebert/ponytail
+(LLM) Pi: Ex. # pi install npm:@ff-labs/pi-fff
+(LLM) Pi: Ex. # pi install npm:pi-autoresearch
+(LLM) Pi: Ex. # pi install npm:pi-lens
 (LLM) Skills: Ex. # skills add -g https://github.com/juliusbrussee/caveman --skill caveman
 (LLM) Skills: Ex. # skills add -g https://github.com/cloudflare/security-audit-skill --skill security-audit
 (LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill writing-plans
@@ -124,23 +135,12 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (LLM) Skills: Ex. # skills add https://github.com/rams/rams-ai --skill rams
 (LLM) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
 (LLM) Skills: Ex. # skills install earthtojake/text-to-cad
-(LLM) OpenTab: Inst. # pipx install opentab-ai
-(LLM) OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest@latest
-(LLM) OpenCode: Ex. # bun add -g opencode-input-translator@latest@latest
-(LLM) OpenCode: Ex. Env. # TRANSLATOR_API_KEY=Ollama
-(LLM) OpenCode: Ex. Env. # TRANSLATOR_BASE_URL=http://127.0.0.1:11434
-(LLM) OpenCode: Ex. Env. # TRANSLATOR_MODEL=gemma3:12b-it-qat
-(LLM) Pi: Inst. # scoop install pi-coding-agent
-(LLM) Pi: Ex. # pi install git:github.com/DietrichGebert/ponytail
-(LLM) Pi: Ex. # pi install npm:@ff-labs/pi-fff
-(LLM) Pi: Ex. # pi install npm:pi-autoresearch
-(LLM) Pi: Ex. # pi install npm:pi-lens
-(LLM-Ex) context-mode: Inst. # bun add -g context-mode@latest
-(LLM-Ex) Gas Town: Inst. # bin install github.com/gastownhall/gastown gastown.exe
-(LLM-Ex) LeanCTX: Inst. # scoop install lean-ctx
-(LLM-Ex) LeanCTX: Conf. # lean-ctx init --agent opencode
+(LLM) Tokscale: Inst. # bun add -g tokscale@latest
 (LLM-Ex) QMD: Inst. # bun add -g @tobilu/qmd@latest
+(LLM-Ex) REA: Inst. # npx rea-agents setup
 (LLM-MCP) HAPI: Inst. # scoop install hapi
+(LLM-MCP) MCP Server for WinDbg Crash Analysis: Inst. # uv tool install -U mcp-windbg
+(LLM-MCP) OfficeCLI: Inst. # scoop install officecli
 (Minify) clean-css: Inst. # sudo pacman -S nodejs-clean-css nodejs-clean-css-cli
 (Minify) clean-css: Inst. # bun add -g clean-css clean-css-cli@latest
 (Minify) HTML Minifier Next: Inst. # bun add -g html-minifier-next@latest
