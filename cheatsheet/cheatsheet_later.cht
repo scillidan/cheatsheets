@@ -1,10 +1,8 @@
-chezmoi: Inst. # sudo pacman -S chezmoi
-chezmoi: Inst. # scoop install chezmoi
-eilmeldung: Inst. # scoop install eilmeldung
-lazyenv: Inst. # yay -S --noconfirm lazyenv-bin
-lazyenv: Inst. # scoop install pile/lazyenv
-Lazydocker: Inst. # yay -S --noconfirm lazydocker-bin
-Lazydocker: Inst. # scoop install lazydocker
+(Wait) Carapace-bin: Inst. # scoop install carapace-bin
+(Wait) Keyviz: Inst. # scoop install keyviz
+(Wait) Octos: Inst. # scoop install octos
+(Wait) Windows Dual Key Remap: Inst. # scoop install dual-key-remap
+
 OWASP Dependency-Check: Inst. # scoop install dependency-check
 ScanTailor Advanced: Inst. # scoop install pile/scantailor-advanced-fork
 Vicinae: Inst. # scoop intall vicinae
@@ -14,6 +12,7 @@ Vicinae: Inst. # scoop intall vicinae
 (3D) KiCad: Inst. # sudo pacman -S kicad
 (3D) KiCad: Inst. # scoop install kicad
 (3D) Material Maker: Inst. # scoop install material-maker
+(Browse) eilmeldung: Inst. # scoop install eilmeldung
 (Data) Dasel: Inst. # scoop install dasel
 (Data) Harlequin: Inst. # uv tool install -U harlequin
 (Data) htmlq: Inst. # scoop install htmlq
@@ -26,20 +25,23 @@ Vicinae: Inst. # scoop intall vicinae
 (Data) sqlit: Inst. # uv tool install -U sqlit-tui
 (Dev) mise-en-place: Inst. # scoop install mise
 (Dev-Editor) Tiled: Inst. # scoop install tiled
-(Differ) dyff: Inst. # scoop install dyff
-(Differ) hunk: Inst. # scoop install hunk
-(Differ) JSON diff and patch: Inst. # scoop install jd
-(Differ) sem: Inst. # scoop install sem
+(Diff) dyff: Inst. # scoop install dyff
+(Diff) hunk: Inst. # scoop install hunk
+(Diff) JSON diff and patch: Inst. # scoop install jd
+(Diff) sem: Inst. # scoop install sem
+(Docker) Lazydocker: Inst. # yay -S --noconfirm lazydocker-bin
+(Docker) Lazydocker: Inst. # scoop install lazydocker
 (Edit) choose: Inst. # scoop install choose
 (Edit) Desed: Inst. # cargo install desed
 (Edit) sig: Inst. # pacman -S sig
 (Edit) sig: Inst. # scoop install sig
+(Git) chezmoi: Inst. # sudo pacman -S chezmoi
+(Git) chezmoi: Inst. # scoop install chezmoi
 (Git) Codiff: Inst. # scoop install codiff
 (Git) cz-git: Inst. # bun add -g czg
 (Git) easy-conflict(ec): Inst. # scoop install pile/easy-conflict
 (Git) ghgrab: Inst. # scoop install ghgrab
 (Git) Git Interactive Rebase Tool: Inst. # scoop install git-interactive-rebase-tool
-(Git) Git Overview: Inst. # uv tool install -U git-overview
 (Git) git-filter-repo: Inst. # scoop install git-filter-repo
 (Git) no-mistakes: Inst. # scoop install no-mistakes
 (Git) no-mistakes: Env. # NO_MISTAKES_TELEMETRY=0
@@ -61,26 +63,26 @@ Vicinae: Inst. # scoop intall vicinae
 (LLM-Ex) Headroom: Inst. # uv tool install --python 3.13 "headroom-ai[all]"
 (LLM-Ex) Headroom: Inst. # headroom wrap opencode
 (LLM-Ex) Spec Kit: Inst. # uv tool install -U specify-cli
-(Log) hl: Inst. # scoop install hl
-(MCP) MCP Server for WinDbg Crash Analysis: Inst. # uv tool install -U mcp-windbg
-(MCP) OfficeCLI: Inst. # scoop install officecli
+(LLM-MCP) MCP Server for WinDbg Crash Analysis: Inst. # uv tool install -U mcp-windbg
+(LLM-MCP) OfficeCLI: Inst. # scoop install officecli
 (PDF) PDF ToC: Inst. # uv tool install -U pdf-toc
 (PDF) PDFCraft: Inst. # scoop install pdfcraft
+(Terminal) Reach: Inst. # scoop install reach
 (Terminal) Zellij: Inst. # sudo pacman -S zellij
 (Terminal) Zellij: Inst. # scoop install zellij
-(Tool) F2: Inst. # scoop install f2
 (Tool-Disk) Pinkbin: Inst. # scoop install pinkbin
+(Tool-Download) kage: Inst. # scoop install kage
 (Tool-Hardware) Binside: Inst. # scoop install binsider
 (Tool-Hardware) ROM Properties Page: Inst. # scoop install rom-properties-np
-(Tool-Terminal) Pueue: Inst. # scoop install pueue
-(Tool-Terminal) Reach: Inst. # scoop install reach
 (Tool-Network) Slumber: Inst. # scoop install slumber
 (Tool-Network) wuzz: Inst. # scoop install wuzz
-
-(Wait) Carapace-bin: Inst. # scoop install carapace-bin
-(Wait) Keyviz: Inst. # scoop install keyviz
-(Wait) Octos: Inst. # scoop install octos
-(Wait) Windows Dual Key Remap: Inst. # scoop install dual-key-remap
+(Tool-Rename) F2: Inst. # scoop install f2
+(Tool-Rename) nomino: Inst. # scoop install nomino
+(Util-Env) lazyenv: Inst. # yay -S --noconfirm lazyenv-bin
+(Util-Env) lazyenv: Inst. # scoop install pile/lazyenv
+(Util-Task) Pueue: Inst. # scoop install pueue
+(View) hl: Inst. # scoop install hl
+(Virtual) QEMU: Inst. # scoop install qemu
 
 [Arch] brightnessctl: Inst. # sudo pacman -S brightnessctl
 [Arch] Caligula Burning Tool: Inst. # sudo pacman -S caligula

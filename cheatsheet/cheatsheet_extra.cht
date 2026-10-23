@@ -13,8 +13,9 @@ dupeGuru: Inst. # scoop install dupeguru
 (Dev-Game) LÖVE: Inst. # scoop install love
 (Dev-Web) Live Server: Inst. # bun add -g live-server@latest
 (Dev-Web) Wappalyzer Next: Inst. # uv tool install -U wappalyzer
-(Dependence) ISx: Inst. # scoop install isx
-(Dependence) Meson: Inst. # scoop install meson
+(Depend) ISx: Inst. # scoop install isx
+(Depend) Meson: Inst. # scoop install meson
+(Depend-Media) GStreamer: Inst. # scoop install gstreamer
 (Document) sdcv: Inst. # sudo pacman -S sdcv
 (Document) sdcv: Inst. # scoop install pile/sdcv
 (Edit) Aspell: Inst. # sudo pacman -S aspell aspell-en
@@ -32,6 +33,7 @@ dupeGuru: Inst. # scoop install dupeguru
 (Game) EmulationStation Desktop Edition: Inst. # scoop install games/es-de
 (Game) RetroArch: Inst. # sudo pacman -S retroarch
 (Game) RetroArch: Inst. # scoop install retroarch
+(Game) steamguard-cli: Inst. # scoop install steamguard-cli
 (Git) git-quick-stats: Inst. # sudo pacman -S git-quick-stats
 (Git) git-quick-stats: Inst. # scoop install git-quick-stats
 (GitLab) GitLab CLI: Inst. # scoop install glab
@@ -71,7 +73,6 @@ dupeGuru: Inst. # scoop install dupeguru
 (LLM) llmfit: Inst. # sudo pacman -S llmfit-bin
 (LLM) Tokscale: Inst. # bun add -g tokscale@latest
 (LLM-Ex) REA: Inst. # npx rea-agents setup
-(Manga) YACReader: Inst. # scoop install yacreader
 (Media) ExifTool: Inst. # scoop install exiftool
 (Media) Shutter Encoder: Inst. # scoop install shutter-encoder
 (Music) mp3rgain: Inst. # scoop install mp3rgui
@@ -117,6 +118,7 @@ dupeGuru: Inst. # scoop install dupeguru
 (Subtitle) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
 (Tool-Control) Gopher360: Inst. # scoop install gopher360
 (Tool-Disk) diskus: Inst. # scoop install diskus
+(Tool-Disk) DiskWatch: Inst. # scoop install diskwatch
 (Tool-Disk) GSmartControl: Inst. # scoop install gsmartcontrol smartmontools
 (Tool-Download) html-to-markdown: Inst. # scoop install html-to-markdown
 (Tool-Download) Jackett: Inst. # sudo pacman -S jackett
@@ -147,9 +149,6 @@ dupeGuru: Inst. # scoop install dupeguru
 (Tool-Security) VirusTotal CLI: Conf. # vt init
 (Tool-Sync) rsync: Inst. # sudo pacman -S rsync
 (Tool-Sync) rsync: Inst. # scoop install cwrsync
-(Video) GStreamer: Inst. # scoop install gstreamer
-(Video) Kdenlive: Inst. # sudo pacman -S kdenlive
-(Video) Kdenlive: Inst. # scoop install kdenlive
 (Video) HandBrake: Inst. # sudo pacman -S handbrake handbrake-cli
 (Video) HandBrake: Inst. # scoop install handbrake handbrake-cli
 (Video) LosslessCut: Inst. # yay -S --noconfirm losslesscut-bin
@@ -157,6 +156,9 @@ dupeGuru: Inst. # scoop install dupeguru
 (Video) MKVToolNix: Inst. # sudo pacman -S mkvtoolnix-cli mkvtoolnix-gui
 (Video) MKVToolNix: Inst. # scoop install mkvtoolnix
 (Video) vimg: Inst. # scoop install pile/vimg
+(Video-Editor) Kdenlive: Inst. # sudo pacman -S kdenlive
+(Video-Editor) Kdenlive: Inst. # scoop install kdenlive
+(Viewer) YACReader: Inst. # scoop install yacreader
 
 [Arch] auto-cpufreq: Inst. # yay -S --noconfirm auto-cpufreq
 [Arch] auto-cpufreq: Conf. # sudo systemctl enable --now auto-cpufreq

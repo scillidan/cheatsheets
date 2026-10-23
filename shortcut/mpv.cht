@@ -83,8 +83,8 @@ mpv:: uosc: Playlist                                                  | p
 mpv:: uosc: Chapters                                                  | c
 mpv:: uosc: Navigation > Next                                         | >
 mpv:: uosc: Navigation > Prev                                         | <
-mpv:: uosc: Navigation > Delete file & Next                           | A->
-mpv:: uosc: Navigation > Delete file & Prev                           | A-<
+mpv:: uosc: Navigation > Delete file & Next                           | A-> / A-Rt
+mpv:: uosc: Navigation > Delete file & Prev                           | A-< / A-Lt
 mpv:: uosc: Navigation > Delete file & Quit                           | A-Esc
 mpv:: uosc: Navigation > Open file                                    | o
 mpv:: uosc: Utils > Aspect ratio > Default                            |
@@ -129,7 +129,5 @@ mpv:: (Video) dualsubtitles: hideSubtitles                            | v
 mpv:: (Video) dualsubtitles: reverseSubtitles                         | u
 mpv:: (Video) dualsubtitles: switchBackwardForSecondary               | K
 mpv:: (Video) dualsubtitles: switchForwardForSecondary                | k
-mpv:: (Video) find_subtitles: subtitles                               | A-s
 mpv:: (Video) mpv_open_imdb_page: open-imdb-page                      | S-C-i
 mpv:: (Video) mpv_subtitle_retimer: subretimer-apply                  | C-r
-mpv:: (Video) sub_export: export-selected-subtitles                   | S-x

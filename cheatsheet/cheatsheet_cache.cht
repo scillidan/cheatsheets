@@ -1,11 +1,12 @@
-rip2: Inst. # scoop install rip
+Bibiman: Inst. # cargo install -f bibiman
+Easy Context Menu: Inst. # scoop install easy-context-menu
 split-manga-pages: Inst. # uv tool install -U split_manga_pages
-Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 
 (Audio) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
-(Browser) LibreWolf: Inst. # sudo pacman -S librewolf speech-dispatcher
-(Browser) LibreWolf: Inst. # scoop install librewolf
-(Browser) Vieb: Inst. # scoop install vieb
+(Browse) coBib: Inst. # uv tool install -U cobib
+(Browse) LibreWolf: Inst. # sudo pacman -S librewolf speech-dispatcher
+(Browse) LibreWolf: Inst. # scoop install librewolf
+(Browse) Vieb: Inst. # scoop install vieb
 (Code) agg: Inst. # scoop install agg
 (Code) autocast: Inst. # yay -S --noconfirm autocast
 (Code) autocast: Inst. # cargo install --force autocast
@@ -26,11 +27,11 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (Dev-Web) Dufs: Inst. # scoop install dufs
 (Dev-Web) faviator: Inst. # bun add -g faviator@latest
 (Dev-Web) Favocon: Inst. # cargo isntall favocon
-(Differ) diffsitter: Inst. # scoop install diffsitter
-(Differ) difftastic: Inst. # scoop install difftastic
-(Differ) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
-(Differ) giff: Inst. # scoop install giff
-(Differ) Riff: Inst. # scoop install riff
+(Diff) diffsitter: Inst. # scoop install diffsitter
+(Diff) difftastic: Inst. # scoop install difftastic
+(Diff) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
+(Diff) giff: Inst. # scoop install giff
+(Diff) Riff: Inst. # scoop install riff
 (Docker) dtop: Inst. # cargo install dtop
 (Docker) layerx: Inst. # bin install github.com/deveshctl/layerx layerx.exe
 (Docker) lazytilt: Inst. # go install github.com/tdi/lazytilt@latest
@@ -39,17 +40,14 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (Document) tldr: Inst. # sudo pacman tldr
 (Document) tldr: Inst. # scoop install tldr
 (Document) zim-tools: Inst. # scoop install pile/zim-tools
-(Draw) draw.io: Inst. # scoop install draw.io
-(Draw) Krita: Inst. # sudo pacman -S krita
-(Draw) Krita: Inst. # scoop install krita
-(Draw) Saber: Inst. # scoop install saber
-(Edit) Bibiman: Inst. # cargo install -f bibiman
-(Edit) libretrans: Inst. # cargo install --force libretrans
-(Edit) ki-cli: Inst. # bun add -g ki-cli@latest
+(Image-Editor) draw.io: Inst. # scoop install draw.io
+(Image-Editor) Krita: Inst. # sudo pacman -S krita
+(Image-Editor) Krita: Inst. # scoop install krita
+(Image-Editor) Saber: Inst. # scoop install saber
 (Edit) regexplain: Inst. # bin install github.com/kapilpokhrel/regexplain regexplain.exe
-(Edit) Sentences: Inst. # go install github.com/neurosnap/sentences/cmd/sentences@latest
-(Edit) ugrep: Inst. # sudo pacman -S ugrep
-(Edit) ugrep: Inst. # scoop install ugrep
+(Edit-Transfrom) libretrans: Inst. # cargo install --force libretrans
+(Edit-Transfrom) ki-cli: Inst. # bun add -g ki-cli@latest
+(Edit-Transfrom) Sentences: Inst. # go install github.com/neurosnap/sentences/cmd/sentences@latest
 (Editor) Obsidian: Inst. # sudo pacman -S obsidian
 (Editor) Obsidian: Inst. # scoop install obsidian
 (Editor) VSCodium: Inst. # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
@@ -58,12 +56,13 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (Epub) djvulibre: Inst. # scoop install djvulibre
 (Epub) Sigil: Inst. # sudo pacman -S sigil
 (Epub) Sigil: Inst. # scoop install sigil
-(Explorer) Easy Context Menu: Inst. # scoop install easy-context-menu
+(Find) ugrep: Inst. # sudo pacman -S ugrep
+(Find) ugrep: Inst. # scoop install ugrep
 (Font-Tool) FontFor: Inst. # scoop install pile/fontfor
 (Font-Tool) ttf2woff2: Inst. # bun add -g ttf2woff2@latest
 (Font-Tool) Webify: Inst. # scoop install pile/webify
-(Formatter) js-beautify: Inst. # sudo pacman -S js-beautify
-(Formatter) js-beautify: Inst. # bun add -g js-beautify@latest
+(Format) js-beautify: Inst. # sudo pacman -S js-beautify
+(Format) js-beautify: Inst. # bun add -g js-beautify@latest
 (Game) Igir: Inst. # bin install github.com/emmercm/igir igir.exe
 (Game) Hydra Launcher: Inst. # scoop install games/hydra
 (Game) Pegasus Frontend: Inst. # yay -S --noconfirm pegasus-frontend-git
@@ -111,6 +110,20 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (LLM) AnythingLLM: Inst. # scoop install anythingllm
 (LLM) Code2prompt: Inst. # yay -S --noconfirm code2prompt
 (LLM) Code2prompt: Inst. # cargo install -f code2prompt
+(LLM) Skills: Ex. # skills add -g https://github.com/juliusbrussee/caveman --skill caveman
+(LLM) Skills: Ex. # skills add -g https://github.com/cloudflare/security-audit-skill --skill security-audit
+(LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill writing-plans
+(LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill test-driven-development
+(LLM) Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator
+(LLM) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill ui-skills-root
+(LLM) Skills: Ex. # skills add https://github.com/0xdesign/design-plugin --skill design-lab
+(LLM) Skills: Ex. # skills add https://github.com/pbakaus/impeccable --skill impeccable
+(LLM) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill improve-ui
+(LLM) Skills: Ex. # skills add https://github.com/jakubkrehel/skills --skill better-ui
+(LLM) Skills: Ex. # skills add https://github.com/shadcn/improve --skill improve
+(LLM) Skills: Ex. # skills add https://github.com/rams/rams-ai --skill rams
+(LLM) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
+(LLM) Skills: Ex. # skills install earthtojake/text-to-cad
 (LLM) OpenTab: Inst. # pipx install opentab-ai
 (LLM) OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest@latest
 (LLM) OpenCode: Ex. # bun add -g opencode-input-translator@latest@latest
@@ -127,42 +140,24 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (LLM-Ex) LeanCTX: Inst. # scoop install lean-ctx
 (LLM-Ex) LeanCTX: Conf. # lean-ctx init --agent opencode
 (LLM-Ex) QMD: Inst. # bun add -g @tobilu/qmd@latest
-(Markdown) dawn: Inst. # scoop install pile/dawne
-(Markdown) mdterm: Inst. # scoop install pile/mdterm
-(MCP) HAPI: Inst. # scoop install hapi
-(Minifier) clean-css: Inst. # sudo pacman -S nodejs-clean-css nodejs-clean-css-cli
-(Minifier) clean-css: Inst. # bun add -g clean-css clean-css-cli@latest
-(Minifier) HTML Minifier Next: Inst. # bun add -g html-minifier-next@latest
-(Minifier) Minify: Inst. # scoop install minify
-(Minifier) SVGO: Inst. # sudo pacman -S svgo
-(Minifier) SVGO: Inst. # bun add -g svgo@latest
-(Minifier) terser: Inst. # sudo pacman -S terser
-(Minifier) terser: Inst. # bun add -g terser@latest
-(Minifier) UglifyJS: Inst. # bun add -g uglify-js@latest
+(LLM-MCP) HAPI: Inst. # scoop install hapi
+(Minify) clean-css: Inst. # sudo pacman -S nodejs-clean-css nodejs-clean-css-cli
+(Minify) clean-css: Inst. # bun add -g clean-css clean-css-cli@latest
+(Minify) HTML Minifier Next: Inst. # bun add -g html-minifier-next@latest
+(Minify) Minify: Inst. # scoop install minify
+(Minify) SVGO: Inst. # sudo pacman -S svgo
+(Minify) SVGO: Inst. # bun add -g svgo@latest
+(Minify) terser: Inst. # sudo pacman -S terser
+(Minify) terser: Inst. # bun add -g terser@latest
+(Minify) UglifyJS: Inst. # bun add -g uglify-js@latest
 (Music) cliamp: Inst. # sudo pacman -S alsa-lib && yay -S --noconfirm cliamp
 (Music) cliamp: Inst. # scoop install cliamp
 (Music) ZonyLrcToolsX: Inst. # scoop install pile/zonylrctoolsx
-(PCB) Horizon EDA: Inst. # scoop install horizon-eda
 (PDF) THE PDFALYZER: Inst. # uv tool install -U pdfalyzer
 (PKG) GlazePKG (gpk): Inst. # scoop install glazepkg
 (PKG) keepkit: Inst. # scoop install pile/keepkit
-(QoL) fzf-make: Inst. # yay -S --noconfirm fzf-make
-(QoL) fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make
-(QoL) port-kill: Inst. # scoop install port-kill-console
-(Skill) Skills: Ex. # skills add https://github.com/juliusbrussee/caveman --skill caveman -g
-(Skill) Skills: Ex. # skills add https://github.com/obra/superpowers --skill writing-plans
-(Skill) Skills: Ex. # skills add https://github.com/obra/superpowers --skill test-driven-development
-(Skill) Skills: Ex. # skills add https://github.com/cloudflare/security-audit-skill --skill security-audit -g
-(Skill) Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator
-(Skill) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill ui-skills-root
-(Skill) Skills: Ex. # skills add https://github.com/0xdesign/design-plugin --skill design-lab
-(Skill) Skills: Ex. # skills add https://github.com/pbakaus/impeccable --skill impeccable
-(Skill) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill improve-ui
-(Skill) Skills: Ex. # skills add https://github.com/jakubkrehel/skills --skill better-ui
-(Skill) Skills: Ex. # skills add https://github.com/shadcn/improve --skill improve
-(Skill) Skills: Ex. # skills add https://github.com/rams/rams-ai --skill rams
-(Skill) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
-(Skill) Skills: Ex. # skills install earthtojake/text-to-cad
+(Tool-Hardware) Horizon EDA: Inst. # scoop install horizon-eda
+
 (Skill-Project) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy
 (Skill-Project) Skills: Ex. # skills add https://github.com/advaitpaliwal/feynman --skill paper-writing -g
 (Spotify) gPodder: Inst. # sudo pacman -S gpodder
@@ -201,6 +196,7 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (Tool-Keyboard) Uncap: Inst. # scoop install uncap
 (Tool-Monitor) Btop: Inst. # sudo pacman -S btop
 (Tool-Monitor) Btop: Inst. # scoop install btop
+(Tool-Monitor) HWiNFO: Inst. # scoop install hwinfo
 (Tool-Security) PassTUI: Inst. # uv tool install -U passtui --python 3.14
 (Tool-Storage) RClone Manager: Inst. # yay -S --noconfirm rclone-manager
 (Tool-Storage) RClone Manager: Inst. # scoop install rclone-manager
@@ -223,8 +219,16 @@ Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (Video) vcsi: Inst. # uv tool install -U vcsi
 (Video) video-compare: Inst. # scoop install video-compare
 (Video) video-to-ascii: Inst. # uv tool install -U video-to-ascii
-(Viewer) Onefetch: Inst. # sudo pacman -S onefetch
-(Viewer) Onefetch: Inst. # scoop install onefetch
+(View) dawn: Inst. # scoop install pile/dawne
+(View) mdterm: Inst. # scoop install pile/mdterm
+(View) Onefetch: Inst. # sudo pacman -S onefetch
+(View) Onefetch: Inst. # scoop install onefetch
+
+(QoL) fzf-make: Inst. # yay -S --noconfirm fzf-make
+(QoL) fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make
+(QoL) port-kill: Inst. # scoop install port-kill-console
+(Util) rip2: Inst. # scoop install rip
+(Util) Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 
 [Arch] asciinema: Inst. # sudo pacman -S asciinema
 [Arch] Flacon: Inst. # yay -S --noconfirm flacon
