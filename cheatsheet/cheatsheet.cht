@@ -282,6 +282,7 @@
 (PDF) Stirling-PDF: Inst. # scoop install stirling-pdf
 (PKG) bin: Inst. # scoop install bin
 (PKG) Cargo: Inst. # cargo search --registry crates-io
+(PKG) GlazePKG (gpk): Inst. # scoop install glazepkg
 (PKG) eget: Inst. # scoop install eget
 (Terminal) SSHFS: Inst. # sudo pacman -S sshfs
 (Terminal) SSHFS: Inst. # gsudo scoop install winfsp-np sshfs-np
@@ -387,6 +388,8 @@
 [Windows] Geek Uninstaller: Inst. # scoop install geekuninstaller
 [Windows] git: Conf. # git config --global core.autocrlf true
 [Windows] git: Conf. # git config --global core.editor "subl --new-window --wait"
+[Windows] GlazePKG (gpk): Conf. # gpk managers skip bin conda luarocks npm pip powershell windows-updates winget
+[Windows] GlazePKG (gpk): Conf. # gpk hold brave calibre darktable etcher gimp gstreamer inkscape libreoffice llvm miniforge3 perl sigil thunderbird webview2 -m scoop
 [Windows] gsudo: Inst. # scoop install gsudo
 [Windows] HostsFileEditor: Inst. # scoop install hosts-file-editor
 [Windows] Hotkey Detective: Inst. # scoop install hotkey-detective

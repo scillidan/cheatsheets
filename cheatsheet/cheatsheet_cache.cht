@@ -157,7 +157,6 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Music) cliamp: Inst. # scoop install cliamp
 (Music) ZonyLrcToolsX: Inst. # scoop install pile/zonylrctoolsx
 (PDF) THE PDFALYZER: Inst. # uv tool install -U pdfalyzer
-(PKG) GlazePKG (gpk): Inst. # scoop install glazepkg
 (PKG) keepkit: Inst. # scoop install pile/keepkit
 (Tool-Hardware) Horizon EDA: Inst. # scoop install horizon-eda
 
