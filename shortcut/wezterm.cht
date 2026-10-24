@@ -25,7 +25,9 @@ WezTerm: QuickSelect                                | C-S-s/Spc
 WezTerm: ActivateCopyMode (User)                    | C-S-x
 WezTerm: Open url (User)                            | C-S-o
 WezTerm: Copy path (User)                           | C-S-p
+WezTerm: Move tab left/right (User)                 | C-A-h/l
+WezTerm: tere / tere.bat (User)                     | A-c
+WezTerm: yazi-cd (User)                             | <leader>y
+WezTerm: bash fzf-files.sh (User)                   | <leader>f
+WezTerm: bash fzf-ripgrep.sh (User)                 | <leader>g
 WezTerm: lazygit (User)                             | <leader>g
-WezTerm: [Windows] Move tab left/right (User)       | C-A-h/l
-WezTerm: [Windows] bash fzf-files.sh (User)         | <leader>f
-WezTerm: [Windows] tere.bat (User)                  | A-c

@@ -1,4 +1,4 @@
-Bibiman: Inst. # cargo install -f bibiman
+Bibiman: Inst. # cargo install --force -f bibiman
 Easy Context Menu: Inst. # scoop install easy-context-menu
 split-manga-pages: Inst. # uv tool install -U split_manga_pages
 
@@ -17,7 +17,7 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Data) jnv: Inst. # scoop install jnv
 (Data) jqp: Inst. # scoop install jqp
 (Data) Lazysql: Inst. # scoop install lazysql
-(Data) Tidy Viewer (tv): Inst. # cargo install -f tidy-viewer
+(Data) Tidy Viewer (tv): Inst. # cargo install --force -f tidy-viewer
 (Dev) Gaze: Inst. # bin install github.com/wtetsu/gaze gaze.exe
 (Dev-API) ATAC: Inst. # scoop install atac
 (Dev-API) Resterm: Inst. # scoop install resterm
@@ -32,7 +32,7 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Diff) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
 (Diff) giff: Inst. # scoop install giff
 (Diff) Riff: Inst. # scoop install riff
-(Docker) dtop: Inst. # cargo install dtop
+(Docker) dtop: Inst. # cargo install --force dtop
 (Docker) layerx: Inst. # bin install github.com/deveshctl/layerx layerx.exe
 (Docker) lazytilt: Inst. # go install github.com/tdi/lazytilt@latest
 (Document) Doxygen: Inst. # scoop install doxygen
@@ -56,6 +56,9 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Epub) djvulibre: Inst. # scoop install djvulibre
 (Epub) Sigil: Inst. # sudo pacman -S sigil
 (Epub) Sigil: Inst. # scoop install sigil
+(Explor) Yazi: Ex. # ya pkg add towingie/switch-ratio
+(Explor) Yazi: Ex. # ya pkg add czlaci/hexyl
+(Explor) Yazi: Ex. # ya pkg add ettom/openscad
 (Find) ugrep: Inst. # sudo pacman -S ugrep
 (Find) ugrep: Inst. # scoop install ugrep
 (Font-Tool) FontFor: Inst. # scoop install pile/fontfor
@@ -89,7 +92,7 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Git) pre-commit: Conf. # pre-commit install
 (Git) pro: Inst. # scoop install pile/pro
 (Git) grut: Inst. # scoop install pile/grut
-(Git) Serie: Inst. # cargo install -f --locked serie
+(Git) Serie: Inst. # cargo install --force -f --locked serie
 (Git) SourceGit: Inst. # scoop install sourcegit
 (Github) Github Desktop: Inst. # scoop install github
 (Image) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify@latest
@@ -110,7 +113,7 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (LLM) agentsview: Inst. # scoop install agentsview
 (LLM) AnythingLLM: Inst. # scoop install anythingllm
 (LLM) Code2prompt: Inst. # yay -S --noconfirm code2prompt
-(LLM) Code2prompt: Inst. # cargo install -f code2prompt
+(LLM) Code2prompt: Inst. # cargo install --force -f code2prompt
 (LLM) OpenCode: Ex. # bun add -g @mohak34/opencode-notifier@latest@latest
 (LLM) OpenCode: Ex. # bun add -g opencode-input-translator@latest@latest
 (LLM) OpenCode: Ex. Env. # TRANSLATOR_API_KEY=Ollama
@@ -170,10 +173,10 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Terminal) LazySSH: Inst. # sudo yay -S --noconfirm lazyssh-bin
 (Terminal) LazySSH: Inst. # scoop install lazyssh
 (Terminal) SSHM: Inst. # scoop install sshm
-(Tool) beancount: Inst. # pipx install beanquery
+(Tool) beancount: Inst. # pipx install --force beanquery
 (Tool) Carnac: Inst. # scoop install carnac
 (Tool) daktilo: Inst. # sudo pacman -S daktilo
-(Tool) daktilo: Inst. # cargo install -f daktilo
+(Tool) daktilo: Inst. # cargo install --force -f daktilo
 (Tool) eva: Inst. # sudo pacman -S eva
 (Tool) eva: Inst. # scoop install eva
 (Tool) kalk: Inst. # scoop install kalk
@@ -200,7 +203,7 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Tool-Security) PassTUI: Inst. # uv tool install -U passtui --python 3.14
 (Tool-Storage) RClone Manager: Inst. # yay -S --noconfirm rclone-manager
 (Tool-Storage) RClone Manager: Inst. # scoop install rclone-manager
-(Tool-Sync) lazyrsync: Inst. # cargo install lazyrsync
+(Tool-Sync) lazyrsync: Inst. # cargo install --force lazyrsync
 (Tool-Sync) syncthing: Inst. # sudo pacman -S syncthing
 (Tool-Sync) syncthing: Inst. # scoop install syncthing
 (Tool-Sync) Unison: Inst. # scoop install unison

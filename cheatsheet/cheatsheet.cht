@@ -134,7 +134,7 @@
 (Explor) Yazi: Ex. # ya pkg add gosxrgxx/flexoki-light
 (Explor) Yazi: Ex. # ya pkg add MasouShizuka/close-and-restore-tab
 (Explor) Yazi: Ex. # ya pkg add terrakok/split-tabs
-(Explor) Yazi: Ex. # ya pkg add towingie/switch-ratio
+(Explor) Yazi: Ex. # ya pkg add Geronfir/bifold
 (Explor) Yazi: Ex. # ya pkg add yazi-rs/plugins:toggle-pane
 (Explor) Yazi: Ex. # ya pkg add leduckhc/responsive-layout
 (Explor) Yazi: Ex. # ya pkg add XYenon/clipboard
@@ -153,6 +153,7 @@
 (Explor) Yazi: Ex. # ya pkg add WindustH/makelink
 (Explor) Yazi: Ex. # ya pkg add Ape/open-with-cmd
 (Explor) Yazi: Ex. # ya pkg add ahkohd/eza-preview
+(Explor) Yazi: Ex. # ya pkg add ThomasVanRiel/repo-status
 (Explor) Yazi: Ex. # ya pkg add yazi-rs/plugins:git
 (Explor) Yazi: Ex. # ya pkg add yazi-rs/plugins:piper
 (Explor) Yazi: Ex. # ya pkg add boydaihungst/mediainfo
@@ -161,13 +162,12 @@
 (Explor) Yazi: Ex. # ya pkg add AminurAlam/yazi-plugins:preview-typst
 (Explor) Yazi: Ex. # ya pkg add kirasok/epub-preview
 (Explor) Yazi: Ex. # ya pkg add AminurAlam/yazi-plugins:font-sample
-(Explor) Yazi: Ex. # ya pkg add czlaci/hexyl
-(Explor) Yazi: Ex. # ya pkg add ettom/openscad
-(Font) LXGW Wenkai GB: Inst. # scoop install pile/LXGW-Wenkai-GB
+(Explor) Yazi: Ex. # ya pkg add DervexDev/f3d
+(Font) LXGW Wenkai GB: Inst. # scoop install fonts/LXGW-Wenkai-GB fonts/LXGW-Wenkai-Mono fonts/LXGW-Wenkai-Mono-TC
 (Font) Monaspace: Inst. # scoop install Monaspace-NF-Mono
-(Font) Sarasa Term SC Nerd: Inst. # scoop install pile/Sarasa-Term-SC-Nerd
-(Font) Sarasa Mono SC: Inst. # scoop install SarasaGothic-SC
-(Font) Smiley Sans: Inst. # scoop install pile/Smiley-Sans
+(Font) Sarasa Term SC Nerd: Inst. # scoop install fonts/Sarasa-Term-SC-Nerd
+(Font) Sarasa Mono SC: Inst. # scoop install fonts/Sarasa-Mono-SC
+(Font) Smiley Sans: Inst. # scoop install fonts/Smiley-Sans
 (Format) Ruff: Inst. # sudo pacman -S ruff
 (Format) Ruff: Inst. # scoop install ruff
 (Format) shfmt: sudo pacman -S shfmt
@@ -251,7 +251,7 @@
 (LLM-Ex) OpenCode quota: Conf. # opencode-quota init
 (LLM-Ex) opencode-console-notify : Inst. # scoop install opencode-console-notify
 (LLM-Ex) opencode-console-notify : Conf. # opencode-notify install
-(LLM-Ex) Ponytail: Inst. # bun add -g oc-sync@latest
+(LLM-Ex) Ponytail: Inst. # opencode plugin add @dietrichgebert/ponytail
 (LLM-Ex) rtk: Inst. # scoop install rtk
 (LLM-Ex) rtk: Conf. # rtk init -g --opencode
 (LLM-MCP) agnix: Inst. # scoop install pile/agnix
@@ -289,7 +289,7 @@
 (Terminal) WezTerm: Inst. # sudo pacman -S wezterm
 (Terminal) WezTerm: Inst. # scoop install wezterm
 (Tool) bttf: Inst. # scoop install bttf
-(Tool) carl: Inst. # cargo install -f carl
+(Tool) carl: Inst. # cargo install --force -f carl
 (Tool) Delect It Easy: Inst. # yay -S --noconfirm detect-it-easy-bin
 (Tool) Delect It Easy: Inst. # scoop install detect-it-easy
 (Tool) fend: Inst. # yay -S --noconfirm fend-bin
@@ -333,7 +333,7 @@
 (Util) open-cli: Inst. # bun add -g open-cli@latest
 (Util) trashy: Inst. # yay -S --noconfirm trashy-bin
 (Util) trashy: Inst. # scoop install trashy
-(Util) trashy: Inst. # cargo install -f trashy
+(Util) trashy: Inst. # cargo install --force -f trashy
 (Util) TrID: Inst. # scoop install trid
 (Util) which: Inst. # scoop install which
 (Util-Env) envlens: Inst. # scoop install envlens

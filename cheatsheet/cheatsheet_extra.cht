@@ -25,7 +25,7 @@ dupeGuru: Inst. # scoop install dupeguru
 (Edit) grex: Inst. # scoop install grex
 (Edit) python-pinyin: Inst. # uv tool install -U pypinyin
 (Edit) pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
-(Font) Ark Pixel Font: Inst. # scoop install fonts/Ark-Pixel-Font-12px-proportional
+(Font) Ark Pixel Font: Inst. # scoop install fonts/Ark-Pixel-12px-monospaced-zh_cn
 (Font) Departure Mono: Inst. # scoop install fonts/DepartureMono
 (Font) Ioskeley Mono: Inst. # scoop install fonts/IoskeleyMono fonts/IoskeleyMono-SemiCondensed
 (Game) CompactGUI: Inst. # scoop install compactgui
@@ -54,23 +54,23 @@ dupeGuru: Inst. # scoop install dupeguru
 (Image) pngquant: Inst. # sudo pacman -S pngquant
 (Image) pngquant: Inst. # scoop install pngquant
 (Image) png-to-ico: Inst. # bun add -g png-to-ico@latest
-(Image) posterust: Inst. # cargo install posterust
-(Image) rembg: Inst. # pipx install "rembg[cpu,cli]"
-(Image) rembg: Inst. # pipx install "rembg[gpu,cli]"
+(Image) posterust: Inst. # cargo install --force posterust
+(Image) rembg: Inst. # pipx install --force "rembg[cpu,cli]"
+(Image) rembg: Inst. # pipx install --force "rembg[gpu,cli]"
 (Image) Rimage: Inst. # scoop install rimage
 (Image) rusted_ascii_filter: Inst. # scoop install pile/rusted-ascii-filter
 (Image) SVG to PNG converter: Inst. # scoop install svg2png
 (Image) Upscayl: Inst. # scoop install upscayl
 (Image) upscayl-ncnn: Inst. # scoop install pile/upscayl-bin
 (Image) XnConvert: Inst. # scoop install xnconvert
-(Image) yoga: Inst. # pipx install yoga
+(Image) yoga: Inst. # pipx install --force yoga
 (Image-Editor) Darktable: Inst. # sudo pacman -S darktable
 (Image-Editor) Darktable: Inst. # scoop install darktable
 (Image-Editor) Inkscape: Inst. # sudo pacman -S inkscape
 (Image-Editor) Inkscape: Inst. # scoop install inkscape
 (LLM) llmfit: Inst. # scoop install llmfit
 (LLM) llmfit: Inst. # sudo pacman -S llmfit-bin
-(LLM) OpenTab: Inst. # pipx install opentab-ai
+(LLM) OpenTab: Inst. # pipx install --force opentab-ai
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-with-docs
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-prd
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-issues

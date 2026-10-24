@@ -47,3 +47,61 @@ yazi: (Multi-tab) Switch to the $-th tab                                        
 yazi: (Multi-tab) Switch to the previous/next tab                                | [/]
 yazi: (Multi-tab) Swap current tab with previous/next tab                        | {/}
 yazi: (Multi-tab) Close the current tab                                          | C-c
+yazi: Open wezterm at current dir (User)                                         | T
+yazi:: close-and-restore-tab: (Tabs) Close the current tab, or quit if it's last | C-w
+yazi:: close-and-restore-tab: Restore the previously closed tab                  | C-t
+yazi:: bifold: Toggle split tabs mode                                            | \\
+yazi:: bifold: Switch to the other pane                                          | Tab
+yazi:: bifold: Copy to the other pane                                            | F5
+yazi:: bifold: Move to the other pane                                            | F6
+yazi:: bifold: Toggle preview pane                                               | b
+yazi:: bifold: Flip side-by-side/top-bottom                                      | S-f
+yazi:: bifold: Shrink/grow active pane                                           | C-Lt/Rt
+yazi:: split-tabs: Toggle split-tabs mode                                        | \
+yazi:: split-tabs: Switch to the other split pane                                | Tab
+yazi:: split-tabs: Toggle preview pane                                           | P
+yazi:: toggle-pane: Maximize or restore the preview pane                         | Z
+yazi:: clipboard: Yank selected files and copy to system clipboard               | y
+yazi:: clipboard: Paste from system clipboard                                    | C-p
+yazi:: relative-path: Copy relative path from the started path                   | cr
+yazi:: copy-file-contents: Copy contents of hovered file                         | A-y
+yazi:: fast-enter: Fast-enter subfolder, or open file directly                   | l
+yazi:: sticky-filter: Sticky filter                                              | f
+yazi:: fd-fzf: Jump to directory (fd+fzf)                                        | sz
+yazi:: fd-fzf: Jump to directory, hidden included                                | sZ
+yazi:: fd-fzf: Jump to directory (with preview)                                  | sp
+yazi:: initial-cwd: Go to initial directory                                      | g Spc
+yazi:: clipboard-jump: Jump to path in system clipboard                          | gp
+yazi:: zoxide-add: Jump                                                          | z
+yazi:: bookmarks: Save current position as a bookmark                            | m
+yazi:: bookmarks: Jump to a bookmark                                             | bb
+yazi:: bookmarks: Delete a bookmark                                              | bd
+yazi:: bookmarks: Delete all bookmarks                                           | bD
+yazi:: compress: Archive selected files                                          | caa
+yazi:: compress: Archive selected files (password)                               | cap
+yazi:: compress: Archive selected files (password+header)                        | cah
+yazi:: compress: Archive selected files (compression level)                      | cal
+yazi:: compress: Archive selected files (password+header+level)                  | cau
+yazi:: custom-shell: Run custom-shell interactively                              | ';
+yazi:: custom-shell: Run custom-shell interactively (block)                      | ':
+yazi:: lazygit: Run lazygit                                                      | Gi
+yazi:: makelink: Save source path(s)                                             | cls
+yazi:: makelink: Create soft link(s)                                             | cll
+yazi:: makelink: Create hard link(s)                                             | clh
+yazi:: makelink: Clear saved paths                                               | clc
+yazi:: open-with-cmd: Open with command in the terminal                          | o
+yazi:: open-with-cmd: Open with command                                          | O
+yazi:: eza-preview: Toggle tree/list dir preview                                 | et
+yazi:: eza-preview: Increment tree level                                         | e-
+yazi:: eza-preview: Decrement tree level                                         | e_
+yazi:: eza-preview: Toggle tree follow symlinks                                  | e$
+yazi:: eza-preview: Toggle hidden files                                          | e*
+yazi:: eza-preview: Toggle .gitignore files                                      | egi
+yazi:: eza-preview: Toggle showing git status                                    | egs
+yazi:: mediainfo: Toggle media preview metadata                                  | F3
+yazi:: f3d: Orbit forward (seek 5/-5)                                            | j/k
+yazi:: f3d: Orbit the 3D preview forward/backward                                | A-l/A-h
+yazi:: f3d: Zoom in/out hovered file                                             | +/-
+yazi:: chmod: Chmod on selected files                                            | cm
+yazi:: mount: Mount manager                                                      | M
+yazi:: sxiv: Preview images in sxiv                                              | Ps
