@@ -164,6 +164,7 @@ dupeGuru: Inst. # scoop install dupeguru
 (Video) vimg: Inst. # scoop install pile/vimg
 (Video-Editor) Kdenlive: Inst. # sudo pacman -S kdenlive
 (Video-Editor) Kdenlive: Inst. # scoop install kdenlive
+(View) hexyl: Inst. # scoop install hexyl
 (Viewer) YACReader: Inst. # scoop install yacreader
 
 [Arch] auto-cpufreq: Inst. # yay -S --noconfirm auto-cpufreq

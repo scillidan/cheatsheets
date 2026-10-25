@@ -244,9 +244,12 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 [Windows] CPU-Z: Inst. # scoop install cpu-z
 [Windows] Caffeine: Inst. # scoop install caffeine
 [Windows] Ditto: Inst. # scoop install ditto
+[Windows] ExifGlass: Inst. # scoop install exifglass
 [Windows] GPU-Z: Inst. # scoop install gpu-z
+[Windows] ImageGlass: Inst. # scoop install imageglass
 [Windows] IrfanView: Inst. # scoop install irfanview
 [Windows] JPEGView: Inst. # scoop install jpegview-fork
+[Windows] Link Shell Extension: Inst. # gsudo scoop install link-shell-extension-np
 [Windows] Mp3tag: Inst. # scoop install mp3tag
 [Windows] NohBoard: Inst. # scoop install nohboard
 [Windows] SharpKeys: Inst. # scoop install sharpkeys

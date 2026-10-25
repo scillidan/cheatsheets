@@ -365,7 +365,6 @@
 (View) Fastfetch: Inst. # sudo pacman -S fastfetch
 (View) Fastfetch: Inst. # scoop install fastfetch
 (View) Hash It: Inst. # scoop install pile/hashit
-(View) hexyl: Inst. # scoop install hexyl
 (View) Less: Inst. # scoop install less
 (View) tailspin: Inst. # scoop install tailspin
 (Viewer) Inlyne: Inst. # scoop install inlyne
@@ -384,20 +383,17 @@
 [Windows] DirX: Inst. # bin install github.com/chrisant996/dirx	dirx.exe
 [Windows] EarTrumpet: Inst. # scoop install eartrumpet
 [Windows] Everything: Inst. # scoop install everything
-[Windows] ExifGlass: Inst. # scoop install exifglass
 [Windows] Geek Uninstaller: Inst. # scoop install geekuninstaller
 [Windows] git: Conf. # git config --global core.autocrlf true
 [Windows] git: Conf. # git config --global core.editor "subl --new-window --wait"
-[Windows] GlazePKG (gpk): Conf. # gpk managers skip bin conda luarocks npm pip powershell windows-updates winget
+[Windows] GlazePKG (gpk): Conf. # gpk managers skip bin choco conda dotnet luarocks npm pip powershell windows-updates winget
 [Windows] GlazePKG (gpk): Conf. # gpk hold brave calibre darktable etcher gimp gstreamer inkscape libreoffice llvm miniforge3 perl sigil thunderbird webview2 -m scoop
 [Windows] gsudo: Inst. # scoop install gsudo
 [Windows] HostsFileEditor: Inst. # scoop install hosts-file-editor
 [Windows] Hotkey Detective: Inst. # scoop install hotkey-detective
-[Windows] ImageGlass: Inst. # scoop install imageglass
 [Windows] Inno Setup: Inst. # scoop install innounp innounp-unicode
 [Windows] Keypirinha: Inst. # scoop install keypirinha
 [Windows] lessmsi: Depend. # scoop install lessmsi
-[Windows] Link Shell Extension: Inst. # gsudo scoop install link-shell-extension-np
 [Windows] LockHunter: Inst. # scoop install lockhunter
 [Windows] MiKTeX: Inst. # scoop install miktex
 [Windows] MSYS2: Inst. # scoop install msys2
