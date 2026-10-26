@@ -43,6 +43,7 @@ Vicinae: Inst. # scoop intall vicinae
 (Git) ghgrab: Inst. # scoop install ghgrab
 (Git) Git Interactive Rebase Tool: Inst. # scoop install git-interactive-rebase-tool
 (Git) git-filter-repo: Inst. # scoop install git-filter-repo
+(Git) hk: Inst. # scoop install hk
 (Git) no-mistakes: Inst. # scoop install no-mistakes
 (Git) no-mistakes: Env. # NO_MISTAKES_TELEMETRY=0
 (Git) no-mistakes: Conf. # no-mistakes init
@@ -59,6 +60,7 @@ Vicinae: Inst. # scoop intall vicinae
 (LLM-Ex) CodeGraph: Conf. # codegraph init -i
 (PDF) PDF ToC: Inst. # uv tool install -U pdf-toc
 (PDF) PDFCraft: Inst. # scoop install pdfcraft
+(PDF) PDFCraft: Conf. # Create a shortcut for pdfcraft.exe on %APPDATA%\Microsoft\Windows\SendTo\PdfCraft.lnk
 (Terminal) Reach: Inst. # scoop install reach
 (Terminal) Zellij: Inst. # sudo pacman -S zellij
 (Terminal) Zellij: Inst. # scoop install zellij

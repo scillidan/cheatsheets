@@ -242,7 +242,7 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 [Arch] zathura: Inst. # sudo pacman -S zathura zathura-cb zathura-pdf-mupdf
 
 [Windows] CPU-Z: Inst. # scoop install cpu-z
-[Windows] Caffeine: Inst. # scoop install caffeine
+[Windows] DeskPins: Inst. # scoop install deskpins
 [Windows] Ditto: Inst. # scoop install ditto
 [Windows] ExifGlass: Inst. # scoop install exifglass
 [Windows] GPU-Z: Inst. # scoop install gpu-z
@@ -252,10 +252,27 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 [Windows] Link Shell Extension: Inst. # gsudo scoop install link-shell-extension-np
 [Windows] Mp3tag: Inst. # scoop install mp3tag
 [Windows] NohBoard: Inst. # scoop install nohboard
+[Windows] QuickSwitch: Inst. # scoop install pile/quickswitch
+[Windows] RBTray: Inst. # scoop install rbtray
+[Windows] RectangleWin: Inst. # scoop install rectanglewin
+[Windows] Sizer: Inst. # scoop install pile/sizer
 [Windows] SharpKeys: Inst. # scoop install sharpkeys
 [Windows] StaxRip: Inst. # scoop install staxrip
 [Windows] SyncTrayzor: Inst. # scoop install synctrayzor
 [Windows] T-Clock: Inst. # scoop install t-clock
 [Windows] UniExtract2: Inst. # scoop install uniextract2
 [Windows] WinCDEmu: Inst. # scoop install wincdemu
+[Windows] Window Switcher: Inst. # scoop install window-switcher
 [Windows] dnGrep: Inst. # scoop install dngrep
+[Windows] resizer2: Inst. # scoop install resizer2
+[Windows] Virtual Desktop Manager: Inst. # scoop install pile/virgo-fork
+
+[Windows] Caffeine: Inst. # scoop install caffeine
+[Windows] Magpie: Inst. # scoop install magpie
+[Windows] SmartTaskbar: Inst. # scoop install smarttaskbar
+[Windows] CenterTaskbar: Inst. # scoop install centertaskbar
+[Windows] Hotkey Detective: Inst. # scoop install hotkey-detective
+[Windows] Open Shell: Inst. # gsudo scoop install open-shell-np
+[Windows] wcap: Inst. # scoop install wcap
+[Windows] AutoHotkey: Inst. # scoop install autohotkey1.1
+(Tool-OCR) Text Grab: Inst. # scoop install text-grab

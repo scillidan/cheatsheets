@@ -99,7 +99,8 @@ dupeGuru: Inst. # scoop install dupeguru
 (Music) MusicBrainz Picard: Inst. # scoop install picard
 (Music) Tag Editor: Inst. # yay -S --noconfirm tageditor
 (Music) Tag Editor: Inst. # scoop install tageditor
-(Music) Tag Editor: Conf. # mklink "%APPDATA%\Microsoft\Windows\SendTo\tageditor.exe" "%SCOOP%\apps\tageditor\current\tageditor.exe"
+(Music) Tag Editor: Conf. # Create a shortcut for tageditor.exe on %APPDATA%\Microsoft\Windows\SendTo\Tag Editor.lnk
+"%SCOOP%\apps\tageditor\current\tageditor.exe"
 (Office) LibreOffice: Inst. # sudo pacman -S libreoffice
 (Office) LibreOffice: Inst. # scoop install libreoffice
 (PDF) Deskew: Inst. # uv tool install -U deskew
@@ -146,7 +147,6 @@ dupeGuru: Inst. # scoop install dupeguru
 (Tool-Network) hostctl: Inst. # scoop install hostctl
 (Tool-Network) quien: Inst. # scoop install quien
 (Tool-Network) Whosthere: Inst. # scoop install whosthere
-(Tool-OCR) Text Grab: Inst. # scoop install text-grab
 (Tool-Security) age: Inst. # scoop install age
 (Tool-Security) andcli: Inst. # scoop install andcli
 (Tool-Security) Picocrypt NG: Inst. # scoop install picocrypt-ng
@@ -181,8 +181,5 @@ dupeGuru: Inst. # scoop install dupeguru
 [Windows] Cjam: Inst. # scoop install pilecjam
 [Windows] Cygwin: Inst. # scoop install cygwin
 [Windows] Cygwin: Conf. # apt-cyg install gcc-core gcc-g++ make automake autoconf libtool pkg-config
-[Windows] Magpie: Inst. # scoop install magpie
 [Windows] Microsoft Activation Scripts: Inst. # gh download massgravel/Microsoft-Activation-Scripts MAS
-[Windows] SmartTaskbar: Inst. # scoop install smarttaskbar
-[Windows] virgo: Inst. # scoop install pile/virgo-fork
 [Windows] XBox One Controller Battery Indicator: Inst. # scoop install xb1cbi

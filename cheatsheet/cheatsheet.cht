@@ -1,3 +1,6 @@
+(Bug)(LLM-Ex) opencode-console-notify : Inst. # scoop install opencode-console-notify
+(Bug)(LLM-Ex) opencode-console-notify : Conf. # opencode-notify install
+
 (Browse) Calibre: Inst. # sudo pacman -S calibre
 (Browse) Calibre: Inst. # scoop install calibre
 (Browse) QuiteRSS: Inst. # sudo pacman -S quiterss
@@ -249,8 +252,6 @@
 (LLM-Ex) Magic Context: Conf. # magic-context setup
 (LLM-Ex) OpenCode quota: Inst. # bun add -g @slkiser/opencode-quota@latest
 (LLM-Ex) OpenCode quota: Conf. # opencode-quota init
-(LLM-Ex) opencode-console-notify : Inst. # scoop install opencode-console-notify
-(LLM-Ex) opencode-console-notify : Conf. # opencode-notify install
 (LLM-Ex) Ponytail: Inst. # opencode plugin add @dietrichgebert/ponytail
 (LLM-Ex) rtk: Inst. # scoop install rtk
 (LLM-Ex) rtk: Conf. # rtk init -g --opencode
@@ -371,15 +372,14 @@
 (Viewer) qView: Inst. # yay -S --noconfirm qview-bin
 (Viewer) qView: Inst. # scoop install qview
 
+
 [Windows] .NET: Depend. # gsudo scoop install windowsdesktop-runtime-lts
 [Windows] Autoruns: Inst. # scoop install https://raw.githubusercontent.com/niheaven/scoop-sysinternals/refs/heads/main/bucket/autoruns.json
 [Windows] Bulk Rename Command: Inst. # scoop install bulk-rename-command
 [Windows] Bulk Rename Utility: Inst. # scoop install bulk-rename-utility
-[Windows] CenterTaskbar: Inst. # scoop install centertaskbar
 [Windows] clink: Inst. # scoop install clink clink-completions
 [Windows] DarkThumbs: Inst. #
 [Windows] Icaros: Inst. # gsudo scoop install icaros-np
-[Windows] DeskPins: Inst. # scoop install deskpins
 [Windows] DirX: Inst. # bin install github.com/chrisant996/dirx	dirx.exe
 [Windows] EarTrumpet: Inst. # scoop install eartrumpet
 [Windows] Everything: Inst. # scoop install everything
@@ -390,7 +390,6 @@
 [Windows] GlazePKG (gpk): Conf. # gpk hold brave calibre darktable etcher gimp gstreamer inkscape libreoffice llvm miniforge3 perl sigil thunderbird webview2 -m scoop
 [Windows] gsudo: Inst. # scoop install gsudo
 [Windows] HostsFileEditor: Inst. # scoop install hosts-file-editor
-[Windows] Hotkey Detective: Inst. # scoop install hotkey-detective
 [Windows] Inno Setup: Inst. # scoop install innounp innounp-unicode
 [Windows] Keypirinha: Inst. # scoop install keypirinha
 [Windows] lessmsi: Depend. # scoop install lessmsi
@@ -399,13 +398,9 @@
 [Windows] MSYS2: Inst. # scoop install msys2
 [Windows] nexusfont: Inst. # scoop install nexusfont
 [Windows] No!! MeiryoUI: Inst. # scoop install nomeiryoui
-[Windows] Open Shell: Inst. # gsudo scoop install open-shell-np
 [Windows] PowerShell: Inst. # scoop install pwsh
 [Windows] Rapid Environment Editor: Inst. # scoop install rapidee
 [Windows] Resource Hacker: Inst. # scoop install resource-hacker
-[Windows] RBTray: Inst. # scoop install rbtray
-[Windows] RectangleWin: Inst. # scoop install rectanglewin
-[Windows] resizer2: Inst. # scoop install resizer2
 [Windows] Restart Explorer: Inst. # scoop install restart-explorer
 [Windows] Rufus: Inst. # scoop install rufus
 [Windows] Scoop: # scoop bucket add Extras
@@ -420,31 +415,20 @@
 [Windows] Servy: Inst. # scoop install servy
 [Windows] ShellExView: Inst. # scoop install https://raw.githubusercontent.com/kodybrown/scoop-nirsoft/refs/heads/master/bucket/shellexview.json
 [Windows] SilentCMD: Inst. # scoop install silentcmd
-[Windows] Sizer: Inst. # scoop install pile/sizer
 [Windows] Snoretoast: Inst. # scoop install snoretoast
 [Windows] SSHFS-Win Manager: Inst. # scoop install sshfs-win-manager
 [Windows] SumatraPDF Reader: Inst. # scoop install sumatrapdf-installer
 [Windows] SVG Viewer Extension for Windows Explorer: Inst. # scoop install svg-explorer-extension-np
-[Windows] virgo: Inst. # scoop install virgo
 [Windows] Visual Studio Locator: Depend. # scoop install vswhere
-[Windows] wcap: Inst. # scoop install wcap
 [Windows] Win10_BrightnessSlider: Inst. # scoop install win10_brightnessslider
 [Windows] WinMerge: Inst. # scoop install winmerge
+[Windows] WinMerge: Conf. # Create a shortcut for WinMergeU.exe on %APPDATA%\Microsoft\Windows\SendTo\WinMergeU.lnk
 [Windows] WinSCP: Inst. # scoop install winscp
 [Windows] WinSSHTerm: Inst. # scoop install winsshterm putty winscp vcxsrv
 [Windows] Microsoft Store: Inst. # AV1 Video Extension
 [Windows] Microsoft Store: Inst. # VP9 Video Extension
 [Windows] Microsoft Store: Inst. # Raw Image Extension
-[Windows](AutoHotkey) AutoHotkey: Inst. # scoop install autohotkey1.1
-[Windows](AutoHotkey) GoldenDict Auto Search: Inst. # scoop install pile/goldendict-auto-search
-[Windows](AutoHotkey) GoldenDict Search In Group: Inst. # scoop install pile/goldendict-search-in-group
-[Windows](AutoHotkey) Keyboard Auto Switch Back: Inst. # scoop install pile/keyboard-auto-switch-back
-[Windows](AutoHotkey) Keyboard Locker: Inst. # scoop install pile/keyboard-locker
-[Windows](AutoHotkey) Keyboard Switch: Inst. # scoop install pile/keyboard-switch
-[Windows](AutoHotkey) Screen OCR: Inst. # scoop install pile/screen-ocr
-[Windows](AutoHotkey) Toggle screen: Inst. # scoop install pile/togglescreen
-[Windows](AutoHotkey) QuickSwitch: Inst. # scoop install pile/quickswitch
-[Windows](AutoHotkey) Window Switcher: Inst. # scoop install window-switcher
+
 
 [Arch] act: Inst. # yay -S --noconfirm act-bin
 [Arch] Ark Archving Tool: Inst. # sudo pacman -S ark
