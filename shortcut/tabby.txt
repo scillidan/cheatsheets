@@ -1,3 +1,0 @@
-Tabby: Close window    | C-S-w
-Tabby: New window      | C-S-Lt/Dn/Up/Rt
-Tabby:: quick-restart: | C-S-r

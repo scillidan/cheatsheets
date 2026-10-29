@@ -35,6 +35,7 @@ Vicinae: Inst. # scoop intall vicinae
 (Edit) Desed: Inst. # cargo install --force desed
 (Edit) sig: Inst. # pacman -S sig
 (Edit) sig: Inst. # scoop install sig
+(Editor) Neovide: Inst. # scoop install neovide
 (Git) chezmoi: Inst. # sudo pacman -S chezmoi
 (Git) chezmoi: Inst. # scoop install chezmoi
 (Git) Codiff: Inst. # scoop install codiff

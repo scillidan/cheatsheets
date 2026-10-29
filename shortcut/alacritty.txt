@@ -1,3 +1,0 @@
-## https://alacritty.org/config-alacritty-bindings.html
-Alacritty: CreateNewWindow | C-S-q
-Alacritty: PasteSelection  | R_clink
