@@ -71,14 +71,6 @@ dupeGuru: Inst. # scoop install dupeguru
 (LLM) llmfit: Inst. # scoop install llmfit
 (LLM) llmfit: Inst. # sudo pacman -S llmfit-bin
 (LLM) OpenTab: Inst. # pipx install --force opentab-ai
-(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-with-docs
-(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-prd
-(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill to-issues
-(LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill improve-codebase-architecture
-(LLM) Skills: Ex. # skills add https://github.com/lucifer1004/claude-skill-typst --skill typst
-(LLM) Skills: Ex. # skills add https://github.com/bahayonghang/academic-writing-skills --skill latex-paper-en
-(LLM) Skills: Ex. # skills add https://github.com/wshobson/agents --skill godot-gdscript-patterns
-(LLM) Skills: Ex. # skills add https://github.com/chongdashu/love2d-pocket-bomber-game --skill love2d-gamedev
 (LLM) Skills Manager: Inst. # scoop install skills-manager
 (Media) ExifTool: Inst. # scoop install exiftool
 (Media) Shutter Encoder: Inst. # scoop install shutter-encoder

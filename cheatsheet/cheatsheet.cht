@@ -239,9 +239,7 @@
 (LLM) Skills: Ex. # skills add -g https://github.com/mattpocock/skills --skill diagnosing-bugs
 (LLM) Skills: Ex. # skills add -g https://github.com/xixu-me/skills --skill github-actions-docs
 (LLM) Skills: Ex. # skills add -g https://github.com/jamditis/claude-skills-journalism --skill web-scraping
-(LLM) Skills: Ex. # skills add -g https://github.com/vercel-labs/agent-skills --skill web-design-guidelines
-(LLM) Skills: Ex. # skills add -g https://github.com/emilkowalski/skills --skill improve-animations
-(LLM) Skills: Ex. # skills add https://github.com/wshobson/agents --skill shellcheck-configuration
+(LLM) Skills: Ex. # skills add -g https://github.com/wshobson/agents --skill shellcheck-configuration
 (LLM) llama.cpp: Inst. # scoop install llama.cpp-cu124
 (LLM) llama-swap: Inst. # scoop install llama-swap
 (LLM) OpenCode: Inst. # paru -S opencode
