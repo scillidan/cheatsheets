@@ -3,9 +3,6 @@
 (Wait) Octos: Inst. # scoop install octos
 (Wait) Windows Dual Key Remap: Inst. # scoop install dual-key-remap
 
-OWASP Dependency-Check: Inst. # scoop install dependency-check
-ScanTailor Advanced: Inst. # scoop install pile/scantailor-advanced-fork
-Vicinae: Inst. # scoop intall vicinae
 
 (3D) FreeCAD: Inst. # sudo pacman -S freecad
 (3D) FreeCAD: Inst. # scoop install freecad
@@ -25,6 +22,7 @@ Vicinae: Inst. # scoop intall vicinae
 (Data) sqlit: Inst. # uv tool install -U sqlit-tui
 (Data) sqlmux: Inst. # scoop install sqlmux
 (Dev) mise-en-place: Inst. # scoop install mise
+(Dev) OWASP Dependency-Check: Inst. # scoop install dependency-check
 (Dev-Editor) Tiled: Inst. # scoop install tiled
 (Diff) dyff: Inst. # scoop install dyff
 (Diff) hunk: Inst. # scoop install hunk
@@ -39,7 +37,6 @@ Vicinae: Inst. # scoop intall vicinae
 (Editor) Neovide: Inst. # scoop install neovide
 (Git) chezmoi: Inst. # sudo pacman -S chezmoi
 (Git) chezmoi: Inst. # scoop install chezmoi
-(Git) Codiff: Inst. # scoop install codiff
 (Git) cz-git: Inst. # bun add -g czg
 (Git) easy-conflict(ec): Inst. # scoop install pile/easy-conflict
 (Git) ghgrab: Inst. # scoop install ghgrab
@@ -73,9 +70,12 @@ Vicinae: Inst. # scoop intall vicinae
 (PDF) PDF ToC: Inst. # uv tool install -U pdf-toc
 (PDF) PDFCraft: Inst. # scoop install pdfcraft
 (PDF) PDFCraft: Conf. # Create a shortcut for pdfcraft.exe on %APPDATA%\Microsoft\Windows\SendTo\PdfCraft.lnk
+(PDF) ScanTailor Advanced: Inst. # scoop install pile/scantailor-advanced-fork
 (Terminal) Reach: Inst. # scoop install reach
 (Terminal) Zellij: Inst. # sudo pacman -S zellij
 (Terminal) Zellij: Inst. # scoop install zellij
+(Tool) QEMU: Inst. # scoop install qemu
+(Tool) Vicinae: Inst. # scoop intall vicinae
 (Tool-Disk) Pinkbin: Inst. # scoop install pinkbin
 (Tool-Download) kage: Inst. # scoop install kage
 (Tool-Hardware) Binside: Inst. # scoop install binsider
@@ -88,7 +88,7 @@ Vicinae: Inst. # scoop intall vicinae
 (Util-Env) lazyenv: Inst. # scoop install pile/lazyenv
 (Util-Task) Pueue: Inst. # scoop install pueue
 (View) hl: Inst. # scoop install hl
-(Virtual) QEMU: Inst. # scoop install qemu
+
 
 [Arch] brightnessctl: Inst. # sudo pacman -S brightnessctl
 [Arch] Caligula Burning Tool: Inst. # sudo pacman -S caligula
@@ -115,5 +115,6 @@ Vicinae: Inst. # scoop intall vicinae
 [Arch] wut: Inst. # pipx install --force wut-cli
 [Arch] wut: Env. # OLLAMA_MODEL=gemma3:12b-it-qat
 [Arch] xdgctl: Inst. # yay -S --noconfirm xdgctl
+
 
 [Windows] Dependencies: Inst. # scoop install dependencies

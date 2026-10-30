@@ -1,6 +1,3 @@
-ASCII Moon: Inst. # scoop install pile/ascii-moon
-dupeGuru: Inst. # scoop install dupeguru
-
 (3D) F3D: Inst. # scoop install f3d
 (3D) stl-thumb: Inst. # gsudo scoop install stl-thumb-np
 (Audio) Audacity: Inst. # sudo pacman -S audacity
@@ -36,8 +33,8 @@ dupeGuru: Inst. # scoop install dupeguru
 (Game) steamguard-cli: Inst. # scoop install steamguard-cli
 (Git) git-quick-stats: Inst. # sudo pacman -S git-quick-stats
 (Git) git-quick-stats: Inst. # scoop install git-quick-stats
-(GitLab) GitLab CLI: Inst. # scoop install glab
-(Gitlab) glab-tui: Inst. # scoop install pile/glab-tui
+(Git-Forge) GitLab CLI: Inst. # scoop install glab
+(Git-Forge) glab-tui: Inst. # scoop install pile/glab-tui
 (Image) AutoTrace: Inst. # sudo pacman -S autotrace
 (Image) Caesium Image Compressor: Inst. # scoop install caesium-image-compressor
 (Image) chaiNNer: Inst. # scoop install pile/chainner
@@ -74,7 +71,7 @@ dupeGuru: Inst. # scoop install dupeguru
 (LLM) Skills Manager: Inst. # scoop install skills-manager
 (Media) ExifTool: Inst. # scoop install exiftool
 (Media) Shutter Encoder: Inst. # scoop install shutter-encoder
-(Music) mp3rgain: Inst. # scoop install mp3rgui
+(Misc) ASCII Moon: Inst. # scoop install pile/ascii-moon
 (Model-Tool) edge-tts: Inst. # uv tool install -U edge-tts
 (Model-Tool) Handy: Inst. # scoop install handy
 (Model-Tool) Koharu: Inst. # scoop install koharu
@@ -87,6 +84,7 @@ dupeGuru: Inst. # scoop install dupeguru
 (Music) LRCGET: Inst. # yay -S --noconfirm lrcget-bin
 (Music) LRCGET: Inst. # scoop install lrcget
 (Music) mp3rgain: Inst. # scoop install pile/mp3rgain
+(Music) mp3rgain-gui: Inst. # scoop install mp3rgain-gui
 (Music) MuseScore: Inst. # yay -S --noconfirm musescore-bin muse-sounds-manager-bin
 (Music) MuseScore: Inst. # scoop install musescore
 (Music) MusicBrainz Picard: Inst. # scoop install picard
@@ -116,6 +114,7 @@ dupeGuru: Inst. # scoop install dupeguru
 (Subtitle) subaligner: Inst. # uv tool install -U subaligner
 (Subtitle) subsetzer: Inst. # uv tool install -U subsetzer
 (Subtitle) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
+(Tool) dupeGuru: Inst. # scoop install dupeguru
 (Tool-Control) Gopher360: Inst. # scoop install gopher360
 (Tool-Disk) diskus: Inst. # scoop install diskus
 (Tool-Disk) DiskWatch: Inst. # scoop install diskwatch
@@ -160,6 +159,7 @@ dupeGuru: Inst. # scoop install dupeguru
 (View) hexyl: Inst. # scoop install hexyl
 (Viewer) YACReader: Inst. # scoop install yacreader
 
+
 [Arch] auto-cpufreq: Inst. # yay -S --noconfirm auto-cpufreq
 [Arch] auto-cpufreq: Conf. # sudo systemctl enable --now auto-cpufreq
 [Arch] Fuzzy-pkg-finder: Inst. # yay -S --noconfirm fuzzy-pkg-finder
@@ -169,6 +169,7 @@ dupeGuru: Inst. # scoop install dupeguru
 [Arch] QDiskInfo: Inst. # yay -S --noconfirm qdiskinfo-bin
 [Arch] wd: Inst. # yay -S --noconfirm zsh-plugin-wd-git
 [Arch] xone: Inst. # yay -S --noconfirm xone-dkms-git xone-dongle-firmware
+
 
 [Windows] ConEmu: Inst. # scoop install conemu
 [Windows] Cjam: Inst. # scoop install pilecjam

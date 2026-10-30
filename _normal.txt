@@ -213,11 +213,11 @@
 (Git) OpenCommit: Conf. # oco hook set
 (Git) Repos: Inst. # scoop install pile/repos
 (Git) ugit: Inst. # scoop install bash/ugit
-(Github) GitHub CLI: Inst. # sudo pacman -S github-cli
-(Github) GitHub CLI: Inst. # scoop install gh
-(Github) GitHub CLI: Env. # GH_CONFIG_DIR=%USERPROFILE%\.config\gh
-(Github) GitHub CLI: Conf. # gh auth login
-(Github) Desktop Plus: Inst. # scoop install desktop-plus
+(Git-Forge) Desktop Plus: Inst. # scoop install desktop-plus
+(Git-Forge) GitHub CLI: Inst. # sudo pacman -S github-cli
+(Git-Forge) GitHub CLI: Inst. # scoop install gh
+(Git-Forge) GitHub CLI: Env. # GH_CONFIG_DIR=%USERPROFILE%\.config\gh
+(Git-Forge) GitHub CLI: Conf. # gh auth login
 (Lint) actionlint: Inst. # scoop install actionlint
 (Lint) LanguageTool: Inst. # scoop install languagetool-java
 (Lint) Vale: Inst. # scoop install vale
@@ -281,14 +281,15 @@
 (PDF) Stirling-PDF: Inst. # scoop install stirling-pdf
 (PKG) bin: Inst. # scoop install bin
 (PKG) Cargo: Inst. # cargo search --registry crates-io
-(PKG) GlazePKG (gpk): Inst. # scoop install glazepkg
 (PKG) eget: Inst. # scoop install eget
-(Terminal) SSHFS: Inst. # sudo pacman -S sshfs
-(Terminal) SSHFS: Inst. # gsudo scoop install winfsp-np sshfs-np
-(Terminal) Starship: Inst. # scoop install starship
-(Terminal) terminal-theme-switch: Inst. # scoop install bash/terminal-theme-switch
+(PKG) GlazePKG (gpk): Inst. # scoop install glazepkg
+(PKG) keepkit: Inst. # scoop install pile/keepkit
 (Terminal) WezTerm: Inst. # sudo pacman -S wezterm
 (Terminal) WezTerm: Inst. # scoop install wezterm
+(Terminal-Misc) SSHFS: Inst. # gsudo scoop install winfsp-np sshfs-np
+(Terminal-Misc) SSHFS: Inst. # sudo pacman -S sshfs
+(Terminal-Misc) Starship: Inst. # scoop install starship
+(Terminal-Misc) terminal-theme-switch: Inst. # scoop install bash/terminal-theme-switch
 (Tool) bttf: Inst. # scoop install bttf
 (Tool) carl: Inst. # cargo install --force -f carl
 (Tool) Delect It Easy: Inst. # yay -S --noconfirm detect-it-easy-bin
@@ -449,16 +450,10 @@
 [Arch] PipeWire: Conf. # systemctl --user enable --now pipewire.service
 [Arch] PipeWire: Conf. # systemctl --user enable --now pipewire-pulse.service
 [Arch] PipeWire: Ex. # sudo pacman -S pavucontrol
-[Arch] Rofi: Inst. # sudo pacman -S rofi
 [Arch] sddm: Inst. # sudo pacman -S sddm
 [Arch] sddm: Conf. # sudo systemctl enable --now sddm
 [Arch] Tailscale: Conf. 1. # sudo systemctl enable --now tailscaled
 [Arch] Tailscale: Conf. 2. # sudo tailscale login
-[Arch] tmux: Inst. # sudo pacman -S tmux
-[Arch] tmux: Ex. # cargo install --force thumbs
-[Arch] tmuxp: Inst. # uv tool install -U tmuxp
-[Arch] tmuxp: Conf. # vim ~/.config/tmuxp/user.yaml
-[Arch] tmuxp: Conf. # tmuxp load user
 [Arch] ufw: Inst. # sudo pacman -S ufw
 [Arch] ufw: conf. # sudo systemctl enable --now ufw
 [Arch] XSel: Inst. # sudo pacman -S xsel

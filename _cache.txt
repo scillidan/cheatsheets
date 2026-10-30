@@ -1,7 +1,5 @@
-Bibiman: Inst. # cargo install --force -f bibiman
-Easy Context Menu: Inst. # scoop install easy-context-menu
-split-manga-pages: Inst. # uv tool install -U split_manga_pages
-
+(Audio) gPodder: Inst. # sudo pacman -S gpodder
+(Audio) gPodder: Inst. # scoop install gpodder
 (Audio) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
 (Browse) coBib: Inst. # uv tool install -U cobib
 (Browse) LibreWolf: Inst. # sudo pacman -S librewolf speech-dispatcher
@@ -18,6 +16,8 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Data) jqp: Inst. # scoop install jqp
 (Data) Lazysql: Inst. # scoop install lazysql
 (Data) Tidy Viewer (tv): Inst. # cargo install --force -f tidy-viewer
+(Dev) fzf-make: Inst. # yay -S --noconfirm fzf-make
+(Dev) fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make
 (Dev) Gaze: Inst. # bin install github.com/wtetsu/gaze gaze.exe
 (Dev-API) ATAC: Inst. # scoop install atac
 (Dev-API) Resterm: Inst. # scoop install resterm
@@ -27,6 +27,7 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Dev-Web) Dufs: Inst. # scoop install dufs
 (Dev-Web) faviator: Inst. # bun add -g faviator@latest
 (Dev-Web) Favocon: Inst. # cargo isntall favocon
+(Diff) Codiff: Inst. # scoop install codiff
 (Diff) diffsitter: Inst. # scoop install diffsitter
 (Diff) difftastic: Inst. # scoop install difftastic
 (Diff) diffyml: Inst. # go install github.com/szhekpisov/diffyml@latest
@@ -35,11 +36,13 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Docker) dtop: Inst. # cargo install --force dtop
 (Docker) layerx: Inst. # bin install github.com/deveshctl/layerx layerx.exe
 (Docker) lazytilt: Inst. # go install github.com/tdi/lazytilt@latest
+(Document) Bibiman: Inst. # cargo install --force -f bibiman
 (Document) Doxygen: Inst. # scoop install doxygen
 (Document) Kiwix Serve: Inst. # scoop install pile/kiwix-server
 (Document) tldr: Inst. # sudo pacman tldr
 (Document) tldr: Inst. # scoop install tldr
 (Document) zim-tools: Inst. # scoop install pile/zim-tools
+(Image) split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Image-Editor) draw.io: Inst. # scoop install draw.io
 (Image-Editor) Krita: Inst. # sudo pacman -S krita
 (Image-Editor) Krita: Inst. # scoop install krita
@@ -80,11 +83,7 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Git) diffnav: Inst. # scoop install diffnav
 (Git) diffnav: Inst. # git diff | diffnav
 (Git) Dolt: Inst. # scoop install dolt
-(Git) Git Extensions: Inst. # yay -S --noconfirm gitextensions
-(Git) Git Extensions: Inst. # scoop install gitextensions
 (Git) Git Machete: Inst. # scoop install git-machete
-(Git) Gitify: Inst. # yay -S --noconfirm gitify-bin
-(Git) Gitify: Inst. # scoop install gitify
 (Git) jj: Inst. # scoop install jj
 (Git) jjui: Inst. # scoop install jjui
 (Git) Mergiraf: Inst. # scoop install mergiraf
@@ -93,8 +92,12 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Git) pro: Inst. # scoop install pile/pro
 (Git) grut: Inst. # scoop install pile/grut
 (Git) Serie: Inst. # cargo install --force -f --locked serie
-(Git) SourceGit: Inst. # scoop install sourcegit
-(Github) Github Desktop: Inst. # scoop install github
+(Git-Forge) Git Extensions: Inst. # scoop install gitextensions
+(Git-Forge) Git Extensions: Inst. # yay -S --noconfirm gitextensions
+(Git-Forge) Github Desktop: Inst. # scoop install github
+(Git-Forge) Gitify: Inst. # scoop install gitify
+(Git-Forge) Gitify: Inst. # yay -S --noconfirm gitify-bin
+(Git-Forge) SourceGit: Inst. # scoop install sourcegit
 (Image) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify@latest
 (Image) ascii-image-converter: Inst. # scoop install ascii-image-converter
 (Image) asciify-them: Inst. # uv tool install -U asciify-them
@@ -129,14 +132,16 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill writing-plans
 (LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill test-driven-development
 (LLM) Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator
+(LLM) Skills: Ex. # skills add https://github.com/advaitpaliwal/feynman --skill paper-writing -g
 (LLM) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill ui-skills-root
 (LLM) Skills: Ex. # skills add https://github.com/0xdesign/design-plugin --skill design-lab
 (LLM) Skills: Ex. # skills add https://github.com/pbakaus/impeccable --skill impeccable
 (LLM) Skills: Ex. # skills add https://github.com/ibelick/ui-skills --skill improve-ui
 (LLM) Skills: Ex. # skills add https://github.com/jakubkrehel/skills --skill better-ui
+(LLM) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
+(LLM) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy
 (LLM) Skills: Ex. # skills add https://github.com/shadcn/improve --skill improve
 (LLM) Skills: Ex. # skills add https://github.com/rams/rams-ai --skill rams
-(LLM) Skills: Ex. # skills add https://github.com/Dammyjay93/interface-design --skill interface-design
 (LLM) Skills: Ex. # skills install earthtojake/text-to-cad
 (LLM) Tokscale: Inst. # bun add -g tokscale@latest
 (LLM-Ex) QMD: Inst. # bun add -g @tobilu/qmd@latest
@@ -157,13 +162,6 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Music) cliamp: Inst. # scoop install cliamp
 (Music) ZonyLrcToolsX: Inst. # scoop install pile/zonylrctoolsx
 (PDF) THE PDFALYZER: Inst. # uv tool install -U pdfalyzer
-(PKG) keepkit: Inst. # scoop install pile/keepkit
-(Tool-Hardware) Horizon EDA: Inst. # scoop install horizon-eda
-
-(Skill-Project) Skills: Ex. # skills add https://github.com/wheresryan22/anatomy --skill anatomy
-(Skill-Project) Skills: Ex. # skills add https://github.com/advaitpaliwal/feynman --skill paper-writing -g
-(Spotify) gPodder: Inst. # sudo pacman -S gpodder
-(Spotify) gPodder: Inst. # scoop install gpodder
 (Subtitle) sub-batch: Inst. # scoop install pile/sub-batch
 (Subtitle) Subloader: Inst. # scoop install https://raw.githubusercontent.com/Valyreon/Subloader/master/subloader.json
 (Subtitle) Subloader: Inst. # gsudo pwsh %SCOOP%\apps\subloader\create_registry.ps1
@@ -181,6 +179,7 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Tool) kalk: Inst. # scoop install kalk
 (Tool) kalker: Inst. # scoop install kalker
 (Tool) pom-tool: Inst. # bun add -g pom-tool@latest
+(Tool) port-kill: Inst. # scoop install port-kill-console
 (Tool) Qalculate!: Inst. # scoop install qalculate
 (Tool-Backup) Kopia: Inst. # scoop install kopia kopiaui
 (Tool-Control) Barrier: Inst. # gsudo scoop install barrier-np
@@ -193,6 +192,7 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Tool-Download) nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
 (Tool-Game) AntiMicroX: Inst. # scoop install antimicrox
 (Tool-Hardware) Fztea: Inst. # bin install github.com/jon4hz/fztea fztea.exe
+(Tool-Hardware) Horizon EDA: Inst. # scoop install horizon-eda
 (Tool-Hardware) MTUI: Inst. # bin install github.com/inowattio/MTUI mtui.exe
 (Tool-Keyboard) komokana: Inst. # scoop install kanata komokana
 (Tool-Keyboard) Uncap: Inst. # scoop install uncap
@@ -207,6 +207,8 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Tool-Sync) syncthing: Inst. # scoop install syncthing
 (Tool-Sync) Unison: Inst. # scoop install unison
 (Tool-Sync) Unison: Conf. # subl %USERPROFILE%\.unison\<profile>.prf
+(Util) rip2: Inst. # scoop install rip
+(Util) Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (Video) glslViewer: Inst. # scoop install glslviewer
 (Video) GridPlayer: Inst. # yay -S --noconfirm gridplayer-appimage
 (Video) GridPlayer: Inst. # sudo pacman -S vlc
@@ -226,24 +228,11 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (View) Onefetch: Inst. # sudo pacman -S onefetch
 (View) Onefetch: Inst. # scoop install onefetch
 
-(QoL) fzf-make: Inst. # yay -S --noconfirm fzf-make
-(QoL) fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make
-(QoL) port-kill: Inst. # scoop install port-kill-console
-(Util) rip2: Inst. # scoop install rip
-(Util) Untree: Inst. # bin install github.com/codeinred/untree untree.exe
-
-[Arch] asciinema: Inst. # sudo pacman -S asciinema
-[Arch] Flacon: Inst. # yay -S --noconfirm flacon
-[Arch] Flacon: Inst. # sudo pacman -S mac
-[Arch] pass: Inst. # sudo pacman -S pass
-[Arch] Timeshift: Inst. # sudo pacman -S timeshift
-[Arch] Timeshift: Inst. # sudo pacman -S cronie
-[Arch] Timeshift: Inst. # sudo systemctl enable --now cronie.service
-[Arch] zathura: Inst. # sudo pacman -S zathura zathura-cb zathura-pdf-mupdf
 
 [Windows] CPU-Z: Inst. # scoop install cpu-z
 [Windows] DeskPins: Inst. # scoop install deskpins
 [Windows] Ditto: Inst. # scoop install ditto
+[Windows] Easy Context Menu: Inst. # scoop install easy-context-menu
 [Windows] ExifGlass: Inst. # scoop install exifglass
 [Windows] GPU-Z: Inst. # scoop install gpu-z
 [Windows] ImageGlass: Inst. # scoop install imageglass
@@ -267,12 +256,28 @@ split-manga-pages: Inst. # uv tool install -U split_manga_pages
 [Windows] resizer2: Inst. # scoop install resizer2
 [Windows] Virtual Desktop Manager: Inst. # scoop install pile/virgo-fork
 
+[Windows] AutoHotkey: Inst. # scoop install autohotkey1.1
 [Windows] Caffeine: Inst. # scoop install caffeine
-[Windows] Magpie: Inst. # scoop install magpie
-[Windows] SmartTaskbar: Inst. # scoop install smarttaskbar
 [Windows] CenterTaskbar: Inst. # scoop install centertaskbar
 [Windows] Hotkey Detective: Inst. # scoop install hotkey-detective
+[Windows] Magpie: Inst. # scoop install magpie
 [Windows] Open Shell: Inst. # gsudo scoop install open-shell-np
+[Windows] SmartTaskbar: Inst. # scoop install smarttaskbar
+[Windows] Text Grab: Inst. # scoop install text-grab
 [Windows] wcap: Inst. # scoop install wcap
-[Windows] AutoHotkey: Inst. # scoop install autohotkey1.1
-(Tool-OCR) Text Grab: Inst. # scoop install text-grab
+
+
+[Arch] Flacon: Inst. # sudo pacman -S mac
+[Arch] Flacon: Inst. # yay -S --noconfirm flacon
+[Arch] Rofi: Inst. # sudo pacman -S rofi
+[Arch] Timeshift: Inst. # sudo pacman -S cronie
+[Arch] Timeshift: Inst. # sudo pacman -S timeshift
+[Arch] Timeshift: Inst. # sudo systemctl enable --now cronie.service
+[Arch] asciinema: Inst. # sudo pacman -S asciinema
+[Arch] pass: Inst. # sudo pacman -S pass
+[Arch] tmux: Ex. # cargo install --force thumbs
+[Arch] tmux: Inst. # sudo pacman -S tmux
+[Arch] tmuxp: Conf. # tmuxp load user
+[Arch] tmuxp: Conf. # vim ~/.config/tmuxp/user.yaml
+[Arch] tmuxp: Inst. # uv tool install -U tmuxp
+[Arch] zathura: Inst. # sudo pacman -S zathura zathura-cb zathura-pdf-mupdf
