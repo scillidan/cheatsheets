@@ -1,2 +1,0 @@
-## https://github.com/sabrogden/Ditto/wiki#key-bindings
-Ditto: Activate | C-`

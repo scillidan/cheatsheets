@@ -1,0 +1,178 @@
+ASCII Moon: Inst. # scoop install pile/ascii-moon
+dupeGuru: Inst. # scoop install dupeguru
+
+(3D) F3D: Inst. # scoop install f3d
+(3D) stl-thumb: Inst. # gsudo scoop install stl-thumb-np
+(Audio) Audacity: Inst. # sudo pacman -S audacity
+(Audio) Audacity: Inst. # scoop install audacity ffmpeg-shared
+(Audio) AudioBookConverter: Inst. # scoop install audiobookconverter
+(Code) Sloc Cloc and Code (scc): Inst. # scoop install scc
+(Dev) Watchman: Inst. # scoop install watchman
+(Dev-Game) godl: Inst. # scoop install pile/godl
+(Dev-Game) Godots: Inst. # scoop install godots
+(Dev-Game) LÖVE: Inst. # scoop install love
+(Dev-Web) Live Server: Inst. # bun add -g live-server@latest
+(Dev-Web) Wappalyzer Next: Inst. # uv tool install -U wappalyzer
+(Depend) ISx: Inst. # scoop install isx
+(Depend) Meson: Inst. # scoop install meson
+(Depend-Media) GStreamer: Inst. # scoop install gstreamer
+(Document) sdcv: Inst. # sudo pacman -S sdcv
+(Document) sdcv: Inst. # scoop install pile/sdcv
+(Edit) Aspell: Inst. # sudo pacman -S aspell aspell-en
+(Edit) Aspell: Inst. # scoop install aspell
+(Edit) COOK: Inst. # go install -v github.com/glitchedgitz/cook/v2/cmd/cook@latest
+(Edit) grex: Inst. # sudo pacman -S grex
+(Edit) grex: Inst. # scoop install grex
+(Edit) python-pinyin: Inst. # uv tool install -U pypinyin
+(Edit) pyLanguagetool: Inst. # uv tool install -w setuptools -w beautifulsoup4 -U pylanguagetool
+(Font) Ark Pixel Font: Inst. # scoop install fonts/Ark-Pixel-12px-monospaced-zh_cn
+(Font) Departure Mono: Inst. # scoop install fonts/DepartureMono
+(Font) Ioskeley Mono: Inst. # scoop install fonts/IoskeleyMono fonts/IoskeleyMono-SemiCondensed
+(Game) CompactGUI: Inst. # scoop install compactgui
+(Game) EmulationStation Desktop Edition: Inst. # yay -S --noconfirm emulationstation-de
+(Game) EmulationStation Desktop Edition: Inst. # scoop install games/es-de
+(Game) RetroArch: Inst. # sudo pacman -S retroarch
+(Game) RetroArch: Inst. # scoop install retroarch
+(Game) steamguard-cli: Inst. # scoop install steamguard-cli
+(Git) git-quick-stats: Inst. # sudo pacman -S git-quick-stats
+(Git) git-quick-stats: Inst. # scoop install git-quick-stats
+(GitLab) GitLab CLI: Inst. # scoop install glab
+(Gitlab) glab-tui: Inst. # scoop install pile/glab-tui
+(Image) AutoTrace: Inst. # sudo pacman -S autotrace
+(Image) Caesium Image Compressor: Inst. # scoop install caesium-image-compressor
+(Image) chaiNNer: Inst. # scoop install pile/chainner
+(Image) color-matcher: Inst. # uv tool install -U color-matcher
+(Image) didder: Inst. # scoop install didder
+(Image) Gifski: Inst. # sudo pacman -S gifski
+(Image) Gifski: Inst. # scoop install gifski
+(Image) GMI'C: Inst. # scoop install gmic-cli gmic-qt
+(Image) kmeans-colors: Inst. # scoop install kmeans-colors
+(Image) Oxipng: Inst. # sudo pacman -S oxipng
+(Image) Oxipng: Inst. # scoop install oxipng
+(Image) Paletter: Inst. # scoop install pile/paletter
+(Image) pastel: Inst. # scoop install pastel
+(Image) pngquant: Inst. # sudo pacman -S pngquant
+(Image) pngquant: Inst. # scoop install pngquant
+(Image) png-to-ico: Inst. # bun add -g png-to-ico@latest
+(Image) posterust: Inst. # cargo install --force posterust
+(Image) rembg: Inst. # pipx install --force "rembg[cpu,cli]"
+(Image) rembg: Inst. # pipx install --force "rembg[gpu,cli]"
+(Image) Rimage: Inst. # scoop install rimage
+(Image) rusted_ascii_filter: Inst. # scoop install pile/rusted-ascii-filter
+(Image) SVG to PNG converter: Inst. # scoop install svg2png
+(Image) Upscayl: Inst. # scoop install upscayl
+(Image) upscayl-ncnn: Inst. # scoop install pile/upscayl-bin
+(Image) XnConvert: Inst. # scoop install xnconvert
+(Image) yoga: Inst. # pipx install --force yoga
+(Image-Editor) Darktable: Inst. # sudo pacman -S darktable
+(Image-Editor) Darktable: Inst. # scoop install darktable
+(Image-Editor) Inkscape: Inst. # sudo pacman -S inkscape
+(Image-Editor) Inkscape: Inst. # scoop install inkscape
+(LLM) llmfit: Inst. # scoop install llmfit
+(LLM) llmfit: Inst. # sudo pacman -S llmfit-bin
+(LLM) OpenTab: Inst. # pipx install --force opentab-ai
+(LLM) Skills Manager: Inst. # scoop install skills-manager
+(Media) ExifTool: Inst. # scoop install exiftool
+(Media) Shutter Encoder: Inst. # scoop install shutter-encoder
+(Music) mp3rgain: Inst. # scoop install mp3rgui
+(Model-Tool) edge-tts: Inst. # uv tool install -U edge-tts
+(Model-Tool) Handy: Inst. # scoop install handy
+(Model-Tool) Koharu: Inst. # scoop install koharu
+(Model-Tool) Voicebox: Inst. # scoop install voicebox
+(Model-Tool) VoiceStudio: Inst. # scoop install voicestudio
+(Music) CUETools: Inst. # sudo pacman -S cuetools
+(Music) CUETools: Inst. # scoop install cuetools
+(Music) cyanrip: Inst. # scoop install cyanrip
+(Music) Kid3: Inst. # scoop install kid3
+(Music) LRCGET: Inst. # yay -S --noconfirm lrcget-bin
+(Music) LRCGET: Inst. # scoop install lrcget
+(Music) mp3rgain: Inst. # scoop install pile/mp3rgain
+(Music) MuseScore: Inst. # yay -S --noconfirm musescore-bin muse-sounds-manager-bin
+(Music) MuseScore: Inst. # scoop install musescore
+(Music) MusicBrainz Picard: Inst. # scoop install picard
+(Music) Tag Editor: Inst. # yay -S --noconfirm tageditor
+(Music) Tag Editor: Inst. # scoop install tageditor
+(Music) Tag Editor: Conf. # Create a shortcut for tageditor.exe on %APPDATA%\Microsoft\Windows\SendTo\Tag Editor.lnk
+"%SCOOP%\apps\tageditor\current\tageditor.exe"
+(Office) LibreOffice: Inst. # sudo pacman -S libreoffice
+(Office) LibreOffice: Inst. # scoop install libreoffice
+(PDF) Deskew: Inst. # uv tool install -U deskew
+(PDF) NAPS2: Inst. # scoop install naps2
+(PDF) PDF Arranger: Inst. # sudo pacman -S pdfarranger
+(PDF) PDF Arranger: Inst. # scoop install pdfarranger
+(PDF) img2pdf: Inst. # uv tool install -w pymupdf -U img2pdf
+(PDF) marker: Inst. # uv tool install -w hf_transfer -w streamlit -U marker-pdf
+(PDF) page-dewarp: Inst. # uv tool install -U page-dewarp
+(PDF) pdfCropMargins: Inst. # uv tool install -U pdfCropMargins
+(PDF) presse: Inst. # scoop install pile/presse
+(PDF) presse: Inst. # presse press <pdf> -q <quality> -o _.pdf
+(PKG) Bob: Inst. # scoop install bob
+(PKG) cargo-seek: Inst. # scoop install cargo-seek
+(Subtitle) FFsubsync: Inst. # uv tool install -U ffsubsync
+(Subtitle) PgsToSrt: Inst. # scoop install pile/pgstosrt
+(Subtitle) Subtitle Edit: Inst. # scoop install subtitleedit
+(Subtitle) alass: Inst. # scoop install alass
+(Subtitle) ass2srt: Inst. # uv tool install -U ass2srt
+(Subtitle) subaligner: Inst. # uv tool install -U subaligner
+(Subtitle) subsetzer: Inst. # uv tool install -U subsetzer
+(Subtitle) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
+(Tool-Control) Gopher360: Inst. # scoop install gopher360
+(Tool-Disk) diskus: Inst. # scoop install diskus
+(Tool-Disk) DiskWatch: Inst. # scoop install diskwatch
+(Tool-Disk) GSmartControl: Inst. # scoop install gsmartcontrol smartmontools
+(Tool-Download) html-to-markdown: Inst. # scoop install html-to-markdown
+(Tool-Download) Jackett: Inst. # sudo pacman -S jackett
+(Tool-Download) Jackett: Inst. # scoop install jackett
+(Tool-Download) qBittorrent Enhanced Edition: Inst. # scoop install qbittorrent-enhanced
+(Tool-Download) sitefetch: Inst. # bun add -g sitefetch@latest
+(Tool-Download) Trafilatura: Inst. # uv tool install -U trafilatura
+(Tool-Download) yt-dlp: Inst. # sudo pacman -S yt-dlp
+(Tool-Download) yt-dlp: Inst. # scoop install yt-dlp
+(Tool-Imager) Etcher: Inst. # yay -S --noconfirm etcher-bin
+(Tool-Imager) Etcher: Inst. # scoop install etcher
+(Tool-Imager) Raspberry Pi Imager: Inst. # sudo pacman -S rpi-imager
+(Tool-Imager) Raspberry Pi Imager: Inst. # scoop install raspberry-pi-imager
+(Tool-Imager) Ventoy: Inst. # yay -S --noconfirm ventoy-bin
+(Tool-Imager) Ventoy: Inst. # scoop install ventoy
+(Tool-Hardware) usbtree: Inst. # scoop install usbtree
+(Tool-Network) dnsglobe: Inst. # scoop install dnsglobe
+(Tool-Network) hostctl: Inst. # sudo pacman -S hostctl
+(Tool-Network) hostctl: Inst. # scoop install hostctl
+(Tool-Network) quien: Inst. # scoop install quien
+(Tool-Network) Whosthere: Inst. # scoop install whosthere
+(Tool-Security) age: Inst. # scoop install age
+(Tool-Security) andcli: Inst. # scoop install andcli
+(Tool-Security) Picocrypt NG: Inst. # scoop install picocrypt-ng
+(Tool-Security) QuickSFV: Inst. # scoop install quicksfv
+(Tool-Security) VirusTotal CLI: Inst. # scoop install vt-cli
+(Tool-Security) VirusTotal CLI: Conf. # vt init
+(Tool-Sync) rsync: Inst. # sudo pacman -S rsync
+(Tool-Sync) rsync: Inst. # scoop install cwrsync
+(Video) HandBrake: Inst. # sudo pacman -S handbrake handbrake-cli
+(Video) HandBrake: Inst. # scoop install handbrake handbrake-cli
+(Video) LosslessCut: Inst. # yay -S --noconfirm losslesscut-bin
+(Video) LosslessCut: Inst. # scoop install losslesscut
+(Video) MKVToolNix: Inst. # sudo pacman -S mkvtoolnix-cli mkvtoolnix-gui
+(Video) MKVToolNix: Inst. # scoop install mkvtoolnix
+(Video) vimg: Inst. # scoop install pile/vimg
+(Video-Editor) Kdenlive: Inst. # sudo pacman -S kdenlive
+(Video-Editor) Kdenlive: Inst. # scoop install kdenlive
+(View) hexyl: Inst. # scoop install hexyl
+(Viewer) YACReader: Inst. # scoop install yacreader
+
+[Arch] auto-cpufreq: Inst. # yay -S --noconfirm auto-cpufreq
+[Arch] auto-cpufreq: Conf. # sudo systemctl enable --now auto-cpufreq
+[Arch] Fuzzy-pkg-finder: Inst. # yay -S --noconfirm fuzzy-pkg-finder
+[Arch] Paru: Inst. # yay -S --noconfirm paru
+[Arch] preload: Inst. # yay -S --noconfirm preload
+[Arch] preload: Conf. # sudo systemctl enable --now preload
+[Arch] QDiskInfo: Inst. # yay -S --noconfirm qdiskinfo-bin
+[Arch] wd: Inst. # yay -S --noconfirm zsh-plugin-wd-git
+[Arch] xone: Inst. # yay -S --noconfirm xone-dkms-git xone-dongle-firmware
+
+[Windows] ConEmu: Inst. # scoop install conemu
+[Windows] Cjam: Inst. # scoop install pilecjam
+[Windows] Cygwin: Inst. # scoop install cygwin
+[Windows] Cygwin: Conf. # apt-cyg install gcc-core gcc-g++ make automake autoconf libtool pkg-config
+[Windows] Microsoft Activation Scripts: Inst. # gh download massgravel/Microsoft-Activation-Scripts MAS
+[Windows] XBox One Controller Battery Indicator: Inst. # scoop install xb1cbi

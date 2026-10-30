@@ -1,3 +1,0 @@
-## https://lintalist.github.io/#Shortcuts
-Lintalist: Paste Part 2       | S-Etr
-Lintalist: Toggle Main Window | Win-A-l
