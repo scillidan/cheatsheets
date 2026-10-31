@@ -1,6 +1,8 @@
 (Audio) gPodder: Inst. # sudo pacman -S gpodder
 (Audio) gPodder: Inst. # scoop install gpodder
 (Audio) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
+(Browse) Calibre: Inst. # sudo pacman -S calibre
+(Browse) Calibre: Inst. # scoop install calibre
 (Browse) coBib: Inst. # uv tool install -U cobib
 (Browse) LibreWolf: Inst. # sudo pacman -S librewolf speech-dispatcher
 (Browse) LibreWolf: Inst. # scoop install librewolf
@@ -235,6 +237,7 @@
 [Windows] Easy Context Menu: Inst. # scoop install easy-context-menu
 [Windows] ExifGlass: Inst. # scoop install exifglass
 [Windows] GPU-Z: Inst. # scoop install gpu-z
+[Windows] HostsFileEditor: Inst. # scoop install hosts-file-editor
 [Windows] ImageGlass: Inst. # scoop install imageglass
 [Windows] IrfanView: Inst. # scoop install irfanview
 [Windows] JPEGView: Inst. # scoop install jpegview-fork
@@ -244,17 +247,17 @@
 [Windows] QuickSwitch: Inst. # scoop install pile/quickswitch
 [Windows] RBTray: Inst. # scoop install rbtray
 [Windows] RectangleWin: Inst. # scoop install rectanglewin
-[Windows] Sizer: Inst. # scoop install pile/sizer
 [Windows] SharpKeys: Inst. # scoop install sharpkeys
+[Windows] Sizer: Inst. # scoop install pile/sizer
 [Windows] StaxRip: Inst. # scoop install staxrip
 [Windows] SyncTrayzor: Inst. # scoop install synctrayzor
 [Windows] T-Clock: Inst. # scoop install t-clock
 [Windows] UniExtract2: Inst. # scoop install uniextract2
+[Windows] Virtual Desktop Manager: Inst. # scoop install pile/virgo-fork
 [Windows] WinCDEmu: Inst. # scoop install wincdemu
 [Windows] Window Switcher: Inst. # scoop install window-switcher
 [Windows] dnGrep: Inst. # scoop install dngrep
 [Windows] resizer2: Inst. # scoop install resizer2
-[Windows] Virtual Desktop Manager: Inst. # scoop install pile/virgo-fork
 
 [Windows] AutoHotkey: Inst. # scoop install autohotkey1.1
 [Windows] Caffeine: Inst. # scoop install caffeine

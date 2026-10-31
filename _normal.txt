@@ -1,8 +1,6 @@
 (Bug)(LLM-Ex) opencode-console-notify : Inst. # scoop install opencode-console-notify
 (Bug)(LLM-Ex) opencode-console-notify : Conf. # opencode-notify install
 
-(Browse) Calibre: Inst. # sudo pacman -S calibre
-(Browse) Calibre: Inst. # scoop install calibre
 (Browse) QuiteRSS: Inst. # sudo pacman -S quiterss
 (Browse) QuiteRSS: Inst. # scoop install quiterss
 (Browse) links: Inst. # sudo pacman -S links
@@ -389,7 +387,6 @@
 [Windows] GlazePKG (gpk): Conf. # gpk managers skip bin choco conda dotnet luarocks npm pip powershell windows-updates winget
 [Windows] GlazePKG (gpk): Conf. # gpk hold brave calibre darktable etcher gimp gstreamer inkscape libreoffice llvm miniforge3 perl sigil thunderbird webview2 -m scoop
 [Windows] gsudo: Inst. # scoop install gsudo
-[Windows] HostsFileEditor: Inst. # scoop install hosts-file-editor
 [Windows] Inno Setup: Inst. # scoop install innounp innounp-unicode
 [Windows] Keypirinha: Inst. # scoop install keypirinha
 [Windows] lessmsi: Depend. # scoop install lessmsi
