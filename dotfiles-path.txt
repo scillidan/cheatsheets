@@ -1,11 +1,10 @@
 ~/.config/alacritty           | %APPDATA%\alacritty
-~/.config/broot               | %LOCALAPPDATA%\broot
 ~/.config/espanso             | %SCOOP%\espanso\current\.espanso
+~/.config/eilmeldung          | %LOCALAPP%\christo-auer\eilmeldung
 ~/.config/mpv                 | %SCOOP%\apps\mpv\current\portable_config
 ~/.config/neovide             | %APPDATA%\neovide
 ~/.config/numa                | %ProgramData%\numa
 ~/.config/nvim                | %LOCALAPPDATA%\nvim
-~/.config/pet                 | %LOCALAPP%\pet
 ~/.config/qutebrowser         | %LOCALAPP%\qutebrowser\config
 ~/.config/scooter             | %AppData%\scooter
 ~/.config/sioyek              | %SCOOP%\espanso\current
