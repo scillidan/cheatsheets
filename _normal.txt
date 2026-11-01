@@ -235,6 +235,7 @@
 (LLM) Skills: Ex. # skills add -g https://github.com/google-gemini/gemini-cli --skill code-reviewer
 (LLM) Skills: Ex. # skills add -g https://github.com/mattpocock/skills --skill tdd
 (LLM) Skills: Ex. # skills add -g https://github.com/mattpocock/skills --skill diagnosing-bugs
+(LLM) Skills: Ex. # skills add -g https://github.com/juliusbrussee/caveman --skill caveman-commit
 (LLM) Skills: Ex. # skills add -g https://github.com/xixu-me/skills --skill github-actions-docs
 (LLM) Skills: Ex. # skills add -g https://github.com/jamditis/claude-skills-journalism --skill web-scraping
 (LLM) Skills: Ex. # skills add -g https://github.com/wshobson/agents --skill shellcheck-configuration

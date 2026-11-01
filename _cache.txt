@@ -131,6 +131,7 @@
 (LLM) Pi: Ex. # pi install npm:pi-lens
 (LLM) Skills: Ex. # skills add -g https://github.com/juliusbrussee/caveman --skill caveman
 (LLM) Skills: Ex. # skills add -g https://github.com/cloudflare/security-audit-skill --skill security-audit
+(LLM) Skills: Ex. # skills add -g https://github.com/github/awesome-copilot --skill git-commit
 (LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill writing-plans
 (LLM) Skills: Ex. # skills add https://github.com/obra/superpowers --skill test-driven-development
 (LLM) Skills: Ex. # skills add https://github.com/softaworks/agent-toolkit --skill command-creator
