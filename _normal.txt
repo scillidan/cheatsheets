@@ -417,7 +417,6 @@
 [Windows] SumatraPDF Reader: Inst. # scoop install sumatrapdf-installer
 [Windows] SVG Viewer Extension for Windows Explorer: Inst. # scoop install svg-explorer-extension-np
 [Windows] Visual Studio Locator: Depend. # scoop install vswhere
-[Windows] Win10_BrightnessSlider: Inst. # scoop install win10_brightnessslider
 [Windows] WinMerge: Inst. # scoop install winmerge
 [Windows] WinMerge: Conf. # Create a shortcut for WinMergeU.exe on %APPDATA%\Microsoft\Windows\SendTo\WinMergeU.lnk
 [Windows] WinSCP: Inst. # scoop install winscp

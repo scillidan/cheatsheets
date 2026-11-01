@@ -254,6 +254,7 @@
 [Windows] T-Clock: Inst. # scoop install t-clock
 [Windows] UniExtract2: Inst. # scoop install uniextract2
 [Windows] Virtual Desktop Manager: Inst. # scoop install pile/virgo-fork
+[Windows] Win10_BrightnessSlider: Inst. # scoop install win10_brightnessslider
 [Windows] WinCDEmu: Inst. # scoop install wincdemu
 [Windows] Window Switcher: Inst. # scoop install window-switcher
 [Windows] dnGrep: Inst. # scoop install dngrep
