@@ -1,6 +1,6 @@
 ~/.config/alacritty           | %APPDATA%\alacritty
 ~/.config/espanso             | %SCOOP%\espanso\current\.espanso
-~/.config/eilmeldung          | %LOCALAPP%\christo-auer\eilmeldung
+~/.config/eilmeldung          | %AppData%\christo-auer\eilmeldung
 ~/.config/mpv                 | %SCOOP%\apps\mpv\current\portable_config
 ~/.config/neovide             | %APPDATA%\neovide
 ~/.config/numa                | %ProgramData%\numa
