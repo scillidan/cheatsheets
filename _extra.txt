@@ -115,7 +115,6 @@
 (Subtitle) subsetzer: Inst. # uv tool install -U subsetzer
 (Subtitle) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
 (Tool) dupeGuru: Inst. # scoop install dupeguru
-(Tool) Keyviz: Inst. # scoop install keyviz
 (Tool-Control) Gopher360: Inst. # scoop install gopher360
 (Tool-Disk) diskus: Inst. # scoop install diskus
 (Tool-Disk) DiskWatch: Inst. # scoop install diskwatch
@@ -128,13 +127,14 @@
 (Tool-Download) Trafilatura: Inst. # uv tool install -U trafilatura
 (Tool-Download) yt-dlp: Inst. # sudo pacman -S yt-dlp
 (Tool-Download) yt-dlp: Inst. # scoop install yt-dlp
+(Tool-Hardware) usbtree: Inst. # scoop install usbtree
 (Tool-Imager) Etcher: Inst. # yay -S --noconfirm etcher-bin
 (Tool-Imager) Etcher: Inst. # scoop install etcher
 (Tool-Imager) Raspberry Pi Imager: Inst. # sudo pacman -S rpi-imager
 (Tool-Imager) Raspberry Pi Imager: Inst. # scoop install raspberry-pi-imager
 (Tool-Imager) Ventoy: Inst. # yay -S --noconfirm ventoy-bin
 (Tool-Imager) Ventoy: Inst. # scoop install ventoy
-(Tool-Hardware) usbtree: Inst. # scoop install usbtree
+(Tool-Keyboard) Keyviz: Inst. # scoop install keyviz
 (Tool-Network) dnsglobe: Inst. # scoop install dnsglobe
 (Tool-Network) hostctl: Inst. # sudo pacman -S hostctl
 (Tool-Network) hostctl: Inst. # scoop install hostctl
