@@ -186,11 +186,11 @@
 (Format) yamlfmt: Inst. # scoop install yamlfmt
 (Format) Taplo: Inst. # sudo pacman -S taplo
 (Format) Taplo: Inst. # scoop install taplo
+(Git) forgit: Inst. # scoop install bash/forgit
 (Git) Git: Inst. # sudo pacman -S git
 (Git) Git: Inst. # scoop install git
 (Git) Git: Conf. # git config --global user.email "user@email.com"
 (Git) Git: Conf. # git config --global user.name "username"
-(Git) forgit: Inst. # scoop install bash/forgit
 (Git) gfold: Inst. # scoop install gfold
 (Git) Git Extras: Inst. # scoop install bash/git-extras
 (Git) git-crypt: Inst. # sudo pacman -S git-crypt
@@ -295,8 +295,6 @@
 (Tool) Delect It Easy: Inst. # scoop install detect-it-easy
 (Tool) fend: Inst. # yay -S --noconfirm fend-bin
 (Tool) fend: Inst. # scoop install fend
-(Tool) Tailscale: Inst. # gsudo scoop install tailscale
-(Tool) Tailscale: Inst. # sudo pacman -S tailscale
 (Tool) TightVNC: Inst. # scoop install tightvnc
 (Tool-Archive) 7-Zip: Inst. # sudo pacman -S 7zip
 (Tool-Archive) 7-Zip: Inst. # scoop install 7zip
@@ -305,13 +303,14 @@
 (Tool-Archive) unrar: Inst. # scoop install unrar
 (Tool-Disk) dua: Inst. # sudo pacman -S dua-cli
 (Tool-Disk) dua: Inst. # scoop install dua
+(Tool-Log) Tailscale: Inst. # gsudo scoop install tailscale
+(Tool-Log) Tailscale: Inst. # sudo pacman -S tailscale
 (Tool-Monitor) NeoHtop: Inst. # scoop install neohtop
 (Tool-Network) doggo: Inst. # yay -S --noconfirm doggo-bin
 (Tool-Network) doggo: Inst. # scoop install doggo
 (Tool-Network) Nmap: Inst. # scoop install nmap
 (Tool-Network) Nmap: Inst. # %SCOOP%\apps\nmap\current\npcap.exe
 (Tool-Network) Numa: Inst. # scoop install numa
-(Tool-Monitor) witr: Inst. # scoop install witr
 (Tool-OCR) Flameshot: Inst. # sudo pacman -S flameshot
 (Tool-OCR) Flameshot: Inst. # scoop install flameshot
 (Tool-Paste) CopyQ: Inst. # scoop install copyq
@@ -349,13 +348,13 @@
 (Util-Find) fzf: Inst. # scoop install fzf
 (Util-Find) ripgrep: Inst. # sudo pacman -S ripgrep ripgrep-all
 (Util-Find) ripgrep: Inst. # scoop install ripgrep rga
-(Util-Task) mprocs: Inst. # yay -S --noconfirm mprocs-bin
-(Util-Task) mprocs: Inst. # scoop install mprocs
 (Util-Navigate) tere: Inst. # sudo pacman install tere
 (Util-Navigate) tere: Inst. # scoop install tere
 (Util-Navigate) warp-wd: Inst. # scoop install pile/warp-wd
 (Util-Navigate) zoxide: Inst. # sudo pacman -S zoxide
 (Util-Navigate) zoxide: Inst. # scoop install zoxide
+(Util-Process) mprocs: Inst. # yay -S --noconfirm mprocs-bin
+(Util-Process) mprocs: Inst. # scoop install mprocs
 (View) bat: Inst. # sudo pacman -S bat
 (View) bat: Inst. # scoop install bat
 (View) chafa: Inst. # sudo pacman -S chafa

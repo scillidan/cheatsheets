@@ -3,12 +3,17 @@
 (Wait) Windows Dual Key Remap: Inst. # scoop install dual-key-remap
 
 
-(3D) FreeCAD: Inst. # sudo pacman -S freecad
+(3D) Blender Launcher: Inst. # scoop install blender-launcher
+(3D) Blender: Inst. # scoop install blender
 (3D) FreeCAD: Inst. # scoop install freecad
-(3D) KiCad: Inst. # sudo pacman -S kicad
+(3D) FreeCAD: Inst. # sudo pacman -S freecad
 (3D) KiCad: Inst. # scoop install kicad
+(3D) KiCad: Inst. # sudo pacman -S kicad
 (3D) Material Maker: Inst. # scoop install material-maker
+(3D) Mayo: Inst. # scoop install mayo
+(3D) Meshroom: Inst. # scoop install meshroom
 (Browse) eilmeldung: Inst. # scoop install eilmeldung
+(Browse) matcha: Inst. # scoop install matcha
 (Data) Dasel: Inst. # scoop install dasel
 (Data) Harlequin: Inst. # uv tool install -U harlequin
 (Data) htmlq: Inst. # scoop install htmlq
@@ -20,8 +25,12 @@
 (Data) sq: Inst. # scoop install sq
 (Data) sqlit: Inst. # uv tool install -U sqlit-tui
 (Data) sqlmux: Inst. # scoop install sqlmux
+(Dev) Config File Validator: Inst. # scoop install config-file-validator
+(Dev) dum: Inst. # scoop install dum
+(Dev) kondo: Inst. # scoop install kondo
 (Dev) mise-en-place: Inst. # scoop install mise
 (Dev) OWASP Dependency-Check: Inst. # scoop install dependency-check
+(Dev-API) Resterm: Inst. # scoop install resterm
 (Dev-Editor) Tiled: Inst. # scoop install tiled
 (Diff) dyff: Inst. # scoop install dyff
 (Diff) hunk: Inst. # scoop install hunk
@@ -39,7 +48,9 @@
 (Git) cz-git: Inst. # bun add -g czg
 (Git) easy-conflict(ec): Inst. # scoop install pile/easy-conflict
 (Git) ghgrab: Inst. # scoop install ghgrab
+(Git) gig: Inst. # scoop install gig
 (Git) Git Interactive Rebase Tool: Inst. # scoop install git-interactive-rebase-tool
+(Git) git-bug: Inst. # scoop install git-bug
 (Git) git-filter-repo: Inst. # scoop install git-filter-repo
 (Git) hk: Inst. # scoop install hk
 (Git) no-mistakes: Inst. # scoop install no-mistakes
@@ -77,12 +88,20 @@
 (Tool) Vicinae: Inst. # scoop intall vicinae
 (Tool-Disk) Pinkbin: Inst. # scoop install pinkbin
 (Tool-Download) kage: Inst. # scoop install kage
+(Tool-Download) monolith: Inst. # scoop install monolith
+(Tool-Download) SingleFile CLI: Inst. # scoop install single-file-cli
+(Tool-Download) vsd: Inst. # scoop install vsd
 (Tool-Hardware) Binside: Inst. # scoop install binsider
 (Tool-Hardware) ROM Properties Page: Inst. # scoop install rom-properties-np
+(Tool-Log) LNAV: Inst. # scoop install lnav
+(Tool-Monitor) witr: Inst. # scoop install witr
 (Tool-Network) Slumber: Inst. # scoop install slumber
 (Tool-Network) wuzz: Inst. # scoop install wuzz
+(Tool-Network) xh: Inst. # scoop install xh
+(Util-Process) dekit: Inst. # scoop install dekit
 (Tool-Rename) F2: Inst. # scoop install f2
 (Tool-Rename) nomino: Inst. # scoop install nomino
+(Tool-Todo) tuxedo: Inst. # scoop install tuxedo
 (Util-Env) lazyenv: Inst. # yay -S --noconfirm lazyenv-bin
 (Util-Env) lazyenv: Inst. # scoop install pile/lazyenv
 (Util-Task) Pueue: Inst. # scoop install pueue

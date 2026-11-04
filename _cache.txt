@@ -22,7 +22,6 @@
 (Dev) fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make
 (Dev) Gaze: Inst. # bin install github.com/wtetsu/gaze gaze.exe
 (Dev-API) ATAC: Inst. # scoop install atac
-(Dev-API) Resterm: Inst. # scoop install resterm
 (Dev-Web) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
 (Dev-Web) deputui: Inst. # pnpm outdated --format json | deputui
 (Dev-Web) Dufs: Inst. # yay -S --noconfirm dufs-bin
@@ -44,15 +43,18 @@
 (Document) tldr: Inst. # sudo pacman tldr
 (Document) tldr: Inst. # scoop install tldr
 (Document) zim-tools: Inst. # scoop install pile/zim-tools
+(Image) Komga: Inst. # scoop install komga
 (Image) split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Image-Editor) draw.io: Inst. # scoop install draw.io
 (Image-Editor) Krita: Inst. # sudo pacman -S krita
 (Image-Editor) Krita: Inst. # scoop install krita
 (Image-Editor) Saber: Inst. # scoop install saber
+(Edit) igrep: Inst. # scoop install igrep
 (Edit) regexplain: Inst. # bin install github.com/kapilpokhrel/regexplain regexplain.exe
 (Edit-Transfrom) libretrans: Inst. # cargo install --force libretrans
 (Edit-Transfrom) ki-cli: Inst. # bun add -g ki-cli@latest
 (Edit-Transfrom) Sentences: Inst. # go install github.com/neurosnap/sentences/cmd/sentences@latest
+(Editor) leaf: Inst. # scoop install leaf
 (Editor) Obsidian: Inst. # sudo pacman -S obsidian
 (Editor) Obsidian: Inst. # scoop install obsidian
 (Editor) VSCodium: Inst. # yay -S --noconfirm vscodium-bin vscodium-bin-marketplace
@@ -78,6 +80,7 @@
 (Game) Pegasus Frontend: Inst. # gsudo scoop install k-lite-codec-pack-basic-np
 (Game) PPSSPP: Inst. # yay -S --noconfirm ppsspp-bin
 (Game) PPSSPP: Inst. # scoop install ppsspp
+(Game) ShaderGlass: Inst. # scoop install shaderglass
 (Git) Branchless workflow for Git: Inst. # scoop install git-branchless
 (Git) Branchless workflow for Git: Conf. # git-branchless init [-- uninstall]
 (Git) critique: Inst. # bun add -g critique@latest
@@ -94,12 +97,7 @@
 (Git) pro: Inst. # scoop install pile/pro
 (Git) grut: Inst. # scoop install pile/grut
 (Git) Serie: Inst. # cargo install --force -f --locked serie
-(Git-Forge) Git Extensions: Inst. # scoop install gitextensions
-(Git-Forge) Git Extensions: Inst. # yay -S --noconfirm gitextensions
-(Git-Forge) Github Desktop: Inst. # scoop install github
-(Git-Forge) Gitify: Inst. # scoop install gitify
-(Git-Forge) Gitify: Inst. # yay -S --noconfirm gitify-bin
-(Git-Forge) SourceGit: Inst. # scoop install sourcegit
+(Git) Worktrunk: Inst. # scoop install worktrunk
 (Image) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify@latest
 (Image) ascii-image-converter: Inst. # scoop install ascii-image-converter
 (Image) asciify-them: Inst. # uv tool install -U asciify-them
@@ -174,7 +172,6 @@
 (Terminal) LazySSH: Inst. # scoop install lazyssh
 (Terminal) SSHM: Inst. # scoop install sshm
 (Tool) beancount: Inst. # pipx install --force beanquery
-(Tool) Carnac: Inst. # scoop install carnac
 (Tool) daktilo: Inst. # sudo pacman -S daktilo
 (Tool) daktilo: Inst. # cargo install --force -f daktilo
 (Tool) eva: Inst. # sudo pacman -S eva
@@ -210,6 +207,7 @@
 (Tool-Sync) syncthing: Inst. # scoop install syncthing
 (Tool-Sync) Unison: Inst. # scoop install unison
 (Tool-Sync) Unison: Conf. # subl %USERPROFILE%\.unison\<profile>.prf
+(Tool-Terminal) termscp: Inst. # scoop install termscp
 (Util) rip2: Inst. # scoop install rip
 (Util) Untree: Inst. # bin install github.com/codeinred/untree untree.exe
 (Video) glslViewer: Inst. # scoop install glslviewer
@@ -235,7 +233,6 @@
 [Windows] CPU-Z: Inst. # scoop install cpu-z
 [Windows] DeskPins: Inst. # scoop install deskpins
 [Windows] Ditto: Inst. # scoop install ditto
-[Windows] Easy Context Menu: Inst. # scoop install easy-context-menu
 [Windows] ExifGlass: Inst. # scoop install exifglass
 [Windows] GPU-Z: Inst. # scoop install gpu-z
 [Windows] HostsFileEditor: Inst. # scoop install hosts-file-editor
@@ -244,7 +241,6 @@
 [Windows] JPEGView: Inst. # scoop install jpegview-fork
 [Windows] Link Shell Extension: Inst. # gsudo scoop install link-shell-extension-np
 [Windows] Mp3tag: Inst. # scoop install mp3tag
-[Windows] NohBoard: Inst. # scoop install nohboard
 [Windows] QuickSwitch: Inst. # scoop install pile/quickswitch
 [Windows] RBTray: Inst. # scoop install rbtray
 [Windows] RectangleWin: Inst. # scoop install rectanglewin
@@ -253,7 +249,6 @@
 [Windows] StaxRip: Inst. # scoop install staxrip
 [Windows] SyncTrayzor: Inst. # scoop install synctrayzor
 [Windows] T-Clock: Inst. # scoop install t-clock
-[Windows] UniExtract2: Inst. # scoop install uniextract2
 [Windows] Virtual Desktop Manager: Inst. # scoop install pile/virgo-fork
 [Windows] Win10_BrightnessSlider: Inst. # scoop install win10_brightnessslider
 [Windows] WinCDEmu: Inst. # scoop install wincdemu

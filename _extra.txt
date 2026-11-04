@@ -6,7 +6,7 @@
 (Code) Sloc Cloc and Code (scc): Inst. # scoop install scc
 (Dev) Watchman: Inst. # scoop install watchman
 (Dev-Game) godl: Inst. # scoop install pile/godl
-(Dev-Game) Godots: Inst. # scoop install godots
+(Dev-Game) GodotHub: Inst. # scoop install godothub
 (Dev-Game) LÖVE: Inst. # scoop install love
 (Dev-Web) Live Server: Inst. # bun add -g live-server@latest
 (Dev-Web) Wappalyzer Next: Inst. # uv tool install -U wappalyzer
@@ -31,8 +31,9 @@
 (Game) RetroArch: Inst. # sudo pacman -S retroarch
 (Game) RetroArch: Inst. # scoop install retroarch
 (Game) steamguard-cli: Inst. # scoop install steamguard-cli
-(Git) git-quick-stats: Inst. # sudo pacman -S git-quick-stats
-(Git) git-quick-stats: Inst. # scoop install git-quick-stats
+(Git) GIT quick statistics: Inst. # sudo pacman -S git-quick-stats
+(Git) GIT quick statistics: Inst. # scoop install git-quick-stats
+(Git) gitoxide: Inst. # scoop install gitoxide
 (Git-Forge) GitLab CLI: Inst. # scoop install glab
 (Git-Forge) glab-tui: Inst. # scoop install pile/glab-tui
 (Image) AutoTrace: Inst. # sudo pacman -S autotrace
@@ -43,6 +44,7 @@
 (Image) Gifski: Inst. # sudo pacman -S gifski
 (Image) Gifski: Inst. # scoop install gifski
 (Image) GMI'C: Inst. # scoop install gmic-cli gmic-qt
+(Image) IntegerScaler: Inst. # scoop install integerscaler
 (Image) kmeans-colors: Inst. # scoop install kmeans-colors
 (Image) Oxipng: Inst. # sudo pacman -S oxipng
 (Image) Oxipng: Inst. # scoop install oxipng
@@ -61,8 +63,11 @@
 (Image) upscayl-ncnn: Inst. # scoop install pile/upscayl-bin
 (Image) XnConvert: Inst. # scoop install xnconvert
 (Image) yoga: Inst. # pipx install --force yoga
+(Image-Editor) LibreSprite: Inst. # scoop install libresprite
+(Image-Editor) MagicaVoxel: Inst. # scoop install magicavoxel
 (Image-Editor) Darktable: Inst. # sudo pacman -S darktable
 (Image-Editor) Darktable: Inst. # scoop install darktable
+(Image-Editor) Draw Pen: Inst. # scoop install drawpen
 (Image-Editor) Inkscape: Inst. # sudo pacman -S inkscape
 (Image-Editor) Inkscape: Inst. # scoop install inkscape
 (LLM) llmfit: Inst. # scoop install llmfit
@@ -72,6 +77,7 @@
 (Media) ExifTool: Inst. # scoop install exiftool
 (Media) Shutter Encoder: Inst. # scoop install shutter-encoder
 (Misc) ASCII Moon: Inst. # scoop install pile/ascii-moon
+(Misc) RunCat 365: Inst. # scoop install runcat
 (Model-Tool) edge-tts: Inst. # uv tool install -U edge-tts
 (Model-Tool) Handy: Inst. # scoop install handy
 (Model-Tool) Koharu: Inst. # scoop install koharu
@@ -114,40 +120,44 @@
 (Subtitle) subaligner: Inst. # uv tool install -U subaligner
 (Subtitle) subsetzer: Inst. # uv tool install -U subsetzer
 (Subtitle) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
-(Tool) dupeGuru: Inst. # scoop install dupeguru
+(Tool-Clean) dupeGuru: Inst. # scoop install dupeguru
 (Tool-Control) Gopher360: Inst. # scoop install gopher360
-(Tool-Disk) diskus: Inst. # scoop install diskus
 (Tool-Disk) DiskWatch: Inst. # scoop install diskwatch
 (Tool-Disk) GSmartControl: Inst. # scoop install gsmartcontrol smartmontools
-(Tool-Download) html-to-markdown: Inst. # scoop install html-to-markdown
-(Tool-Download) Jackett: Inst. # sudo pacman -S jackett
+(Tool-Disk) diskus: Inst. # scoop install diskus
 (Tool-Download) Jackett: Inst. # scoop install jackett
+(Tool-Download) Jackett: Inst. # sudo pacman -S jackett
+(Tool-Download) Trafilatura: Inst. # uv tool install -U trafilatura
+(Tool-Download) html-to-markdown: Inst. # scoop install html-to-markdown
+(Tool-Download) html2md: Inst. # scoop install html2md
+(Tool-Download) Media Downloader: Inst. # scoop install media-downloader
 (Tool-Download) qBittorrent Enhanced Edition: Inst. # scoop install qbittorrent-enhanced
 (Tool-Download) sitefetch: Inst. # bun add -g sitefetch@latest
-(Tool-Download) Trafilatura: Inst. # uv tool install -U trafilatura
-(Tool-Download) yt-dlp: Inst. # sudo pacman -S yt-dlp
 (Tool-Download) yt-dlp: Inst. # scoop install yt-dlp
+(Tool-Download) yt-dlp: Inst. # sudo pacman -S yt-dlp
 (Tool-Hardware) usbtree: Inst. # scoop install usbtree
-(Tool-Imager) Etcher: Inst. # yay -S --noconfirm etcher-bin
 (Tool-Imager) Etcher: Inst. # scoop install etcher
-(Tool-Imager) Raspberry Pi Imager: Inst. # sudo pacman -S rpi-imager
+(Tool-Imager) Etcher: Inst. # yay -S --noconfirm etcher-bin
 (Tool-Imager) Raspberry Pi Imager: Inst. # scoop install raspberry-pi-imager
-(Tool-Imager) Ventoy: Inst. # yay -S --noconfirm ventoy-bin
+(Tool-Imager) Raspberry Pi Imager: Inst. # sudo pacman -S rpi-imager
 (Tool-Imager) Ventoy: Inst. # scoop install ventoy
+(Tool-Imager) Ventoy: Inst. # yay -S --noconfirm ventoy-bin
 (Tool-Keyboard) Keyviz: Inst. # scoop install keyviz
-(Tool-Network) dnsglobe: Inst. # scoop install dnsglobe
-(Tool-Network) hostctl: Inst. # sudo pacman -S hostctl
-(Tool-Network) hostctl: Inst. # scoop install hostctl
-(Tool-Network) quien: Inst. # scoop install quien
+(Tool-Manager) HiBit Startup Manager: Inst. # scoop install hibit-startup-manager
+(Tool-Manager) InstallerClean: Inst. # scoop install installerclean
 (Tool-Network) Whosthere: Inst. # scoop install whosthere
-(Tool-Security) age: Inst. # scoop install age
-(Tool-Security) andcli: Inst. # scoop install andcli
+(Tool-Network) dnsglobe: Inst. # scoop install dnsglobe
+(Tool-Network) hostctl: Inst. # scoop install hostctl
+(Tool-Network) hostctl: Inst. # sudo pacman -S hostctl
+(Tool-Network) quien: Inst. # scoop install quien
 (Tool-Security) Picocrypt NG: Inst. # scoop install picocrypt-ng
 (Tool-Security) QuickSFV: Inst. # scoop install quicksfv
-(Tool-Security) VirusTotal CLI: Inst. # scoop install vt-cli
 (Tool-Security) VirusTotal CLI: Conf. # vt init
-(Tool-Sync) rsync: Inst. # sudo pacman -S rsync
+(Tool-Security) VirusTotal CLI: Inst. # scoop install vt-cli
+(Tool-Security) age: Inst. # scoop install age
+(Tool-Security) andcli: Inst. # scoop install andcli
 (Tool-Sync) rsync: Inst. # scoop install cwrsync
+(Tool-Sync) rsync: Inst. # sudo pacman -S rsync
 (Video) HandBrake: Inst. # sudo pacman -S handbrake handbrake-cli
 (Video) HandBrake: Inst. # scoop install handbrake handbrake-cli
 (Video) LosslessCut: Inst. # yay -S --noconfirm losslesscut-bin
@@ -176,5 +186,11 @@
 [Windows] Cjam: Inst. # scoop install pilecjam
 [Windows] Cygwin: Inst. # scoop install cygwin
 [Windows] Cygwin: Conf. # apt-cyg install gcc-core gcc-g++ make automake autoconf libtool pkg-config
+[Windows] Driver Store Explorer: Inst. # scoop install driverstoreexplorer
 [Windows] Microsoft Activation Scripts: Inst. # gh download massgravel/Microsoft-Activation-Scripts MAS
+[Windows] Media Player Classic: Inst. # scoop install mpc-hc-fork
+[Windows] MSEdgeRedirect: Inst. # scoop install msedgeredirect
+[Windows] Twinkle Tray: Inst. # scoop install twinkle-tray
+[Windows] VisualCppRedist AIO: Inst. # scoop install vcredist-aio
+[Windows] whkd: Inst. # scoop install whkd
 [Windows] XBox One Controller Battery Indicator: Inst. # scoop install xb1cbi

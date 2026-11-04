@@ -1,0 +1,32 @@
+(Edit) mdq: Inst. # scoop install mdq
+(Edit) SAD!: Inst. # scoop install sad
+(Dev-Game) Godots: Inst. # scoop install godots
+(Docker) Grype: Inst. # scoop install grype
+(Git-Forge) Git Extensions: Inst. # scoop install gitextensions
+(Git-Forge) Git Extensions: Inst. # yay -S --noconfirm gitextensions
+(Git-Forge) Github Desktop: Inst. # scoop install github
+(Git-Forge) Gitify: Inst. # scoop install gitify
+(Git-Forge) Gitify: Inst. # yay -S --noconfirm gitify-bin
+(Git-Forge) SourceGit: Inst. # scoop install sourcegit
+(Git-Forge) gitas: Inst. # scoop install gitas
+(Media) XMedia Recode: Inst. # scoop install xmedia-recode
+(Tool) ludwig: Inst. # scoop install ludwig
+(Tool) Snow Shot: Inst. # scoop install snowshot
+(Tool-Record) Camo: Inst. # scoop install camo-studio
+(Util-Navigate) walk: Inst. # scoop install walk
+
+
+[Windows] Carnac: Inst. # scoop install carnac
+[Windows] Easy Context Menu: Inst. # scoop install easy-context-menu
+[Windows] HiBit Uninstaller: Inst. # scoop install hibit-uninstaller
+[Windows] NohBoard: Inst. # scoop install nohboard
+[Windows] Recaps Switcher: Inst. # scoop install recaps
+[Windows] SendTo Menu Editor: Inst. # scoop install sendto-menu-editor
+[Windows] Sifty: Inst. # scoop install sifty
+[Windows] TopNotify: Inst. # scoop install topnotify
+[Windows] TrayWeather: Inst. # scoop install trayweather
+[Windows] UniExtract2: Inst. # scoop install uniextract2
+[Windows] ViDi Visual Disassembler: Inst. # scoop install vidi
+[Windows] WSL Dashboard: Inst. # scoop install wsl-dashboard
+[Windows] Windows-Auto-Night-Mode: Inst. # scoop install auto-dark-mode
+[Windows] PE-bear: Inst. # scoop install pe-bear
