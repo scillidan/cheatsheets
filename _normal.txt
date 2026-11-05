@@ -192,31 +192,31 @@
 (Git) Git: Inst. # scoop install git
 (Git) Git: Conf. # git config --global user.email "user@email.com"
 (Git) Git: Conf. # git config --global user.name "username"
-(Git) gfold: Inst. # scoop install gfold
 (Git) Git Extras: Inst. # scoop install bash/git-extras
-(Git) git-crypt: Inst. # sudo pacman -S git-crypt
-(Git) git-crypt: Inst. # scoop install git-crypt
 (Git) git-sync: Inst. # scoop install bash/git-sync
 (Git) git-sync: Conf. # git config --bool branch.main.sync true
-(Git) git-cliff: Inst. # scoop install git-cliff
-(Git) gitleaks: Inst. # sudo pacman -S gitleaks
-(Git) gitleaks: Inst. # scoop install gitleaks
-(Git) gitnr: Inst. # scoop install pile/gitnr
 (Git) lazygit: Inst. # sudo pacman -S lazygit
 (Git) lazygit: Inst. # scoop install lazygit
-(Git) mgitstatus: Inst. # yay -S --noconfirm multi-git-status
-(Git) mgitstatus: Inst. # scoop install bash/mgitstatus
-(Git) OpenCommit: Inst. # bun add -g opencommit@latest
-(Git) OpenCommit: Env. # oco config set OCO_EMOJI=false
-(Git) OpenCommit: Env. # oco config set OCO_AI_PROVIDER=llamacpp OCO_API_KEY=llamacpp OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
-(Git) OpenCommit: Conf. # oco hook set
-(Git) Repos: Inst. # scoop install pile/repos
 (Git) ugit: Inst. # scoop install bash/ugit
+(Git-Changelog) git-cliff: Inst. # scoop install git-cliff
+(Git-Commit) OpenCommit: Inst. # bun add -g opencommit@latest
+(Git-Commit) OpenCommit: Env. # oco config set OCO_EMOJI=false
+(Git-Commit) OpenCommit: Env. # oco config set OCO_AI_PROVIDER=llamacpp OCO_API_KEY=llamacpp OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
+(Git-Commit) OpenCommit: Conf. # oco hook set
+(Git-Ignore) gitnr: Inst. # scoop install pile/gitnr
 (Git-Forge) Desktop Plus: Inst. # scoop install desktop-plus
 (Git-Forge) GitHub CLI: Inst. # sudo pacman -S github-cli
 (Git-Forge) GitHub CLI: Inst. # scoop install gh
 (Git-Forge) GitHub CLI: Env. # GH_CONFIG_DIR=%USERPROFILE%\.config\gh
 (Git-Forge) GitHub CLI: Conf. # gh auth login
+(Git-Multi) gfold: Inst. # scoop install gfold
+(Git-Multi) mgitstatus: Inst. # yay -S --noconfirm multi-git-status
+(Git-Multi) mgitstatus: Inst. # scoop install bash/mgitstatus
+(Git-Multi) Repos: Inst. # scoop install pile/repos
+(Git-Security) gitleaks: Inst. # sudo pacman -S gitleaks
+(Git-Security) gitleaks: Inst. # scoop install gitleaks
+(Git-Security) git-crypt: Inst. # sudo pacman -S git-crypt
+(Git-Security) git-crypt: Inst. # scoop install git-crypt
 (Lint) actionlint: Inst. # scoop install actionlint
 (Lint) LanguageTool: Inst. # scoop install languagetool-java
 (Lint) Vale: Inst. # scoop install vale

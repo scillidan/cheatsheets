@@ -32,6 +32,7 @@
 (Dev) OWASP Dependency-Check: Inst. # scoop install dependency-check
 (Dev-API) Resterm: Inst. # scoop install resterm
 (Dev-Editor) Tiled: Inst. # scoop install tiled
+(Dev-Web) Static Web Server: Inst. # scoop install static-web-server
 (Diff) dyff: Inst. # scoop install dyff
 (Diff) hunk: Inst. # scoop install hunk
 (Diff) JSON diff and patch: Inst. # scoop install jd
@@ -45,17 +46,23 @@
 (Editor) Neovide: Inst. # scoop install neovide
 (Git) chezmoi: Inst. # sudo pacman -S chezmoi
 (Git) chezmoi: Inst. # scoop install chezmoi
-(Git) cz-git: Inst. # bun add -g czg
-(Git) easy-conflict(ec): Inst. # scoop install pile/easy-conflict
 (Git) ghgrab: Inst. # scoop install ghgrab
-(Git) gig: Inst. # scoop install gig
-(Git) Git Interactive Rebase Tool: Inst. # scoop install git-interactive-rebase-tool
-(Git) git-bug: Inst. # scoop install git-bug
 (Git) git-filter-repo: Inst. # scoop install git-filter-repo
-(Git) hk: Inst. # scoop install hk
-(Git) no-mistakes: Inst. # scoop install no-mistakes
-(Git) no-mistakes: Env. # NO_MISTAKES_TELEMETRY=0
-(Git) no-mistakes: Conf. # no-mistakes init
+(Git-Commit) Cocogitto: Inst. # scoop install cocogitto
+(Git-Commit) cz-git: Inst. # bun add -g czg
+(Git-Hook) hk: Inst. # scoop install hk
+(Git-Ignore) gig: Inst. # scoop install gig
+(Git-Merge) easy-conflict(ec): Inst. # scoop install pile/easy-conflict
+(Git-Multi) multi-gitter: Inst. # scoop install multi-gitter
+(Git-PreCommit) no-mistakes: Inst. # scoop install no-mistakes
+(Git-PreCommit) no-mistakes: Env. # NO_MISTAKES_TELEMETRY=0
+(Git-PreCommit) no-mistakes: Conf. # no-mistakes init
+(Git-PreCommit) prek: Inst. # scoop install prek
+(Git-Rebase) git absorb: Inst. # scoop install git-absorb
+(Git-Rebase) Git Interactive Rebase Tool: Inst. # scoop install git-interactive-rebase-tool
+(Git-Security) git-credential-oauth: Inst. # scoop install git-credential-oauth
+(Git-Track) git-bug: Inst. # scoop install git-bug
+(Git-Track) git-pkgs: Inst. # scoop install git-pkgs
 (Image-Editor) GIMP: Inst. # sudo pacman -S gimp
 (Image-Editor) GIMP: Inst. # scoop install gimp
 (Image-Editor) PhotoCraft: Inst. # scoop install photocraft
@@ -104,6 +111,7 @@
 (Util-Process) dekit: Inst. # scoop install dekit
 (Tool-Rename) F2: Inst. # scoop install f2
 (Tool-Rename) nomino: Inst. # scoop install nomino
+(Tool-Security) SecretSpec: Inst. # scoop install secretspec
 (Tool-Todo) tuxedo: Inst. # scoop install tuxedo
 (Util-Env) lazyenv: Inst. # yay -S --noconfirm lazyenv-bin
 (Util-Env) lazyenv: Inst. # scoop install pile/lazyenv

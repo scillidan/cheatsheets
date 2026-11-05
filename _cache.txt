@@ -94,12 +94,12 @@
 (Git) jj: Inst. # scoop install jj
 (Git) jjui: Inst. # scoop install jjui
 (Git) Mergiraf: Inst. # scoop install mergiraf
-(Git) pre-commit: Inst. # uv tool install -U pre-commit
-(Git) pre-commit: Conf. # pre-commit install
 (Git) pro: Inst. # scoop install pile/pro
 (Git) grut: Inst. # scoop install pile/grut
 (Git) Serie: Inst. # cargo install --force -f --locked serie
 (Git) Worktrunk: Inst. # scoop install worktrunk
+(Git-PreCommit) pre-commit: Inst. # uv tool install -U pre-commit
+(Git-PreCommit) pre-commit: Conf. # pre-commit install
 (Image) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify@latest
 (Image) ascii-image-converter: Inst. # scoop install ascii-image-converter
 (Image) asciify-them: Inst. # uv tool install -U asciify-them

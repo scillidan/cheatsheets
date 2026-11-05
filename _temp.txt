@@ -1,6 +1,13 @@
 (Edit) mdq: Inst. # scoop install mdq
 (Edit) SAD!: Inst. # scoop install sad
+(Dev) iii: Inst. # scoop install iii
+(Dev) mr boxington: Inst. # scoop install mr-boxington
+(Dev) Maestro: Inst. # scoop install maestro
+(Dev) mold: Inst. # scoop install mold
 (Dev-Game) Godots: Inst. # scoop install godots
+(Dev-Hardware) probe-rs: Inst. # scoop install probe-rs
+(Dev-Security) Strix: Inst. # scoop install strix
+(Dev-Security) Vigolium: Inst. # scoop install vigolium
 (Docker) Grype: Inst. # scoop install grype
 (Git-Forge) Git Extensions: Inst. # scoop install gitextensions
 (Git-Forge) Git Extensions: Inst. # yay -S --noconfirm gitextensions
@@ -9,6 +16,8 @@
 (Git-Forge) Gitify: Inst. # yay -S --noconfirm gitify-bin
 (Git-Forge) SourceGit: Inst. # scoop install sourcegit
 (Git-Forge) gitas: Inst. # scoop install gitas
+(Tool-Security) Microsandbox: Inst. # scoop install microsandbox
+(Tool-Security) smolvm: Inst. # scoop install smolvm
 (Media) XMedia Recode: Inst. # scoop install xmedia-recode
 (Tool) ludwig: Inst. # scoop install ludwig
 (Tool) Snow Shot: Inst. # scoop install snowshot

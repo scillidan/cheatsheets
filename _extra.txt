@@ -149,6 +149,7 @@
 (Tool-Network) hostctl: Inst. # scoop install hostctl
 (Tool-Network) hostctl: Inst. # sudo pacman -S hostctl
 (Tool-Network) quien: Inst. # scoop install quien
+(Tool-Network) RustNet: Inst. # scoop install rustnet
 (Tool-Security) Picocrypt NG: Inst. # scoop install picocrypt-ng
 (Tool-Security) QuickSFV: Inst. # scoop install quicksfv
 (Tool-Security) VirusTotal CLI: Conf. # vt init
