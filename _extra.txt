@@ -114,12 +114,11 @@
 (PKG) cargo-seek: Inst. # scoop install cargo-seek
 (Subtitle) FFsubsync: Inst. # uv tool install -U ffsubsync
 (Subtitle) PgsToSrt: Inst. # scoop install pile/pgstosrt
+(Subtitle) seconv: Inst. # scoop install seconv
 (Subtitle) Subtitle Edit: Inst. # scoop install subtitleedit
 (Subtitle) alass: Inst. # scoop install alass
-(Subtitle) ass2srt: Inst. # uv tool install -U ass2srt
 (Subtitle) subaligner: Inst. # uv tool install -U subaligner
 (Subtitle) subsetzer: Inst. # uv tool install -U subsetzer
-(Subtitle) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
 (Tool-Clean) dupeGuru: Inst. # scoop install dupeguru
 (Tool-Control) Gopher360: Inst. # scoop install gopher360
 (Tool-Disk) DiskWatch: Inst. # scoop install diskwatch

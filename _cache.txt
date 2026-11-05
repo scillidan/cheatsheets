@@ -165,9 +165,11 @@
 (Music) cliamp: Inst. # scoop install cliamp
 (Music) ZonyLrcToolsX: Inst. # scoop install pile/zonylrctoolsx
 (PDF) THE PDFALYZER: Inst. # uv tool install -U pdfalyzer
+(Subtitle) ass2srt: Inst. # uv tool install -U ass2srt
 (Subtitle) sub-batch: Inst. # scoop install pile/sub-batch
 (Subtitle) Subloader: Inst. # scoop install https://raw.githubusercontent.com/Valyreon/Subloader/master/subloader.json
 (Subtitle) Subloader: Inst. # gsudo pwsh %SCOOP%\apps\subloader\create_registry.ps1
+(Subtitle) vtt_to_srt3: Inst. # uv tool install -U vtt_to_srt3
 (Terminal) Alacritty: Inst. # sudo pacman -S alacritty ueberzugpp
 (Terminal) Alacritty: Inst. # scoop install alacritty
 (Terminal) LazySSH: Inst. # sudo yay -S --noconfirm lazyssh-bin
