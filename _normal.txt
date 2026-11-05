@@ -108,6 +108,7 @@
 (Diff) delta: Conf. # git config --global merge.conflictStyle zdiff3
 (Diff) tuicr: Inst. # scoop install tuicr
 (Data) Tabiew: Inst. # scoop install tabiew
+(Data) Tennis: Inst. # scoop install tennis
 (Data) xan: Inst. # sudo pacman -S xan
 (Data) xan: Inst. # scoop install xan
 (Data) yq: Inst. # sudo pacman -S yq
@@ -282,6 +283,7 @@
 (PKG) Cargo: Inst. # cargo search --registry crates-io
 (PKG) eget: Inst. # scoop install eget
 (PKG) GlazePKG (gpk): Inst. # scoop install glazepkg
+(PKG) Meta Package Manager: Inst. # scoop install meta-package-manager
 (PKG) keepkit: Inst. # scoop install pile/keepkit
 (Terminal) WezTerm: Inst. # sudo pacman -S wezterm
 (Terminal) WezTerm: Inst. # scoop install wezterm

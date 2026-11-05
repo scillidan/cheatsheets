@@ -13,10 +13,12 @@
 (Code) code-minimap: Inst. # scoop install code-minimap
 (Data) DBeaver: Inst. # scoop install dbeaver
 (Data) fq: Inst. # scoop install fq
+(Data) fselect: Inst. # scoop install fselect
 (Data) jc: Inst. # scoop install jc
 (Data) jnv: Inst. # scoop install jnv
 (Data) jqp: Inst. # scoop install jqp
 (Data) Lazysql: Inst. # scoop install lazysql
+(Data) rainfrog: Inst. # scoop install rainfrog
 (Data) Tidy Viewer (tv): Inst. # cargo install --force -f tidy-viewer
 (Dev) fzf-make: Inst. # yay -S --noconfirm fzf-make
 (Dev) fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make
@@ -181,6 +183,7 @@
 (Tool) pom-tool: Inst. # bun add -g pom-tool@latest
 (Tool) port-kill: Inst. # scoop install port-kill-console
 (Tool) Qalculate!: Inst. # scoop install qalculate
+(Tool-Record) obs-cmd: Inst. # scoop install obs-cmd
 (Tool-Backup) Kopia: Inst. # scoop install kopia kopiaui
 (Tool-Control) Barrier: Inst. # gsudo scoop install barrier-np
 (Tool-Control) Input Leap: Inst. # sudo pacman -S input-leap

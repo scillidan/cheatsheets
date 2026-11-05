@@ -60,6 +60,7 @@
 (Image-Editor) GIMP: Inst. # scoop install gimp
 (Image-Editor) PhotoCraft: Inst. # scoop install photocraft
 (Image-Editor) LightCraft: Inst. # scoop install lightcraft
+(Lint) rumdl: Inst. # scoop install rumdl
 (LLM) Codemark: Inst. # scoop install pile/codemark
 (LLM) Codemark: Conf. # codemark install-skill --agent agents --scope user
 (LLM) Skills: Ex. # skills add https://github.com/mattpocock/skills --skill grill-with-docs
@@ -86,12 +87,14 @@
 (Terminal) Zellij: Inst. # scoop install zellij
 (Tool) QEMU: Inst. # scoop install qemu
 (Tool) Vicinae: Inst. # scoop intall vicinae
-(Tool-Disk) Pinkbin: Inst. # scoop install pinkbin
+(Tool-Clean) Pinkbin: Inst. # scoop install pinkbin
+(Tool-Clean) rmlint: Inst. # scoop install rmlint
 (Tool-Download) kage: Inst. # scoop install kage
 (Tool-Download) monolith: Inst. # scoop install monolith
 (Tool-Download) SingleFile CLI: Inst. # scoop install single-file-cli
 (Tool-Download) vsd: Inst. # scoop install vsd
 (Tool-Hardware) Binside: Inst. # scoop install binsider
+(Tool-Hardware) Cyme: Inst. # scoop install cyme
 (Tool-Hardware) ROM Properties Page: Inst. # scoop install rom-properties-np
 (Tool-Log) LNAV: Inst. # scoop install lnav
 (Tool-Monitor) witr: Inst. # scoop install witr
