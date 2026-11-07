@@ -70,9 +70,6 @@
 (Explor) Yazi: Ex. # ya pkg add ettom/openscad
 (Find) ugrep: Inst. # sudo pacman -S ugrep
 (Find) ugrep: Inst. # scoop install ugrep
-(Font-Tool) FontFor: Inst. # scoop install pile/fontfor
-(Font-Tool) ttf2woff2: Inst. # bun add -g ttf2woff2@latest
-(Font-Tool) Webify: Inst. # scoop install pile/webify
 (Format) js-beautify: Inst. # sudo pacman -S js-beautify
 (Format) js-beautify: Inst. # bun add -g js-beautify@latest
 (Game) Igir: Inst. # bin install github.com/emmercm/igir igir.exe
@@ -195,6 +192,9 @@
 (Tool-Download) gutenbit: Inst. # uv tool install -U gutenbit
 (Tool-Download) issue2md: Inst. # go install github.com/bigwhite/issue2md/cmdline/issue2md@latest
 (Tool-Download) nyaa: Inst. # bin install github.com/Beastwick18/nyaa nyaa.exe
+(Tool-Font) FontFor: Inst. # scoop install pile/fontfor
+(Tool-Font) ttf2woff2: Inst. # bun add -g ttf2woff2@latest
+(Tool-Font) Webify: Inst. # scoop install pile/webify
 (Tool-Game) AntiMicroX: Inst. # scoop install antimicrox
 (Tool-Hardware) Fztea: Inst. # bin install github.com/jon4hz/fztea fztea.exe
 (Tool-Hardware) Horizon EDA: Inst. # scoop install horizon-eda
@@ -235,40 +235,39 @@
 (View) Onefetch: Inst. # scoop install onefetch
 
 
+[Windows] AutoHotkey: Inst. # scoop install autohotkey1.1
 [Windows] CPU-Z: Inst. # scoop install cpu-z
+[Windows] Caffeine: Inst. # scoop install caffeine
+[Windows] CenterTaskbar: Inst. # scoop install centertaskbar
 [Windows] DeskPins: Inst. # scoop install deskpins
 [Windows] Ditto: Inst. # scoop install ditto
 [Windows] ExifGlass: Inst. # scoop install exifglass
 [Windows] GPU-Z: Inst. # scoop install gpu-z
 [Windows] HostsFileEditor: Inst. # scoop install hosts-file-editor
+[Windows] Hotkey Detective: Inst. # scoop install hotkey-detective
 [Windows] ImageGlass: Inst. # scoop install imageglass
 [Windows] IrfanView: Inst. # scoop install irfanview
 [Windows] JPEGView: Inst. # scoop install jpegview-fork
 [Windows] Link Shell Extension: Inst. # gsudo scoop install link-shell-extension-np
+[Windows] Magpie: Inst. # scoop install magpie
 [Windows] Mp3tag: Inst. # scoop install mp3tag
+[Windows] Open Shell: Inst. # gsudo scoop install open-shell-np
 [Windows] QuickSwitch: Inst. # scoop install pile/quickswitch
 [Windows] RBTray: Inst. # scoop install rbtray
 [Windows] RectangleWin: Inst. # scoop install rectanglewin
 [Windows] SharpKeys: Inst. # scoop install sharpkeys
 [Windows] Sizer: Inst. # scoop install pile/sizer
+[Windows] SmartTaskbar: Inst. # scoop install smarttaskbar
 [Windows] StaxRip: Inst. # scoop install staxrip
 [Windows] SyncTrayzor: Inst. # scoop install synctrayzor
 [Windows] T-Clock: Inst. # scoop install t-clock
+[Windows] Text Grab: Inst. # scoop install text-grab
 [Windows] Virtual Desktop Manager: Inst. # scoop install pile/virgo-fork
 [Windows] Win10_BrightnessSlider: Inst. # scoop install win10_brightnessslider
 [Windows] WinCDEmu: Inst. # scoop install wincdemu
 [Windows] Window Switcher: Inst. # scoop install window-switcher
 [Windows] dnGrep: Inst. # scoop install dngrep
 [Windows] resizer2: Inst. # scoop install resizer2
-
-[Windows] AutoHotkey: Inst. # scoop install autohotkey1.1
-[Windows] Caffeine: Inst. # scoop install caffeine
-[Windows] CenterTaskbar: Inst. # scoop install centertaskbar
-[Windows] Hotkey Detective: Inst. # scoop install hotkey-detective
-[Windows] Magpie: Inst. # scoop install magpie
-[Windows] Open Shell: Inst. # gsudo scoop install open-shell-np
-[Windows] SmartTaskbar: Inst. # scoop install smarttaskbar
-[Windows] Text Grab: Inst. # scoop install text-grab
 [Windows] wcap: Inst. # scoop install wcap
 
 
