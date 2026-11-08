@@ -177,6 +177,7 @@
 (Tool) daktilo: Inst. # cargo install --force -f daktilo
 (Tool) eva: Inst. # sudo pacman -S eva
 (Tool) eva: Inst. # scoop install eva
+(Tool) Filee: Inst. # scoop install filee
 (Tool) kalk: Inst. # scoop install kalk
 (Tool) kalker: Inst. # scoop install kalker
 (Tool) pom-tool: Inst. # bun add -g pom-tool@latest
