@@ -13,6 +13,7 @@
 (Data) csvlens: Inst. # scoop install csvlens
 (Data) f(x): Inst. # scoop install fx
 (Data) jq: Inst. # scoop install jq
+(Dev) editorconfig-checker: Inst. # scoop install editorconfig-checker
 (Dev) just: Inst. # scoop install just
 (Dev) typst: Inst. # scoop install typst
 (Dev-Web) Hugo: Inst. # scoop install hugo-extended
