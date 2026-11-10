@@ -46,14 +46,14 @@
 (Editor) Neovide: Inst. # scoop install neovide
 (Git) chezmoi: Inst. # sudo pacman -S chezmoi
 (Git) chezmoi: Inst. # scoop install chezmoi
-(Git) ghgrab: Inst. # scoop install ghgrab
-(Git) git-filter-repo: Inst. # scoop install git-filter-repo
 (Git-Commit) Cocogitto: Inst. # scoop install cocogitto
 (Git-Commit) cz-git: Inst. # bun add -g czg
+(Git-History) git-filter-repo: Inst. # scoop install git-filter-repo
 (Git-Hook) hk: Inst. # scoop install hk
 (Git-Ignore) gig: Inst. # scoop install gig
 (Git-Merge) easy-conflict(ec): Inst. # scoop install pile/easy-conflict
 (Git-Multi) multi-gitter: Inst. # scoop install multi-gitter
+(Git-Multi) Worktrunk: Inst. # scoop install worktrunk
 (Git-PreCommit) no-mistakes: Inst. # scoop install no-mistakes
 (Git-PreCommit) no-mistakes: Env. # NO_MISTAKES_TELEMETRY=0
 (Git-PreCommit) no-mistakes: Conf. # no-mistakes init

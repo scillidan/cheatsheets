@@ -87,6 +87,7 @@
 (Git) diffnav: Inst. # scoop install diffnav
 (Git) diffnav: Inst. # git diff | diffnav
 (Git) Dolt: Inst. # scoop install dolt
+(Git) ghgrab: Inst. # scoop install ghgrab
 (Git) Git Machete: Inst. # scoop install git-machete
 (Git) jj: Inst. # scoop install jj
 (Git) jjui: Inst. # scoop install jjui
@@ -94,7 +95,6 @@
 (Git) pro: Inst. # scoop install pile/pro
 (Git) grut: Inst. # scoop install pile/grut
 (Git) Serie: Inst. # cargo install --force -f --locked serie
-(Git) Worktrunk: Inst. # scoop install worktrunk
 (Git-PreCommit) pre-commit: Inst. # uv tool install -U pre-commit
 (Git-PreCommit) pre-commit: Conf. # pre-commit install
 (Image) ASCII Silhouettify: Inst. # bun add -g ascii-silhouettify@latest
