@@ -1,16 +1,13 @@
-(Audio) gPodder: Inst. # sudo pacman -S gpodder
-(Audio) gPodder: Inst. # scoop install gpodder
 (Audio) Audio Waveform Image Generator: Inst. # scoop install audiowaveform
 (Browse) Calibre: Inst. # sudo pacman -S calibre
 (Browse) Calibre: Inst. # scoop install calibre
-(Browse) coBib: Inst. # uv tool install -U cobib
 (Browse) LibreWolf: Inst. # sudo pacman -S librewolf speech-dispatcher
 (Browse) LibreWolf: Inst. # scoop install librewolf
-(Browse) Vieb: Inst. # scoop install vieb
+(Browse) QuiteRSS: Inst. # sudo pacman -S quiterss
+(Browse) QuiteRSS: Inst. # scoop install quiterss
 (Code) agg: Inst. # scoop install agg
 (Code) autocast: Inst. # yay -S --noconfirm autocast
 (Code) autocast: Inst. # cargo install --force autocast
-(Code) code-minimap: Inst. # scoop install code-minimap
 (Data) DBeaver: Inst. # scoop install dbeaver
 (Data) fq: Inst. # scoop install fq
 (Data) fselect: Inst. # scoop install fselect
@@ -19,7 +16,6 @@
 (Data) jqp: Inst. # scoop install jqp
 (Data) Lazysql: Inst. # scoop install lazysql
 (Data) rainfrog: Inst. # scoop install rainfrog
-(Data) Tidy Viewer (tv): Inst. # cargo install --force -f tidy-viewer
 (Dev) fzf-make: Inst. # yay -S --noconfirm fzf-make
 (Dev) fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make
 (Dev) Gaze: Inst. # bin install github.com/wtetsu/gaze gaze.exe
@@ -46,7 +42,6 @@
 (Document) tldr: Inst. # scoop install tldr
 (Document) zim-tools: Inst. # scoop install pile/zim-tools
 (Image) Komga: Inst. # scoop install komga
-(Image) split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Image-Editor) draw.io: Inst. # scoop install draw.io
 (Image-Editor) Krita: Inst. # sudo pacman -S krita
 (Image-Editor) Krita: Inst. # scoop install krita
@@ -237,6 +232,8 @@
 
 
 [Windows] AutoHotkey: Inst. # scoop install autohotkey1.1
+[Windows] Bulk Rename Command: Inst. # scoop install bulk-rename-command
+[Windows] Bulk Rename Utility: Inst. # scoop install bulk-rename-utility
 [Windows] CPU-Z: Inst. # scoop install cpu-z
 [Windows] Caffeine: Inst. # scoop install caffeine
 [Windows] CenterTaskbar: Inst. # scoop install centertaskbar

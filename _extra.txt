@@ -3,6 +3,7 @@
 (Audio) Audacity: Inst. # sudo pacman -S audacity
 (Audio) Audacity: Inst. # scoop install audacity ffmpeg-shared
 (Audio) AudioBookConverter: Inst. # scoop install audiobookconverter
+(Browse) eilmeldung: Inst. # scoop install eilmeldung
 (Code) Sloc Cloc and Code (scc): Inst. # scoop install scc
 (Dev) Watchman: Inst. # scoop install watchman
 (Dev-Game) godl: Inst. # scoop install pile/godl
@@ -62,6 +63,7 @@
 (Image) Upscayl: Inst. # scoop install upscayl
 (Image) upscayl-ncnn: Inst. # scoop install pile/upscayl-bin
 (Image) XnConvert: Inst. # scoop install xnconvert
+(Image) XnView MP: Inst. # scoop install xnview-mp
 (Image) yoga: Inst. # pipx install --force yoga
 (Image-Editor) LibreSprite: Inst. # scoop install libresprite
 (Image-Editor) MagicaVoxel: Inst. # scoop install magicavoxel

@@ -1,5 +1,11 @@
+(Audio) gPodder: Inst. # sudo pacman -S gpodder
+(Audio) gPodder: Inst. # scoop install gpodder
+(Browse) coBib: Inst. # uv tool install -U cobib
+(Browse) Vieb: Inst. # scoop install vieb
 (Edit) mdq: Inst. # scoop install mdq
 (Edit) SAD!: Inst. # scoop install sad
+(Code) code-minimap: Inst. # scoop install code-minimap
+(Data) Tidy Viewer (tv): Inst. # cargo install --force -f tidy-viewer
 (Dev) iii: Inst. # scoop install iii
 (Dev) mr boxington: Inst. # scoop install mr-boxington
 (Dev) Maestro: Inst. # scoop install maestro
@@ -16,12 +22,13 @@
 (Git-Forge) Gitify: Inst. # yay -S --noconfirm gitify-bin
 (Git-Forge) SourceGit: Inst. # scoop install sourcegit
 (Git-Forge) gitas: Inst. # scoop install gitas
-(Tool-Security) Microsandbox: Inst. # scoop install microsandbox
-(Tool-Security) smolvm: Inst. # scoop install smolvm
+(Image) split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Media) XMedia Recode: Inst. # scoop install xmedia-recode
 (Tool) ludwig: Inst. # scoop install ludwig
 (Tool) Snow Shot: Inst. # scoop install snowshot
 (Tool-Record) Camo: Inst. # scoop install camo-studio
+(Tool-Security) Microsandbox: Inst. # scoop install microsandbox
+(Tool-Security) smolvm: Inst. # scoop install smolvm
 (Util-Navigate) walk: Inst. # scoop install walk
 
 

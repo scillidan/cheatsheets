@@ -1,8 +1,6 @@
 (Bug)(LLM-Ex) opencode-console-notify : Inst. # scoop install opencode-console-notify
 (Bug)(LLM-Ex) opencode-console-notify : Conf. # opencode-notify install
 
-(Browse) QuiteRSS: Inst. # sudo pacman -S quiterss
-(Browse) QuiteRSS: Inst. # scoop install quiterss
 (Browse) links: Inst. # sudo pacman -S links
 (Browse) links: Inst. # scoop install links
 (Browse) qutebrowser: Inst. # scoop install qutebrowser
@@ -376,8 +374,6 @@
 
 [Windows] .NET: Depend. # gsudo scoop install windowsdesktop-runtime-lts
 [Windows] Autoruns: Inst. # scoop install https://raw.githubusercontent.com/niheaven/scoop-sysinternals/refs/heads/main/bucket/autoruns.json
-[Windows] Bulk Rename Command: Inst. # scoop install bulk-rename-command
-[Windows] Bulk Rename Utility: Inst. # scoop install bulk-rename-utility
 [Windows] clink: Inst. # scoop install clink clink-completions
 [Windows] DarkThumbs: Inst. #
 [Windows] Icaros: Inst. # gsudo scoop install icaros-np

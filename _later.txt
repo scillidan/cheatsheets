@@ -12,7 +12,6 @@
 (3D) Material Maker: Inst. # scoop install material-maker
 (3D) Mayo: Inst. # scoop install mayo
 (3D) Meshroom: Inst. # scoop install meshroom
-(Browse) eilmeldung: Inst. # scoop install eilmeldung
 (Browse) matcha: Inst. # scoop install matcha
 (Data) Dasel: Inst. # scoop install dasel
 (Data) Harlequin: Inst. # uv tool install -U harlequin
