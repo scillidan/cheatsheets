@@ -60,8 +60,7 @@
 (Depend-Lib) g: Conf. 1. # g ls-remote stable
 (Depend-Lib) g: Conf. 2. # g install <version>
 (Depend-Lib) g: Conf. 3. # g use <version>
-(Depend-Lib) JDK: Inst. # scoop install temurin21-jre
-(Depend-Lib) JDK: Inst. # scoop install openjdk22
+(Depend-Lib) JDK: Inst. # scoop install temurin-lts-jre
 (Depend-Lib) Miniforge: Inst. # scoop install miniforge3
 (Depend-Lib) Miniforge: Conf. # conda init zsh
 (Depend-Lib) Miniforge: Conf. # conda init cmd.exe
