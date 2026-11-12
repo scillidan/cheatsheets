@@ -367,8 +367,8 @@
 (View) Less: Inst. # scoop install less
 (View) tailspin: Inst. # scoop install tailspin
 (Viewer) Inlyne: Inst. # scoop install inlyne
-(Viewer) qView: Inst. # yay -S --noconfirm qview-bin
-(Viewer) qView: Inst. # scoop install qview
+(Viewer) ImageGlass: Inst. # scoop install imageglass
+(Viewer) ExifGlass: Inst. # scoop install exifglass
 
 
 [Windows] .NET: Depend. # gsudo scoop install windowsdesktop-runtime-lts

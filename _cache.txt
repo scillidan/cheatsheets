@@ -229,6 +229,8 @@
 (View) mdterm: Inst. # scoop install pile/mdterm
 (View) Onefetch: Inst. # sudo pacman -S onefetch
 (View) Onefetch: Inst. # scoop install onefetch
+(Viewer) qView: Inst. # yay -S --noconfirm qview-bin
+(Viewer) qView: Inst. # scoop install qview
 
 
 [Windows] AutoHotkey: Inst. # scoop install autohotkey1.1
@@ -239,11 +241,9 @@
 [Windows] CenterTaskbar: Inst. # scoop install centertaskbar
 [Windows] DeskPins: Inst. # scoop install deskpins
 [Windows] Ditto: Inst. # scoop install ditto
-[Windows] ExifGlass: Inst. # scoop install exifglass
 [Windows] GPU-Z: Inst. # scoop install gpu-z
 [Windows] HostsFileEditor: Inst. # scoop install hosts-file-editor
 [Windows] Hotkey Detective: Inst. # scoop install hotkey-detective
-[Windows] ImageGlass: Inst. # scoop install imageglass
 [Windows] IrfanView: Inst. # scoop install irfanview
 [Windows] JPEGView: Inst. # scoop install jpegview-fork
 [Windows] Link Shell Extension: Inst. # gsudo scoop install link-shell-extension-np

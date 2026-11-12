@@ -1,6 +1,7 @@
 (Audio) gPodder: Inst. # sudo pacman -S gpodder
 (Audio) gPodder: Inst. # scoop install gpodder
 (Browse) coBib: Inst. # uv tool install -U cobib
+(Browse) TideMail: Inst. # scoop install tidemail
 (Browse) Vieb: Inst. # scoop install vieb
 (Edit) mdq: Inst. # scoop install mdq
 (Edit) SAD!: Inst. # scoop install sad
@@ -24,6 +25,7 @@
 (Git-Forge) gitas: Inst. # scoop install gitas
 (Image) split-manga-pages: Inst. # uv tool install -U split_manga_pages
 (Media) XMedia Recode: Inst. # scoop install xmedia-recode
+(Model-Tool) Handy: Inst. # scoop install handy
 (Tool) ludwig: Inst. # scoop install ludwig
 (Tool) Snow Shot: Inst. # scoop install snowshot
 (Tool-Record) Camo: Inst. # scoop install camo-studio
