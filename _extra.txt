@@ -63,7 +63,6 @@
 (Image) Upscayl: Inst. # scoop install upscayl
 (Image) upscayl-ncnn: Inst. # scoop install pile/upscayl-bin
 (Image) XnConvert: Inst. # scoop install xnconvert
-(Image) XnView MP: Inst. # scoop install xnviewmp
 (Image) yoga: Inst. # pipx install --force yoga
 (Image-Editor) LibreSprite: Inst. # scoop install libresprite
 (Image-Editor) MagicaVoxel: Inst. # scoop install magicavoxel
