@@ -87,7 +87,6 @@
 (PDF) PDF ToC: Inst. # uv tool install -U pdf-toc
 (PDF) PDFCraft: Inst. # scoop install pdfcraft
 (PDF) PDFCraft: Conf. # Create a shortcut for pdfcraft.exe on %APPDATA%\Microsoft\Windows\SendTo\PdfCraft.lnk
-(PDF) ScanTailor Advanced: Inst. # scoop install pile/scantailor-advanced-fork
 (Terminal) Reach: Inst. # scoop install reach
 (Terminal) Zellij: Inst. # sudo pacman -S zellij
 (Terminal) Zellij: Inst. # scoop install zellij

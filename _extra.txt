@@ -111,6 +111,7 @@
 (PDF) pdfCropMargins: Inst. # uv tool install -U pdfCropMargins
 (PDF) presse: Inst. # scoop install pile/presse
 (PDF) presse: Inst. # presse press <pdf> -q <quality> -o _.pdf
+(PDF) ScanTailor Advanced: Inst. # scoop install pile/scantailor-advanced-fork
 (PKG) Bob: Inst. # scoop install bob
 (PKG) cargo-seek: Inst. # scoop install cargo-seek
 (Subtitle) FFsubsync: Inst. # uv tool install -U ffsubsync
