@@ -101,13 +101,10 @@
 "%SCOOP%\apps\tageditor\current\tageditor.exe"
 (Office) LibreOffice: Inst. # sudo pacman -S libreoffice
 (Office) LibreOffice: Inst. # scoop install libreoffice
-(PDF) Deskew: Inst. # uv tool install -U deskew
 (PDF) NAPS2: Inst. # scoop install naps2
 (PDF) PDF Arranger: Inst. # sudo pacman -S pdfarranger
 (PDF) PDF Arranger: Inst. # scoop install pdfarranger
-(PDF) img2pdf: Inst. # uv tool install -w pymupdf -U img2pdf
 (PDF) marker: Inst. # uv tool install -w hf_transfer -w streamlit -U marker-pdf
-(PDF) page-dewarp: Inst. # uv tool install -U page-dewarp
 (PDF) pdfCropMargins: Inst. # uv tool install -U pdfCropMargins
 (PDF) presse: Inst. # scoop install pile/presse
 (PDF) presse: Inst. # presse press <pdf> -q <quality> -o _.pdf

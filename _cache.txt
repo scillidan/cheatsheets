@@ -156,6 +156,9 @@
 (Music) cliamp: Inst. # sudo pacman -S alsa-lib && yay -S --noconfirm cliamp
 (Music) cliamp: Inst. # scoop install cliamp
 (Music) ZonyLrcToolsX: Inst. # scoop install pile/zonylrctoolsx
+(PDF) Deskew: Inst. # uv tool install -U deskew
+(PDF) img2pdf: Inst. # uv tool install -w pymupdf -U img2pdf
+(PDF) page-dewarp: Inst. # uv tool install -U page-dewarp
 (PDF) THE PDFALYZER: Inst. # uv tool install -U pdfalyzer
 (Subtitle) ass2srt: Inst. # uv tool install -U ass2srt
 (Subtitle) sub-batch: Inst. # scoop install pile/sub-batch
