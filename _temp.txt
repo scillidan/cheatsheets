@@ -3,8 +3,6 @@
 (Browse) coBib: Inst. # uv tool install -U cobib
 (Browse) TideMail: Inst. # scoop install tidemail
 (Browse) Vieb: Inst. # scoop install vieb
-(Edit) mdq: Inst. # scoop install mdq
-(Edit) SAD!: Inst. # scoop install sad
 (Code) code-minimap: Inst. # scoop install code-minimap
 (Data) Tidy Viewer (tv): Inst. # cargo install --force -f tidy-viewer
 (Dev) iii: Inst. # scoop install iii
@@ -16,6 +14,8 @@
 (Dev-Security) Strix: Inst. # scoop install strix
 (Dev-Security) Vigolium: Inst. # scoop install vigolium
 (Docker) Grype: Inst. # scoop install grype
+(Edit) mdq: Inst. # scoop install mdq
+(Edit) SAD!: Inst. # scoop install sad
 (Git-Forge) Git Extensions: Inst. # scoop install gitextensions
 (Git-Forge) Git Extensions: Inst. # yay -S --noconfirm gitextensions
 (Git-Forge) Github Desktop: Inst. # scoop install github

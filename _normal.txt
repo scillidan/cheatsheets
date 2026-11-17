@@ -104,7 +104,6 @@
 (Diff) delta: Conf. # git config --global interactive.diffFilter 'delta --color-only'
 (Diff) delta: Conf. # git config --global delta.navigate true
 (Diff) delta: Conf. # git config --global merge.conflictStyle zdiff3
-(Diff) tuicr: Inst. # scoop install tuicr
 (Data) Tabiew: Inst. # scoop install tabiew
 (Data) Tennis: Inst. # scoop install tennis
 (Data) xan: Inst. # sudo pacman -S xan

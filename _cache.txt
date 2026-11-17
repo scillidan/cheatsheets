@@ -232,6 +232,7 @@
 (View) mdterm: Inst. # scoop install pile/mdterm
 (View) Onefetch: Inst. # sudo pacman -S onefetch
 (View) Onefetch: Inst. # scoop install onefetch
+(Viewer) Markview: Inst. # scoop install markview
 (Viewer) qView: Inst. # yay -S --noconfirm qview-bin
 (Viewer) qView: Inst. # scoop install qview
 
