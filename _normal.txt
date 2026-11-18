@@ -283,6 +283,7 @@
 (PKG) GlazePKG (gpk): Inst. # scoop install glazepkg
 (PKG) Meta Package Manager: Inst. # scoop install meta-package-manager
 (PKG) keepkit: Inst. # scoop install pile/keepkit
+(Terminal) terminal-theme-switch: Inst. # scoop install terminal-theme-switch
 (Terminal) WezTerm: Inst. # sudo pacman -S wezterm
 (Terminal) WezTerm: Inst. # scoop install wezterm
 (Terminal-Misc) SSHFS: Inst. # gsudo scoop install winfsp-np sshfs-np
