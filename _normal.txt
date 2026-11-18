@@ -245,6 +245,7 @@
 (LLM) Repomix: Inst. # bun add -g repomix@latest
 (LLM-Ex) Magic Context: Inst. # bun add -g @cortexkit/magic-context@latest
 (LLM-Ex) Magic Context: Conf. # magic-context setup
+(LLM-Ex) OpenCode Browse: bun add -g @opencode/browse@latest && browse install
 (LLM-Ex) OpenCode quota: Inst. # bun add -g @slkiser/opencode-quota@latest
 (LLM-Ex) OpenCode quota: Conf. # opencode-quota init
 (LLM-Ex) Ponytail: Inst. # opencode plugin add @dietrichgebert/ponytail
