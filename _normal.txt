@@ -294,6 +294,7 @@
 (Tool) carl: Inst. # cargo install --force -f carl
 (Tool) Delect It Easy: Inst. # yay -S --noconfirm detect-it-easy-bin
 (Tool) Delect It Easy: Inst. # scoop install detect-it-easy
+(Tool) desktop-tools: Inst. # scoop install desktop-tools
 (Tool) fend: Inst. # yay -S --noconfirm fend-bin
 (Tool) fend: Inst. # scoop install fend
 (Tool) TightVNC: Inst. # scoop install tightvnc
