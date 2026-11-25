@@ -59,7 +59,6 @@
 (Git-PreCommit) no-mistakes: Conf. # no-mistakes init
 (Git-PreCommit) prek: Inst. # scoop install prek
 (Git-Rebase) git absorb: Inst. # scoop install git-absorb
-(Git-Rebase) Git Interactive Rebase Tool: Inst. # scoop install git-interactive-rebase-tool
 (Git-Security) git-credential-oauth: Inst. # scoop install git-credential-oauth
 (Git-Track) git-bug: Inst. # scoop install git-bug
 (Git-Track) git-pkgs: Inst. # scoop install git-pkgs

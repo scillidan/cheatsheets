@@ -200,16 +200,17 @@
 (Git-Commit) OpenCommit: Env. # oco config set OCO_EMOJI=false
 (Git-Commit) OpenCommit: Env. # oco config set OCO_AI_PROVIDER=llamacpp OCO_API_KEY=llamacpp OCO_API_URL=http://localhost:8010 OCO_MODEL=gemma-3-12b-it
 (Git-Commit) OpenCommit: Conf. # oco hook set
-(Git-Ignore) gitnr: Inst. # scoop install pile/gitnr
 (Git-Forge) Desktop Plus: Inst. # scoop install desktop-plus
 (Git-Forge) GitHub CLI: Inst. # sudo pacman -S github-cli
 (Git-Forge) GitHub CLI: Inst. # scoop install gh
 (Git-Forge) GitHub CLI: Env. # GH_CONFIG_DIR=%USERPROFILE%\.config\gh
 (Git-Forge) GitHub CLI: Conf. # gh auth login
+(Git-Ignore) gitnr: Inst. # scoop install pile/gitnr
 (Git-Multi) gfold: Inst. # scoop install gfold
 (Git-Multi) mgitstatus: Inst. # yay -S --noconfirm multi-git-status
 (Git-Multi) mgitstatus: Inst. # scoop install bash/mgitstatus
 (Git-Multi) Repos: Inst. # scoop install pile/repos
+(Git-Rebase) Git Interactive Rebase Tool: Inst. # scoop install git-interactive-rebase-tool
 (Git-Security) gitleaks: Inst. # sudo pacman -S gitleaks
 (Git-Security) gitleaks: Inst. # scoop install gitleaks
 (Git-Security) git-crypt: Inst. # sudo pacman -S git-crypt
@@ -308,6 +309,7 @@
 (Tool-Log) Tailscale: Inst. # gsudo scoop install tailscale
 (Tool-Log) Tailscale: Inst. # sudo pacman -S tailscale
 (Tool-Monitor) NeoHtop: Inst. # scoop install neohtop
+(Tool-Monitor) Pik: Inst. # scoop install pik
 (Tool-Network) doggo: Inst. # yay -S --noconfirm doggo-bin
 (Tool-Network) doggo: Inst. # scoop install doggo
 (Tool-Network) Nmap: Inst. # scoop install nmap
