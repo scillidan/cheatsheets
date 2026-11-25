@@ -42,6 +42,7 @@
 (Document) tldr: Inst. # scoop install tldr
 (Document) zim-tools: Inst. # scoop install pile/zim-tools
 (Image) Komga: Inst. # scoop install komga
+(Image) Czkawka: Inst. # scoop install czkawka-gui
 (Image-Editor) draw.io: Inst. # scoop install draw.io
 (Image-Editor) Krita: Inst. # sudo pacman -S krita
 (Image-Editor) Krita: Inst. # scoop install krita

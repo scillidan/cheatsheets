@@ -32,6 +32,7 @@
 (Game) RetroArch: Inst. # sudo pacman -S retroarch
 (Game) RetroArch: Inst. # scoop install retroarch
 (Game) steamguard-cli: Inst. # scoop install steamguard-cli
+(Git) git filter-repo: Inst. # uv tool install --python 3.12 -U filter-repo
 (Git) GIT quick statistics: Inst. # sudo pacman -S git-quick-stats
 (Git) GIT quick statistics: Inst. # scoop install git-quick-stats
 (Git) gitoxide: Inst. # scoop install gitoxide
@@ -193,4 +194,5 @@
 [Windows] Twinkle Tray: Inst. # scoop install twinkle-tray
 [Windows] VisualCppRedist AIO: Inst. # scoop install vcredist-aio
 [Windows] whkd: Inst. # scoop install whkd
+[Windows] Windows Ghost Device Cleanup: Inst. # scoop install win-device-cleanup
 [Windows] XBox One Controller Battery Indicator: Inst. # scoop install xb1cbi
