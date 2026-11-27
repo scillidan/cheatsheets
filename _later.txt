@@ -29,7 +29,6 @@
 (Dev) kondo: Inst. # scoop install kondo
 (Dev) mise-en-place: Inst. # scoop install mise
 (Dev) OWASP Dependency-Check: Inst. # scoop install dependency-check
-(Dev-API) Resterm: Inst. # scoop install resterm
 (Dev-Editor) Tiled: Inst. # scoop install tiled
 (Dev-Web) Static Web Server: Inst. # scoop install static-web-server
 (Diff) dyff: Inst. # scoop install dyff
@@ -48,7 +47,6 @@
 (Git) chezmoi: Inst. # scoop install chezmoi
 (Git-Commit) Cocogitto: Inst. # scoop install cocogitto
 (Git-Commit) cz-git: Inst. # bun add -g czg
-(Git-History) git-filter-repo: Inst. # scoop install git-filter-repo
 (Git-Hook) hk: Inst. # scoop install hk
 (Git-Ignore) gig: Inst. # scoop install gig
 (Git-Merge) easy-conflict(ec): Inst. # scoop install pile/easy-conflict
@@ -107,13 +105,13 @@
 (Tool-Network) Slumber: Inst. # scoop install slumber
 (Tool-Network) wuzz: Inst. # scoop install wuzz
 (Tool-Network) xh: Inst. # scoop install xh
-(Util-Process) dekit: Inst. # scoop install dekit
 (Tool-Rename) F2: Inst. # scoop install f2
 (Tool-Rename) nomino: Inst. # scoop install nomino
 (Tool-Security) SecretSpec: Inst. # scoop install secretspec
 (Tool-Todo) tuxedo: Inst. # scoop install tuxedo
 (Util-Env) lazyenv: Inst. # yay -S --noconfirm lazyenv-bin
 (Util-Env) lazyenv: Inst. # scoop install pile/lazyenv
+(Util-Process) dekit: Inst. # scoop install dekit
 (Util-Task) Pueue: Inst. # scoop install pueue
 (View) hl: Inst. # scoop install hl
 

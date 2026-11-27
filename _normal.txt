@@ -14,9 +14,9 @@
 (Dev) editorconfig-checker: Inst. # scoop install editorconfig-checker
 (Dev) just: Inst. # scoop install just
 (Dev) typst: Inst. # scoop install typst
+(Dev-API) Resterm: Inst. # scoop install resterm
 (Dev-Web) Hugo: Inst. # scoop install hugo-extended
 (Dev-Web) Rum: Inst. # scoop install pile/rum
-(Dev-API) Yaak: Inst. # scoop install yaak
 (Depend) CA certificate: Inst. # scoop install cacert
 (Depend) CMake: Inst. # scoop install cmake
 (Depend) curl : Inst. # sudo pacman -S curl
@@ -205,6 +205,7 @@
 (Git-Forge) GitHub CLI: Inst. # scoop install gh
 (Git-Forge) GitHub CLI: Env. # GH_CONFIG_DIR=%USERPROFILE%\.config\gh
 (Git-Forge) GitHub CLI: Conf. # gh auth login
+(Git-History) git-filter-repo: Inst. # scoop install git-filter-repo
 (Git-Ignore) gitnr: Inst. # scoop install pile/gitnr
 (Git-Multi) gfold: Inst. # scoop install gfold
 (Git-Multi) mgitstatus: Inst. # yay -S --noconfirm multi-git-status

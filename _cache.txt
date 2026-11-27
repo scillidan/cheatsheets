@@ -20,6 +20,7 @@
 (Dev) fzf-make: Inst. # cargo +1.90.0 install --git https://github.com/kyu08/fzf-make
 (Dev) Gaze: Inst. # bin install github.com/wtetsu/gaze gaze.exe
 (Dev-API) ATAC: Inst. # scoop install atac
+(Dev-API) Yaak: Inst. # scoop install yaak
 (Dev-Web) deputui: Inst. # bun add --registry https://npmreg.proxy.ustclug.org -g deputui
 (Dev-Web) deputui: Inst. # pnpm outdated --format json | deputui
 (Dev-Web) Dufs: Inst. # yay -S --noconfirm dufs-bin
