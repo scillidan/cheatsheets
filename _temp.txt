@@ -28,6 +28,7 @@
 (Model-Tool) Handy: Inst. # scoop install handy
 (Tool) ludwig: Inst. # scoop install ludwig
 (Tool) Snow Shot: Inst. # scoop install snowshot
+(Tool-Disk) MediaTester: Inst. # scoop install media-tester
 (Tool-Record) Camo: Inst. # scoop install camo-studio
 (Tool-Security) Microsandbox: Inst. # scoop install microsandbox
 (Tool-Security) smolvm: Inst. # scoop install smolvm

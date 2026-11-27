@@ -184,7 +184,7 @@
 (Format) yamlfmt: Inst. # scoop install yamlfmt
 (Format) Taplo: Inst. # sudo pacman -S taplo
 (Format) Taplo: Inst. # scoop install taplo
-(Git) forgit: Inst. # scoop install bash/forgit
+(Git) forgit: Inst. # scoop install forgit
 (Git) Git: Inst. # sudo pacman -S git
 (Git) Git: Inst. # scoop install git
 (Git) Git: Conf. # git config --global user.email "user@email.com"
@@ -209,7 +209,7 @@
 (Git-Ignore) gitnr: Inst. # scoop install pile/gitnr
 (Git-Multi) gfold: Inst. # scoop install gfold
 (Git-Multi) mgitstatus: Inst. # yay -S --noconfirm multi-git-status
-(Git-Multi) mgitstatus: Inst. # scoop install bash/mgitstatus
+(Git-Multi) mgitstatus: Inst. # scoop install multi-git-status
 (Git-Multi) Repos: Inst. # scoop install pile/repos
 (Git-Rebase) Git Interactive Rebase Tool: Inst. # scoop install git-interactive-rebase-tool
 (Git-Security) gitleaks: Inst. # sudo pacman -S gitleaks
